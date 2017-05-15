@@ -28,6 +28,8 @@ def compare(calllog1, transfertype1, y):
     total_terms =len(transfer)
     split_1 = transfer[0].split('=')
     print split_1[0]
+    first = split_1[0].lower().strip()+':'
+    first_1 = split_1[0].lower().strip()+'='
 
 
 
@@ -36,11 +38,12 @@ def compare(calllog1, transfertype1, y):
         flag=0
         verbiage = set()
         for line in calllog:
-            if split_1[0].lower().strip() in line.lower() and (':'in line or'='in line):
+            # if first in line.lower() and (':'in line or'='in line):
+            if first.lower() in line.lower() or first.lower() in line.lower():
                 # endvalue = line.find("|")
-                # strtvalue = line.rfind('|', 0, endvalue)
-                # prompt = line[strtvalue:endvalue].replace('/','')
-                verbiage.add(line)
+                strtvalue = line.find('content')
+                prompt = line[strtvalue:20].replace('/','')
+                verbiage.add(prompt)
                 flag = 1
 
     print calllog1
