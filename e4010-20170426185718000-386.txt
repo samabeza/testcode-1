@@ -1,0 +1,1388 @@
+2017-03-10/10:49:43.285634|6|52|0074018C-1003F927|incall_initiated 0:0|116
+2017-03-10/10:49:43.290532|6|130|0074018C-1003F927|appl_begin INIT_URL=http://vxmlapps/vxml/wunion/header/index.php|DEFAULTS=file:///usr/local/gvp/gcti/mcp/config/defaults-ng.vxml|ANI=sip:8008388383@10.27.219.50:5060|DNIS=sip:6008767@10.27.130.162:5060|PROTOCOLNAME=sip|PROTOCOLVERSION=2.0|CALLIDREF=008A5FFC-30EA-18A7-9606-9A821B0AAA77-15567@10.27.130.162|VXMLI_TYPE=NGI|116|I
+2017-03-10/10:49:43.290790|6|16|0074018C-1003F927|wf_lookup http://vxmlapps/vxml/wunion/header/index.php|116
+2017-03-10/10:49:43.290800|6|42|0074018C-1003F927|fetch_start document:http://vxmlapps/vxml/wunion/header/index.php|116
+2017-03-10/10:49:43.290954|6|16|0074018C-1003F927|wf_lookup file:///usr/local/gvp/gcti/mcp/config/defaults-ng.vxml|116
+2017-03-10/10:49:43.290961|6|42|0074018C-1003F927|fetch_start document:file:///usr/local/gvp/gcti/mcp/config/defaults-ng.vxml|116
+2017-03-10/10:49:43.292088|6|17|0074018C-1003F927|wf_arrived s (file):file:///usr/local/gvp/gcti/mcp/config/defaults-ng.vxml|116
+2017-03-10/10:49:43.310607|6|17|0074018C-1003F927|wf_arrived s (direct):http://vxmlapps/vxml/wunion/header/index.php|116
+2017-03-10/10:49:43.310923|6|16|0074018C-1003F927|wf_lookup http://vxmlapps/vxml/wunion/header/version1488565943/root.vxml.php|116
+2017-03-10/10:49:43.310931|6|42|0074018C-1003F927|fetch_start document:http://vxmlapps/vxml/wunion/header/version1488565943/root.vxml.php|116
+2017-03-10/10:49:43.330141|6|17|0074018C-1003F927|wf_arrived s (direct):http://vxmlapps/vxml/wunion/header/version1488565943/root.vxml.php|116
+2017-03-10/10:49:43.376741|6|56|0074018C-1003F927|call_reference 008A5FFC-30EA-18A7-9606-9A821B0AAA77-15567@10.27.130.162|8F565000-4201-4BD0-9E61-6959D5A3894B|WIC Internal|Western_Union_HeaderApp|116
+2017-03-10/10:49:43.376757|6|0|0074018C-1003F927|incall_begin sip:6008767@10.27.130.162:5060|sip:8008388383@10.27.219.50:5060|20170310160983218|N/A|N/A|N/A|116
+2017-03-10/10:49:43.377811|6|38|0074018C-1003F927|parse_warning (,, line 45):Unknown property name: dtmfterm|116
+2017-03-10/10:49:43.382660|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root start|116
+2017-03-10/10:49:43.382806|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root WicStdClient = wunion|116
+2017-03-10/10:49:43.382937|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root pre-unit = |116
+2017-03-10/10:49:43.383092|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root post-unit = 0|116
+2017-03-10/10:49:43.383235|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root theanswer = |116
+2017-03-10/10:49:43.383369|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root WicStdASRLoggingAlready = |116
+2017-03-10/10:49:43.383499|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root WicStdASRLogging = N|116
+2017-03-10/10:49:43.383630|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root WicStdASRLogging2 = |116
+2017-03-10/10:49:43.383755|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root dologging = 1|116
+2017-03-10/10:49:43.383887|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root doing logging = 1|116
+2017-03-10/10:49:43.412510|6|41|0074018C-1003F927|compile_done :http://vxmlapps/vxml/wunion/header/index.php|116
+2017-03-10/10:49:43.412560|6|79|0074018C-1003F927|root_appl root.vxml.php|116
+2017-03-10/10:49:43.412814|6|42|0074018C-1003F927|fetch_start data:file:///usr/local/gvp/gcti/mcp/data/serverdata.xml|116
+2017-03-10/10:49:43.413225|6|43|0074018C-1003F927|fetch_end Done (file):file:///usr/local/gvp/gcti/mcp/data/serverdata.xml|116
+2017-03-10/10:49:43.424800|6|28|0074018C-1003F927|form_enter :gvpdataquery|116
+2017-03-10/10:49:43.425166|6|42|0074018C-1003F927|fetch_start data:file:///var/data/gvp/setuptime/0074018C-1003F927.xml|116
+2017-03-10/10:49:43.425540|6|43|0074018C-1003F927|fetch_end Done (file):file:///var/data/gvp/setuptime/0074018C-1003F927.xml|116
+2017-03-10/10:49:43.432422|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39593$_:BLOCK|116
+2017-03-10/10:49:43.432620|6|33|0074018C-1003F927|goto :#appconfig|116
+2017-03-10/10:49:43.432703|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:49:43.432847|6|28|0074018C-1003F927|form_enter :appconfig|116
+2017-03-10/10:49:43.432912|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39594$_:BLOCK|116
+2017-03-10/10:49:43.449458|6|78|0074018C-1003F927|submit http://vxmlapps/vxml/wunion/header/index.php|namelist|{"IsThisTheSecondPass":1,"WicStdASREngine":"NUANCE","WicStdASRLogging":"N","WicStdASRVersion":"9","WicStdAcousticModel":,"WicStdAni":"8008388383","WicStdAniOrig":"8008388383","WicStdApn":"8116008767","WicStdAppName":"header","WicStdApplicationPath":"http://vxmlapps/vxml/wunion/header/version1488565943/","WicStdApplicationServer":"led32042","WicStdAudioPath":"http://promptstore/voice/wunion/header/","WicStdBearerLine":"247","WicStdBearerUnit":"3134","WicStdBrowserDesc":"GVPi/GVP Media Control Platform (Build: 8.5.130.93)","WicStdBrowserType":"GVP","WicStdCallRef":"0074018C-1003F927","WicStdClient":"wunion","WicStdConnectDateYYYYMMDD":"20170310","WicStdConnectDayOfMonthDD":10,"WicStdConnectDayOfWeekAbbr":"Fri","WicStdConnectDayOfWeekNumber":5,"WicStdConnectDayOfWeekSpelledOut":"Friday","WicStdConnectHourHH":10,"WicStdConnectJulianDayOfYearJJJ":"069","WicStdConnectMinuteMM":49,"WicStdConnectMonthAbbr":"Mar","WicStdConnectMonthMM":"03","WicStdConnectMonthSpelledOut":"March","WicStdConnectSecondsSS":43,"WicStdConnectTimeHHMM":"1049","WicStdConnectTimeHHMMSS":"104943","WicStdConnectTs":"1489160983","WicStdConnectYearYY":"17","WicStdConnectYearYYYY":2017,"WicStdDialedNumber":,"WicStdDictionaryPath":"http://dictionarystore/dictionary/wunion/header/","WicStdDnis":"6008767","WicStdEcmaPath":"http://vxmlapps/ecmascript/wunion/header/","WicStdEnvironment":"PREPROD","WicStdError":,"WicStdFilePath":"/wic/web/vxml/wunion/header/version1488565943/","WicStdGrammarPath":"http://grammarstore/grammar/wunion/header/","WicStdIiDigits":,"WicStdInitCommonResult":,"WicStdLine":"247","WicStdLogData":,"WicStdLogFrequency":"HOURLY","WicStdLogHeader":"1489160983,3134,247,20170310,104943,8116008767,8008388383","WicStdLogLoc":"/wic/wic/wunion/header/","WicStdLogName":"log","WicStdPickupTs":"1489160983","WicStdResult":,"WicStdSite":"20","WicStdTestLive":"v","WicStdTg":,"WicStdUnit":"3134","WicStdUui":}|116
+2017-03-10/10:49:43.450168|6|16|0074018C-1003F927|wf_lookup http://vxmlapps/vxml/wunion/header/index.php|116
+2017-03-10/10:49:43.450183|6|42|0074018C-1003F927|fetch_start document:http://vxmlapps/vxml/wunion/header/index.php|116
+2017-03-10/10:49:43.462841|6|17|0074018C-1003F927|wf_arrived s (direct):http://vxmlapps/vxml/wunion/header/index.php|116
+2017-03-10/10:49:43.463197|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:49:43.463518|6|41|0074018C-1003F927|compile_done :http://vxmlapps/vxml/wunion/header/index.php|116
+2017-03-10/10:49:43.463587|6|79|0074018C-1003F927|root_appl root.vxml.php|116
+2017-03-10/10:49:43.463824|6|28|0074018C-1003F927|form_enter |116
+2017-03-10/10:49:43.463900|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39595$_:BLOCK|116
+2017-03-10/10:49:43.464023|6|35|0074018C-1003F927|log FRAMEWORK FILENAME: /wic/wic/wic/wicstd/framework/v.gvp.10.20170310|116
+2017-03-10/10:49:43.464093|6|35|0074018C-1003F927|log FRAMEWORK LOGDATA: 1489160983,3134,247,20170310,104943,8116008767,8008388383,wunion,header,20,GVP,3134,0074018C-1003F927,led32042,8008388383|116
+2017-03-10/10:49:43.465321|6|78|0074018C-1003F927|submit http://vxmlapps/vxml/wunion/header/version1488565943/start.vxml.php|namelist|{"session_connection_callidref":"008A5FFC-30EA-18A7-9606-9A821B0AAA77-15567@10.27.130.162","session_connection_local_uri":"sip:6008767@10.27.130.162:5060","session_connection_originator":"remote","session_connection_remote_uri":"sip:8008388383@10.27.219.50:5060","session_connection_uuid":"001GDJHHL4CAF5G6JA11M2LAES000F6C"}|116
+2017-03-10/10:49:43.465550|6|16|0074018C-1003F927|wf_lookup http://vxmlapps/vxml/wunion/header/version1488565943/start.vxml.php|116
+2017-03-10/10:49:43.465568|6|42|0074018C-1003F927|fetch_start document:http://vxmlapps/vxml/wunion/header/version1488565943/start.vxml.php|116
+2017-03-10/10:49:43.886543|6|17|0074018C-1003F927|wf_arrived s (direct):http://vxmlapps/vxml/wunion/header/version1488565943/start.vxml.php|116
+2017-03-10/10:49:43.886754|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:49:43.887009|6|41|0074018C-1003F927|compile_done :http://vxmlapps/vxml/wunion/header/version1488565943/start.vxml.php|116
+2017-03-10/10:49:43.887100|6|79|0074018C-1003F927|root_appl root.vxml.php|116
+2017-03-10/10:49:43.887239|6|28|0074018C-1003F927|form_enter :start|116
+2017-03-10/10:49:43.887333|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39596$_:BLOCK|116
+2017-03-10/10:49:43.887723|6|35|0074018C-1003F927|log 3134,247|116
+2017-03-10/10:49:43.897101|6|35|0074018C-1003F927|log start.vxml.php - WicStdAniOrig: 8008388383, WicStdAni: 8008388383|116
+2017-03-10/10:49:43.897205|6|35|0074018C-1003F927|log start.vxml.php - WicStdAniOrig: 8008388383, ANI: 8008388383|116
+2017-03-10/10:49:43.897858|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/vxml/wunion/header/version1488565943/webservices/do_SetLanguage.xml.php|116
+2017-03-10/10:49:43.942438|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/vxml/wunion/header/version1488565943/webservices/do_SetLanguage.xml.php|116
+2017-03-10/10:49:43.948309|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39597$_:BLOCK|116
+2017-03-10/10:49:43.948421|6|33|0074018C-1003F927|goto :#UnitLine|116
+2017-03-10/10:49:43.948512|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:49:43.948655|6|28|0074018C-1003F927|form_enter :UnitLine|116
+2017-03-10/10:49:43.949306|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/vxml/wunion/header/version1488565943/webservices/do_SetTxlLogging.xml.php|116
+2017-03-10/10:49:43.960600|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/vxml/wunion/header/version1488565943/webservices/do_SetTxlLogging.xml.php|116
+2017-03-10/10:49:43.969791|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/dynocat.js|116
+2017-03-10/10:49:43.984401|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/dynocat.js|116
+2017-03-10/10:49:44.12357|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39598$_:BLOCK|116
+2017-03-10/10:49:44.12552|6|35|0074018C-1003F927|log WicStdPromptAndCollect version 1.11.0 (20160428)|116
+2017-03-10/10:49:44.12912|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39599$_:BLOCK|116
+2017-03-10/10:49:44.13560|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:49:44.24706|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:49:44.26544|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:49:44.37505|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:49:44.44975|6|29|0074018C-1003F927|form_select :formField:FIELD|116
+2017-03-10/10:49:44.49896|6|24|0074018C-1003F927|input_start :DTMF|116
+2017-03-10/10:49:44.50226|6|18|0074018C-1003F927|prompt_begin |116
+2017-03-10/10:49:44.50260|6|134|0074018C-1003F927|prompt_play tts|<?xml version="1.0" encoding="UTF-8"?><speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US"><voice xml:lang="en-US" name="Jill">You are currently on unit number </voice></speak>|116
+2017-03-10/10:49:44.75795|6|150|0074018C-1003F927|tts_open 0074018C-1003F927-tts-default-2174|success|116
+2017-03-10/10:49:44.75817|6|132|0074018C-1003F927-tts-default-2174|mrcp_trace RTSPSESSION: FIMCMKGKAAADNLNDAAAAAAAA IP: 10.27.130.164 Vendor: vocalizer|116|[1 ]
+2017-03-10/10:49:45.247277|6|151|0074018C-1003F927|tts_close 0074018C-1003F927-tts-default-2174|116
+2017-03-10/10:49:45.719371|6|42|0074018C-1003F927|fetch_start audio:http://promptstore/voice/wicstd/nikki/dynocat/fnum03.wav|116
+2017-03-10/10:49:45.741709|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://promptstore/voice/wicstd/nikki/dynocat/fnum03.wav|116
+2017-03-10/10:49:45.741748|6|134|0074018C-1003F927|prompt_play audio|http://promptstore/voice/wicstd/nikki/dynocat/fnum03.wav|116
+2017-03-10/10:49:46.262786|6|42|0074018C-1003F927|fetch_start audio:http://promptstore/voice/wicstd/nikki/dynocat/fnum01.wav|116
+2017-03-10/10:49:46.269120|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://promptstore/voice/wicstd/nikki/dynocat/fnum01.wav|116
+2017-03-10/10:49:46.269156|6|134|0074018C-1003F927|prompt_play audio|http://promptstore/voice/wicstd/nikki/dynocat/fnum01.wav|116
+2017-03-10/10:49:46.964731|6|42|0074018C-1003F927|fetch_start audio:http://promptstore/voice/wicstd/nikki/dynocat/fnum03.wav|116
+2017-03-10/10:49:46.987739|6|43|0074018C-1003F927|fetch_end Done (direct):http://promptstore/voice/wicstd/nikki/dynocat/fnum03.wav|116
+2017-03-10/10:49:46.987778|6|134|0074018C-1003F927|prompt_play audio|http://promptstore/voice/wicstd/nikki/dynocat/fnum03.wav|116
+2017-03-10/10:49:47.686751|6|42|0074018C-1003F927|fetch_start audio:http://promptstore/voice/wicstd/nikki/dynocat/snum04.wav|116
+2017-03-10/10:49:47.709686|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://promptstore/voice/wicstd/nikki/dynocat/snum04.wav|116
+2017-03-10/10:49:47.709725|6|134|0074018C-1003F927|prompt_play audio|http://promptstore/voice/wicstd/nikki/dynocat/snum04.wav|116
+2017-03-10/10:49:48.447763|6|134|0074018C-1003F927|prompt_play tts|<?xml version="1.0" encoding="UTF-8"?><speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US"><voice xml:lang="en-US" name="Jill">and line number </voice></speak>|116
+2017-03-10/10:49:48.472697|6|150|0074018C-1003F927|tts_open 0074018C-1003F927-tts-default-2175|success|116
+2017-03-10/10:49:48.472720|6|132|0074018C-1003F927-tts-default-2175|mrcp_trace RTSPSESSION: FIMCMKGOAAAJOHAOAAAAAAAA IP: 10.27.130.164 Vendor: vocalizer|116|[2 ]
+2017-03-10/10:49:49.453502|6|151|0074018C-1003F927|tts_close 0074018C-1003F927-tts-default-2175|116
+2017-03-10/10:49:50.16712|6|42|0074018C-1003F927|fetch_start audio:http://promptstore/voice/wicstd/nikki/dynocat/fnum02.wav|116
+2017-03-10/10:49:50.39641|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://promptstore/voice/wicstd/nikki/dynocat/fnum02.wav|116
+2017-03-10/10:49:50.39681|6|134|0074018C-1003F927|prompt_play audio|http://promptstore/voice/wicstd/nikki/dynocat/fnum02.wav|116
+2017-03-10/10:49:50.598758|6|42|0074018C-1003F927|fetch_start audio:http://promptstore/voice/wicstd/nikki/dynocat/fnum04.wav|116
+2017-03-10/10:49:50.621670|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://promptstore/voice/wicstd/nikki/dynocat/fnum04.wav|116
+2017-03-10/10:49:50.621709|6|134|0074018C-1003F927|prompt_play audio|http://promptstore/voice/wicstd/nikki/dynocat/fnum04.wav|116
+2017-03-10/10:49:51.200759|6|42|0074018C-1003F927|fetch_start audio:http://promptstore/voice/wicstd/nikki/dynocat/snum07.wav|116
+2017-03-10/10:49:51.223735|6|43|0074018C-1003F927|fetch_end Done (direct):http://promptstore/voice/wicstd/nikki/dynocat/snum07.wav|116
+2017-03-10/10:49:51.223770|6|134|0074018C-1003F927|prompt_play audio|http://promptstore/voice/wicstd/nikki/dynocat/snum07.wav|116
+2017-03-10/10:49:52.864294|6|19|0074018C-1003F927|prompt_end done|116
+2017-03-10/10:49:52.864540|6|25|0074018C-1003F927|input_end NO_INPUT||||||116
+2017-03-10/10:49:52.864691|6|34|0074018C-1003F927|event noinput:1||116
+2017-03-10/10:49:52.864792|6|80|0074018C-1003F927|event_handler_enter :noinput|http://vxmlapps/vxml/wunion/header/version1488565943/start.vxml.php?session_connection_callidref=008A5FFC-30EA-18A7-9606-9A821B0AAA77-15567%4010.27.130.162&session_connection_local_uri=sip%3A6008767%4010.27.130.162%3A5060&session_connection_originator=remote&session_connection_remote_uri=sip%3A8008388383%4010.27.219.50%3A5060&session_connection_uuid=001GDJHHL4CAF5G6JA11M2LAES000F6C#UnitLine#formField|116
+2017-03-10/10:49:52.865999|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:49:52.869278|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:49:52.872619|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:49:52.894359|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:49:52.903873|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:49:52.915637|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:49:52.975775|6|81|0074018C-1003F927|event_handler_exit :noinput|116
+2017-03-10/10:49:52.976033|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39603$_:BLOCK|116
+2017-03-10/10:49:52.976403|6|35|0074018C-1003F927|log WicStdPromptAndCollect END|116
+2017-03-10/10:49:52.976710|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39604$_:BLOCK|116
+2017-03-10/10:49:52.976798|6|33|0074018C-1003F927|goto :#PlayTime|116
+2017-03-10/10:49:52.976867|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:49:52.977065|6|28|0074018C-1003F927|form_enter :PlayTime|116
+2017-03-10/10:49:52.980535|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/dynocat.js|116
+2017-03-10/10:49:52.994123|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/dynocat.js|116
+2017-03-10/10:49:53.20820|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39605$_:BLOCK|116
+2017-03-10/10:49:53.20965|6|35|0074018C-1003F927|log WicStdPromptAndCollect version 1.11.0 (20160428)|116
+2017-03-10/10:49:53.21246|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39606$_:BLOCK|116
+2017-03-10/10:49:53.21699|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:49:53.33560|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:49:53.35292|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:49:53.46380|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:49:53.53746|6|29|0074018C-1003F927|form_select :formField:FIELD|116
+2017-03-10/10:49:53.58110|6|24|0074018C-1003F927|input_start :DTMF|116
+2017-03-10/10:49:53.58385|6|18|0074018C-1003F927|prompt_begin |116
+2017-03-10/10:49:53.58418|6|134|0074018C-1003F927|prompt_play tts|<?xml version="1.0" encoding="UTF-8"?><speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US"><voice xml:lang="en-US" name="Jill">call time </voice></speak>|116
+2017-03-10/10:49:53.85495|6|150|0074018C-1003F927|tts_open 0074018C-1003F927-tts-default-2176|success|116
+2017-03-10/10:49:53.85519|6|132|0074018C-1003F927-tts-default-2176|mrcp_trace RTSPSESSION: FIMCMKHDAAAEADAKAAAAAAAA IP: 10.27.130.164 Vendor: vocalizer|116|[3 ]
+2017-03-10/10:49:53.752404|6|151|0074018C-1003F927|tts_close 0074018C-1003F927-tts-default-2176|116
+2017-03-10/10:49:53.768617|6|42|0074018C-1003F927|fetch_start audio:http://promptstore/voice/wicstd/nikki/dynocat/fnum01.wav|116
+2017-03-10/10:49:53.791613|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://promptstore/voice/wicstd/nikki/dynocat/fnum01.wav|116
+2017-03-10/10:49:53.791653|6|134|0074018C-1003F927|prompt_play audio|http://promptstore/voice/wicstd/nikki/dynocat/fnum01.wav|116
+2017-03-10/10:49:54.311622|6|42|0074018C-1003F927|fetch_start audio:http://promptstore/voice/wicstd/nikki/dynocat/fnum00.wav|116
+2017-03-10/10:49:54.334708|6|43|0074018C-1003F927|fetch_end Done (direct):http://promptstore/voice/wicstd/nikki/dynocat/fnum00.wav|116
+2017-03-10/10:49:54.334747|6|134|0074018C-1003F927|prompt_play audio|http://promptstore/voice/wicstd/nikki/dynocat/fnum00.wav|116
+2017-03-10/10:49:54.933719|6|42|0074018C-1003F927|fetch_start audio:http://promptstore/voice/wicstd/nikki/dynocat/fnum04.wav|116
+2017-03-10/10:49:54.956665|6|43|0074018C-1003F927|fetch_end Done (direct):http://promptstore/voice/wicstd/nikki/dynocat/fnum04.wav|116
+2017-03-10/10:49:54.956704|6|134|0074018C-1003F927|prompt_play audio|http://promptstore/voice/wicstd/nikki/dynocat/fnum04.wav|116
+2017-03-10/10:49:55.715305|6|42|0074018C-1003F927|fetch_start audio:http://promptstore/voice/wicstd/nikki/dynocat/fnum09.wav|116
+2017-03-10/10:49:55.737609|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://promptstore/voice/wicstd/nikki/dynocat/fnum09.wav|116
+2017-03-10/10:49:55.737648|6|134|0074018C-1003F927|prompt_play audio|http://promptstore/voice/wicstd/nikki/dynocat/fnum09.wav|116
+2017-03-10/10:49:56.437711|6|42|0074018C-1003F927|fetch_start audio:http://promptstore/voice/wicstd/nikki/dynocat/fnum04.wav|116
+2017-03-10/10:49:56.460584|6|43|0074018C-1003F927|fetch_end Done (direct):http://promptstore/voice/wicstd/nikki/dynocat/fnum04.wav|116
+2017-03-10/10:49:56.460624|6|134|0074018C-1003F927|prompt_play audio|http://promptstore/voice/wicstd/nikki/dynocat/fnum04.wav|116
+2017-03-10/10:49:57.139656|6|42|0074018C-1003F927|fetch_start audio:http://promptstore/voice/wicstd/nikki/dynocat/snum03.wav|116
+2017-03-10/10:49:57.162747|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://promptstore/voice/wicstd/nikki/dynocat/snum03.wav|116
+2017-03-10/10:49:57.162786|6|134|0074018C-1003F927|prompt_play audio|http://promptstore/voice/wicstd/nikki/dynocat/snum03.wav|116
+2017-03-10/10:49:58.703123|6|19|0074018C-1003F927|prompt_end done|116
+2017-03-10/10:49:58.703433|6|25|0074018C-1003F927|input_end NO_INPUT||||||116
+2017-03-10/10:49:58.703541|6|34|0074018C-1003F927|event noinput:1||116
+2017-03-10/10:49:58.703639|6|80|0074018C-1003F927|event_handler_enter :noinput|http://vxmlapps/vxml/wunion/header/version1488565943/start.vxml.php?session_connection_callidref=008A5FFC-30EA-18A7-9606-9A821B0AAA77-15567%4010.27.130.162&session_connection_local_uri=sip%3A6008767%4010.27.130.162%3A5060&session_connection_originator=remote&session_connection_remote_uri=sip%3A8008388383%4010.27.219.50%3A5060&session_connection_uuid=001GDJHHL4CAF5G6JA11M2LAES000F6C#PlayTime#formField|116
+2017-03-10/10:49:58.704764|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:49:58.716509|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:49:58.719607|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:49:58.731481|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:49:58.741332|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:49:58.752385|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:49:58.814683|6|81|0074018C-1003F927|event_handler_exit :noinput|116
+2017-03-10/10:49:58.814919|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39610$_:BLOCK|116
+2017-03-10/10:49:58.815296|6|35|0074018C-1003F927|log WicStdPromptAndCollect END|116
+2017-03-10/10:49:58.815546|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39611$_:BLOCK|116
+2017-03-10/10:49:58.815883|6|33|0074018C-1003F927|goto :#Date|116
+2017-03-10/10:49:58.815961|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:49:58.816110|6|28|0074018C-1003F927|form_enter :Date|116
+2017-03-10/10:49:58.818938|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/dynocat.js|116
+2017-03-10/10:49:58.833114|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/dynocat.js|116
+2017-03-10/10:49:58.860247|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39612$_:BLOCK|116
+2017-03-10/10:49:58.860404|6|35|0074018C-1003F927|log WicStdPromptAndCollect version 1.11.0 (20160428)|116
+2017-03-10/10:49:58.860668|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39613$_:BLOCK|116
+2017-03-10/10:49:58.861117|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:49:58.872483|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:49:58.874146|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:49:58.885478|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:49:58.892924|6|29|0074018C-1003F927|form_select :formField:FIELD|116
+2017-03-10/10:49:58.894199|6|24|0074018C-1003F927|input_start :DTMF|116
+2017-03-10/10:49:58.894501|6|18|0074018C-1003F927|prompt_begin |116
+2017-03-10/10:49:58.894537|6|134|0074018C-1003F927|prompt_play tts|<?xml version="1.0" encoding="UTF-8"?><speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US"><voice xml:lang="en-US" name="Jill">Please Enter a 8 digit date. A four digit Year. A two digit Month. And a two digit day.</voice></speak>|116
+2017-03-10/10:49:58.921516|6|150|0074018C-1003F927|tts_open 0074018C-1003F927-tts-default-2177|success|116
+2017-03-10/10:49:58.921540|6|132|0074018C-1003F927-tts-default-2177|mrcp_trace RTSPSESSION: FIMCMKHJAAABHNNIAAAAAAAA IP: 10.27.130.164 Vendor: vocalizer|116|[4 ]
+2017-03-10/10:50:02.456318|6|151|0074018C-1003F927|tts_close 0074018C-1003F927-tts-default-2177|116
+2017-03-10/10:50:02.456514|6|19|0074018C-1003F927|prompt_end dtmfbargein|116
+2017-03-10/10:50:02.456536|6|27|0074018C-1003F927|dtmf :2|116
+2017-03-10/10:50:04.206785|6|25|0074018C-1003F927|input_end NO_MATCH|dtmf||||1.000000|116
+2017-03-10/10:50:04.206989|6|34|0074018C-1003F927|event nomatch:1||116
+2017-03-10/10:50:04.207075|6|80|0074018C-1003F927|event_handler_enter :nomatch|http://vxmlapps/vxml/wunion/header/version1488565943/start.vxml.php?session_connection_callidref=008A5FFC-30EA-18A7-9606-9A821B0AAA77-15567%4010.27.130.162&session_connection_local_uri=sip%3A6008767%4010.27.130.162%3A5060&session_connection_originator=remote&session_connection_remote_uri=sip%3A8008388383%4010.27.219.50%3A5060&session_connection_uuid=001GDJHHL4CAF5G6JA11M2LAES000F6C#Date#formField|116
+2017-03-10/10:50:04.208316|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:04.219354|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:04.222456|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:04.233454|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:04.243394|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:50:04.254420|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:50:04.317383|6|81|0074018C-1003F927|event_handler_exit :nomatch|116
+2017-03-10/10:50:04.317563|6|29|0074018C-1003F927|form_select :formField:FIELD|116
+2017-03-10/10:50:04.318153|6|24|0074018C-1003F927|input_start :DTMF|116
+2017-03-10/10:50:04.318363|6|18|0074018C-1003F927|prompt_begin |116
+2017-03-10/10:50:04.318409|6|134|0074018C-1003F927|prompt_play tts|<?xml version="1.0" encoding="UTF-8"?><speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US"><voice xml:lang="en-US" name="Jill">Sorry, I didn't catch that.</voice><voice xml:lang="en-US" name="Jill">Please Enter a 8 digit date. A four digit Year. A two digit Month. And a two digit day.</voice></speak>|116
+2017-03-10/10:50:04.340375|6|150|0074018C-1003F927|tts_open 0074018C-1003F927-tts-default-2178|success|116
+2017-03-10/10:50:04.340398|6|132|0074018C-1003F927-tts-default-2178|mrcp_trace RTSPSESSION: FIMCMKHOAAAHOGEHAAAAAAAA IP: 10.27.130.164 Vendor: vocalizer|116|[5 ]
+2017-03-10/10:50:08.359155|6|151|0074018C-1003F927|tts_close 0074018C-1003F927-tts-default-2178|116
+2017-03-10/10:50:08.359351|6|19|0074018C-1003F927|prompt_end dtmfbargein|116
+2017-03-10/10:50:08.359381|6|27|0074018C-1003F927|dtmf :20|116
+2017-03-10/10:50:08.624437|6|27|0074018C-1003F927|dtmf :1|116
+2017-03-10/10:50:08.825294|6|27|0074018C-1003F927|dtmf :7|116
+2017-03-10/10:50:09.65411|6|27|0074018C-1003F927|dtmf :0|116
+2017-03-10/10:50:09.305304|6|27|0074018C-1003F927|dtmf :3|116
+2017-03-10/10:50:10.124369|6|27|0074018C-1003F927|dtmf :1|116
+2017-03-10/10:50:10.725279|6|27|0074018C-1003F927|dtmf :0|116
+2017-03-10/10:50:10.726286|6|25|0074018C-1003F927|input_end MATCHED|dtmf|Field|external|20170310|1.000000|116
+2017-03-10/10:50:10.726478|6|76|0074018C-1003F927|filling :Date.formField:Field:20170310|116
+2017-03-10/10:50:10.726639|6|32|0074018C-1003F927|filled_enter all|116
+2017-03-10/10:50:10.726801|6|35|0074018C-1003F927|log WEST_CALL_DATA=1489160983,3134,247,20170310,104943,8116008767,8008388383|116
+2017-03-10/10:50:10.729859|6|35|0074018C-1003F927|log WicStdFormValue = 20170310|116
+2017-03-10/10:50:10.730492|6|35|0074018C-1003F927|log WicStdFormConfidence = 100|116
+2017-03-10/10:50:10.730843|6|35|0074018C-1003F927|log WicStdFormUtterance = 20170310|116
+2017-03-10/10:50:10.731190|6|35|0074018C-1003F927|log WicStdFormInputMode = dtmf|116
+2017-03-10/10:50:10.731750|6|35|0074018C-1003F927|log WicStdCompleteNBestStr = 20170310^^^1^^^20170310^^^dtmf|116
+2017-03-10/10:50:10.732269|6|127|0074018C-1003F927|filled_exit |116
+2017-03-10/10:50:10.732689|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39616$_:BLOCK|116
+2017-03-10/10:50:10.733136|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:10.743640|6|148|0074018C-1003F927|asr_open 0074018C-1003F927-asr-nuance90-mrcp1-2179|success|116
+2017-03-10/10:50:10.743666|6|132|0074018C-1003F927-asr-nuance90-mrcp1-2179|mrcp_trace RTSPSESSION: FIMCMLDCAAALDDHGAAAAAAAD IP: 10.27.131.53 Vendor: nuance90-mrcp1|116|[5 ]
+2017-03-10/10:50:10.744321|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:10.747342|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:10.758384|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:10.767896|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:50:10.779393|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:50:10.839843|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39617$_:BLOCK|116
+2017-03-10/10:50:10.840281|6|35|0074018C-1003F927|log Summary : OK,20170310,1,0,dtmf,100,undefined|116
+2017-03-10/10:50:10.840390|6|35|0074018C-1003F927|log WicStdPromptAndCollect END|116
+2017-03-10/10:50:10.840609|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39618$_:BLOCK|116
+2017-03-10/10:50:10.841312|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39619$_:BLOCK|116
+2017-03-10/10:50:10.841490|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/validate.js|116
+2017-03-10/10:50:10.854105|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/validate.js|116
+2017-03-10/10:50:10.865568|6|33|0074018C-1003F927|goto :#Time|116
+2017-03-10/10:50:10.865663|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:10.865906|6|28|0074018C-1003F927|form_enter :Time|116
+2017-03-10/10:50:10.869580|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/dynocat.js|116
+2017-03-10/10:50:10.883926|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/dynocat.js|116
+2017-03-10/10:50:10.912042|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39620$_:BLOCK|116
+2017-03-10/10:50:10.912237|6|35|0074018C-1003F927|log WicStdPromptAndCollect version 1.11.0 (20160428)|116
+2017-03-10/10:50:10.912590|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39621$_:BLOCK|116
+2017-03-10/10:50:10.913208|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:10.924223|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:10.926205|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:10.937383|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:10.944934|6|29|0074018C-1003F927|form_select :formField:FIELD|116
+2017-03-10/10:50:10.946274|6|24|0074018C-1003F927|input_start :DTMF|116
+2017-03-10/10:50:10.946530|6|18|0074018C-1003F927|prompt_begin |116
+2017-03-10/10:50:10.946569|6|134|0074018C-1003F927|prompt_play tts|<?xml version="1.0" encoding="UTF-8"?><speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US"><voice xml:lang="en-US" name="Jill">Please Enter a 4 digit time. A two digit hour and two digits for the minutes.</voice></speak>|116
+2017-03-10/10:50:10.969442|6|150|0074018C-1003F927|tts_open 0074018C-1003F927-tts-default-2180|success|116
+2017-03-10/10:50:10.969464|6|132|0074018C-1003F927-tts-default-2180|mrcp_trace RTSPSESSION: FIMCMKIFAAACDJCJAAAAAAAA IP: 10.27.130.164 Vendor: vocalizer|116|[6 ]
+2017-03-10/10:50:13.614194|6|151|0074018C-1003F927|tts_close 0074018C-1003F927-tts-default-2180|116
+2017-03-10/10:50:16.184335|6|19|0074018C-1003F927|prompt_end done|116
+2017-03-10/10:50:16.324430|6|27|0074018C-1003F927|dtmf :0|116
+2017-03-10/10:50:16.625432|6|27|0074018C-1003F927|dtmf :9|116
+2017-03-10/10:50:16.904357|6|27|0074018C-1003F927|dtmf :5|116
+2017-03-10/10:50:17.144308|6|27|0074018C-1003F927|dtmf :0|116
+2017-03-10/10:50:17.145360|6|25|0074018C-1003F927|input_end MATCHED|dtmf|Field|external|0950|1.000000|116
+2017-03-10/10:50:17.145530|6|76|0074018C-1003F927|filling :Time.formField:Field:0950|116
+2017-03-10/10:50:17.145724|6|32|0074018C-1003F927|filled_enter all|116
+2017-03-10/10:50:17.148622|6|35|0074018C-1003F927|log WicStdFormValue = 0950|116
+2017-03-10/10:50:17.149107|6|35|0074018C-1003F927|log WicStdFormConfidence = 100|116
+2017-03-10/10:50:17.149353|6|35|0074018C-1003F927|log WicStdFormUtterance = 0950|116
+2017-03-10/10:50:17.149612|6|35|0074018C-1003F927|log WicStdFormInputMode = dtmf|116
+2017-03-10/10:50:17.150031|6|35|0074018C-1003F927|log WicStdCompleteNBestStr = 0950^^^1^^^0950^^^dtmf|116
+2017-03-10/10:50:17.150427|6|127|0074018C-1003F927|filled_exit |116
+2017-03-10/10:50:17.150759|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39624$_:BLOCK|116
+2017-03-10/10:50:17.151158|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:17.162274|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:17.165793|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:17.177148|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:17.187298|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:50:17.199338|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:50:17.276741|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39625$_:BLOCK|116
+2017-03-10/10:50:17.277172|6|35|0074018C-1003F927|log Summary : OK,0950,0,0,dtmf,100,undefined|116
+2017-03-10/10:50:17.277272|6|35|0074018C-1003F927|log WicStdPromptAndCollect END|116
+2017-03-10/10:50:17.277470|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39626$_:BLOCK|116
+2017-03-10/10:50:17.278218|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39627$_:BLOCK|116
+2017-03-10/10:50:17.278424|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/validate.js|116
+2017-03-10/10:50:17.290789|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/validate.js|116
+2017-03-10/10:50:17.298611|6|33|0074018C-1003F927|goto :#Apn|116
+2017-03-10/10:50:17.298707|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:17.298962|6|28|0074018C-1003F927|form_enter :Apn|116
+2017-03-10/10:50:17.302943|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/dynocat.js|116
+2017-03-10/10:50:17.316825|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/dynocat.js|116
+2017-03-10/10:50:17.342509|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39628$_:BLOCK|116
+2017-03-10/10:50:17.342661|6|35|0074018C-1003F927|log WicStdPromptAndCollect version 1.11.0 (20160428)|116
+2017-03-10/10:50:17.342919|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39629$_:BLOCK|116
+2017-03-10/10:50:17.343359|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:17.354313|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:17.356197|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:17.367262|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:17.374864|6|29|0074018C-1003F927|form_select :formField:FIELD|116
+2017-03-10/10:50:17.376267|6|24|0074018C-1003F927|input_start :DTMF|116
+2017-03-10/10:50:17.376548|6|18|0074018C-1003F927|prompt_begin |116
+2017-03-10/10:50:17.376586|6|134|0074018C-1003F927|prompt_play tts|<?xml version="1.0" encoding="UTF-8"?><speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US"><voice xml:lang="en-US" name="Jill">Please Enter the 10 digit A P N</voice></speak>|116
+2017-03-10/10:50:17.406276|6|150|0074018C-1003F927|tts_open 0074018C-1003F927-tts-default-2181|success|116
+2017-03-10/10:50:17.406298|6|132|0074018C-1003F927-tts-default-2181|mrcp_trace RTSPSESSION: FIMCMKILAAAIOHPIAAAAAAAA IP: 10.27.130.164 Vendor: vocalizer|116|[7 ]
+2017-03-10/10:50:18.717120|6|151|0074018C-1003F927|tts_close 0074018C-1003F927-tts-default-2181|116
+2017-03-10/10:50:19.847292|6|19|0074018C-1003F927|prompt_end done|116
+2017-03-10/10:50:20.705170|6|27|0074018C-1003F927|dtmf :8|116
+2017-03-10/10:50:21.244166|6|27|0074018C-1003F927|dtmf :1|116
+2017-03-10/10:50:21.484250|6|27|0074018C-1003F927|dtmf :1|116
+2017-03-10/10:50:21.765197|6|27|0074018C-1003F927|dtmf :6|116
+2017-03-10/10:50:22.85145|6|27|0074018C-1003F927|dtmf :0|116
+2017-03-10/10:50:22.325139|6|27|0074018C-1003F927|dtmf :0|116
+2017-03-10/10:50:22.604100|6|27|0074018C-1003F927|dtmf :8|116
+2017-03-10/10:50:22.785109|6|27|0074018C-1003F927|dtmf :8|116
+2017-03-10/10:50:22.984112|6|27|0074018C-1003F927|dtmf :4|116
+2017-03-10/10:50:23.164307|6|27|0074018C-1003F927|dtmf :8|116
+2017-03-10/10:50:23.165540|6|25|0074018C-1003F927|input_end MATCHED|dtmf|Field|external|8116008848|1.000000|116
+2017-03-10/10:50:23.165758|6|76|0074018C-1003F927|filling :Apn.formField:Field:8116008848|116
+2017-03-10/10:50:23.165938|6|32|0074018C-1003F927|filled_enter all|116
+2017-03-10/10:50:23.168847|6|35|0074018C-1003F927|log WicStdFormValue = 8116008848|116
+2017-03-10/10:50:23.169393|6|35|0074018C-1003F927|log WicStdFormConfidence = 100|116
+2017-03-10/10:50:23.169660|6|35|0074018C-1003F927|log WicStdFormUtterance = 8116008848|116
+2017-03-10/10:50:23.169905|6|35|0074018C-1003F927|log WicStdFormInputMode = dtmf|116
+2017-03-10/10:50:23.170317|6|35|0074018C-1003F927|log WicStdCompleteNBestStr = 8116008848^^^1^^^8116008848^^^dtmf|116
+2017-03-10/10:50:23.170728|6|127|0074018C-1003F927|filled_exit |116
+2017-03-10/10:50:23.171040|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39632$_:BLOCK|116
+2017-03-10/10:50:23.171422|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:23.183270|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:23.186942|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:23.198248|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:23.207875|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:50:23.219086|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:50:23.279848|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39633$_:BLOCK|116
+2017-03-10/10:50:23.280245|6|35|0074018C-1003F927|log Summary : OK,8116008848,0,0,dtmf,100,undefined|116
+2017-03-10/10:50:23.280343|6|35|0074018C-1003F927|log WicStdPromptAndCollect END|116
+2017-03-10/10:50:23.280561|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39634$_:BLOCK|116
+2017-03-10/10:50:23.281218|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39635$_:BLOCK|116
+2017-03-10/10:50:23.281919|6|35|0074018C-1003F927|log APN: 8116008848, DNIS: 6008848 |116
+2017-03-10/10:50:23.281970|6|33|0074018C-1003F927|goto :#Ani|116
+2017-03-10/10:50:23.282037|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:23.282208|6|28|0074018C-1003F927|form_enter :Ani|116
+2017-03-10/10:50:23.284974|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/dynocat.js|116
+2017-03-10/10:50:23.298736|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/dynocat.js|116
+2017-03-10/10:50:23.323932|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39636$_:BLOCK|116
+2017-03-10/10:50:23.324073|6|35|0074018C-1003F927|log WicStdPromptAndCollect version 1.11.0 (20160428)|116
+2017-03-10/10:50:23.324329|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39637$_:BLOCK|116
+2017-03-10/10:50:23.324814|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:23.336207|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:23.337902|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:23.349208|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:23.356801|6|29|0074018C-1003F927|form_select :formField:FIELD|116
+2017-03-10/10:50:23.358049|6|24|0074018C-1003F927|input_start :DTMF|116
+2017-03-10/10:50:23.358368|6|18|0074018C-1003F927|prompt_begin |116
+2017-03-10/10:50:23.358425|6|134|0074018C-1003F927|prompt_play tts|<?xml version="1.0" encoding="UTF-8"?><speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US"><voice xml:lang="en-US" name="Jill">Please Enter the 10 digit Phone Number</voice></speak>|116
+2017-03-10/10:50:23.390284|6|150|0074018C-1003F927|tts_open 0074018C-1003F927-tts-default-2182|success|116
+2017-03-10/10:50:23.390309|6|132|0074018C-1003F927-tts-default-2182|mrcp_trace RTSPSESSION: FIMCMKJBAAAIKENJAAAAAAAA IP: 10.27.130.164 Vendor: vocalizer|116|[8 ]
+2017-03-10/10:50:24.623998|6|151|0074018C-1003F927|tts_close 0074018C-1003F927-tts-default-2182|116
+2017-03-10/10:50:25.787148|6|19|0074018C-1003F927|prompt_end done|116
+2017-03-10/10:50:26.864330|6|27|0074018C-1003F927|dtmf :1|116
+2017-03-10/10:50:27.164238|6|27|0074018C-1003F927|dtmf :2|116
+2017-03-10/10:50:27.364999|6|27|0074018C-1003F927|dtmf :3|116
+2017-03-10/10:50:27.664325|6|27|0074018C-1003F927|dtmf :4|116
+2017-03-10/10:50:27.883844|6|27|0074018C-1003F927|dtmf :5|116
+2017-03-10/10:50:28.85169|6|27|0074018C-1003F927|dtmf :6|116
+2017-03-10/10:50:28.384304|6|27|0074018C-1003F927|dtmf :7|116
+2017-03-10/10:50:28.624140|6|27|0074018C-1003F927|dtmf :8|116
+2017-03-10/10:50:28.924165|6|27|0074018C-1003F927|dtmf :9|116
+2017-03-10/10:50:29.205129|6|27|0074018C-1003F927|dtmf :9|116
+2017-03-10/10:50:29.206125|6|25|0074018C-1003F927|input_end MATCHED|dtmf|Field|external|1234567899|1.000000|116
+2017-03-10/10:50:29.206304|6|76|0074018C-1003F927|filling :Ani.formField:Field:1234567899|116
+2017-03-10/10:50:29.206477|6|32|0074018C-1003F927|filled_enter all|116
+2017-03-10/10:50:29.209406|6|35|0074018C-1003F927|log WicStdFormValue = 1234567899|116
+2017-03-10/10:50:29.209944|6|35|0074018C-1003F927|log WicStdFormConfidence = 100|116
+2017-03-10/10:50:29.210197|6|35|0074018C-1003F927|log WicStdFormUtterance = 1234567899|116
+2017-03-10/10:50:29.210465|6|35|0074018C-1003F927|log WicStdFormInputMode = dtmf|116
+2017-03-10/10:50:29.210913|6|35|0074018C-1003F927|log WicStdCompleteNBestStr = 1234567899^^^1^^^1234567899^^^dtmf|116
+2017-03-10/10:50:29.211329|6|127|0074018C-1003F927|filled_exit |116
+2017-03-10/10:50:29.211659|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39640$_:BLOCK|116
+2017-03-10/10:50:29.212071|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:29.223176|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:29.226290|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:29.238191|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:29.248003|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:50:29.259016|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:50:29.319603|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39641$_:BLOCK|116
+2017-03-10/10:50:29.320068|6|35|0074018C-1003F927|log Summary : OK,1234567899,0,0,dtmf,100,undefined|116
+2017-03-10/10:50:29.320170|6|35|0074018C-1003F927|log WicStdPromptAndCollect END|116
+2017-03-10/10:50:29.320422|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39642$_:BLOCK|116
+2017-03-10/10:50:29.321240|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39643$_:BLOCK|116
+2017-03-10/10:50:29.321711|6|33|0074018C-1003F927|goto :#Ctv|116
+2017-03-10/10:50:29.321789|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:29.322003|6|28|0074018C-1003F927|form_enter :Ctv|116
+2017-03-10/10:50:29.325786|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/dynocat.js|116
+2017-03-10/10:50:29.339733|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/dynocat.js|116
+2017-03-10/10:50:29.364888|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39644$_:BLOCK|116
+2017-03-10/10:50:29.365033|6|35|0074018C-1003F927|log WicStdPromptAndCollect version 1.11.0 (20160428)|116
+2017-03-10/10:50:29.365291|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39645$_:BLOCK|116
+2017-03-10/10:50:29.365811|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:29.377120|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:29.378813|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:29.390139|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:29.397696|6|29|0074018C-1003F927|form_select :formField:FIELD|116
+2017-03-10/10:50:29.398981|6|24|0074018C-1003F927|input_start :DTMF|116
+2017-03-10/10:50:29.399254|6|18|0074018C-1003F927|prompt_begin |116
+2017-03-10/10:50:29.399289|6|134|0074018C-1003F927|prompt_play tts|<?xml version="1.0" encoding="UTF-8"?><speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US"><voice xml:lang="en-US" name="Jill">Please Enter the 7 digit C T V</voice></speak>|116
+2017-03-10/10:50:29.424172|6|150|0074018C-1003F927|tts_open 0074018C-1003F927-tts-default-2183|success|116
+2017-03-10/10:50:29.424195|6|132|0074018C-1003F927-tts-default-2183|mrcp_trace RTSPSESSION: FIMCMKJHAAAJCNFEAAAAAAAA IP: 10.27.130.164 Vendor: vocalizer|116|[9 ]
+2017-03-10/10:50:30.878785|6|151|0074018C-1003F927|tts_close 0074018C-1003F927-tts-default-2183|116
+2017-03-10/10:50:32.129078|6|19|0074018C-1003F927|prompt_end done|116
+2017-03-10/10:50:33.584722|6|27|0074018C-1003F927|dtmf :6|116
+2017-03-10/10:50:33.825014|6|27|0074018C-1003F927|dtmf :0|116
+2017-03-10/10:50:34.64934|6|27|0074018C-1003F927|dtmf :0|116
+2017-03-10/10:50:34.304944|6|27|0074018C-1003F927|dtmf :8|116
+2017-03-10/10:50:34.444232|6|27|0074018C-1003F927|dtmf :8|116
+2017-03-10/10:50:34.684229|6|27|0074018C-1003F927|dtmf :4|116
+2017-03-10/10:50:34.904157|6|27|0074018C-1003F927|dtmf :8|116
+2017-03-10/10:50:34.905260|6|25|0074018C-1003F927|input_end MATCHED|dtmf|Field|external|6008848|1.000000|116
+2017-03-10/10:50:34.905410|6|76|0074018C-1003F927|filling :Ctv.formField:Field:6008848|116
+2017-03-10/10:50:34.905565|6|32|0074018C-1003F927|filled_enter all|116
+2017-03-10/10:50:34.908561|6|35|0074018C-1003F927|log WicStdFormValue = 6008848|116
+2017-03-10/10:50:34.909100|6|35|0074018C-1003F927|log WicStdFormConfidence = 100|116
+2017-03-10/10:50:34.909359|6|35|0074018C-1003F927|log WicStdFormUtterance = 6008848|116
+2017-03-10/10:50:34.909624|6|35|0074018C-1003F927|log WicStdFormInputMode = dtmf|116
+2017-03-10/10:50:34.910072|6|35|0074018C-1003F927|log WicStdCompleteNBestStr = 6008848^^^1^^^6008848^^^dtmf|116
+2017-03-10/10:50:34.910502|6|127|0074018C-1003F927|filled_exit |116
+2017-03-10/10:50:34.910817|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39648$_:BLOCK|116
+2017-03-10/10:50:34.911203|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:34.923082|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:34.926121|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:34.938052|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:34.947716|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:50:34.959101|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:50:35.19467|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39649$_:BLOCK|116
+2017-03-10/10:50:35.19987|6|35|0074018C-1003F927|log Summary : OK,6008848,0,0,dtmf,100,undefined|116
+2017-03-10/10:50:35.20097|6|35|0074018C-1003F927|log WicStdPromptAndCollect END|116
+2017-03-10/10:50:35.20326|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39650$_:BLOCK|116
+2017-03-10/10:50:35.21456|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/vxml/wunion/header/version1488565943/webservices/do_SetTxlLogging.xml.php|116
+2017-03-10/10:50:35.33093|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/vxml/wunion/header/version1488565943/webservices/do_SetTxlLogging.xml.php|116
+2017-03-10/10:50:35.38264|6|33|0074018C-1003F927|goto :#Continue|116
+2017-03-10/10:50:35.38375|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:35.38590|6|28|0074018C-1003F927|form_enter :Continue|116
+2017-03-10/10:50:35.38659|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39651$_:BLOCK|116
+2017-03-10/10:50:35.39652|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:50:35.50989|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:50:35.88186|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:35.100088|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:35.101953|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:35.112890|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:35.120340|6|35|0074018C-1003F927|log ENV: PREPROD, ANI: 1234567899, APN: 8116008848, DNIS: 6008848 |116
+2017-03-10/10:50:35.121661|6|35|0074018C-1003F927|log exit_state is: greeting/get_info.vxml.php|116
+2017-03-10/10:50:35.122571|6|78|0074018C-1003F927|submit http://vxmlapps/vxml/wunion/header/version1488565943/greeting/get_info.vxml.php|namelist|{"ANI":"1234567899","APN":"8116008848","CTV":"6008848","CustomMDY":"03102017","CustomTime":"095000","DNIS":"6008848","DNISBrand":"WU","LogSeqNum":"0","NewLanguage":"","WicStdApn":"8116008848","WicStdDnis":"6008848"}|116
+2017-03-10/10:50:35.122835|6|16|0074018C-1003F927|wf_lookup http://vxmlapps/vxml/wunion/header/version1488565943/greeting/get_info.vxml.php|116
+2017-03-10/10:50:35.122846|6|42|0074018C-1003F927|fetch_start document:http://vxmlapps/vxml/wunion/header/version1488565943/greeting/get_info.vxml.php|116
+2017-03-10/10:50:36.654314|6|17|0074018C-1003F927|wf_arrived s (direct):http://vxmlapps/vxml/wunion/header/version1488565943/greeting/get_info.vxml.php|116
+2017-03-10/10:50:36.654524|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:36.665690|6|41|0074018C-1003F927|compile_done :http://vxmlapps/vxml/wunion/header/version1488565943/greeting/get_info.vxml.php|116
+2017-03-10/10:50:36.665853|6|79|0074018C-1003F927|root_appl root.vxml.php|116
+2017-03-10/10:50:36.666936|6|28|0074018C-1003F927|form_enter :do_GenesysCallArrived|116
+2017-03-10/10:50:36.667007|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39652$_:BLOCK|116
+2017-03-10/10:50:36.667322|6|35|0074018C-1003F927|log do_GenesysCallArrived,enter|116
+2017-03-10/10:50:36.667395|6|35|0074018C-1003F927|log GenesysClient: wunion, DNIS: 6008848|116
+2017-03-10/10:50:36.667468|6|35|0074018C-1003F927|log status: F|116
+2017-03-10/10:50:36.667560|6|35|0074018C-1003F927|log dataitems:Array()|116
+2017-03-10/10:50:36.667826|6|35|0074018C-1003F927|log genesys log: ,GenesysCallArrived,fail,reason,Error: Unknown message response: CallError{messageType=CALL_ERROR, callId='preprod1485805845669', failedReq='NoSuchCall', errorCode=-1, requestId='null'}|116
+2017-03-10/10:50:36.668144|6|35|0074018C-1003F927|log Genesys Call Arrived data: , ,  |116
+2017-03-10/10:50:36.668296|6|35|0074018C-1003F927|log Call Arrived CTV:   |116
+2017-03-10/10:50:36.668363|6|33|0074018C-1003F927|goto :#do_ValidateNanpPhoneNumber|116
+2017-03-10/10:50:36.668497|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:36.668644|6|28|0074018C-1003F927|form_enter :do_ValidateNanpPhoneNumber|116
+2017-03-10/10:50:36.668711|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39653$_:BLOCK|116
+2017-03-10/10:50:36.668986|6|35|0074018C-1003F927|log do_ValidateNanpPhoneNumber,enter|116
+2017-03-10/10:50:36.669215|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/validate.js|116
+2017-03-10/10:50:36.681428|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/validate.js|116
+2017-03-10/10:50:36.691225|6|35|0074018C-1003F927|log log invalid data: ,notvalid|116
+2017-03-10/10:50:36.691311|6|33|0074018C-1003F927|goto :#db_Check_dnis|116
+2017-03-10/10:50:36.691400|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:36.691558|6|28|0074018C-1003F927|form_enter :db_Check_dnis|116
+2017-03-10/10:50:36.691627|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39654$_:BLOCK|116
+2017-03-10/10:50:36.691903|6|35|0074018C-1003F927|log db_Check_dnis,enter|116
+2017-03-10/10:50:36.691979|6|35|0074018C-1003F927|log wunion_dnis_routing_check_v1 input data 6008848,6008848|116
+2017-03-10/10:50:36.692041|6|35|0074018C-1003F927|log portrequest:Trying attempt 1|116
+2017-03-10/10:50:36.692111|6|35|0074018C-1003F927|log portrequest:Sending transaction to ibm90_spy for 5 seconds|116
+2017-03-10/10:50:36.692185|6|35|0074018C-1003F927|log portrequest:SUCCESS,MTLSUCC,OK|0|0||8003256000|N|VZN|GenPubUS|US|en-us,es-us,zh-us,ht-us,fr-ca|Y|en-us||status3|prods,enrwu,sndmn,feert,agtlc,myopt|mywug,enrol,stat2,issue,myopt|fraud,ppaid,mnyor,mmenu,agent,|116
+2017-03-10/10:50:36.692253|6|35|0074018C-1003F927|log result = Array(    [0] => SUCCESS    [1] => MTLSUCC    [2] => OK|0|0||8003256000|N|VZN|GenPubUS|US|en-us,es-us,zh-us,ht-us,fr-ca|Y|en-us||status3|prods,enrwu,sndmn,feert,agtlc,myopt|mywug,enrol,stat2,issue,myopt|fraud,ppaid,mnyor,mmenu,agent    [3] => )|116
+2017-03-10/10:50:36.692323|6|35|0074018C-1003F927|log transaction history = Array(    [0] => ;ibm90_spy;0.055845975875854;SUCCESS;)|116
+2017-03-10/10:50:36.692386|6|35|0074018C-1003F927|log  db_Check_dnis -- LanguageMenu -- response 9--- en-us,es-us,zh-us,ht-us,fr-ca -------|116
+2017-03-10/10:50:36.692440|6|35|0074018C-1003F927|log  db_Check_dnis -- DefaultLanguage -- response 11--- en-us -------|116
+2017-03-10/10:50:36.692479|6|35|0074018C-1003F927|log  db_Check_dnis -- session LanguageMenu ----- en-us,es-us,zh-us,ht-us,fr-ca -------|116
+2017-03-10/10:50:36.693327|6|35|0074018C-1003F927|log  Default PI = status3|116
+2017-03-10/10:50:36.694080|6|35|0074018C-1003F927|log  Dnis routing table hit Status = success|116
+2017-03-10/10:50:36.694151|6|35|0074018C-1003F927|log  DNIS = 6008848|116
+2017-03-10/10:50:36.694210|6|35|0074018C-1003F927|log  CTV = 6008848|116
+2017-03-10/10:50:36.694276|6|35|0074018C-1003F927|log  Skill = |116
+2017-03-10/10:50:36.695089|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/vxml/wunion/header/version1488565943/webservices/do_SetLanguage.xml.php|116
+2017-03-10/10:50:36.728054|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/vxml/wunion/header/version1488565943/webservices/do_SetLanguage.xml.php|116
+2017-03-10/10:50:36.732058|6|35|0074018C-1003F927|log -------Starting PHP substr of DNISType-------|116
+2017-03-10/10:50:36.732106|6|35|0074018C-1003F927|log  DNISType is currently = GenPubUS|116
+2017-03-10/10:50:36.732148|6|33|0074018C-1003F927|goto :#db_Check_block_ANI|116
+2017-03-10/10:50:36.732234|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:36.732383|6|28|0074018C-1003F927|form_enter :db_Check_block_ANI|116
+2017-03-10/10:50:36.732447|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39655$_:BLOCK|116
+2017-03-10/10:50:36.732653|6|35|0074018C-1003F927|log wunion_ani_DbHit,enter|116
+2017-03-10/10:50:36.732703|6|35|0074018C-1003F927|log Input to the ANI Block Check is 1234567899|116
+2017-03-10/10:50:36.732831|6|35|0074018C-1003F927|log portrequest:Trying attempt 1|116
+2017-03-10/10:50:36.732878|6|35|0074018C-1003F927|log portrequest:Sending transaction to ibm90_spy for 5 seconds|116
+2017-03-10/10:50:36.732930|6|35|0074018C-1003F927|log portrequest:SUCCESS,MTLSUCC,NONE|0|0|no_block,|116
+2017-03-10/10:50:36.732994|6|35|0074018C-1003F927|log result = Array(    [0] => SUCCESS    [1] => MTLSUCC    [2] => NONE|0|0|no_block    [3] => )|116
+2017-03-10/10:50:36.733040|6|35|0074018C-1003F927|log transaction history = Array(    [0] => ;ibm90_spy;0.045827865600586;SUCCESS;)|116
+2017-03-10/10:50:36.733086|6|35|0074018C-1003F927|log Status of the call notfound|116
+2017-03-10/10:50:36.733133|6|35|0074018C-1003F927|log Stored Procedure return value no_block|116
+2017-03-10/10:50:36.733408|6|35|0074018C-1003F927|log log ani block type: no_block|116
+2017-03-10/10:50:36.733451|6|33|0074018C-1003F927|goto :#Customer_Lookup|116
+2017-03-10/10:50:36.733511|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:36.733610|6|28|0074018C-1003F927|form_enter :Customer_Lookup|116
+2017-03-10/10:50:36.733661|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39656$_:BLOCK|116
+2017-03-10/10:50:36.733867|6|35|0074018C-1003F927|log Customer_Lookup,enter|116
+2017-03-10/10:50:36.734021|6|35|0074018C-1003F927|log Input to the CustomerLookup_NonKey 1234567899|116
+2017-03-10/10:50:36.734066|6|35|0074018C-1003F927|log portrequest:Trying attempt 1|116
+2017-03-10/10:50:36.734120|6|35|0074018C-1003F927|log portrequest:Sending transaction to wssi_mtl_Dev for 11 seconds|116
+2017-03-10/10:50:36.734172|6|35|0074018C-1003F927|log portrequest:SUCCESS,MTLSUCC,Array,|116
+2017-03-10/10:50:36.734218|6|35|0074018C-1003F927|log transaction history = Array(    [0] => ;wssi_mtl_Dev;1.0377721786499;SUCCESS;)|116
+2017-03-10/10:50:36.734266|6|35|0074018C-1003F927|log WSSIStatus=SUCCESS,WSSITranId=80016.22163288.AX,WSSIQRCount=1,WSSIServerData=wssiMTLproxy,linux4303|wssilbir,linux4303|wssiagent,linux4303|wssixpath,linux4303|Client URL,https://206.201.231.220:443//CustomerLookup/services/CustomerLookup_v1_0|116
+2017-03-10/10:50:36.735687|6|35|0074018C-1003F927|log  Status for CustomerLookup_NonKey = SUCCESS and WSSI status is SUCCESS|116
+2017-03-10/10:50:36.735895|6|35|0074018C-1003F927|log IDed Caller Check is : false|116
+2017-03-10/10:50:36.736016|6|35|0074018C-1003F927|log Customer_Lookup,exit,greeting/say_WelcomeNoID.vxml.php|116
+2017-03-10/10:50:36.736157|6|33|0074018C-1003F927|goto :#interaction_db|116
+2017-03-10/10:50:36.736221|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:36.736324|6|28|0074018C-1003F927|form_enter :interaction_db|116
+2017-03-10/10:50:36.736392|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39657$_:BLOCK|116
+2017-03-10/10:50:36.736592|6|35|0074018C-1003F927|log west_interaction_db,enter|116
+2017-03-10/10:50:36.736730|6|35|0074018C-1003F927|log  Input data to the Interaction DB is '1234567899'  |116
+2017-03-10/10:50:36.736775|6|35|0074018C-1003F927|log portrequest:Trying attempt 1|116
+2017-03-10/10:50:36.736823|6|35|0074018C-1003F927|log portrequest:Sending transaction to ibm90_spy for 5 seconds|116
+2017-03-10/10:50:36.736868|6|35|0074018C-1003F927|log portrequest:SUCCESS,MTLSUCC,OK|0|0|1234567899|6008848|20170310|094800||en-us||status3|No|fraud||||||H||,|116
+2017-03-10/10:50:36.736919|6|35|0074018C-1003F927|log result = Array(    [0] => SUCCESS    [1] => MTLSUCC    [2] => OK|0|0|1234567899|6008848|20170310|094800||en-us||status3|No|fraud||||||H||    [3] => )|116
+2017-03-10/10:50:36.736968|6|35|0074018C-1003F927|log transaction history = Array(    [0] => ;ibm90_spy;0.059177160263062;SUCCESS;)|116
+2017-03-10/10:50:36.737011|6|35|0074018C-1003F927|log  ani  is 1234567899  |116
+2017-03-10/10:50:36.737058|6|35|0074018C-1003F927|log  dnis is 6008848 |116
+2017-03-10/10:50:36.737101|6|35|0074018C-1003F927|log  call_date is 20170310 |116
+2017-03-10/10:50:36.737145|6|35|0074018C-1003F927|log  call_time is 094800 |116
+2017-03-10/10:50:36.737189|6|35|0074018C-1003F927|log  country is  |116
+2017-03-10/10:50:36.737234|6|35|0074018C-1003F927|log  language is en-us |116
+2017-03-10/10:50:36.737278|6|35|0074018C-1003F927|log  language_preference is  |116
+2017-03-10/10:50:36.737323|6|35|0074018C-1003F927|log  pi_question  is status3  |116
+2017-03-10/10:50:36.737412|6|35|0074018C-1003F927|log  pi_answer  is No  |116
+2017-03-10/10:50:36.737495|6|35|0074018C-1003F927|log  menu_selection  is fraud  |116
+2017-03-10/10:50:36.737563|6|35|0074018C-1003F927|log  call_disposition  is H  |116
+2017-03-10/10:50:36.737621|6|35|0074018C-1003F927|log  status_14days  is   |116
+2017-03-10/10:50:36.737679|6|35|0074018C-1003F927|log  status_60days  is   |116
+2017-03-10/10:50:36.738848|6|35|0074018C-1003F927|log  IDB Lang Pref:en-us 14 days Lang Pref:|116
+2017-03-10/10:50:36.738914|6|35|0074018C-1003F927|log CustomMDY:03102017|116
+2017-03-10/10:50:36.738978|6|35|0074018C-1003F927|log Custom Date:2017-03-10|116
+2017-03-10/10:50:36.739040|6|35|0074018C-1003F927|log  Call Date: 2017-03-10|116
+2017-03-10/10:50:36.739194|6|35|0074018C-1003F927|log  Date difference is 0|116
+2017-03-10/10:50:36.739262|6|33|0074018C-1003F927|goto :#CalledBeforeCount_db|116
+2017-03-10/10:50:36.739343|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:36.739487|6|28|0074018C-1003F927|form_enter :CalledBeforeCount_db|116
+2017-03-10/10:50:36.739556|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39658$_:BLOCK|116
+2017-03-10/10:50:36.739834|6|35|0074018C-1003F927|log wunion_interaction_db_callercount,enter|116
+2017-03-10/10:50:36.739908|6|35|0074018C-1003F927|log Input for wunion_interaction_db_callercount is:  1234567899|116
+2017-03-10/10:50:36.739977|6|35|0074018C-1003F927|log portrequest:Trying attempt 1|116
+2017-03-10/10:50:36.740042|6|35|0074018C-1003F927|log portrequest:Sending transaction to ibm90_spy for 5 seconds|116
+2017-03-10/10:50:36.740106|6|35|0074018C-1003F927|log portrequest:SUCCESS,MTLSUCC,SUCC|0|0|2,|116
+2017-03-10/10:50:36.740172|6|35|0074018C-1003F927|log result = Array(    [0] => SUCCESS    [1] => MTLSUCC    [2] => SUCC|0|0|2    [3] => )|116
+2017-03-10/10:50:36.740243|6|35|0074018C-1003F927|log transaction history = Array(    [0] => ;ibm90_spy;0.049415826797485;SUCCESS;)|116
+2017-03-10/10:50:36.740306|6|35|0074018C-1003F927|log Called_Before Count is : 2|116
+2017-03-10/10:50:36.741004|6|33|0074018C-1003F927|goto :#Lang_Form|116
+2017-03-10/10:50:36.741093|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:36.741229|6|28|0074018C-1003F927|form_enter :Lang_Form|116
+2017-03-10/10:50:36.741453|6|29|0074018C-1003F927|form_select :QueryLanguageBlock:SUBDIALOG|116
+2017-03-10/10:50:36.742089|6|22|0074018C-1003F927|subdialog_start :QueryLanguageBlock:http://vxmlapps/vxml/wunion/header/version1488565943/webservices/ModifyWunionSetLanguageBlock.vxml.php|param||116
+2017-03-10/10:50:36.742315|6|16|0074018C-1003F927|wf_lookup http://vxmlapps/vxml/wunion/header/version1488565943/webservices/ModifyWunionSetLanguageBlock.vxml.php|116
+2017-03-10/10:50:36.742323|6|42|0074018C-1003F927|fetch_start document:http://vxmlapps/vxml/wunion/header/version1488565943/webservices/ModifyWunionSetLanguageBlock.vxml.php|116
+2017-03-10/10:50:36.777343|6|17|0074018C-1003F927|wf_arrived s (direct):http://vxmlapps/vxml/wunion/header/version1488565943/webservices/ModifyWunionSetLanguageBlock.vxml.php|116
+2017-03-10/10:50:36.777584|6|16|0074018C-1003F927|wf_lookup http://vxmlapps/vxml/wunion/header/version1488565943/root.vxml.php|116
+2017-03-10/10:50:36.777608|6|42|0074018C-1003F927|fetch_start document:http://vxmlapps/vxml/wunion/header/version1488565943/root.vxml.php|116
+2017-03-10/10:50:36.839931|6|17|0074018C-1003F927|wf_arrived s (direct):http://vxmlapps/vxml/wunion/header/version1488565943/root.vxml.php|116
+2017-03-10/10:50:36.840270|6|38|0074018C-1003F927|parse_warning (,, line 45):Unknown property name: dtmfterm|116
+2017-03-10/10:50:36.843749|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root start|116
+2017-03-10/10:50:36.843849|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root WicStdClient = wunion|116
+2017-03-10/10:50:36.843946|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root pre-unit = |116
+2017-03-10/10:50:36.844045|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root post-unit = 3134|116
+2017-03-10/10:50:36.844143|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root theanswer = |116
+2017-03-10/10:50:36.844239|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root WicStdASRLoggingAlready = |116
+2017-03-10/10:50:36.844339|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root WicStdASRLogging = N|116
+2017-03-10/10:50:36.844442|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root WicStdASRLogging2 = Y|116
+2017-03-10/10:50:36.844541|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root dologging = 1|116
+2017-03-10/10:50:36.844640|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root doing logging = 1|116
+2017-03-10/10:50:36.872119|6|41|0074018C-1003F927|compile_done :http://vxmlapps/vxml/wunion/header/version1488565943/webservices/ModifyWunionSetLanguageBlock.vxml.php|116
+2017-03-10/10:50:36.872171|6|79|0074018C-1003F927|root_appl root.vxml.php|116
+2017-03-10/10:50:36.872353|6|28|0074018C-1003F927|form_enter :ModifyWunionSetLanguageBlock|116
+2017-03-10/10:50:36.872415|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39663$_:BLOCK|116
+2017-03-10/10:50:36.872501|6|35|0074018C-1003F927|log P3 = 'QUERY','1234567899','20170310','20170409',''|116
+2017-03-10/10:50:36.872547|6|35|0074018C-1003F927|log portrequest:Trying attempt 1|116
+2017-03-10/10:50:36.872600|6|35|0074018C-1003F927|log portrequest:Sending transaction to 5859@ibm90 for 3 seconds|116
+2017-03-10/10:50:36.872672|6|35|0074018C-1003F927|log portrequest:SUCCESS,,SUCCESS|NOTFOUND|0|0||116
+2017-03-10/10:50:36.872845|6|35|0074018C-1003F927|log Status = NOTFOUND|116
+2017-03-10/10:50:36.873070|6|23|0074018C-1003F927|subdialog_return :|namelist|{"status":"NOTFOUND"}|116
+2017-03-10/10:50:36.873116|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:36.873327|6|76|0074018C-1003F927|filling :Lang_Form.QueryLanguageBlock:Subdialog:[object default]|116
+2017-03-10/10:50:36.873427|6|32|0074018C-1003F927|filled_enter all|116
+2017-03-10/10:50:36.873565|6|127|0074018C-1003F927|filled_exit |116
+2017-03-10/10:50:36.873629|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39661$_:BLOCK|116
+2017-03-10/10:50:36.873709|6|33|0074018C-1003F927|goto :#Lang_Form2|116
+2017-03-10/10:50:36.873769|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:36.873887|6|28|0074018C-1003F927|form_enter :Lang_Form2|116
+2017-03-10/10:50:36.873936|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39662$_:BLOCK|116
+2017-03-10/10:50:36.874099|6|35|0074018C-1003F927|log IDed Caller Check in Lang Form is : false|116
+2017-03-10/10:50:36.874988|6|35|0074018C-1003F927|log wunion_interaction_db_callercount,exit,greeting/say_WelcomeNoID.vxml.php|116
+2017-03-10/10:50:36.875737|6|78|0074018C-1003F927|submit http://vxmlapps/vxml/wunion/header/version1488565943/greeting/say_WelcomeNoID.vxml.php|namelist|{"CallerFirstName":"","DNISBrand":"WU","DNISType":"GenPubUS","GenesysConnID":"","GenesysVTT":"IVR","Lang":"en-us","Lang_Preference":"","LogSeqNum":1,"PhoneNANPCountry":"","TypeOfTransfer":"","wic_mobile_flag":"false"}|116
+2017-03-10/10:50:36.875940|6|16|0074018C-1003F927|wf_lookup http://vxmlapps/vxml/wunion/header/version1488565943/greeting/say_WelcomeNoID.vxml.php|116
+2017-03-10/10:50:36.875948|6|42|0074018C-1003F927|fetch_start document:http://vxmlapps/vxml/wunion/header/version1488565943/greeting/say_WelcomeNoID.vxml.php|116
+2017-03-10/10:50:36.921620|6|17|0074018C-1003F927|wf_arrived s (direct):http://vxmlapps/vxml/wunion/header/version1488565943/greeting/say_WelcomeNoID.vxml.php|116
+2017-03-10/10:50:36.921809|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:36.922039|6|41|0074018C-1003F927|compile_done :http://vxmlapps/vxml/wunion/header/version1488565943/greeting/say_WelcomeNoID.vxml.php|116
+2017-03-10/10:50:36.922126|6|79|0074018C-1003F927|root_appl root.vxml.php|116
+2017-03-10/10:50:36.922383|6|28|0074018C-1003F927|form_enter :start_WelcomeNoID|116
+2017-03-10/10:50:36.922462|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39366$_:BLOCK|116
+2017-03-10/10:50:36.922969|6|35|0074018C-1003F927|log say_WelcomeNoID,enter|116
+2017-03-10/10:50:36.923039|6|33|0074018C-1003F927|goto :#say_WelcomeNoID|116
+2017-03-10/10:50:36.923126|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:36.923262|6|28|0074018C-1003F927|form_enter :say_WelcomeNoID|116
+2017-03-10/10:50:36.927211|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/dynocat.js|116
+2017-03-10/10:50:36.941684|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/dynocat.js|116
+2017-03-10/10:50:36.969429|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39367$_:BLOCK|116
+2017-03-10/10:50:36.969622|6|35|0074018C-1003F927|log WicStdPromptAndCollect version 1.11.0 (20160428)|116
+2017-03-10/10:50:36.969977|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39368$_:BLOCK|116
+2017-03-10/10:50:36.970615|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:36.981999|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:36.983733|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:36.994912|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:37.2474|6|29|0074018C-1003F927|form_select :formField:FIELD|116
+2017-03-10/10:50:37.3842|6|24|0074018C-1003F927|input_start :DTMF|116
+2017-03-10/10:50:37.4116|6|18|0074018C-1003F927|prompt_begin |116
+2017-03-10/10:50:37.4253|6|42|0074018C-1003F927|fetch_start audio:http://promptstore/voice/wunion/header/en-us/WelcomeNoID.wav|116
+2017-03-10/10:50:37.38587|6|43|0074018C-1003F927|fetch_end Done (direct):http://promptstore/voice/wunion/header/en-us/WelcomeNoID.wav|116
+2017-03-10/10:50:37.38625|6|134|0074018C-1003F927|prompt_play audio|http://promptstore/voice/wunion/header/en-us/WelcomeNoID.wav|116
+2017-03-10/10:50:39.984792|6|19|0074018C-1003F927|prompt_end done|116
+2017-03-10/10:50:39.984980|6|25|0074018C-1003F927|input_end NO_INPUT||||||116
+2017-03-10/10:50:39.985064|6|34|0074018C-1003F927|event noinput:1||116
+2017-03-10/10:50:39.985155|6|80|0074018C-1003F927|event_handler_enter :noinput|http://vxmlapps/vxml/wunion/header/version1488565943/greeting/say_WelcomeNoID.vxml.php?CallerFirstName=&DNISBrand=WU&DNISType=GenPubUS&GenesysConnID=&GenesysVTT=IVR&Lang=en-us&Lang_Preference=&LogSeqNum=1&PhoneNANPCountry=&TypeOfTransfer=&wic_mobile_flag=false#say_WelcomeNoID#formField|116
+2017-03-10/10:50:39.986278|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:39.998038|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:40.1157|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:40.24010|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:40.33611|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:50:40.45022|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:50:40.108264|6|81|0074018C-1003F927|event_handler_exit :noinput|116
+2017-03-10/10:50:40.108521|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39372$_:BLOCK|116
+2017-03-10/10:50:40.108889|6|35|0074018C-1003F927|log WicStdPromptAndCollect END|116
+2017-03-10/10:50:40.109140|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39373$_:BLOCK|116
+2017-03-10/10:50:40.109284|6|33|0074018C-1003F927|goto :#check_LanguageMenuSet|116
+2017-03-10/10:50:40.109362|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:40.109512|6|28|0074018C-1003F927|form_enter :check_LanguageMenuSet|116
+2017-03-10/10:50:40.109607|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39374$_:BLOCK|116
+2017-03-10/10:50:40.109666|6|35|0074018C-1003F927|log  -----LanguageMenu------ en-us,es-us,zh-us,ht-us,fr-ca ---------- |116
+2017-03-10/10:50:40.109704|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39375$_:BLOCK|116
+2017-03-10/10:50:40.109753|6|35|0074018C-1003F927|log  -----DBStatusNotFound------  ---------- |116
+2017-03-10/10:50:40.109793|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39376$_:BLOCK|116
+2017-03-10/10:50:40.109850|6|35|0074018C-1003F927|log  ----- check_LanguageMenuSet (2) ---------- |116
+2017-03-10/10:50:40.109891|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39377$_:BLOCK|116
+2017-03-10/10:50:40.109957|6|33|0074018C-1003F927|goto :#exit_WelcomeNoID|116
+2017-03-10/10:50:40.110019|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:40.110134|6|28|0074018C-1003F927|form_enter :exit_WelcomeNoID|116
+2017-03-10/10:50:40.110190|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39378$_:BLOCK|116
+2017-03-10/10:50:40.110636|6|35|0074018C-1003F927|log say_WelcomeNoID,exit,greeting/prompt_LanguagePref.vxml.php|116
+2017-03-10/10:50:40.110856|6|78|0074018C-1003F927|submit http://vxmlapps/vxml/wunion/header/version1488565943/greeting/prompt_LanguagePref.vxml.php|namelist|{"LogSeqNum":1}|116
+2017-03-10/10:50:40.110989|6|16|0074018C-1003F927|wf_lookup http://vxmlapps/vxml/wunion/header/version1488565943/greeting/prompt_LanguagePref.vxml.php|116
+2017-03-10/10:50:40.111001|6|42|0074018C-1003F927|fetch_start document:http://vxmlapps/vxml/wunion/header/version1488565943/greeting/prompt_LanguagePref.vxml.php|116
+2017-03-10/10:50:40.167920|6|17|0074018C-1003F927|wf_arrived s (direct):http://vxmlapps/vxml/wunion/header/version1488565943/greeting/prompt_LanguagePref.vxml.php|116
+2017-03-10/10:50:40.168087|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:40.168316|6|41|0074018C-1003F927|compile_done :http://vxmlapps/vxml/wunion/header/version1488565943/greeting/prompt_LanguagePref.vxml.php|116
+2017-03-10/10:50:40.168388|6|79|0074018C-1003F927|root_appl root.vxml.php|116
+2017-03-10/10:50:40.168890|6|28|0074018C-1003F927|form_enter :start_prompt_LanguagePref|116
+2017-03-10/10:50:40.168961|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39379$_:BLOCK|116
+2017-03-10/10:50:40.169244|6|35|0074018C-1003F927|log prompt_LanguagePref,enter|116
+2017-03-10/10:50:40.169310|6|33|0074018C-1003F927|goto :#prompt_LanguagePref|116
+2017-03-10/10:50:40.169398|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:40.169533|6|28|0074018C-1003F927|form_enter :prompt_LanguagePref|116
+2017-03-10/10:50:40.173242|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/dynocat.js|116
+2017-03-10/10:50:40.187520|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/dynocat.js|116
+2017-03-10/10:50:40.215072|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39380$_:BLOCK|116
+2017-03-10/10:50:40.215157|6|35|0074018C-1003F927|log  prompt_LanguagePref---LanguageList-------- en-us,es-us,zh-us,ht-us,fr-ca ---------- |116
+2017-03-10/10:50:40.215218|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39381$_:BLOCK|116
+2017-03-10/10:50:40.215287|6|35|0074018C-1003F927|log  prompt_LanguagePref---GrammarList-------- en-us,es-us,zh-us,ht-us,fr-ca ---------- |116
+2017-03-10/10:50:40.215346|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39382$_:BLOCK|116
+2017-03-10/10:50:40.215582|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39383$_:BLOCK|116
+2017-03-10/10:50:40.215791|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39384$_:BLOCK|116
+2017-03-10/10:50:40.215873|6|35|0074018C-1003F927|log -- prompt_LanguagePref --_SESSION DefaultLanguage2---  ---------- |116
+2017-03-10/10:50:40.215943|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39385$_:BLOCK|116
+2017-03-10/10:50:40.216117|6|35|0074018C-1003F927|log WicStdPromptAndCollect version 1.11.0 (20160428)|116
+2017-03-10/10:50:40.216505|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39386$_:BLOCK|116
+2017-03-10/10:50:40.217116|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:40.222531|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:40.224218|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:40.235987|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:40.243555|6|29|0074018C-1003F927|form_select :formField:FIELD|116
+2017-03-10/10:50:40.248300|6|24|0074018C-1003F927|input_start :VOICE|DTMF|116
+2017-03-10/10:50:40.248819|6|42|0074018C-1003F927|fetch_start grammar:http://dgrammarstore/dgrammar/wunion/header/dtmf/wunion_header_lang.php?in=en-us,es-us,zh-us,ht-us,fr-ca|116
+2017-03-10/10:50:40.270769|6|43|0074018C-1003F927|fetch_end Done (direct):http://dgrammarstore/dgrammar/wunion/header/dtmf/wunion_header_lang.php?in=en-us,es-us,zh-us,ht-us,fr-ca|116
+2017-03-10/10:50:40.270842|6|18|0074018C-1003F927|prompt_begin |116
+2017-03-10/10:50:40.270961|6|42|0074018C-1003F927|fetch_start audio:http://promptstore/voice/wunion/header/en-us/ForThisLanguage.wav|116
+2017-03-10/10:50:40.294001|6|43|0074018C-1003F927|fetch_end Done (direct):http://promptstore/voice/wunion/header/en-us/ForThisLanguage.wav|116
+2017-03-10/10:50:40.294040|6|134|0074018C-1003F927|prompt_play audio|http://promptstore/voice/wunion/header/en-us/ForThisLanguage.wav|116
+2017-03-10/10:50:40.295305|6|42|0074018C-1003F927|fetch_start audio:http://promptstore/voice/wunion/header/en-us/press1.wav|116
+2017-03-10/10:50:40.318034|6|43|0074018C-1003F927|fetch_end Done (direct):http://promptstore/voice/wunion/header/en-us/press1.wav|116
+2017-03-10/10:50:40.318073|6|134|0074018C-1003F927|prompt_play audio|http://promptstore/voice/wunion/header/en-us/press1.wav|116
+2017-03-10/10:50:41.117055|6|134|0074018C-1003F927|prompt_play break||116
+2017-03-10/10:50:41.404030|6|19|0074018C-1003F927|prompt_end dtmfbargein|116
+2017-03-10/10:50:41.404056|6|27|0074018C-1003F927|dtmf :1|116
+2017-03-10/10:50:41.405578|6|25|0074018C-1003F927|input_end MATCHED|dtmf|Field|external|1|1.000000|116
+2017-03-10/10:50:41.405782|6|76|0074018C-1003F927|filling :prompt_LanguagePref.formField:Field:en-us|116
+2017-03-10/10:50:41.405920|6|32|0074018C-1003F927|filled_enter all|116
+2017-03-10/10:50:41.408998|6|35|0074018C-1003F927|log WicStdFormValue = en-us|116
+2017-03-10/10:50:41.409515|6|35|0074018C-1003F927|log WicStdFormConfidence = 100|116
+2017-03-10/10:50:41.409764|6|35|0074018C-1003F927|log WicStdFormUtterance = 1|116
+2017-03-10/10:50:41.410012|6|35|0074018C-1003F927|log WicStdFormInputMode = dtmf|116
+2017-03-10/10:50:41.410462|6|35|0074018C-1003F927|log WicStdCompleteNBestStr = +AskCue:en-us+AskCue$:+confidence:1^^^1^^^1^^^dtmf|116
+2017-03-10/10:50:41.410865|6|127|0074018C-1003F927|filled_exit |116
+2017-03-10/10:50:41.411188|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39389$_:BLOCK|116
+2017-03-10/10:50:41.411560|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:41.423015|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:41.425992|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:41.436964|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:41.446892|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:50:41.457914|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:50:41.518661|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39390$_:BLOCK|116
+2017-03-10/10:50:41.519102|6|35|0074018C-1003F927|log Summary : OK,en-us,0,0,dtmf,100,undefined|116
+2017-03-10/10:50:41.519201|6|35|0074018C-1003F927|log WicStdPromptAndCollect END|116
+2017-03-10/10:50:41.519418|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39391$_:BLOCK|116
+2017-03-10/10:50:41.519653|6|35|0074018C-1003F927|log *********** PnC WicStd Variables ***************** |116
+2017-03-10/10:50:41.519763|6|35|0074018C-1003F927|log WicStdResult is: OK|116
+2017-03-10/10:50:41.519869|6|35|0074018C-1003F927|log WicStdFormValue is: en-us|116
+2017-03-10/10:50:41.519986|6|35|0074018C-1003F927|log WicStdFormNomatchCount is: 0|116
+2017-03-10/10:50:41.520100|6|35|0074018C-1003F927|log WicStdFormNoinputCount is: 0|116
+2017-03-10/10:50:41.520216|6|35|0074018C-1003F927|log WicStdFormInputMode is: dtmf|116
+2017-03-10/10:50:41.520401|6|35|0074018C-1003F927|log WicStdError is: undefined|116
+2017-03-10/10:50:41.520518|6|35|0074018C-1003F927|log WicStdFormFailCount is: 0|116
+2017-03-10/10:50:41.521238|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/vxml/wunion/header/version1488565943/webservices/do_SetLanguage.xml.php|116
+2017-03-10/10:50:41.554977|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/vxml/wunion/header/version1488565943/webservices/do_SetLanguage.xml.php|116
+2017-03-10/10:50:41.560336|6|33|0074018C-1003F927|goto :#QueryLanguageBlock|116
+2017-03-10/10:50:41.560435|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:41.560682|6|28|0074018C-1003F927|form_enter :QueryLanguageBlock|116
+2017-03-10/10:50:41.560998|6|29|0074018C-1003F927|form_select :QueryLanguageBlock:SUBDIALOG|116
+2017-03-10/10:50:41.561653|6|22|0074018C-1003F927|subdialog_start :QueryLanguageBlock:http://vxmlapps/vxml/wunion/header/version1488565943/webservices/ModifyWunionSetLanguageBlock.vxml.php|param||116
+2017-03-10/10:50:41.561867|6|16|0074018C-1003F927|wf_lookup http://vxmlapps/vxml/wunion/header/version1488565943/webservices/ModifyWunionSetLanguageBlock.vxml.php|116
+2017-03-10/10:50:41.561882|6|42|0074018C-1003F927|fetch_start document:http://vxmlapps/vxml/wunion/header/version1488565943/webservices/ModifyWunionSetLanguageBlock.vxml.php|116
+2017-03-10/10:50:41.596211|6|17|0074018C-1003F927|wf_arrived s (direct):http://vxmlapps/vxml/wunion/header/version1488565943/webservices/ModifyWunionSetLanguageBlock.vxml.php|116
+2017-03-10/10:50:41.596417|6|16|0074018C-1003F927|wf_lookup http://vxmlapps/vxml/wunion/header/version1488565943/root.vxml.php|116
+2017-03-10/10:50:41.596425|6|42|0074018C-1003F927|fetch_start document:http://vxmlapps/vxml/wunion/header/version1488565943/root.vxml.php|116
+2017-03-10/10:50:41.658303|6|17|0074018C-1003F927|wf_arrived s (direct):http://vxmlapps/vxml/wunion/header/version1488565943/root.vxml.php|116
+2017-03-10/10:50:41.658842|6|38|0074018C-1003F927|parse_warning (,, line 45):Unknown property name: dtmfterm|116
+2017-03-10/10:50:41.663806|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root start|116
+2017-03-10/10:50:41.663939|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root WicStdClient = wunion|116
+2017-03-10/10:50:41.664069|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root pre-unit = |116
+2017-03-10/10:50:41.664199|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root post-unit = 3134|116
+2017-03-10/10:50:41.664340|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root theanswer = |116
+2017-03-10/10:50:41.664466|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root WicStdASRLoggingAlready = |116
+2017-03-10/10:50:41.664599|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root WicStdASRLogging = Y|116
+2017-03-10/10:50:41.664724|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root WicStdASRLogging2 = Y|116
+2017-03-10/10:50:41.664859|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root dologging = 1|116
+2017-03-10/10:50:41.664991|6|35|0074018C-1003F927|log DEBUG:nuance9_initialize_root doing logging = 1|116
+2017-03-10/10:50:41.692071|6|41|0074018C-1003F927|compile_done :http://vxmlapps/vxml/wunion/header/version1488565943/webservices/ModifyWunionSetLanguageBlock.vxml.php|116
+2017-03-10/10:50:41.692122|6|79|0074018C-1003F927|root_appl root.vxml.php|116
+2017-03-10/10:50:41.692293|6|28|0074018C-1003F927|form_enter :ModifyWunionSetLanguageBlock|116
+2017-03-10/10:50:41.692357|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39664$_:BLOCK|116
+2017-03-10/10:50:41.692456|6|35|0074018C-1003F927|log P3 = 'QUERYLANG','1234567899','20170310','20170409','en-us'|116
+2017-03-10/10:50:41.692505|6|35|0074018C-1003F927|log portrequest:Trying attempt 1|116
+2017-03-10/10:50:41.692548|6|35|0074018C-1003F927|log portrequest:Sending transaction to 5813@ibm90 for 3 seconds|116
+2017-03-10/10:50:41.692590|6|35|0074018C-1003F927|log portrequest:SUCCESS,,SUCCESS|NOTHERE|0|0||116
+2017-03-10/10:50:41.692770|6|35|0074018C-1003F927|log Status = NOTHERE|116
+2017-03-10/10:50:41.692990|6|23|0074018C-1003F927|subdialog_return :|namelist|{"status":"NOTHERE"}|116
+2017-03-10/10:50:41.693034|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:41.693247|6|76|0074018C-1003F927|filling :QueryLanguageBlock.QueryLanguageBlock:Subdialog:[object default]|116
+2017-03-10/10:50:41.693342|6|32|0074018C-1003F927|filled_enter all|116
+2017-03-10/10:50:41.693478|6|127|0074018C-1003F927|filled_exit |116
+2017-03-10/10:50:41.693537|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39393$_:BLOCK|116
+2017-03-10/10:50:41.693976|6|33|0074018C-1003F927|goto :#exit_LanguagePref|116
+2017-03-10/10:50:41.694038|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:41.694148|6|28|0074018C-1003F927|form_enter :exit_LanguagePref|116
+2017-03-10/10:50:41.694200|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39394$_:BLOCK|116
+2017-03-10/10:50:41.694350|6|35|0074018C-1003F927|log prompt_LanguagePref,exit,greeting/prompt_LanguagePref2.vxml.php|116
+2017-03-10/10:50:41.694656|6|78|0074018C-1003F927|submit http://vxmlapps/vxml/wunion/header/version1488565943/greeting/prompt_LanguagePref2.vxml.php|namelist|{"GenesysVTT":"IVR","Lang_Preference":"","LogSeqNum":1}|116
+2017-03-10/10:50:41.694798|6|16|0074018C-1003F927|wf_lookup http://vxmlapps/vxml/wunion/header/version1488565943/greeting/prompt_LanguagePref2.vxml.php|116
+2017-03-10/10:50:41.694804|6|42|0074018C-1003F927|fetch_start document:http://vxmlapps/vxml/wunion/header/version1488565943/greeting/prompt_LanguagePref2.vxml.php|116
+2017-03-10/10:50:41.751856|6|17|0074018C-1003F927|wf_arrived s (direct):http://vxmlapps/vxml/wunion/header/version1488565943/greeting/prompt_LanguagePref2.vxml.php|116
+2017-03-10/10:50:41.752030|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:41.752242|6|41|0074018C-1003F927|compile_done :http://vxmlapps/vxml/wunion/header/version1488565943/greeting/prompt_LanguagePref2.vxml.php|116
+2017-03-10/10:50:41.752307|6|79|0074018C-1003F927|root_appl root.vxml.php|116
+2017-03-10/10:50:41.752750|6|28|0074018C-1003F927|form_enter :check_Lang_Preference|116
+2017-03-10/10:50:41.752822|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39396$_:BLOCK|116
+2017-03-10/10:50:41.753351|6|35|0074018C-1003F927|log New Lang en-us and Date Diff 0 and Lang pref   and Lang en-us|116
+2017-03-10/10:50:41.753626|6|33|0074018C-1003F927|goto :#exit_LanguagePref2|116
+2017-03-10/10:50:41.753720|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:41.753847|6|28|0074018C-1003F927|form_enter :exit_LanguagePref2|116
+2017-03-10/10:50:41.753917|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39407$_:BLOCK|116
+2017-03-10/10:50:41.754105|6|35|0074018C-1003F927|log prompt_LanguagePref,exit,broadcast/do_realfeed_hit.vxml.php|116
+2017-03-10/10:50:41.754472|6|78|0074018C-1003F927|submit http://vxmlapps/vxml/wunion/header/version1488565943/broadcast/do_realfeed_hit.vxml.php|namelist|{"Lang_Preference":"","LogSeqNum":1}|116
+2017-03-10/10:50:41.754653|6|16|0074018C-1003F927|wf_lookup http://vxmlapps/vxml/wunion/header/version1488565943/broadcast/do_realfeed_hit.vxml.php|116
+2017-03-10/10:50:41.754661|6|42|0074018C-1003F927|fetch_start document:http://vxmlapps/vxml/wunion/header/version1488565943/broadcast/do_realfeed_hit.vxml.php|116
+2017-03-10/10:50:41.929494|6|17|0074018C-1003F927|wf_arrived s (direct):http://vxmlapps/vxml/wunion/header/version1488565943/broadcast/do_realfeed_hit.vxml.php|116
+2017-03-10/10:50:41.929663|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:41.929886|6|41|0074018C-1003F927|compile_done :http://vxmlapps/vxml/wunion/header/version1488565943/broadcast/do_realfeed_hit.vxml.php|116
+2017-03-10/10:50:41.929986|6|79|0074018C-1003F927|root_appl root.vxml.php|116
+2017-03-10/10:50:41.930691|6|28|0074018C-1003F927|form_enter :do_check_language|116
+2017-03-10/10:50:41.930764|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39665$_:BLOCK|116
+2017-03-10/10:50:41.931043|6|35|0074018C-1003F927|log SprintAB_Lang_Check,enter|116
+2017-03-10/10:50:41.931311|6|33|0074018C-1003F927|goto :#db_Check_realFeed|116
+2017-03-10/10:50:41.931395|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:41.931532|6|28|0074018C-1003F927|form_enter :db_Check_realFeed|116
+2017-03-10/10:50:41.931604|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39668$_:BLOCK|116
+2017-03-10/10:50:41.931882|6|35|0074018C-1003F927|log wunion_SprintAB_check,enter|116
+2017-03-10/10:50:41.931956|6|35|0074018C-1003F927|log portrequest:Trying attempt 1|116
+2017-03-10/10:50:41.932020|6|35|0074018C-1003F927|log portrequest:Sending transaction to ibm91_spy for 5 seconds|116
+2017-03-10/10:50:41.932101|6|35|0074018C-1003F927|log portrequest:SUCCESS,MTLSUCC,SUCCESS|broadcast~none,|116
+2017-03-10/10:50:41.932164|6|35|0074018C-1003F927|log result = Array(    [0] => SUCCESS    [1] => MTLSUCC    [2] => SUCCESS|broadcast~none    [3] => )|116
+2017-03-10/10:50:41.932229|6|35|0074018C-1003F927|log transaction history = Array(    [0] => ;ibm91_spy;0.046034812927246;SUCCESS;)|116
+2017-03-10/10:50:41.932820|6|35|0074018C-1003F927|log wunion_SprintAB_check,exit,strategyeng/if_CPAY_check.vxml.php|116
+2017-03-10/10:50:41.933121|6|78|0074018C-1003F927|submit http://vxmlapps/vxml/wunion/header/version1488565943/strategyeng/if_CPAY_check.vxml.php|namelist|{"LogSeqNum":1}|116
+2017-03-10/10:50:41.933319|6|16|0074018C-1003F927|wf_lookup http://vxmlapps/vxml/wunion/header/version1488565943/strategyeng/if_CPAY_check.vxml.php|116
+2017-03-10/10:50:41.933331|6|42|0074018C-1003F927|fetch_start document:http://vxmlapps/vxml/wunion/header/version1488565943/strategyeng/if_CPAY_check.vxml.php|116
+2017-03-10/10:50:41.967079|6|17|0074018C-1003F927|wf_arrived s (direct):http://vxmlapps/vxml/wunion/header/version1488565943/strategyeng/if_CPAY_check.vxml.php|116
+2017-03-10/10:50:41.967246|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:41.967479|6|41|0074018C-1003F927|compile_done :http://vxmlapps/vxml/wunion/header/version1488565943/strategyeng/if_CPAY_check.vxml.php|116
+2017-03-10/10:50:41.967548|6|79|0074018C-1003F927|root_appl root.vxml.php|116
+2017-03-10/10:50:41.967792|6|28|0074018C-1003F927|form_enter :start_if_CPAY_check|116
+2017-03-10/10:50:41.967861|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39412$_:BLOCK|116
+2017-03-10/10:50:41.968145|6|35|0074018C-1003F927|log if_CPAY_check,enter|116
+2017-03-10/10:50:41.968212|6|33|0074018C-1003F927|goto :#if_CPAY_check|116
+2017-03-10/10:50:41.968299|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:41.968441|6|28|0074018C-1003F927|form_enter :if_CPAY_check|116
+2017-03-10/10:50:41.968507|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39413$_:BLOCK|116
+2017-03-10/10:50:41.968927|6|33|0074018C-1003F927|goto :#exit_if_CPAY_check|116
+2017-03-10/10:50:41.969012|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:41.969170|6|28|0074018C-1003F927|form_enter :exit_if_CPAY_check|116
+2017-03-10/10:50:41.969236|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39414$_:BLOCK|116
+2017-03-10/10:50:41.969468|6|35|0074018C-1003F927|log if_CPAY_check,exit,strategyeng/if_MTBPchk.vxml.php|116
+2017-03-10/10:50:41.969773|6|78|0074018C-1003F927|submit http://vxmlapps/vxml/wunion/header/version1488565943/strategyeng/if_MTBPchk.vxml.php|namelist|{"LogSeqNum":1}|116
+2017-03-10/10:50:41.969955|6|16|0074018C-1003F927|wf_lookup http://vxmlapps/vxml/wunion/header/version1488565943/strategyeng/if_MTBPchk.vxml.php|116
+2017-03-10/10:50:41.969991|6|42|0074018C-1003F927|fetch_start document:http://vxmlapps/vxml/wunion/header/version1488565943/strategyeng/if_MTBPchk.vxml.php|116
+2017-03-10/10:50:42.3080|6|17|0074018C-1003F927|wf_arrived s (direct):http://vxmlapps/vxml/wunion/header/version1488565943/strategyeng/if_MTBPchk.vxml.php|116
+2017-03-10/10:50:42.3250|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:42.3510|6|41|0074018C-1003F927|compile_done :http://vxmlapps/vxml/wunion/header/version1488565943/strategyeng/if_MTBPchk.vxml.php|116
+2017-03-10/10:50:42.3581|6|79|0074018C-1003F927|root_appl root.vxml.php|116
+2017-03-10/10:50:42.3813|6|28|0074018C-1003F927|form_enter :start_if_MTBPchk|116
+2017-03-10/10:50:42.3880|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39415$_:BLOCK|116
+2017-03-10/10:50:42.4161|6|35|0074018C-1003F927|log if_MTBPchk,enter|116
+2017-03-10/10:50:42.4244|6|33|0074018C-1003F927|goto :#if_MTBPchk|116
+2017-03-10/10:50:42.4325|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:42.4468|6|28|0074018C-1003F927|form_enter :if_MTBPchk|116
+2017-03-10/10:50:42.4537|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39416$_:BLOCK|116
+2017-03-10/10:50:42.5043|6|33|0074018C-1003F927|goto :#exit_if_MTBPchk|116
+2017-03-10/10:50:42.5125|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:42.5257|6|28|0074018C-1003F927|form_enter :exit_if_MTBPchk|116
+2017-03-10/10:50:42.5326|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39417$_:BLOCK|116
+2017-03-10/10:50:42.5527|6|35|0074018C-1003F927|log if_MTBPchk,exit,strategyeng/get_validation.vxml.php|116
+2017-03-10/10:50:42.5818|6|78|0074018C-1003F927|submit http://vxmlapps/vxml/wunion/header/version1488565943/strategyeng/get_validation.vxml.php|namelist|{"LogSeqNum":1}|116
+2017-03-10/10:50:42.5991|6|16|0074018C-1003F927|wf_lookup http://vxmlapps/vxml/wunion/header/version1488565943/strategyeng/get_validation.vxml.php|116
+2017-03-10/10:50:42.5999|6|42|0074018C-1003F927|fetch_start document:http://vxmlapps/vxml/wunion/header/version1488565943/strategyeng/get_validation.vxml.php|116
+2017-03-10/10:50:42.790550|6|17|0074018C-1003F927|wf_arrived s (direct):http://vxmlapps/vxml/wunion/header/version1488565943/strategyeng/get_validation.vxml.php|116
+2017-03-10/10:50:42.790708|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:42.790915|6|41|0074018C-1003F927|compile_done :http://vxmlapps/vxml/wunion/header/version1488565943/strategyeng/get_validation.vxml.php|116
+2017-03-10/10:50:42.790990|6|79|0074018C-1003F927|root_appl root.vxml.php|116
+2017-03-10/10:50:42.792302|6|28|0074018C-1003F927|form_enter :wssi_phonelookup_form|116
+2017-03-10/10:50:42.792376|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39669$_:BLOCK|116
+2017-03-10/10:50:42.792681|6|35|0074018C-1003F927|log Phone Lookup,enter|116
+2017-03-10/10:50:42.792748|6|35|0074018C-1003F927|log portrequest:Trying attempt 1|116
+2017-03-10/10:50:42.792813|6|35|0074018C-1003F927|log portrequest:Sending transaction to wssi_mtl_Dev for 5 seconds|116
+2017-03-10/10:50:42.792878|6|35|0074018C-1003F927|log portrequest:SUCCESS,MTLSUCC,Array,|116
+2017-03-10/10:50:42.792940|6|35|0074018C-1003F927|log transaction history = Array(    [0] => ;wssi_mtl_Dev;0.61296105384827;SUCCESS;)|116
+2017-03-10/10:50:42.793017|6|35|0074018C-1003F927|log WSSIStatus=SUCCESS,WSSITranId=93016.22163340.AX,WSSIQRCount=1,WSSIServerData=wssiMTLproxy,linux4303|wssilbir,linux4303|wssiagent,linux4303|wssixpath,linux4303|Client URL,https://206.201.231.220:443/MTDetails_Service_H2H|116
+2017-03-10/10:50:42.793080|6|35|0074018C-1003F927|log WSSIStatus=SUCCESS,WSSITranId=93016.22163340.AX,WSSIQRCount=1|116
+2017-03-10/10:50:42.793751|6|35|0074018C-1003F927|log  Filin Date is  |116
+2017-03-10/10:50:42.793820|6|35|0074018C-1003F927|log  MTCN  is  |116
+2017-03-10/10:50:42.794355|6|33|0074018C-1003F927|goto :#db_Check_dnc|116
+2017-03-10/10:50:42.794443|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:42.794574|6|28|0074018C-1003F927|form_enter :db_Check_dnc|116
+2017-03-10/10:50:42.794643|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39670$_:BLOCK|116
+2017-03-10/10:50:42.794928|6|35|0074018C-1003F927|log wunion_dnc_DbHit,enter|116
+2017-03-10/10:50:42.794998|6|35|0074018C-1003F927|log portrequest:Trying attempt 1|116
+2017-03-10/10:50:42.795063|6|35|0074018C-1003F927|log portrequest:Sending transaction to ibm90_spy for 5 seconds|116
+2017-03-10/10:50:42.795124|6|35|0074018C-1003F927|log portrequest:SUCCESS,MTLSUCC,{NONE 0 0 {} {} {}},|116
+2017-03-10/10:50:42.795186|6|35|0074018C-1003F927|log result = Array(    [0] => SUCCESS    [1] => MTLSUCC    [2] => {NONE 0 0 {} {} {}}    [3] => )|116
+2017-03-10/10:50:42.795259|6|35|0074018C-1003F927|log transaction history = Array(    [0] => ;ibm90_spy;0.053524017333984;SUCCESS;)|116
+2017-03-10/10:50:42.795548|6|33|0074018C-1003F927|goto :#wu_get_strategy_info|116
+2017-03-10/10:50:42.795632|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:42.795770|6|28|0074018C-1003F927|form_enter :wu_get_strategy_info|116
+2017-03-10/10:50:42.795835|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39671$_:BLOCK|116
+2017-03-10/10:50:42.796103|6|35|0074018C-1003F927|log StrategyEngine,enter|116
+2017-03-10/10:50:42.796177|6|35|0074018C-1003F927|log portrequest:Trying attempt 1|116
+2017-03-10/10:50:42.796243|6|35|0074018C-1003F927|log portrequest:Sending transaction to ibm91_spy for 5 seconds|116
+2017-03-10/10:50:42.796419|6|35|0074018C-1003F927|log portrequest:SUCCESS,MTLSUCC,{OK 0 0 ANI string} {OK 0 0 ANILast2Digits numeric} {OK 0 0 AccountActiveFlag NO} {OK 0 0 AccountExpiryDate datetime} {OK 0 0 AccountKey string} {OK 0 0 AccountLocked NO} {OK 0 0 AccountLockedDate datetime} {OK 0 0 AccountTypeID 0} {OK 0 0 CallALCityState string} {OK 0 0 CallALZip string} {OK 0 0 CallDate datetime} {OK 0 0 CallDisposition C} {OK 0 0 CallMTCN string} {OK 0 0 CallMTPhone string} {OK 0 0 CallMTStatus string} {OK 0 0 CallTime datetime} {OK 0 0 CardChangeCount numeric} {OK 0 0 CardDiscount string} {OK 0 0 CardFirstUse string} {OK 0 0 CardFirstUseDate datetime} {OK 0 0 CardIssueDate datetime} {OK 0 0 CardLastUseDate datetime} {OK 0 0 CardLevelCode string} {OK 0 0 CardOptInOut N} {OK 0 0 CardReplaceCount string} {OK 0 0 CardStatus string} {OK 0 0 CardTotalPoints numeric} {OK 0 0 CardType string} {OK 0 0 City string} {OK 0 0 Company string} {OK 0 0 Country string} {OK 0 0 CountryCodeIS02 string} {OK 0 0 CountryCodeIS03 string} {OK 0 0 CountryCodeUNI string} {OK 0 0 Currency string} {OK 0 0 CustomerGaurantee string} {OK 0 0 CustomerUMN numeric} {OK 0 0 DFFlag N} {OK 0 0 DFPickUp numeric} {OK 0 0 DNIS string} {OK 0 0 DNISCountry string} {OK 0 0 DOB datetime} {OK 0 0 DestCountry string} {OK 0 0 DestCurrency string} {OK 0 0 EmailValue string} {OK 0 0 ExpectedPayoutCity string} {OK 0 0 ExpectedPayoutState string} {OK 0 0 FileDate datetime} {OK 0 0 FileTime string} {OK 0 0 FirstName string} {OK 0 0 Gender F} {OK 0 0 ISDCode string} {OK 0 0 IntentAnswer string} {OK 0 0 IntentQuestion string} {OK 0 0 Language ar-sa} {OK 0 0 LastAccessedDate datetime} {OK 0 0 LastName string} {OK 0 0 LastNameMaternal string} {OK 0 0 LastNamePaternal string} {OK 0 0 LevelCode string} {OK 0 0 MTBusinessName string} {OK 0 0 MTCN string} {OK 0 0 MTCity string} {OK 0 0 MTCountryCode string} {OK 0 0 MTCurrencyCode string} {OK 0 0 MTEmail string} {OK 0 0 MTKey string} {OK 0 0 MTLookup string} {OK 0 0 MTPostalCode string} {OK 0 0 MTPreferredNo string} {OK 0 0 MTState string} {OK 0 0 MTStatus ACPT} {OK 0 0 MTType ACM} {OK 0 0 MTZipCode string} {OK 0 0 MenuSelection string} {OK 0 0 MyWU N} {OK 0 0 NoOfReceiver string} {OK 0 0 OPRValidationFlag {}} {OK 0 0 OptInForDirectMail N} {OK 0 0 OptInForEmail N} {OK 0 0 OptInForNews N} {OK 0 0 OptInForPhone N} {OK 0 0 OptInForSMS N} {OK 0 0 OptInForShare N} {OK 0 0 OptInPartnerOffers N} {OK 0 0 OrigCity string} {OK 0 0 OrigCountry string} {OK 0 0 OrigCurrency string} {OK 0 0 PCPNumber numeric} {OK 0 0 PaidDateTime datetime} {OK 0 0 PayoutCity string} {OK 0 0 PayoutState string} {OK 0 0 PhoneNumber numeric} {OK 0 0 PhoneType 1} {OK 0 0 PrefLanguageCode AD} {OK 0 0 PrefMthdOfContactCodeType D} {OK 0 0 PrincipalAmount numeric} {OK 0 0 PrivacyRequested N} {OK 0 0 RatingCode 0} {OK 0 0 RatingDate datetime} {OK 0 0 SenderFirstName string} {OK 0 0 SenderLastName string} {OK 0 0 StateProvince string} {OK 0 0 TrafficFlag {}} {OK 0 0 ValidationDate datetime} {OK 0 0 ZipPostalCode string},|116
+2017-03-10/10:50:42.796616|6|35|0074018C-1003F927|log result = Array(    [0] => SUCCESS    [1] => MTLSUCC    [2] => {OK 0 0 ANI string} {OK 0 0 ANILast2Digits numeric} {OK 0 0 AccountActiveFlag NO} {OK 0 0 AccountExpiryDate datetime} {OK 0 0 AccountKey string} {OK 0 0 AccountLocked NO} {OK 0 0 AccountLockedDate datetime} {OK 0 0 AccountTypeID 0} {OK 0 0 CallALCityState string} {OK 0 0 CallALZip string} {OK 0 0 CallDate datetime} {OK 0 0 CallDisposition C} {OK 0 0 CallMTCN string} {OK 0 0 CallMTPhone string} {OK 0 0 CallMTStatus string} {OK 0 0 CallTime datetime} {OK 0 0 CardChangeCount numeric} {OK 0 0 CardDiscount string} {OK 0 0 CardFirstUse string} {OK 0 0 CardFirstUseDate datetime} {OK 0 0 CardIssueDate datetime} {OK 0 0 CardLastUseDate datetime} {OK 0 0 CardLevelCode string} {OK 0 0 CardOptInOut N} {OK 0 0 CardReplaceCount string} {OK 0 0 CardStatus string} {OK 0 0 CardTotalPoints numeric} {OK 0 0 CardType string} {OK 0 0 City string} {OK 0 0 Company string} {OK 0 0 Country string} {OK 0 0 CountryCodeIS02 string} {OK 0 0 CountryCodeIS03 string} {OK 0 0 CountryCodeUNI string} {OK 0 0 Currency string} {OK 0 0 CustomerGaurantee string} {OK 0 0 CustomerUMN numeric} {OK 0 0 DFFlag N} {OK 0 0 DFPickUp numeric} {OK 0 0 DNIS string} {OK 0 0 DNISCountry string} {OK 0 0 DOB datetime} {OK 0 0 DestCountry string} {OK 0 0 DestCurrency string} {OK 0 0 EmailValue string} {OK 0 0 ExpectedPayoutCity string} {OK 0 0 ExpectedPayoutState string} {OK 0 0 FileDate datetime} {OK 0 0 FileTime string} {OK 0 0 FirstName string} {OK 0 0 Gender F} {OK 0 0 ISDCode string} {OK 0 0 IntentAnswer string} {OK 0 0 IntentQuestion string} {OK 0 0 Language ar-sa} {OK 0 0 LastAccessedDate datetime} {OK 0 0 LastName string} {OK 0 0 LastNameMaternal string} {OK 0 0 LastNamePaternal string} {OK 0 0 LevelCode string} {OK 0 0 MTBusinessName string} {OK 0 0 MTCN string} {OK 0 0 MTCity string} {OK 0 0 MTCountryCode string} {OK 0 0 MTCurrencyCode string} {OK 0 0 MTEmail string} {OK 0 0 MTKey string} {OK 0 0 MTLookup string} {OK 0 0 MTPostalCode string} {OK 0 0 MTPreferredNo string} {OK 0 0 MTState string} {OK 0 0 MTStatus ACPT} {OK 0 0 MTType ACM} {OK 0 0 MTZipCode string} {OK 0 0 MenuSelection string} {OK 0 0 MyWU N} {OK 0 0 NoOfReceiver string} {OK 0 0 OPRValidationFlag {}} {OK 0 0 OptInForDirectMail N} {OK 0 0 OptInForEmail N} {OK 0 0 OptInForNews N} {OK 0 0 OptInForPhone N} {OK 0 0 OptInForSMS N} {OK 0 0 OptInForShare N} {OK 0 0 OptInPartnerOffers N} {OK 0 0 OrigCity string} {OK 0 0 OrigCountry string} {OK 0 0 OrigCurrency string} {OK 0 0 PCPNumber numeric} {OK 0 0 PaidDateTime datetime} {OK 0 0 PayoutCity string} {OK 0 0 PayoutState string} {OK 0 0 PhoneNumber numeric} {OK 0 0 PhoneType 1} {OK 0 0 PrefLanguageCode AD} {OK 0 0 PrefMthdOfContactCodeType D} {OK 0 0 PrincipalAmount numeric} {OK 0 0 PrivacyRequested N} {OK 0 0 RatingCode 0} {OK 0 0 RatingDate datetime} {OK 0 0 SenderFirstName string} {OK 0 0 SenderLastName string} {OK 0 0 StateProvince string} {OK 0 0 TrafficFlag {}} {OK 0 0 ValidationDate datetime} {OK 0 0 ZipPostalCode string}    [3] => )|116
+2017-03-10/10:50:42.796710|6|35|0074018C-1003F927|log transaction history = Array(    [0] => ;ibm91_spy;0.018427848815918;SUCCESS;)|116
+2017-03-10/10:50:42.796783|6|35|0074018C-1003F927|log PrincipalAmountValue = |116
+2017-03-10/10:50:42.796844|6|35|0074018C-1003F927|log CTVField:6008848 |116
+2017-03-10/10:50:42.796903|6|35|0074018C-1003F927|log get_validation.vxml.php  - new_call_time_format : 2017-03-10 09:48:00 |116
+2017-03-10/10:50:42.796969|6|35|0074018C-1003F927|log  get_validation.vxml.php - DNISCountry = (US)|116
+2017-03-10/10:50:42.797200|6|35|0074018C-1003F927|log wu_get_strategy_info input data - "2017-03-10 10:50:42","SET{ROW(ANI,1234567899),ROW(ANILast2Digits,0),ROW(AccountActiveFlag,NU),ROW(AccountExpiryDate,NU),ROW(AccountKey,NU),ROW(AccountLocked,NU),ROW(AccountLockedDate,NU),ROW(AccountTypeID,NU),ROW(CallALCityState,NU),ROW(CallALZip,NU),ROW(CallDate,03/10/2017),ROW(CallDisposition,H),ROW(CallMTCN,NU),ROW(CallMTPhone,NU),ROW(CallMTStatus,NU),ROW(CallTime,2017-03-10 09:48:00),ROW(CardChangeCount,0),ROW(CardDiscount,NU),ROW(CardFirstUse,NU),ROW(CardFirstUseDate,NU),ROW(CardIssueDate,NU),ROW(CardLastUseDate,NU),ROW(CardLevelCode,NU),ROW(CardOptInOut,NU),ROW(CardReplaceCount,NU),ROW(CardStatus,NU),ROW(CardTotalPoints,0),ROW(CardType,NU),ROW(City,NU),ROW(Company,NU),ROW(Country,US),ROW(CountryCodeIS02,NU),ROW(CountryCodeIS03,NU),ROW(CountryCodeUNI,NU),ROW(Currency,NU),ROW(CustomerGaurantee,NU),ROW(CustomerUMN,0),ROW(DFFlag,N),ROW(DFPickUp,0),ROW(DNIS,6008848),ROW(DNISCountry,US),ROW(DOB,NU),ROW(DestCountry,US),ROW(DestCurrency,NU),ROW(EmailValue,NU),ROW(ExpectedPayoutCity,NU),ROW(ExpectedPayoutState,NU),ROW(FileDate,NU),ROW(FileTime,NU),ROW(FirstName,NU),ROW(Gender,NU),ROW(ISDCode,NU),ROW(IntentAnswer,No),ROW(IntentQuestion,status3),ROW(Language,en-us),ROW(LastAccessedDate,NU),ROW(LastName,NU),ROW(LastNameMaternal,NU),ROW(LastNamePaternal,NU),ROW(LevelCode,NU),ROW(MTBusinessName,NU),ROW(MTCN,NU),ROW(MTCity,NU),ROW(MTCountryCode,NU),ROW(MTCurrencyCode,NU),ROW(MTEmail,NU),ROW(MTKey,NU),ROW(MTLookup,NU),ROW(MTPostalCode,NU),ROW(MTPreferredNo,NU),ROW(MTState,NU),ROW(MTStatus,NU),ROW(MTType,NU),ROW(MTZipCode,NU),ROW(MenuSelection,fraud),ROW(MyWU,NU),ROW(NoOfReceiver,NU),ROW(OPRValidationFlag,NU),ROW(OptInForDirectMail,NU),ROW(OptInForEmail,NU),ROW(OptInForNews,NU),ROW(OptInForPhone,NU),ROW(OptInForSMS,NU),ROW(OptInForShare,NU),ROW(OptInPartnerOffers,NU),ROW(OrigCity,NU),ROW(OrigCountry,US),ROW(OrigCurrency,NU),ROW(PCPNumber,0),ROW(PaidDateTime,NU),ROW(PayoutCity,NU),ROW(PayoutState,NU),ROW(PhoneNumber,0),ROW(PhoneType,NU),ROW(PrefLanguageCode,NU),FROW(PrefMthdOfContactCodeType,NU),ROW(PrincipalAmount,0),ROW(PrivacyRequested,NU),ROW(RatingCode,NU),ROW(RatingDate,NU),ROW(SenderFirstName,NU),ROW(SenderLastName,NU),ROW(StateProvince,NU),ROW(TrafficFlag,NU),ROW(ValidationDate,NU),ROW(ZipPostalCode,NU)}"|116
+2017-03-10/10:50:42.797323|6|35|0074018C-1003F927|log portrequest:Trying attempt 1|116
+2017-03-10/10:50:42.797397|6|35|0074018C-1003F927|log portrequest:Sending transaction to ibm91_spy for 5 seconds|116
+2017-03-10/10:50:42.797460|6|35|0074018C-1003F927|log portrequest:SUCCESS,MTLSUCC,{SUCC 430 1 {Sprint 6 6008848 static} status3|sndmn,chnge,feert,agtlc,myopt|enrwu,stat2,issue,myopt|fraud,ppaid,mnyor,mmenu,agent},|116
+2017-03-10/10:50:42.797525|6|35|0074018C-1003F927|log result = Array(    [0] => SUCCESS    [1] => MTLSUCC    [2] => {SUCC 430 1 {Sprint 6 6008848 static} status3|sndmn,chnge,feert,agtlc,myopt|enrwu,stat2,issue,myopt|fraud,ppaid,mnyor,mmenu,agent}    [3] => )|116
+2017-03-10/10:50:42.797598|6|35|0074018C-1003F927|log transaction history = Array(    [0] => ;ibm91_spy;0.053944110870361;SUCCESS;)|116
+2017-03-10/10:50:42.797659|6|35|0074018C-1003F927|log  Rule Name = Sprint 6 6008848 staticstatus3|sndmn,chnge,feert,agtlc,myopt|enrwu,stat2,issue,myopt|fraud,ppaid,mnyor,mmenu,agent|116
+2017-03-10/10:50:42.797720|6|35|0074018C-1003F927|log  Strategy Data  = status3|sndmn,chnge,feert,agtlc,myopt|enrwu,stat2,issue,myopt|fraud,ppaid,mnyor,mmenu,agent|116
+2017-03-10/10:50:42.797970|6|35|0074018C-1003F927|log  PI_QSTN  Status = (status3)|116
+2017-03-10/10:50:42.798140|6|35|0074018C-1003F927|log  Menu option = sndmn,chnge,feert,agtlc,myopt|116
+2017-03-10/10:50:42.798382|6|35|0074018C-1003F927|log  More option = enrwu,stat2,issue,myopt|116
+2017-03-10/10:50:42.798553|6|35|0074018C-1003F927|log  Final option = fraud,ppaid,mnyor,mmenu,agent|116
+2017-03-10/10:50:42.798715|6|35|0074018C-1003F927|log 1739 - PI_QSTN  Status = (status3)|116
+2017-03-10/10:50:42.799348|6|33|0074018C-1003F927|goto :#exit_get_validation|116
+2017-03-10/10:50:42.799432|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:42.799563|6|28|0074018C-1003F927|form_enter :exit_get_validation|116
+2017-03-10/10:50:42.799635|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39672$_:BLOCK|116
+2017-03-10/10:50:42.799827|6|35|0074018C-1003F927|log StrategyEngine,exit,predintent/prompt_IntentStatus3.vxml.php|116
+2017-03-10/10:50:42.800193|6|78|0074018C-1003F927|submit http://vxmlapps/vxml/wunion/header/version1488565943/predintent/prompt_IntentStatus3.vxml.php|namelist|{"BrandedPredictiveIntentQstn":"predintent/prompt_IntentStatus3.vxml.php","GenesysVTT":"IVR"}|116
+2017-03-10/10:50:42.800396|6|16|0074018C-1003F927|wf_lookup http://vxmlapps/vxml/wunion/header/version1488565943/predintent/prompt_IntentStatus3.vxml.php|116
+2017-03-10/10:50:42.800404|6|42|0074018C-1003F927|fetch_start document:http://vxmlapps/vxml/wunion/header/version1488565943/predintent/prompt_IntentStatus3.vxml.php|116
+2017-03-10/10:50:42.858455|6|17|0074018C-1003F927|wf_arrived s (direct):http://vxmlapps/vxml/wunion/header/version1488565943/predintent/prompt_IntentStatus3.vxml.php|116
+2017-03-10/10:50:42.858621|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:42.858840|6|41|0074018C-1003F927|compile_done :http://vxmlapps/vxml/wunion/header/version1488565943/predintent/prompt_IntentStatus3.vxml.php|116
+2017-03-10/10:50:42.858906|6|79|0074018C-1003F927|root_appl root.vxml.php|116
+2017-03-10/10:50:42.859146|6|28|0074018C-1003F927|form_enter :start_prompt_IntentStatus3|116
+2017-03-10/10:50:42.859214|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39422$_:BLOCK|116
+2017-03-10/10:50:42.859511|6|35|0074018C-1003F927|log prompt_IntentStatus3,enter|116
+2017-03-10/10:50:42.859571|6|33|0074018C-1003F927|goto :#prompt_IntentStatus3|116
+2017-03-10/10:50:42.859658|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:42.859789|6|28|0074018C-1003F927|form_enter :prompt_IntentStatus3|116
+2017-03-10/10:50:42.863495|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/dynocat.js|116
+2017-03-10/10:50:42.877667|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/dynocat.js|116
+2017-03-10/10:50:42.902998|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39423$_:BLOCK|116
+2017-03-10/10:50:42.903135|6|35|0074018C-1003F927|log WicStdPromptAndCollect version 1.11.0 (20160428)|116
+2017-03-10/10:50:42.903409|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39424$_:BLOCK|116
+2017-03-10/10:50:42.903856|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:42.914998|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:42.916862|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:42.927974|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:42.935638|6|29|0074018C-1003F927|form_select :formField:FIELD|116
+2017-03-10/10:50:42.937693|6|24|0074018C-1003F927|input_start :VOICE|DTMF|116
+2017-03-10/10:50:42.938073|6|42|0074018C-1003F927|fetch_start grammar:http://grammarstore/grammar/wunion/header/dtmf/wunion_header_dtmf_IntentStatus3.grxml|116
+2017-03-10/10:50:42.943644|6|43|0074018C-1003F927|fetch_end Done (direct):http://grammarstore/grammar/wunion/header/dtmf/wunion_header_dtmf_IntentStatus3.grxml|116
+2017-03-10/10:50:42.943715|6|18|0074018C-1003F927|prompt_begin |116
+2017-03-10/10:50:42.943862|6|42|0074018C-1003F927|fetch_start audio:http://promptstore/voice/wunion/header/en-us/IntentStatus3.wav|116
+2017-03-10/10:50:42.988729|6|43|0074018C-1003F927|fetch_end Done (direct):http://promptstore/voice/wunion/header/en-us/IntentStatus3.wav|116
+2017-03-10/10:50:42.988769|6|134|0074018C-1003F927|prompt_play audio|http://promptstore/voice/wunion/header/en-us/IntentStatus3.wav|116
+2017-03-10/10:50:47.704603|6|19|0074018C-1003F927|prompt_end dtmfbargein|116
+2017-03-10/10:50:47.704637|6|27|0074018C-1003F927|dtmf :2|116
+2017-03-10/10:50:47.706090|6|25|0074018C-1003F927|input_end MATCHED|dtmf|Field|external|2|1.000000|116
+2017-03-10/10:50:47.706268|6|76|0074018C-1003F927|filling :prompt_IntentStatus3.formField:Field:no|116
+2017-03-10/10:50:47.706412|6|32|0074018C-1003F927|filled_enter all|116
+2017-03-10/10:50:47.709502|6|35|0074018C-1003F927|log WicStdFormValue = no|116
+2017-03-10/10:50:47.710009|6|35|0074018C-1003F927|log WicStdFormConfidence = 100|116
+2017-03-10/10:50:47.710304|6|35|0074018C-1003F927|log WicStdFormUtterance = 2|116
+2017-03-10/10:50:47.710557|6|35|0074018C-1003F927|log WicStdFormInputMode = dtmf|116
+2017-03-10/10:50:47.710988|6|35|0074018C-1003F927|log WicStdCompleteNBestStr = +AskCue:no+AskCue$:+confidence:1^^^1^^^2^^^dtmf|116
+2017-03-10/10:50:47.711408|6|127|0074018C-1003F927|filled_exit |116
+2017-03-10/10:50:47.711717|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39427$_:BLOCK|116
+2017-03-10/10:50:47.712076|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:47.723730|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:47.726748|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:47.737805|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:47.747950|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:50:47.758804|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:50:47.819497|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39428$_:BLOCK|116
+2017-03-10/10:50:47.819915|6|35|0074018C-1003F927|log Summary : OK,no,0,0,dtmf,100,undefined|116
+2017-03-10/10:50:47.820018|6|35|0074018C-1003F927|log WicStdPromptAndCollect END|116
+2017-03-10/10:50:47.820226|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39429$_:BLOCK|116
+2017-03-10/10:50:47.820305|6|35|0074018C-1003F927|log *********** PnC WicStd Variables ***************** |116
+2017-03-10/10:50:47.820502|6|35|0074018C-1003F927|log WicStdResult is: OK|116
+2017-03-10/10:50:47.820617|6|35|0074018C-1003F927|log WicStdFormValue is: no|116
+2017-03-10/10:50:47.820726|6|35|0074018C-1003F927|log WicStdFormNomatchCount is: 0|116
+2017-03-10/10:50:47.820840|6|35|0074018C-1003F927|log WicStdFormNoinputCount is: 0|116
+2017-03-10/10:50:47.820949|6|35|0074018C-1003F927|log WicStdFormInputMode is: dtmf|116
+2017-03-10/10:50:47.821063|6|35|0074018C-1003F927|log WicStdError is: undefined|116
+2017-03-10/10:50:47.821177|6|35|0074018C-1003F927|log WicStdFormFailCount is: 0|116
+2017-03-10/10:50:47.821788|6|33|0074018C-1003F927|goto :#exit_IntentStatus3|116
+2017-03-10/10:50:47.821856|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:47.822039|6|28|0074018C-1003F927|form_enter :exit_IntentStatus3|116
+2017-03-10/10:50:47.822092|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39430$_:BLOCK|116
+2017-03-10/10:50:47.822244|6|35|0074018C-1003F927|log prompt_IntentStatus3,exit,mainmenu/do_CheckMainMenuAB.vxml.php|116
+2017-03-10/10:50:47.822564|6|78|0074018C-1003F927|submit http://vxmlapps/vxml/wunion/header/version1488565943/mainmenu/do_CheckMainMenuAB.vxml.php|namelist|{"GenesysVTT":"IVR","LogSeqNum":1,"PI_ANS":"No"}|116
+2017-03-10/10:50:47.822709|6|16|0074018C-1003F927|wf_lookup http://vxmlapps/vxml/wunion/header/version1488565943/mainmenu/do_CheckMainMenuAB.vxml.php|116
+2017-03-10/10:50:47.822715|6|42|0074018C-1003F927|fetch_start document:http://vxmlapps/vxml/wunion/header/version1488565943/mainmenu/do_CheckMainMenuAB.vxml.php|116
+2017-03-10/10:50:47.855980|6|17|0074018C-1003F927|wf_arrived s (direct):http://vxmlapps/vxml/wunion/header/version1488565943/mainmenu/do_CheckMainMenuAB.vxml.php|116
+2017-03-10/10:50:47.856148|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:47.856611|6|41|0074018C-1003F927|compile_done :http://vxmlapps/vxml/wunion/header/version1488565943/mainmenu/do_CheckMainMenuAB.vxml.php|116
+2017-03-10/10:50:47.856679|6|79|0074018C-1003F927|root_appl root.vxml.php|116
+2017-03-10/10:50:47.856949|6|28|0074018C-1003F927|form_enter :start_sCheckMainMenuAB|116
+2017-03-10/10:50:47.857020|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39431$_:BLOCK|116
+2017-03-10/10:50:47.857613|6|78|0074018C-1003F927|submit http://vxmlapps/vxml/wunion/header/version1488565943/mainmenu/prompt_MainMenu.vxml.php|namelist|{}|116
+2017-03-10/10:50:47.857767|6|16|0074018C-1003F927|wf_lookup http://vxmlapps/vxml/wunion/header/version1488565943/mainmenu/prompt_MainMenu.vxml.php|116
+2017-03-10/10:50:47.857776|6|42|0074018C-1003F927|fetch_start document:http://vxmlapps/vxml/wunion/header/version1488565943/mainmenu/prompt_MainMenu.vxml.php|116
+2017-03-10/10:50:48.2745|6|17|0074018C-1003F927|wf_arrived s (direct):http://vxmlapps/vxml/wunion/header/version1488565943/mainmenu/prompt_MainMenu.vxml.php|116
+2017-03-10/10:50:48.2916|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:48.3134|6|41|0074018C-1003F927|compile_done :http://vxmlapps/vxml/wunion/header/version1488565943/mainmenu/prompt_MainMenu.vxml.php|116
+2017-03-10/10:50:48.3213|6|79|0074018C-1003F927|root_appl root.vxml.php|116
+2017-03-10/10:50:48.3562|6|28|0074018C-1003F927|form_enter :start_prompt_MainMenu|116
+2017-03-10/10:50:48.3636|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39673$_:BLOCK|116
+2017-03-10/10:50:48.3927|6|35|0074018C-1003F927|log prompt_MainMenu_0,enter|116
+2017-03-10/10:50:48.3987|6|33|0074018C-1003F927|goto :#prompt_MainMenu|116
+2017-03-10/10:50:48.4069|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:48.4202|6|28|0074018C-1003F927|form_enter :prompt_MainMenu|116
+2017-03-10/10:50:48.7872|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/dynocat.js|116
+2017-03-10/10:50:48.21208|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/dynocat.js|116
+2017-03-10/10:50:48.45551|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39674$_:BLOCK|116
+2017-03-10/10:50:48.45685|6|35|0074018C-1003F927|log WicStdPromptAndCollect version 1.11.0 (20160428)|116
+2017-03-10/10:50:48.45952|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39675$_:BLOCK|116
+2017-03-10/10:50:48.46406|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:48.57968|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:48.59597|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:48.70924|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:48.78738|6|29|0074018C-1003F927|form_select :formField:FIELD|116
+2017-03-10/10:50:48.83064|6|24|0074018C-1003F927|input_start :VOICE|DTMF|116
+2017-03-10/10:50:48.83688|6|42|0074018C-1003F927|fetch_start grammar:http://dgrammarstore/dgrammar/wunion/header/dtmf/wunion_header_mainmenu.php?in=sndmn,chnge,feert,agtlc,myopt,agent,mmenu|116
+2017-03-10/10:50:48.105898|6|43|0074018C-1003F927|fetch_end Done (direct):http://dgrammarstore/dgrammar/wunion/header/dtmf/wunion_header_mainmenu.php?in=sndmn,chnge,feert,agtlc,myopt,agent,mmenu|116
+2017-03-10/10:50:48.106003|6|18|0074018C-1003F927|prompt_begin |116
+2017-03-10/10:50:48.106132|6|42|0074018C-1003F927|fetch_start audio:http://promptstore/voice/wunion/header/en-us/MainMenu.wav|116
+2017-03-10/10:50:48.112459|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://promptstore/voice/wunion/header/en-us/MainMenu.wav|116
+2017-03-10/10:50:48.112507|6|134|0074018C-1003F927|prompt_play audio|http://promptstore/voice/wunion/header/en-us/MainMenu.wav|116
+2017-03-10/10:50:49.616941|6|134|0074018C-1003F927|prompt_play break||116
+2017-03-10/10:50:49.623771|6|19|0074018C-1003F927|prompt_end dtmfbargein|116
+2017-03-10/10:50:49.623797|6|27|0074018C-1003F927|dtmf :5|116
+2017-03-10/10:50:49.625173|6|25|0074018C-1003F927|input_end MATCHED|dtmf|Field|external|5|1.000000|116
+2017-03-10/10:50:49.625344|6|76|0074018C-1003F927|filling :prompt_MainMenu.formField:Field:myopt|116
+2017-03-10/10:50:49.625479|6|32|0074018C-1003F927|filled_enter all|116
+2017-03-10/10:50:49.628519|6|35|0074018C-1003F927|log WicStdFormValue = myopt|116
+2017-03-10/10:50:49.629008|6|35|0074018C-1003F927|log WicStdFormConfidence = 100|116
+2017-03-10/10:50:49.629349|6|35|0074018C-1003F927|log WicStdFormUtterance = 5|116
+2017-03-10/10:50:49.629596|6|35|0074018C-1003F927|log WicStdFormInputMode = dtmf|116
+2017-03-10/10:50:49.630018|6|35|0074018C-1003F927|log WicStdCompleteNBestStr = +AskCue:myopt+AskCue$:+confidence:1^^^1^^^5^^^dtmf|116
+2017-03-10/10:50:49.630470|6|127|0074018C-1003F927|filled_exit |116
+2017-03-10/10:50:49.630770|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39678$_:BLOCK|116
+2017-03-10/10:50:49.631124|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:49.642926|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:49.646466|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:49.657627|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:49.667133|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:50:49.678867|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:50:49.739046|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39679$_:BLOCK|116
+2017-03-10/10:50:49.739457|6|35|0074018C-1003F927|log Summary : OK,myopt,0,0,dtmf,100,undefined|116
+2017-03-10/10:50:49.739556|6|35|0074018C-1003F927|log WicStdPromptAndCollect END|116
+2017-03-10/10:50:49.739776|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39680$_:BLOCK|116
+2017-03-10/10:50:49.739865|6|35|0074018C-1003F927|log *********** PnC WicStd Variables ***************** |116
+2017-03-10/10:50:49.739980|6|35|0074018C-1003F927|log WicStdResult is: OK|116
+2017-03-10/10:50:49.740091|6|35|0074018C-1003F927|log WicStdFormValue is: myopt|116
+2017-03-10/10:50:49.740217|6|35|0074018C-1003F927|log WicStdFormNomatchCount is: 0|116
+2017-03-10/10:50:49.740342|6|35|0074018C-1003F927|log WicStdFormNoinputCount is: 0|116
+2017-03-10/10:50:49.740450|6|35|0074018C-1003F927|log WicStdFormInputMode is: dtmf|116
+2017-03-10/10:50:49.740566|6|35|0074018C-1003F927|log WicStdError is: undefined|116
+2017-03-10/10:50:49.740680|6|35|0074018C-1003F927|log WicStdFormFailCount is: 0|116
+2017-03-10/10:50:49.741065|6|35|0074018C-1003F927|log *****Menu_Selection= myopt|116
+2017-03-10/10:50:49.741115|6|35|0074018C-1003F927|log *****InputMode=      both|116
+2017-03-10/10:50:49.741141|6|35|0074018C-1003F927|log *****IsDomesticCall= true|116
+2017-03-10/10:50:49.741166|6|35|0074018C-1003F927|log *****Language=       en-us|116
+2017-03-10/10:50:49.741221|6|35|0074018C-1003F927|log *****CTV=            6008848|116
+2017-03-10/10:50:49.741266|6|35|0074018C-1003F927|log *****Country=        |116
+2017-03-10/10:50:49.741292|6|35|0074018C-1003F927|log *****DefaultCountry= US|116
+2017-03-10/10:50:49.741406|6|35|0074018C-1003F927|log *****Country=        |116
+2017-03-10/10:50:49.741527|6|35|0074018C-1003F927|log *****DefaultCountry= US|116
+2017-03-10/10:50:49.741729|6|33|0074018C-1003F927|goto :#resubmit_MainMenu|116
+2017-03-10/10:50:49.741794|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:49.741966|6|28|0074018C-1003F927|form_enter :resubmit_MainMenu|116
+2017-03-10/10:50:49.742033|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39681$_:BLOCK|116
+2017-03-10/10:50:49.742190|6|35|0074018C-1003F927|log prompt_MainMenu_0,resubmit,error/say_FatalSystemError.vxml.php|116
+2017-03-10/10:50:49.742509|6|78|0074018C-1003F927|submit http://vxmlapps/vxml/wunion/header/version1488565943/mainmenu/prompt_MainMenu.vxml.php|namelist|{"LogSeqNum":1,"Menu_Selection":"myopt","NextMenu":"1"}|116
+2017-03-10/10:50:49.742655|6|16|0074018C-1003F927|wf_lookup http://vxmlapps/vxml/wunion/header/version1488565943/mainmenu/prompt_MainMenu.vxml.php|116
+2017-03-10/10:50:49.742661|6|42|0074018C-1003F927|fetch_start document:http://vxmlapps/vxml/wunion/header/version1488565943/mainmenu/prompt_MainMenu.vxml.php|116
+2017-03-10/10:50:49.839921|6|17|0074018C-1003F927|wf_arrived s (direct):http://vxmlapps/vxml/wunion/header/version1488565943/mainmenu/prompt_MainMenu.vxml.php|116
+2017-03-10/10:50:49.840097|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:49.843474|6|41|0074018C-1003F927|compile_done :http://vxmlapps/vxml/wunion/header/version1488565943/mainmenu/prompt_MainMenu.vxml.php|116
+2017-03-10/10:50:49.843550|6|79|0074018C-1003F927|root_appl root.vxml.php|116
+2017-03-10/10:50:49.843893|6|28|0074018C-1003F927|form_enter :start_prompt_MainMenu|116
+2017-03-10/10:50:49.843960|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39444$_:BLOCK|116
+2017-03-10/10:50:49.844260|6|35|0074018C-1003F927|log prompt_MainMenu_1,enter|116
+2017-03-10/10:50:49.844320|6|33|0074018C-1003F927|goto :#prompt_MainMenu|116
+2017-03-10/10:50:49.844406|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:49.844541|6|28|0074018C-1003F927|form_enter :prompt_MainMenu|116
+2017-03-10/10:50:49.848337|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/dynocat.js|116
+2017-03-10/10:50:49.862224|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/dynocat.js|116
+2017-03-10/10:50:49.889892|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39445$_:BLOCK|116
+2017-03-10/10:50:49.890078|6|35|0074018C-1003F927|log WicStdPromptAndCollect version 1.11.0 (20160428)|116
+2017-03-10/10:50:49.890448|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39446$_:BLOCK|116
+2017-03-10/10:50:49.891054|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:49.902756|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:49.904393|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:49.915827|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:49.923586|6|29|0074018C-1003F927|form_select :formField:FIELD|116
+2017-03-10/10:50:49.927360|6|24|0074018C-1003F927|input_start :VOICE|DTMF|116
+2017-03-10/10:50:49.927934|6|42|0074018C-1003F927|fetch_start grammar:http://dgrammarstore/dgrammar/wunion/header/dtmf/wunion_header_options.php?in=enrwu,stat2,issue,myopt,agent,mmenu|116
+2017-03-10/10:50:49.950706|6|43|0074018C-1003F927|fetch_end Done (direct):http://dgrammarstore/dgrammar/wunion/header/dtmf/wunion_header_options.php?in=enrwu,stat2,issue,myopt,agent,mmenu|116
+2017-03-10/10:50:49.950799|6|18|0074018C-1003F927|prompt_begin |116
+2017-03-10/10:50:49.950940|6|42|0074018C-1003F927|fetch_start audio:http://promptstore/voice/wunion/header/en-us/MoreOptions.wav|116
+2017-03-10/10:50:49.974438|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://promptstore/voice/wunion/header/en-us/MoreOptions.wav|116
+2017-03-10/10:50:49.974479|6|134|0074018C-1003F927|prompt_play audio|http://promptstore/voice/wunion/header/en-us/MoreOptions.wav|116
+2017-03-10/10:50:51.604472|6|19|0074018C-1003F927|prompt_end dtmfbargein|116
+2017-03-10/10:50:51.604514|6|27|0074018C-1003F927|dtmf :4|116
+2017-03-10/10:50:51.605812|6|25|0074018C-1003F927|input_end MATCHED|dtmf|Field|external|4|1.000000|116
+2017-03-10/10:50:51.605973|6|76|0074018C-1003F927|filling :prompt_MainMenu.formField:Field:myopt|116
+2017-03-10/10:50:51.606104|6|32|0074018C-1003F927|filled_enter all|116
+2017-03-10/10:50:51.609283|6|35|0074018C-1003F927|log WicStdFormValue = myopt|116
+2017-03-10/10:50:51.609823|6|35|0074018C-1003F927|log WicStdFormConfidence = 100|116
+2017-03-10/10:50:51.610082|6|35|0074018C-1003F927|log WicStdFormUtterance = 4|116
+2017-03-10/10:50:51.610343|6|35|0074018C-1003F927|log WicStdFormInputMode = dtmf|116
+2017-03-10/10:50:51.610788|6|35|0074018C-1003F927|log WicStdCompleteNBestStr = +AskCue:myopt+AskCue$:+confidence:1^^^1^^^4^^^dtmf|116
+2017-03-10/10:50:51.611191|6|127|0074018C-1003F927|filled_exit |116
+2017-03-10/10:50:51.611521|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39449$_:BLOCK|116
+2017-03-10/10:50:51.611892|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:51.623767|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:51.626870|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:51.638675|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:51.648167|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:50:51.659913|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:50:51.735459|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39450$_:BLOCK|116
+2017-03-10/10:50:51.735899|6|35|0074018C-1003F927|log Summary : OK,myopt,0,0,dtmf,100,undefined|116
+2017-03-10/10:50:51.735998|6|35|0074018C-1003F927|log WicStdPromptAndCollect END|116
+2017-03-10/10:50:51.736302|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39451$_:BLOCK|116
+2017-03-10/10:50:51.736381|6|35|0074018C-1003F927|log *********** PnC WicStd Variables ***************** |116
+2017-03-10/10:50:51.736489|6|35|0074018C-1003F927|log WicStdResult is: OK|116
+2017-03-10/10:50:51.736592|6|35|0074018C-1003F927|log WicStdFormValue is: myopt|116
+2017-03-10/10:50:51.736703|6|35|0074018C-1003F927|log WicStdFormNomatchCount is: 0|116
+2017-03-10/10:50:51.736812|6|35|0074018C-1003F927|log WicStdFormNoinputCount is: 0|116
+2017-03-10/10:50:51.736920|6|35|0074018C-1003F927|log WicStdFormInputMode is: dtmf|116
+2017-03-10/10:50:51.737031|6|35|0074018C-1003F927|log WicStdError is: undefined|116
+2017-03-10/10:50:51.737144|6|35|0074018C-1003F927|log WicStdFormFailCount is: 0|116
+2017-03-10/10:50:51.737574|6|35|0074018C-1003F927|log *****Menu_Selection= myopt|116
+2017-03-10/10:50:51.737627|6|35|0074018C-1003F927|log *****InputMode=      both|116
+2017-03-10/10:50:51.737652|6|35|0074018C-1003F927|log *****IsDomesticCall= true|116
+2017-03-10/10:50:51.737677|6|35|0074018C-1003F927|log *****Language=       en-us|116
+2017-03-10/10:50:51.737702|6|35|0074018C-1003F927|log *****CTV=            6008848|116
+2017-03-10/10:50:51.737726|6|35|0074018C-1003F927|log *****Country=        |116
+2017-03-10/10:50:51.737751|6|35|0074018C-1003F927|log *****DefaultCountry= US|116
+2017-03-10/10:50:51.737861|6|35|0074018C-1003F927|log *****Country=        |116
+2017-03-10/10:50:51.737970|6|35|0074018C-1003F927|log *****DefaultCountry= US|116
+2017-03-10/10:50:51.738182|6|33|0074018C-1003F927|goto :#resubmit_MainMenu|116
+2017-03-10/10:50:51.738262|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:51.738455|6|28|0074018C-1003F927|form_enter :resubmit_MainMenu|116
+2017-03-10/10:50:51.738515|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39452$_:BLOCK|116
+2017-03-10/10:50:51.738666|6|35|0074018C-1003F927|log prompt_MainMenu_1,resubmit,error/say_FatalSystemError.vxml.php|116
+2017-03-10/10:50:51.738992|6|78|0074018C-1003F927|submit http://vxmlapps/vxml/wunion/header/version1488565943/mainmenu/prompt_MainMenu.vxml.php|namelist|{"LogSeqNum":1,"Menu_Selection":"myopt","NextMenu":"2"}|116
+2017-03-10/10:50:51.739174|6|16|0074018C-1003F927|wf_lookup http://vxmlapps/vxml/wunion/header/version1488565943/mainmenu/prompt_MainMenu.vxml.php|116
+2017-03-10/10:50:51.739188|6|42|0074018C-1003F927|fetch_start document:http://vxmlapps/vxml/wunion/header/version1488565943/mainmenu/prompt_MainMenu.vxml.php|116
+2017-03-10/10:50:51.905650|6|17|0074018C-1003F927|wf_arrived s (direct):http://vxmlapps/vxml/wunion/header/version1488565943/mainmenu/prompt_MainMenu.vxml.php|116
+2017-03-10/10:50:51.905842|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:51.906083|6|41|0074018C-1003F927|compile_done :http://vxmlapps/vxml/wunion/header/version1488565943/mainmenu/prompt_MainMenu.vxml.php|116
+2017-03-10/10:50:51.906158|6|79|0074018C-1003F927|root_appl root.vxml.php|116
+2017-03-10/10:50:51.906526|6|28|0074018C-1003F927|form_enter :start_prompt_MainMenu|116
+2017-03-10/10:50:51.906600|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39685$_:BLOCK|116
+2017-03-10/10:50:51.906904|6|35|0074018C-1003F927|log prompt_MainMenu_2,enter|116
+2017-03-10/10:50:51.906966|6|33|0074018C-1003F927|goto :#prompt_MainMenu|116
+2017-03-10/10:50:51.907053|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:51.907198|6|28|0074018C-1003F927|form_enter :prompt_MainMenu|116
+2017-03-10/10:50:51.910807|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/dynocat.js|116
+2017-03-10/10:50:51.924394|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/dynocat.js|116
+2017-03-10/10:50:51.952264|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39686$_:BLOCK|116
+2017-03-10/10:50:51.952477|6|35|0074018C-1003F927|log WicStdPromptAndCollect version 1.11.0 (20160428)|116
+2017-03-10/10:50:51.952839|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39687$_:BLOCK|116
+2017-03-10/10:50:51.953494|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:51.964959|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:51.966914|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:51.983677|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:51.991284|6|29|0074018C-1003F927|form_select :formField:FIELD|116
+2017-03-10/10:50:51.994936|6|24|0074018C-1003F927|input_start :VOICE|DTMF|116
+2017-03-10/10:50:51.995659|6|42|0074018C-1003F927|fetch_start grammar:http://dgrammarstore/dgrammar/wunion/header/dtmf/wunion_header_finaloptions.php?in=fraud,ppaid,mnyor,mmenu,agent,agent,mmenu|116
+2017-03-10/10:50:52.17724|6|43|0074018C-1003F927|fetch_end Done (direct):http://dgrammarstore/dgrammar/wunion/header/dtmf/wunion_header_finaloptions.php?in=fraud,ppaid,mnyor,mmenu,agent,agent,mmenu|116
+2017-03-10/10:50:52.17796|6|18|0074018C-1003F927|prompt_begin |116
+2017-03-10/10:50:52.17945|6|42|0074018C-1003F927|fetch_start audio:http://promptstore/voice/wunion/header/en-us/finaloptions.wav|116
+2017-03-10/10:50:52.52494|6|43|0074018C-1003F927|fetch_end Done (direct):http://promptstore/voice/wunion/header/en-us/finaloptions.wav|116
+2017-03-10/10:50:52.52535|6|134|0074018C-1003F927|prompt_play audio|http://promptstore/voice/wunion/header/en-us/finaloptions.wav|116
+2017-03-10/10:50:53.524906|6|19|0074018C-1003F927|prompt_end dtmfbargein|116
+2017-03-10/10:50:53.524939|6|27|0074018C-1003F927|dtmf :1|116
+2017-03-10/10:50:53.526868|6|25|0074018C-1003F927|input_end MATCHED|dtmf|Field|external|1|1.000000|116
+2017-03-10/10:50:53.527044|6|76|0074018C-1003F927|filling :prompt_MainMenu.formField:Field:fraud|116
+2017-03-10/10:50:53.527188|6|32|0074018C-1003F927|filled_enter all|116
+2017-03-10/10:50:53.531089|6|35|0074018C-1003F927|log WicStdFormValue = fraud|116
+2017-03-10/10:50:53.531623|6|35|0074018C-1003F927|log WicStdFormConfidence = 100|116
+2017-03-10/10:50:53.531875|6|35|0074018C-1003F927|log WicStdFormUtterance = 1|116
+2017-03-10/10:50:53.532145|6|35|0074018C-1003F927|log WicStdFormInputMode = dtmf|116
+2017-03-10/10:50:53.532635|6|35|0074018C-1003F927|log WicStdCompleteNBestStr = +AskCue:fraud+AskCue$:+confidence:1^^^1^^^1^^^dtmf|116
+2017-03-10/10:50:53.533037|6|127|0074018C-1003F927|filled_exit |116
+2017-03-10/10:50:53.533373|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39690$_:BLOCK|116
+2017-03-10/10:50:53.533753|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:53.544796|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:53.547889|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:53.558784|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:53.568441|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:50:53.579777|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:50:53.640255|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39691$_:BLOCK|116
+2017-03-10/10:50:53.640658|6|35|0074018C-1003F927|log Summary : OK,fraud,0,0,dtmf,100,undefined|116
+2017-03-10/10:50:53.640758|6|35|0074018C-1003F927|log WicStdPromptAndCollect END|116
+2017-03-10/10:50:53.640952|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39692$_:BLOCK|116
+2017-03-10/10:50:53.641026|6|35|0074018C-1003F927|log *********** PnC WicStd Variables ***************** |116
+2017-03-10/10:50:53.641133|6|35|0074018C-1003F927|log WicStdResult is: OK|116
+2017-03-10/10:50:53.641258|6|35|0074018C-1003F927|log WicStdFormValue is: fraud|116
+2017-03-10/10:50:53.641372|6|35|0074018C-1003F927|log WicStdFormNomatchCount is: 0|116
+2017-03-10/10:50:53.641481|6|35|0074018C-1003F927|log WicStdFormNoinputCount is: 0|116
+2017-03-10/10:50:53.641592|6|35|0074018C-1003F927|log WicStdFormInputMode is: dtmf|116
+2017-03-10/10:50:53.641701|6|35|0074018C-1003F927|log WicStdError is: undefined|116
+2017-03-10/10:50:53.641812|6|35|0074018C-1003F927|log WicStdFormFailCount is: 0|116
+2017-03-10/10:50:53.642194|6|35|0074018C-1003F927|log *****Menu_Selection= fraud|116
+2017-03-10/10:50:53.642242|6|35|0074018C-1003F927|log *****InputMode=      both|116
+2017-03-10/10:50:53.642267|6|35|0074018C-1003F927|log *****IsDomesticCall= true|116
+2017-03-10/10:50:53.642297|6|35|0074018C-1003F927|log *****Language=       en-us|116
+2017-03-10/10:50:53.642329|6|35|0074018C-1003F927|log *****CTV=            6008848|116
+2017-03-10/10:50:53.642354|6|35|0074018C-1003F927|log *****Country=        |116
+2017-03-10/10:50:53.642378|6|35|0074018C-1003F927|log *****DefaultCountry= US|116
+2017-03-10/10:50:53.642480|6|35|0074018C-1003F927|log *****Country=        |116
+2017-03-10/10:50:53.642589|6|35|0074018C-1003F927|log *****DefaultCountry= US|116
+2017-03-10/10:50:53.643363|6|33|0074018C-1003F927|goto :#exit_MainMenu|116
+2017-03-10/10:50:53.643430|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:53.643600|6|28|0074018C-1003F927|form_enter :exit_MainMenu|116
+2017-03-10/10:50:53.643652|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39694$_:BLOCK|116
+2017-03-10/10:50:53.643796|6|35|0074018C-1003F927|log prompt_MainMenu_2,exit,infomsg/prompt_FraudInfoNav.vxml.php|116
+2017-03-10/10:50:53.644208|6|78|0074018C-1003F927|submit http://vxmlapps/vxml/wunion/header/version1488565943/infomsg/prompt_FraudInfoNav.vxml.php|namelist|{"Called_FOR":"Fraud","GenesysVTT":"IVR","LogSeqNum":1,"MainMenuTechSupport":"","Menu_Selection":"fraud"}|116
+2017-03-10/10:50:53.644362|6|16|0074018C-1003F927|wf_lookup http://vxmlapps/vxml/wunion/header/version1488565943/infomsg/prompt_FraudInfoNav.vxml.php|116
+2017-03-10/10:50:53.644367|6|42|0074018C-1003F927|fetch_start document:http://vxmlapps/vxml/wunion/header/version1488565943/infomsg/prompt_FraudInfoNav.vxml.php|116
+2017-03-10/10:50:53.725332|6|17|0074018C-1003F927|wf_arrived s (direct):http://vxmlapps/vxml/wunion/header/version1488565943/infomsg/prompt_FraudInfoNav.vxml.php|116
+2017-03-10/10:50:53.725508|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:53.728880|6|41|0074018C-1003F927|compile_done :http://vxmlapps/vxml/wunion/header/version1488565943/infomsg/prompt_FraudInfoNav.vxml.php|116
+2017-03-10/10:50:53.728954|6|79|0074018C-1003F927|root_appl root.vxml.php|116
+2017-03-10/10:50:53.729224|6|28|0074018C-1003F927|form_enter :start_prompt_FraudInfoNav|116
+2017-03-10/10:50:53.729294|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39468$_:BLOCK|116
+2017-03-10/10:50:53.729580|6|35|0074018C-1003F927|log prompt_FraudInfoNav,enter|116
+2017-03-10/10:50:53.729639|6|33|0074018C-1003F927|goto :#prompt_FraudInfoNav|116
+2017-03-10/10:50:53.729721|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:50:53.729854|6|28|0074018C-1003F927|form_enter :prompt_FraudInfoNav|116
+2017-03-10/10:50:53.733478|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/dynocat.js|116
+2017-03-10/10:50:53.747471|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/dynocat.js|116
+2017-03-10/10:50:53.776359|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39469$_:BLOCK|116
+2017-03-10/10:50:53.776549|6|35|0074018C-1003F927|log WicStdPromptAndCollect version 1.11.0 (20160428)|116
+2017-03-10/10:50:53.776913|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39470$_:BLOCK|116
+2017-03-10/10:50:53.777486|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:53.788859|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:50:53.790541|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:53.812821|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:50:53.820364|6|29|0074018C-1003F927|form_select :formField:FIELD|116
+2017-03-10/10:50:53.824237|6|24|0074018C-1003F927|input_start :VOICE|DTMF|116
+2017-03-10/10:50:53.824619|6|42|0074018C-1003F927|fetch_start grammar:http://grammarstore/grammar/wunion/header/dtmf/wunion_header_dtmf_FraudInfoNav.grxml|116
+2017-03-10/10:50:53.846664|6|43|0074018C-1003F927|fetch_end Done (direct):http://grammarstore/grammar/wunion/header/dtmf/wunion_header_dtmf_FraudInfoNav.grxml|116
+2017-03-10/10:50:53.846733|6|18|0074018C-1003F927|prompt_begin |116
+2017-03-10/10:50:53.846851|6|42|0074018C-1003F927|fetch_start audio:http://promptstore/voice/wunion/header/en-us/3BrandDynamic_1.wav|116
+2017-03-10/10:50:53.858867|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://promptstore/voice/wunion/header/en-us/3BrandDynamic_1.wav|116
+2017-03-10/10:50:53.858906|6|134|0074018C-1003F927|prompt_play audio|http://promptstore/voice/wunion/header/en-us/3BrandDynamic_1.wav|116
+2017-03-10/10:50:54.361036|6|42|0074018C-1003F927|fetch_start audio:http://promptstore/voice/wunion/header/en-us/FraudInfoNav_1.wav|116
+2017-03-10/10:50:54.385236|6|43|0074018C-1003F927|fetch_end Done (direct):http://promptstore/voice/wunion/header/en-us/FraudInfoNav_1.wav|116
+2017-03-10/10:50:54.385303|6|134|0074018C-1003F927|prompt_play audio|http://promptstore/voice/wunion/header/en-us/FraudInfoNav_1.wav|116
+2017-03-10/10:50:56.583852|6|42|0074018C-1003F927|fetch_start audio:http://promptstore/voice/wunion/header/en-us/FraudInfoNav_2.wav|116
+2017-03-10/10:50:56.603256|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://promptstore/voice/wunion/header/en-us/FraudInfoNav_2.wav|116
+2017-03-10/10:50:56.603304|6|134|0074018C-1003F927|prompt_play audio|http://promptstore/voice/wunion/header/en-us/FraudInfoNav_2.wav|116
+2017-03-10/10:51:16.624251|6|1|0074018C-1003F927|incall_end usrend|116
+2017-03-10/10:51:16.624475|6|19|0074018C-1003F927|prompt_end aborted|116
+2017-03-10/10:51:16.624655|6|25|0074018C-1003F927|input_end DISCONNECTED||||||116
+2017-03-10/10:51:16.624774|6|34|0074018C-1003F927|event connection.disconnect.hangup:1|Q.850;cause=16|116
+2017-03-10/10:51:16.624899|6|80|0074018C-1003F927|event_handler_enter :connection.disconnect.hangup telephone.disconnect.hangup|http://vxmlapps/vxml/wunion/header/version1488565943/infomsg/prompt_FraudInfoNav.vxml.php?Called_FOR=Fraud&GenesysVTT=IVR&LogSeqNum=1&MainMenuTechSupport=&Menu_Selection=fraud#prompt_FraudInfoNav#formField|116
+2017-03-10/10:51:16.625926|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:51:16.637511|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:51:16.640677|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:51:16.652587|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:51:16.662570|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:51:16.674559|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/txllogging.xml.php|116
+2017-03-10/10:51:16.735964|6|35|0074018C-1003F927|log Summary : OK,undefined,0,0,undefined,undefined,|116
+2017-03-10/10:51:16.736069|6|35|0074018C-1003F927|log WicStdPromptAndCollect END|116
+2017-03-10/10:51:16.736151|6|34|0074018C-1003F927|event wicstd.hangup.pnc:1|Hangup caught in PnC collect phase|116
+2017-03-10/10:51:16.736186|6|81|0074018C-1003F927|event_handler_exit :connection.disconnect.hangup telephone.disconnect.hangup|116
+2017-03-10/10:51:16.736234|6|80|0074018C-1003F927|event_handler_enter :connection.disconnect telephone.disconnect wicstd.hangup wicstd.hangup.zip|http://vxmlapps/vxml/wunion/header/version1488565943/infomsg/prompt_FraudInfoNav.vxml.php?Called_FOR=Fraud&GenesysVTT=IVR&LogSeqNum=1&MainMenuTechSupport=&Menu_Selection=fraud|116
+2017-03-10/10:51:16.736294|6|35|0074018C-1003F927|log **********Disconnecting call Hangup*********|116
+2017-03-10/10:51:16.736477|6|35|0074018C-1003F927|log 			Event: wicstd.hangup.pnc			Message: Hangup caught in PnC collect phase		|116
+2017-03-10/10:51:16.737515|6|78|0074018C-1003F927|submit http://vxmlapps/vxml/wunion/header/version1488565943/end.vxml.php|namelist|{"CallDisposition":"H","DrrExitType":"callerHUP","EndCall":"N","Language":"en-us"}|116
+2017-03-10/10:51:16.737666|6|16|0074018C-1003F927|wf_lookup http://vxmlapps/vxml/wunion/header/version1488565943/end.vxml.php|116
+2017-03-10/10:51:16.737674|6|42|0074018C-1003F927|fetch_start document:http://vxmlapps/vxml/wunion/header/version1488565943/end.vxml.php|116
+2017-03-10/10:51:16.772113|6|17|0074018C-1003F927|wf_arrived s (direct):http://vxmlapps/vxml/wunion/header/version1488565943/end.vxml.php|116
+2017-03-10/10:51:16.772322|6|81|0074018C-1003F927|event_handler_exit :connection.disconnect telephone.disconnect wicstd.hangup wicstd.hangup.zip|116
+2017-03-10/10:51:16.772395|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:51:16.772702|6|41|0074018C-1003F927|compile_done :http://vxmlapps/vxml/wunion/header/version1488565943/end.vxml.php|116
+2017-03-10/10:51:16.772770|6|79|0074018C-1003F927|root_appl root.vxml.php|116
+2017-03-10/10:51:16.773536|6|28|0074018C-1003F927|form_enter :end|116
+2017-03-10/10:51:16.773606|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39477$_:BLOCK|116
+2017-03-10/10:51:16.773964|6|35|0074018C-1003F927|log end,enter|116
+2017-03-10/10:51:16.774507|6|78|0074018C-1003F927|submit http://vxmlapps/vxml/wunion/header/version1488565943/transfer/do_GenesysNewCall.vxml.php|namelist|{}|116
+2017-03-10/10:51:16.774659|6|16|0074018C-1003F927|wf_lookup http://vxmlapps/vxml/wunion/header/version1488565943/transfer/do_GenesysNewCall.vxml.php|116
+2017-03-10/10:51:16.774668|6|42|0074018C-1003F927|fetch_start document:http://vxmlapps/vxml/wunion/header/version1488565943/transfer/do_GenesysNewCall.vxml.php|116
+2017-03-10/10:51:16.840217|6|149|0074018C-1003F927|asr_close 0074018C-1003F927-asr-nuance90-mrcp1-2179|116
+2017-03-10/10:51:16.891336|6|17|0074018C-1003F927|wf_arrived s (direct):http://vxmlapps/vxml/wunion/header/version1488565943/transfer/do_GenesysNewCall.vxml.php|116
+2017-03-10/10:51:16.891506|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:51:16.891717|6|41|0074018C-1003F927|compile_done :http://vxmlapps/vxml/wunion/header/version1488565943/transfer/do_GenesysNewCall.vxml.php|116
+2017-03-10/10:51:16.891793|6|79|0074018C-1003F927|root_appl root.vxml.php|116
+2017-03-10/10:51:16.892144|6|28|0074018C-1003F927|form_enter :do_GenesysNewCall|116
+2017-03-10/10:51:16.892209|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39697$_:BLOCK|116
+2017-03-10/10:51:16.892489|6|35|0074018C-1003F927|log do_GenesysNewCall,enter|116
+2017-03-10/10:51:16.892765|6|35|0074018C-1003F927|log genesys log: ,GenesysNewCall,success,|116
+2017-03-10/10:51:16.893197|6|35|0074018C-1003F927|log do_GenesysNewCall,exit,transfer/do_GenesysAttachData.vxml.php|116
+2017-03-10/10:51:16.893923|6|78|0074018C-1003F927|submit http://vxmlapps/vxml/wunion/header/version1488565943/transfer/do_GenesysAttachData.vxml.php|namelist|{"CLVFlag":"","CalledBeforeField":"3","Called_FOR":"Fraud","Carrier":"VZN","DefaultTransfer":"","GenesysConnID":"preprod1485805845670","HVCFlag":"","LogSeqNum":2}|116
+2017-03-10/10:51:16.894165|6|16|0074018C-1003F927|wf_lookup http://vxmlapps/vxml/wunion/header/version1488565943/transfer/do_GenesysAttachData.vxml.php|116
+2017-03-10/10:51:16.894178|6|42|0074018C-1003F927|fetch_start document:http://vxmlapps/vxml/wunion/header/version1488565943/transfer/do_GenesysAttachData.vxml.php|116
+2017-03-10/10:51:17.24185|6|17|0074018C-1003F927|wf_arrived s (direct):http://vxmlapps/vxml/wunion/header/version1488565943/transfer/do_GenesysAttachData.vxml.php|116
+2017-03-10/10:51:17.24368|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:51:17.24603|6|41|0074018C-1003F927|compile_done :http://vxmlapps/vxml/wunion/header/version1488565943/transfer/do_GenesysAttachData.vxml.php|116
+2017-03-10/10:51:17.24675|6|79|0074018C-1003F927|root_appl root.vxml.php|116
+2017-03-10/10:51:17.25040|6|28|0074018C-1003F927|form_enter :start_GenesysAttachData|116
+2017-03-10/10:51:17.25107|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39698$_:BLOCK|116
+2017-03-10/10:51:17.25492|6|35|0074018C-1003F927|log do_GenesysAttachData,enter|116
+2017-03-10/10:51:17.25554|6|33|0074018C-1003F927|goto :#do_GenesysAttachData|116
+2017-03-10/10:51:17.25640|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:51:17.25782|6|28|0074018C-1003F927|form_enter :do_GenesysAttachData|116
+2017-03-10/10:51:17.25857|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39699$_:BLOCK|116
+2017-03-10/10:51:17.26068|6|35|0074018C-1003F927|log Genesys VTT Language is: EN|116
+2017-03-10/10:51:17.26134|6|35|0074018C-1003F927|log do_GenesysAttachData.vxml.php - session Language value is: en-us|116
+2017-03-10/10:51:17.26204|6|35|0074018C-1003F927|log CTVField:6008848 |116
+2017-03-10/10:51:17.26278|6|35|0074018C-1003F927|log genesys attach data|116
+2017-03-10/10:51:17.26338|6|35|0074018C-1003F927|log GenesysClient:          wunion  |116
+2017-03-10/10:51:17.26420|6|35|0074018C-1003F927|log GenesysConnID:          preprod1485805845670  |116
+2017-03-10/10:51:17.26482|6|35|0074018C-1003F927|log LanguageField:          EN    |116
+2017-03-10/10:51:17.26549|6|35|0074018C-1003F927|log SESSION LanguageField:  en-us    |116
+2017-03-10/10:51:17.26615|6|35|0074018C-1003F927|log ANIField:               1234567899            |116
+2017-03-10/10:51:17.26682|6|35|0074018C-1003F927|log SkillField:             7999          |116
+2017-03-10/10:51:17.26756|6|35|0074018C-1003F927|log Called_BeforeField:      3   |116
+2017-03-10/10:51:17.26820|6|35|0074018C-1003F927|log PCPNoUserIDField:       	   |116
+2017-03-10/10:51:17.26909|6|35|0074018C-1003F927|log HVC_Flag:                |116
+2017-03-10/10:51:17.26972|6|35|0074018C-1003F927|log CLV_Flag:                |116
+2017-03-10/10:51:17.27035|6|35|0074018C-1003F927|log SegmentationCode2Field:  |116
+2017-03-10/10:51:17.27114|6|35|0074018C-1003F927|log SegmentationCode3Field:  |116
+2017-03-10/10:51:17.27173|6|35|0074018C-1003F927|log SegmentationCode4Field:  |116
+2017-03-10/10:51:17.27244|6|35|0074018C-1003F927|log SegmentationCode5Field:   |116
+2017-03-10/10:51:17.27303|6|35|0074018C-1003F927|log SegmentationCode6Field:  |116
+2017-03-10/10:51:17.27369|6|35|0074018C-1003F927|log SegmentationCode7Field:  |116
+2017-03-10/10:51:17.27428|6|35|0074018C-1003F927|log SegmentationCode8Field:   |116
+2017-03-10/10:51:17.27501|6|35|0074018C-1003F927|log SegmentationCode9Field:  |116
+2017-03-10/10:51:17.27561|6|35|0074018C-1003F927|log SegmentationCode10Field:  |116
+2017-03-10/10:51:17.27632|6|35|0074018C-1003F927|log MOCNField:			  		       |116
+2017-03-10/10:51:17.27695|6|35|0074018C-1003F927|log MOCNDateField:		  	       |116
+2017-03-10/10:51:17.27759|6|35|0074018C-1003F927|log MTStatusField:		  	       |116
+2017-03-10/10:51:17.27830|6|35|0074018C-1003F927|log MTTypeField:			  		   |116
+2017-03-10/10:51:17.27920|6|35|0074018C-1003F927|log MTCNSearchField:		  S	   |116
+2017-03-10/10:51:17.27982|6|35|0074018C-1003F927|log delivery_service_nameField: |116
+2017-03-10/10:51:17.28063|6|35|0074018C-1003F927|log OriginCountryField:	  US   |116
+2017-03-10/10:51:17.28123|6|35|0074018C-1003F927|log DestCountryField:	      US   |116
+2017-03-10/10:51:17.28191|6|35|0074018C-1003F927|log PCPNoUserID:	      	     |116
+2017-03-10/10:51:17.28256|6|35|0074018C-1003F927|log SENDERFirstName:	         |116
+2017-03-10/10:51:17.28322|6|35|0074018C-1003F927|log SENDERLastName:	         |116
+2017-03-10/10:51:17.28393|6|35|0074018C-1003F927|log CalledFOR:			  Fraud|116
+2017-03-10/10:51:17.28452|6|35|0074018C-1003F927|log West_id:	      		  14891609833134247   |116
+2017-03-10/10:51:17.28534|6|35|0074018C-1003F927|log PCPEmail:	      		     |116
+2017-03-10/10:51:17.28595|6|35|0074018C-1003F927|log VRUTranTypeField:		  IVR EN	   |116
+2017-03-10/10:51:17.28660|6|35|0074018C-1003F927|log TransactionTypeField:	  0 |116
+2017-03-10/10:51:17.28759|6|35|0074018C-1003F927|log status: P, reason: Success, echo_connid: preprod1485805845670|116
+2017-03-10/10:51:17.28938|6|35|0074018C-1003F927|log genesys log: ,GenesysAttachData,success,|116
+2017-03-10/10:51:17.29685|6|78|0074018C-1003F927|submit http://vxmlapps/vxml/wunion/header/version1488565943/end.vxml.php|namelist|{"DrrExitType":"callerHUP","EndCall":"Y"}|116
+2017-03-10/10:51:17.29941|6|16|0074018C-1003F927|wf_lookup http://vxmlapps/vxml/wunion/header/version1488565943/end.vxml.php|116
+2017-03-10/10:51:17.29949|6|42|0074018C-1003F927|fetch_start document:http://vxmlapps/vxml/wunion/header/version1488565943/end.vxml.php|116
+2017-03-10/10:51:17.123313|6|17|0074018C-1003F927|wf_arrived s (direct):http://vxmlapps/vxml/wunion/header/version1488565943/end.vxml.php|116
+2017-03-10/10:51:17.123483|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:51:17.123690|6|41|0074018C-1003F927|compile_done :http://vxmlapps/vxml/wunion/header/version1488565943/end.vxml.php|116
+2017-03-10/10:51:17.123754|6|79|0074018C-1003F927|root_appl root.vxml.php|116
+2017-03-10/10:51:17.124539|6|28|0074018C-1003F927|form_enter :end|116
+2017-03-10/10:51:17.124607|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39700$_:BLOCK|116
+2017-03-10/10:51:17.124916|6|35|0074018C-1003F927|log end,enter|116
+2017-03-10/10:51:17.125271|6|33|0074018C-1003F927|goto :#logging|116
+2017-03-10/10:51:17.125363|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:51:17.125493|6|28|0074018C-1003F927|form_enter :logging|116
+2017-03-10/10:51:17.125583|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39701$_:BLOCK|116
+2017-03-10/10:51:17.126365|6|35|0074018C-1003F927|log secDur is 94 seconds|116
+2017-03-10/10:51:17.126530|6|35|0074018C-1003F927|log msDur is 94125 seconds|116
+2017-03-10/10:51:17.126908|6|29|0074018C-1003F927|form_select :__FORMITEM_NAME_$39702$_:BLOCK|116
+2017-03-10/10:51:17.127020|6|35|0074018C-1003F927|log Custom date LOG is 03102017|116
+2017-03-10/10:51:17.127083|6|35|0074018C-1003F927|log ANI LOG is 1234567899 Language is en-us Lang Preference is |116
+2017-03-10/10:51:17.127169|6|35|0074018C-1003F927|log wunion_insert_wunion_interaction_db input '1234567899','20170310','095000',6008848,'','en-us','','status3','No','fraud','','','','','','H'|116
+2017-03-10/10:51:17.127235|6|35|0074018C-1003F927|log portrequest:Trying attempt 1|116
+2017-03-10/10:51:17.127300|6|35|0074018C-1003F927|log portrequest:Sending transaction to ibm90_spy for 5 seconds|116
+2017-03-10/10:51:17.127370|6|35|0074018C-1003F927|log portrequest:SUCCESS,MTLSUCC,{SUCC 0 0},|116
+2017-03-10/10:51:17.127435|6|35|0074018C-1003F927|log result = Array(    [0] => SUCCESS    [1] => MTLSUCC    [2] => {SUCC 0 0}    [3] => )|116
+2017-03-10/10:51:17.127512|6|35|0074018C-1003F927|log transaction history = Array(    [0] => ;ibm90_spy;0.047770977020264;SUCCESS;)|116
+2017-03-10/10:51:17.127572|6|35|0074018C-1003F927|log DB hit return value1 = {SUCC 0 0}|116
+2017-03-10/10:51:17.127640|6|35|0074018C-1003F927|log ADR-2014194120512 change language = en-us|116
+2017-03-10/10:51:17.127862|6|35|0074018C-1003F927|log genesys log: ,GenesysEndCall,success,|116
+2017-03-10/10:51:17.128167|6|35|0074018C-1003F927|log end,GenesysLogData - ,GenesysEndCall,success,|116
+2017-03-10/10:51:17.128266|6|35|0074018C-1003F927|log END EXIT |116
+2017-03-10/10:51:17.128594|6|42|0074018C-1003F927|fetch_start script:http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:51:17.139517|6|43|0074018C-1003F927|fetch_end Done (revalidated):http://vxmlapps/ecmascripts/wicstd/parser.js|116
+2017-03-10/10:51:17.142152|6|42|0074018C-1003F927|fetch_start data:http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:51:17.153335|6|43|0074018C-1003F927|fetch_end Done (direct):http://vxmlapps/webservices/wicstd/drrlogging.xml.php|116
+2017-03-10/10:51:17.160558|6|30|0074018C-1003F927|form_exit normal|116
+2017-03-10/10:51:17.160710|6|36|0074018C-1003F927|appl_end |116

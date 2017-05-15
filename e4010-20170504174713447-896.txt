@@ -1,0 +1,623 @@
+HVP-6.0-SP2p41.1-2199-39494
+Interactive Services
+AdministrationReportsConfigurationuser: cogaela@west.com Logout
+Customer Usage
+Call
+Call ID:	e4010-20170504174713447-896
+Application Name:	ACP INBOUND IVR
+Application Description:	ACP INBOUND IVR
+CLID:	4027161664
+DNIS:	4071947
+Call Date:	Thursday, May 4th 2017
+Call Utterance:	not available
+Back to Log Calls
+Event Search
+Event ID:	  
+Parameter:	
+Reset  Display Events
+Events
+Time	ID	Param ID	Utterance
+17:47:13	sip session	callid=772614338_48152060@10.27.219.50|remote-rtp=10.27.219.10:14830|local-rtp=10.27.217.214:13658|originator=REMOTE	-
+17:47:13	call start	ANI=4027161664|DNIS=4071947|VURL=http://vxmlapps/vxml/advcp/access_center/index.php|outbound=N	-
+17:47:13	asr session	asrengine=nuance90-mrcp1|sessionid=FJALKBGBAAAHFECAAAAAAAAA|address=10.27.139.178:554|server=Nuance Open Speech Recognizer for MRCPv1|setuptime=0.009|endpoint=10.27.131.53:8194	-
+17:47:13	document dump	URL=/opt/holly/etc/defaults/browser-defaults.xml (default)	-
+17:47:13	document dump	URL=/opt/holly/client/data/dnis/all.js|fetchtype=script|mimetype=test/javascript	-
+17:47:13	document transition	uri=call_initialization|cpu=0.010000|normalcpu=0.010000	-
+17:47:13	fetch	uri=http://vxmlapps/vxml/advcp/access_center/index.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.026|documentsize=11300|outcome=success|failover=false|localport=37758|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=50|bytesread=11738|byteswritten=192|cachedecision=nc(pragma no-cache)	-
+17:47:13	document dump	URL=http://vxmlapps/vxml/advcp/access_center/index.php|fetchtype=vxml|mimetype=text/html	-
+17:47:13	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.026|documentsize=18980|outcome=success|failover=false|localport=37760|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=19279|byteswritten=475|cachedecision=nc(pragma no-cache)	-
+17:47:13	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:47:13	document transition	uri=http://vxmlapps/vxml/advcp/access_center/index.php|cpu=0.030000|normalcpu=0.030000	-
+17:47:13	fetch	uri=http://vxmlapps/vxml/advcp/access_center/index.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.023|documentsize=529|outcome=success|failover=false|localport=37762|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=50|bytesread=803|byteswritten=2268|cachedecision=n/a	-
+17:47:13	document dump	URL=http://vxmlapps/vxml/advcp/access_center/index.php|fetchtype=vxml|mimetype=text/html	-
+17:47:13	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.026|documentsize=19469|outcome=success|failover=false|localport=37764|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=19768|byteswritten=475|cachedecision=nc(pragma no-cache)	-
+17:47:13	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:47:13	log	content=FRAMEWORK FILENAME: /wic/wic/wic/wicstd/framework/v.holly.17.20170504	-
+17:47:13	log	content=FRAMEWORK LOGDATA: 1493934433,4010,896,20170504,174713,8114071947,4027161664,advcp,access_center,20,Holly,4010,e4010-20170504174713447-896,led32042,4027161664	-
+17:47:13	document transition	uri=http://vxmlapps/vxml/advcp/access_center/index.php|cpu=0.020000|normalcpu=0.020000	-
+17:47:13	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/start.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.064|documentsize=189759|outcome=success|failover=false|localport=37766|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=73|bytesread=190229|byteswritten=599|cachedecision=n/a	-
+17:47:13	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/start.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:47:13	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.023|documentsize=19470|outcome=success|failover=false|localport=37768|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=19769|byteswritten=475|cachedecision=nc(pragma no-cache)	-
+17:47:13	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:47:13	log	content=#####################WHOWHOWHO = PREPROD	-
+17:47:13	log	content=Test Header Triggered	-
+17:47:13	fetch	uri=http://vxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.021|documentsize=103812|outcome=success|failover=false|localport=37770|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=45|bytesread=104062|byteswritten=502|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:47:13	document dump	URL=http://vxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+17:47:13	log	expr=WicStdPromptAndCollect version 1.11.0 (20160428)	-
+17:47:13	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.021|documentsize=1537|outcome=success|failover=false|localport=37772|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:47:13	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:47:13	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.027|documentsize=87|outcome=success|failover=false|localport=37774|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=657|cachedecision=n/a	-
+17:47:13	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:47:13	prompt	type=SSML|content=You are currently on unit number |language=en-US|outcome=success	-
+17:47:13	fetch	uri=http://promptstore/voice/wicstd/nikki/dynocat/fnum04.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.018|documentsize=11644|outcome=success|failover=false|localport=33218|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=11888|byteswritten=298|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:47:13	prompt	type=external|URI=http://promptstore/voice/wicstd/nikki/dynocat/fnum04.wav|outcome=success	-
+17:47:13	fetch	uri=http://promptstore/voice/wicstd/nikki/dynocat/fnum00.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.021|documentsize=12444|outcome=success|failover=false|localport=33220|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=12688|byteswritten=298|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:47:13	prompt	type=external|URI=http://promptstore/voice/wicstd/nikki/dynocat/fnum00.wav|outcome=success	-
+17:47:13	fetch	uri=http://promptstore/voice/wicstd/nikki/dynocat/fnum01.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.021|documentsize=11644|outcome=success|failover=false|localport=33222|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=11888|byteswritten=298|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:47:13	prompt	type=external|URI=http://promptstore/voice/wicstd/nikki/dynocat/fnum01.wav|outcome=success	-
+17:47:13	fetch	uri=http://promptstore/voice/wicstd/nikki/dynocat/snum00.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.021|documentsize=12844|outcome=success|failover=false|localport=33224|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=13088|byteswritten=298|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:47:13	prompt	type=external|URI=http://promptstore/voice/wicstd/nikki/dynocat/snum00.wav|outcome=success	-
+17:47:13	prompt	type=SSML|content=and line number |language=en-US|outcome=success	-
+17:47:13	fetch	uri=http://promptstore/voice/wicstd/nikki/dynocat/fnum08.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.019|documentsize=11244|outcome=success|failover=false|localport=33226|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=11488|byteswritten=298|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:47:13	prompt	type=external|URI=http://promptstore/voice/wicstd/nikki/dynocat/fnum08.wav|outcome=success	-
+17:47:13	fetch	uri=http://promptstore/voice/wicstd/nikki/dynocat/fnum09.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.019|documentsize=11244|outcome=success|failover=false|localport=33228|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=11488|byteswritten=298|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:47:13	prompt	type=external|URI=http://promptstore/voice/wicstd/nikki/dynocat/fnum09.wav|outcome=success	-
+17:47:14	fetch	uri=http://promptstore/voice/wicstd/nikki/dynocat/snum06.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.019|documentsize=15644|outcome=success|failover=false|localport=33230|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=15888|byteswritten=298|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:47:14	prompt	type=external|URI=http://promptstore/voice/wicstd/nikki/dynocat/snum06.wav|outcome=success	-
+17:47:23	document dump	URL=/usr/local/holly/web/html/browserinfo.xml|fetchtype=data|mimetype=text/xml	-
+17:47:23	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.020|documentsize=1537|outcome=success|failover=false|localport=37804|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:47:23	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:47:23	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.028|documentsize=87|outcome=success|failover=false|localport=37806|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=938|cachedecision=n/a	-
+17:47:23	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:47:23	fetch	uri=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.021|documentsize=1681|outcome=success|failover=false|localport=37808|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=1955|byteswritten=863|cachedecision=n/a	-
+17:47:23	document dump	URL=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:47:23	log	expr=WicStdPromptAndCollect END	-
+17:47:23	log	content=WHAT_WHAT:4027161664	-
+17:47:23	fetch	uri=http://vxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.022|documentsize=103812|outcome=success|failover=false|localport=37810|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=45|bytesread=104062|byteswritten=502|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:47:23	document dump	URL=http://vxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+17:47:23	log	expr=WicStdPromptAndCollect version 1.11.0 (20160428)	-
+17:47:23	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.021|documentsize=1537|outcome=success|failover=false|localport=37812|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:47:23	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:47:23	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.024|documentsize=87|outcome=success|failover=false|localport=37814|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=657|cachedecision=n/a	-
+17:47:23	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:47:23	prompt	type=SSML|content=Please Enter the 10 digit Phone Number|language=en-US|outcome=success	-
+17:47:23	recognition start	inputmodes=dtmf|threshold=20|timeout=5.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=5.000|termtimeout=0.000|termchar=#	-
+17:47:31	recognition end	result=no input|inputmode=unknown	-
+17:47:31	vxml_event	event=noinput	-
+17:47:31	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.021|documentsize=1537|outcome=success|failover=false|localport=37828|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:47:31	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:47:31	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.027|documentsize=87|outcome=success|failover=false|localport=37830|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=1018|cachedecision=n/a	-
+17:47:31	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:47:31	fetch	uri=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.022|documentsize=1759|outcome=success|failover=false|localport=37832|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=2033|byteswritten=955|cachedecision=n/a	-
+17:47:31	document dump	URL=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:47:31	prompt	type=SSML|content=Sorry, I didn't get that.Please Enter the 10 digit Phone Number|language=en-US|outcome=success	-
+17:47:31	system response	latency=0.097	-
+17:47:31	recognition start	inputmodes=dtmf|threshold=20|timeout=5.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=5.000|termtimeout=0.000|termchar=#	-
+17:47:41	recognition end	result=success|inputmode=dtmf|utterance=7 1 8 3 5 6 1 0 0 5|confidence=100|grammar=Grammar_0|bargein=false|recordutterances=N	-
+17:47:41	NUANCE	WEST_CALL_DATA=1493934433,4010,896,20170504,174713,8114071947,4027161664	-
+17:47:41	log	expr=WicStdFormValue = 7 1 8 3 5 6 1 0 0 5	-
+17:47:41	log	expr=WicStdFormConfidence = 100	-
+17:47:41	log	expr=WicStdFormUtterance = 7 1 8 3 5 6 1 0 0 5	-
+17:47:41	log	expr=WicStdFormInputMode = dtmf	-
+17:47:41	log	expr=WicStdCompleteNBestStr = 7 1 8 3 5 6 1 0 0 5^^^1^^^7 1 8 3 5 6 1 0 0 5^^^dtmf	-
+17:47:41	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.022|documentsize=1537|outcome=success|failover=false|localport=37844|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:47:41	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:47:42	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.029|documentsize=87|outcome=success|failover=false|localport=37846|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=1052|cachedecision=n/a	-
+17:47:42	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:47:42	fetch	uri=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.026|documentsize=1798|outcome=success|failover=false|localport=37848|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=2072|byteswritten=1030|cachedecision=n/a	-
+17:47:42	document dump	URL=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:47:42	log	expr=Summary : OK,7 1 8 3 5 6 1 0 0 5,0,1,dtmf,100,undefined	-
+17:47:42	log	expr=WicStdPromptAndCollect END	-
+17:47:42	log	expr=orig_ani : 4027161664	-
+17:47:42	log	content=ANI = 7183561005	-
+17:47:42	fetch	uri=http://vxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.024|documentsize=103812|outcome=success|failover=false|localport=37850|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=45|bytesread=104062|byteswritten=502|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:47:42	document dump	URL=http://vxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+17:47:42	log	expr=WicStdPromptAndCollect version 1.11.0 (20160428)	-
+17:47:42	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.022|documentsize=1537|outcome=success|failover=false|localport=37852|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:47:42	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:47:42	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.028|documentsize=87|outcome=success|failover=false|localport=37854|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=657|cachedecision=n/a	-
+17:47:42	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:47:42	prompt	type=SSML|content=Please Enter the 10 digit A P N|language=en-US|outcome=success	-
+17:47:42	system response	latency=0.206	-
+17:47:42	recognition start	inputmodes=dtmf|threshold=20|timeout=5.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=5.000|termtimeout=0.000|termchar=#	-
+17:47:51	recognition end	result=success|inputmode=dtmf|utterance=8 1 1 3 5 2 2 0 0 0|confidence=100|grammar=Grammar_0|bargein=false|recordutterances=N	-
+17:47:51	log	expr=WicStdFormValue = 8 1 1 3 5 2 2 0 0 0	-
+17:47:51	log	expr=WicStdFormConfidence = 100	-
+17:47:51	log	expr=WicStdFormUtterance = 8 1 1 3 5 2 2 0 0 0	-
+17:47:51	log	expr=WicStdFormInputMode = dtmf	-
+17:47:51	log	expr=WicStdCompleteNBestStr = 8 1 1 3 5 2 2 0 0 0^^^1^^^8 1 1 3 5 2 2 0 0 0^^^dtmf	-
+17:47:51	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.020|documentsize=1537|outcome=success|failover=false|localport=37866|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:47:51	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:47:51	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.028|documentsize=87|outcome=success|failover=false|localport=37868|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=1052|cachedecision=n/a	-
+17:47:51	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:47:51	fetch	uri=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.025|documentsize=1799|outcome=success|failover=false|localport=37870|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=2073|byteswritten=1031|cachedecision=n/a	-
+17:47:51	document dump	URL=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:47:51	log	expr=Summary : OK,8 1 1 3 5 2 2 0 0 0,0,0,dtmf,100,undefined	-
+17:47:51	log	expr=WicStdPromptAndCollect END	-
+17:47:51	log	content=APN = 8113522000, DNIS = 3522000,	-
+17:47:51	fetch	uri=http://vxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.025|documentsize=103812|outcome=success|failover=false|localport=37872|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=45|bytesread=104062|byteswritten=502|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:47:51	document dump	URL=http://vxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+17:47:51	log	expr=WicStdPromptAndCollect version 1.11.0 (20160428)	-
+17:47:51	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.020|documentsize=1537|outcome=success|failover=false|localport=37874|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:47:51	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:47:51	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.026|documentsize=87|outcome=success|failover=false|localport=37876|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=657|cachedecision=n/a	-
+17:47:51	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:47:51	prompt	type=SSML|content=Please Enter a 8 digit date. A four digit Year. A two digit Month. And a two digit day.|language=en-US|outcome=success	-
+17:47:51	system response	latency=0.202	-
+17:47:51	recognition start	inputmodes=dtmf|threshold=20|timeout=5.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+17:47:56	recognition end	result=success|inputmode=dtmf|utterance=2 0 1 7 0 2 0 2|confidence=100|grammar=Grammar_0|bargein=true|recordutterances=N	-
+17:47:56	log	expr=WicStdFormValue = 2 0 1 7 0 2 0 2	-
+17:47:56	log	expr=WicStdFormConfidence = 100	-
+17:47:56	log	expr=WicStdFormUtterance = 2 0 1 7 0 2 0 2	-
+17:47:56	log	expr=WicStdFormInputMode = dtmf	-
+17:47:56	log	expr=WicStdCompleteNBestStr = 2 0 1 7 0 2 0 2^^^1^^^2 0 1 7 0 2 0 2^^^dtmf	-
+17:47:56	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.021|documentsize=1537|outcome=success|failover=false|localport=37888|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:47:56	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:47:56	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.028|documentsize=87|outcome=success|failover=false|localport=37890|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=1061|cachedecision=n/a	-
+17:47:56	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:47:56	fetch	uri=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.025|documentsize=1799|outcome=success|failover=false|localport=37892|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=2073|byteswritten=1023|cachedecision=n/a	-
+17:47:56	document dump	URL=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:47:56	log	expr=Summary : OK,2 0 1 7 0 2 0 2,0,0,dtmf,100,undefined	-
+17:47:56	log	expr=WicStdPromptAndCollect END	-
+17:47:56	log	content= CustomMDY:02/02/2017/\ CallMonth:02/\ GetApptStartDate:02/02/2017/\ dynoDate:20170202	-
+17:47:56	log	content= CustomMDY:02/02/2017/\ CallMonth:02/\ GetApptStartDate:02/02/2017/\ dynoDate:20170202/\ ApplicationServer:led32042/\	-
+17:47:56	log	content=Call ID :::e4010-20170504174713447-896	-
+17:47:56	fetch	uri=http://vxmlapps/webservices/advcp/db_PredictIntent.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.044|documentsize=466|outcome=success|failover=false|localport=37894|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=58|bytesread=739|byteswritten=593|cachedecision=n/a	-
+17:47:56	document dump	URL=http://vxmlapps/webservices/advcp/db_PredictIntent.xml.php|fetchtype=data|mimetype=text/xml	-
+17:47:56	log	content=Inside PredictResult Found	-
+17:47:56	log	content= Returned from Predict Intent Check Web Services PredictResult: FOUND PreviousFirstCallReason: NULL PreviousFinalCallReason: NULL PreviousCallTransferDetails: NULL LastCallDate: 05/04/2017	-
+17:47:56	document transition	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/start.vxml.php|cpu=0.540000|normalcpu=0.540000	-
+17:47:56	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/database/db_DnisQuery.vxml.php?APN=8113522000&CallMonth=02&CustomMDY=02%2F02%2F2017&DNIS=3522000&GetApptStartDate=02%2F02%2F2017&dynoDate=20170202|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.085|documentsize=6064|outcome=success|failover=false|localport=37896|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=205|bytesread=6339|byteswritten=662|cachedecision=nc(vxml maxage)(pragma no-cache)	-
+17:47:56	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/database/db_DnisQuery.vxml.php?APN=8113522000&CallMonth=02&CustomMDY=02%2F02%2F2017&DNIS=3522000&GetApptStartDate=02%2F02%2F2017&dynoDate=20170202|fetchtype=vxml|mimetype=text/html	-
+17:47:56	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.026|documentsize=19470|outcome=success|failover=false|localport=37898|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=19769|byteswritten=475|cachedecision=nc(pragma no-cache)	-
+17:47:56	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:47:56	log	expr=db_DnisQuery,enter	-
+17:47:56	log	content=Good CustomMDY of Call	-
+17:47:56	log	content=	DATES BEING USED CustomMDY:02/02/2017| CallMonth:02| dynoDate:20170202| GetApptStartDate:02/02/2017|	-
+17:47:56	log	content=Proc Name: advcp_dnis_query, Proc Data: '3522000'	-
+17:47:56	log	content=Input data: '3522000'	-
+17:47:56	log	content=portrequest:Trying attempt 1	-
+17:47:56	log	content=portrequest:Sending transaction to ibm90 for 5 seconds	-
+17:47:56	log	content=portrequest:SUCCESS,MTLSUCC,FOUND,0,0,Flatiron,default,N,6828104,6828200,NA,6828114,6828115,6828118,6828125,6828116,6828117,6828000,6828111,6828110,6828112,6828000,6828000,6828400,6828120,6828000,6828000,6828000,6828121,MH,2124607800,	-
+17:47:56	log	content=result = Array ( [0] => SUCCESS [1] => MTLSUCC [2] => FOUND,0,0,Flatiron,default,N,6828104,6828200,NA,6828114,6828115,6828118,6828125,6828116,6828117,6828000,6828111,6828110,6828112,6828000,6828000,6828400,6828120,6828000,6828000,6828000,6828121,MH,2124607800 [3] => )	-
+17:47:56	log	content=transaction history = Array ( [0] => ;ibm90;0.049799919128418;SUCCESS; )	-
+17:47:56	log	content=WhatReturned1 = FOUND,0,0,Flatiron,default,N,6828104,6828200,NA,6828114,6828115,6828118,6828125,6828116,6828117,6828000,6828111,6828110,6828112,6828000,6828000,6828400,6828120,6828000,6828000,6828000,6828121,MH,2124607800	-
+17:47:56	log	content=PortRequest Return String: SUCCESS, MTLSUCC, FOUND,0,0,Flatiron,default,N,6828104,6828200,NA,6828114,6828115,6828118,6828125,6828116,6828117,6828000,6828111,6828110,6828112,6828000,6828000,6828400,6828120,6828000,6828000,6828000,6828121,MH,2124607800	-
+17:47:56	log	content=DRRNodeName: 'advcp_dnis_query'	-
+17:47:56	log	content=DRRdataRecv: 'SUCCESS'	-
+17:47:56	log	content=DRRsubEvent: 'DB:advcp_dnis_query'	-
+17:47:56	log	content=DRRStatus: Success	-
+17:47:56	log	content=DRRdataSent: '3522000'	-
+17:47:56	log	content=ClinicName:Flatiron/\ GreetingSlot:default/\ urgent_after:N/\ provider_num:6828104/\ after_hours_num:6828200/\ mm1_num:NA/\ mm2_num:6828114/\ mm3_1_num:6828115/\ mm3_2_num:6828118/\ spanish_num:6828125/\ mo1_num:6828116/\ mo2_num:6828117/\ mo3_num:6828000/\ emblem_auth_num:6828111/\ new_patient_emblem_num:6828110/\ new_patient2_num:6828112/\ new_patient3_num:6828000/\ auth_fail_num:6828000/\ nam1_num:6828400/\ nam2_num:6828120/\ nam3_num:6828000/\ nam0_num:6828000/\ transfer_num:6828000/\ ucc_num:6828121/\ region:MH/\ DialedNum:2124607800	-
+17:47:56	document transition	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/database/db_DnisQuery.vxml.php?APN=8113522000&CallMonth=02&CustomMDY=02%2F02%2F2017&DNIS=3522000&GetApptStartDate=02%2F02%2F2017&dynoDate=20170202|cpu=0.020000|normalcpu=0.020000	-
+17:47:56	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/database/db_GetToggles.vxml.php?CallMonth=02&ClinicName=Flatiron&CustomMDY=02%2F02%2F2017&DialedNum=2124607800&GetApptStartDate=02%2F02%2F2017&GreetingSlot=default&after_hours_num=6828200&auth_fail_num=6828000&dynoDate=20170202&emblem_auth_num=6828111&mm1_num=NA&mm2_num=6828114&mm3_1_num=6828115&mm3_2_num=6828118&mo1_num=6828116&mo2_num=6828117&mo3_num=6828000&nam0_num=6828000&nam1_num=6828400&nam2_num=6828120&nam3_num=6828000&new_patient2_num=6828112&new_patient3_num=6828000&new_patient_emblem_num=6828110&provider_num=6828104&spanish_num=6828125&transfer_num=6828000&urgent_after=N|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.095|documentsize=4984|outcome=success|failover=false|localport=37900|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=647|bytesread=5259|byteswritten=1104|cachedecision=nc(vxml maxage)(pragma no-cache)	-
+17:47:56	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/database/db_GetToggles.vxml.php?CallMonth=02&ClinicName=Flatiron&CustomMDY=02%2F02%2F2017&DialedNum=2124607800&GetApptStartDate=02%2F02%2F2017&GreetingSlot=default&after_hours_num=6828200&auth_fail_num=6828000&dynoDate=20170202&emblem_auth_num=6828111&mm1_num=NA&mm2_num=6828114&mm3_1_num=6828115&mm3_2_num=6828118&mo1_num=6828116&mo2_num=6828117&mo3_num=6828000&nam0_num=6828000&nam1_num=6828400&nam2_num=6828120&nam3_num=6828000&new_patient2_num=6828112&new_patient3_num=6828000&new_patient_emblem_num=6828110&provider_num=6828104&spanish_num=6828125&transfer_num=6828000&urgent_after=N|fetchtype=vxml|mimetype=text/html	-
+17:47:56	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.027|documentsize=19470|outcome=success|failover=false|localport=37902|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=19769|byteswritten=475|cachedecision=nc(pragma no-cache)	-
+17:47:56	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:47:56	log	content= CustomMDY:02/02/2017/\ yesterday:02/01/2017/\ LastCallDate:05/04/2017/\	-
+17:47:56	log	content=NOT Repeat Caller	-
+17:47:56	log	expr=db_GetToggles,enter	-
+17:47:56	log	content=TESTING:	-
+17:47:56	log	content=Proc Name: realfeed_query_togglelist, Proc Data: 'advcp',LIST{'TRANSFER_MENU_BROADCAST_MSG','CLOSED_MENU_BROADCAST_MSG','GREETING_BROADCAST_MSG','Master_Closed_Toggle','ApnMsg_3522000'},'Y'	-
+17:47:56	log	content=Transaction type is Queport	-
+17:47:56	log	content=Input data: 'advcp',LIST{'TRANSFER_MENU_BROADCAST_MSG','CLOSED_MENU_BROADCAST_MSG','GREETING_BROADCAST_MSG','Master_Closed_Toggle','ApnMsg_3522000'},'Y'	-
+17:47:56	log	content=portrequest:Trying attempt 1	-
+17:47:56	log	content=portrequest:Sending transaction to ibm91_spy for 5 seconds	-
+17:47:56	log	content=portrequest:SUCCESS,MTLSUCC,SUCCESS|GREETING_BROADCAST_MSG~OFF|Master_Closed_Toggle~No|TRANSFER_MENU_BROADCAST_MSG~OFF|CLOSED_MENU_BROADCAST_MSG~OFF|ApnMsg_3522000~OFF,	-
+17:47:56	log	content=result = Array ( [0] => SUCCESS [1] => MTLSUCC [2] => SUCCESS|GREETING_BROADCAST_MSG~OFF|Master_Closed_Toggle~No|TRANSFER_MENU_BROADCAST_MSG~OFF|CLOSED_MENU_BROADCAST_MSG~OFF|ApnMsg_3522000~OFF [3] => )	-
+17:47:56	log	content=transaction history = Array ( [0] => ;ibm91_spy;0.060105085372925;SUCCESS; )	-
+17:47:56	log	content=GREETING_BROADCAST_MSG = OFF	-
+17:47:56	log	content=Master_Closed_Toggle = No	-
+17:47:56	log	content=TRANSFER_MENU_BROADCAST_MSG = OFF	-
+17:47:56	log	content=CLOSED_MENU_BROADCAST_MSG = OFF	-
+17:47:56	log	content=ApnMsg_3522000 = OFF	-
+17:47:56	log	content=PortRequest Return String: SUCCESS, MTLSUCC, SUCCESS|GREETING_BROADCAST_MSG~OFF|Master_Closed_Toggle~No|TRANSFER_MENU_BROADCAST_MSG~OFF|CLOSED_MENU_BROADCAST_MSG~OFF|ApnMsg_3522000~OFF	-
+17:47:56	log	content=DRRNodeName: 'realfeed_query_togglelist'	-
+17:47:56	log	content=DRRdataRecv: 'SUCCESS'	-
+17:47:56	log	content=DRRsubEvent: 'DB:realfeed_query_togglelist'	-
+17:47:56	log	content=DRRStatus: Success	-
+17:47:56	log	content=DRRdataSent: 'advcp',LIST{'TRANSFER_MENU_BROADCAST_MSG','CLOSED_MENU_BROADCAST_MSG','GREETING_BROADCAST_MSG','Master_Closed_Toggle','ApnMsg_3522000'},'Y'	-
+17:47:56	log	content=	GetToggles/\ GREETING_BROADCAST_MSG:OFF/\ CLOSED_MENU_BROADCAST_MSG:OFF/\ TRANSFER_MENU_BROADCAST_MSG:OFF/\ APN_BROADCAST_MSG:OFF/\ Master_Closed_Toggle:No/\	-
+17:47:56	document transition	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/database/db_GetToggles.vxml.php?CallMonth=02&ClinicName=Flatiron&CustomMDY=02%2F02%2F2017&DialedNum=2124607800&GetApptStartDate=02%2F02%2F2017&GreetingSlot=default&after_hours_num=6828200&auth_fail_num=6828000&dynoDate=20170202&emblem_auth_num=6828111&mm1_num=NA&mm2_num=6828114&mm3_1_num=6828115&mm3_2_num=6828118&mo1_num=6828116&mo2_num=6828117&mo3_num=6828000&nam0_num=6828000&nam1_num=6828400&nam2_num=6828120&nam3_num=6828000&new_patient2_num=6828112&new_patient3_num=6828000&new_patient_emblem_num=6828110&provider_num=6828104&spanish_num=6828125&transfer_num=6828000&urgent_after=N|cpu=0.020000|normalcpu=0.020000	-
+17:47:56	fetch	uri=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/index.php?CustomMDY=02%2F02%2F2017&CustomTime=17%3A47&DNIS=3522000|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.021|documentsize=8633|outcome=success|failover=false|localport=37904|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=124|bytesread=8934|byteswritten=581|cachedecision=nc(vxml maxage)(pragma no-cache)	-
+17:47:56	document dump	URL=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/index.php?CustomMDY=02%2F02%2F2017&CustomTime=17%3A47&DNIS=3522000|fetchtype=vxml|mimetype=text/html	-
+17:47:56	fetch	uri=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.027|documentsize=7404|outcome=success|failover=false|localport=37906|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=89|bytesread=7679|byteswritten=509|cachedecision=nc(pragma no-cache)	-
+17:47:56	document dump	URL=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:47:56	document dump	URL=/opt/holly/client/data/dnis/all.js|fetchtype=script|mimetype=test/javascript	-
+17:47:56	document transition	uri=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/index.php?CustomMDY=02%2F02%2F2017&CustomTime=17%3A47&DNIS=3522000|cpu=0.020000|normalcpu=0.020000	-
+17:47:57	fetch	uri=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/start.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.044|documentsize=1162|outcome=success|failover=false|localport=37908|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=90|bytesread=1437|byteswritten=690|cachedecision=n/a	-
+17:47:57	document dump	URL=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/start.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:47:57	fetch	uri=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.026|documentsize=7404|outcome=success|failover=false|localport=37910|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=89|bytesread=7679|byteswritten=509|cachedecision=nc(pragma no-cache)	-
+17:47:57	document dump	URL=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:47:57	log	content=#####################GetHoursOfOperation Start = PREPROD	-
+17:47:57	log	content= In Get Hours Of Operation start.vxml.php.... DNIS:3522000, CustomDate:02/02/2017, CustomTime:17:47	-
+17:47:57	document transition	uri=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/start.vxml.php|cpu=0.030000|normalcpu=0.030000	-
+17:47:57	fetch	uri=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/db_GetHoursOfOperation.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.087|documentsize=2896|outcome=success|failover=false|localport=37912|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=107|bytesread=3171|byteswritten=707|cachedecision=n/a	-
+17:47:57	document dump	URL=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/db_GetHoursOfOperation.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:47:57	fetch	uri=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.025|documentsize=7404|outcome=success|failover=false|localport=37914|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=89|bytesread=7679|byteswritten=509|cachedecision=nc(pragma no-cache)	-
+17:47:57	document dump	URL=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:47:57	log	expr=db_GetHoursOfOperation,enter	-
+17:47:57	log	content=Proc Name: realfeed_hours_operation_allopen_days, Proc Data: 'advcp','3522000','02/02/2017','17:47'	-
+17:47:57	log	content=Input data: 'advcp','3522000','02/02/2017','17:47'	-
+17:47:57	log	content=portrequest:Trying attempt 1	-
+17:47:57	log	content=portrequest:Sending transaction to ibm91_spy for 5 seconds	-
+17:47:57	log	content=portrequest:SUCCESS,MTLSUCC,{{OK|N||OPEN|3522000|05 08:00|05 20:00|}},	-
+17:47:57	log	content=result = Array ( [0] => SUCCESS [1] => MTLSUCC [2] => {{OK|N||OPEN|3522000|05 08:00|05 20:00|}} [3] => )	-
+17:47:57	log	content=transaction history = Array ( [0] => ;ibm91_spy;0.049308061599731;SUCCESS; )	-
+17:47:57	log	content=Set Variables:|OK|N||OPEN	-
+17:47:57	log	content=Hours_OPEN	-
+17:47:57	log	content=PortRequest Return String: SUCCESS, MTLSUCC, OK|N||OPEN|3522000|05 08:00|05 20:00|}}	-
+17:47:57	log	content=DRRNodeName: 'realfeed_hours_operation_allopen_days'	-
+17:47:57	log	content=DRRdataRecv: 'SUCCESS'	-
+17:47:57	log	content=DRRsubEvent: 'DB:realfeed_hours_operation_allopen_days'	-
+17:47:57	log	content=DRRStatus: success	-
+17:47:57	log	content=DRRdataSent: 'advcp','3522000','02/02/2017','17:47'	-
+17:47:57	log	content=What is it Now:3522000, HoursOfOp:OPEN, Holiday:, Exception:N	-
+17:47:57	log	content=Hours Else	-
+17:47:57	document transition	uri=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/db_GetHoursOfOperation.vxml.php|cpu=0.020000|normalcpu=0.020000	-
+17:47:57	fetch	uri=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/end.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.022|documentsize=610|outcome=success|failover=false|localport=37916|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=88|bytesread=884|byteswritten=562|cachedecision=nc(vxml maxage)(pragma no-cache)	-
+17:47:57	document dump	URL=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/end.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:47:57	fetch	uri=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.026|documentsize=7404|outcome=success|failover=false|localport=37918|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=89|bytesread=7679|byteswritten=509|cachedecision=nc(pragma no-cache)	-
+17:47:57	document dump	URL=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:47:57	log	expr=end,enter	-
+17:47:57	log	content=END EXIT	-
+17:47:57	log	content= Hours Of Operation is:OPEN/\ Result:OK/\ Exception:N/\ Holiday:	-
+17:47:57	log	content=HoursOfOp:OPEN	-
+17:47:57	log	content=Open To Greeting	-
+17:47:57	document transition	uri=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/end.vxml.php|cpu=0.020000|normalcpu=0.020000	-
+17:47:57	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/Greeting/say_GreetingDefault.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.042|documentsize=12881|outcome=success|failover=false|localport=37920|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=96|bytesread=13183|byteswritten=553|cachedecision=nc(vxml maxage)(pragma no-cache)	-
+17:47:57	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/Greeting/say_GreetingDefault.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:47:57	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.026|documentsize=19470|outcome=success|failover=false|localport=37922|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=19769|byteswritten=475|cachedecision=nc(pragma no-cache)	-
+17:47:57	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:47:57	log	content= GreetingSlot:default	-
+17:47:57	log	expr=say_GreetingDefault,enter	-
+17:47:57	fetch	uri=http://vxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.025|documentsize=103812|outcome=success|failover=false|localport=37924|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=45|bytesread=104062|byteswritten=502|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:47:57	document dump	URL=http://vxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+17:47:57	log	expr=WicStdPromptAndCollect version 1.11.0 (20160428)	-
+17:47:57	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.020|documentsize=1537|outcome=success|failover=false|localport=37926|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:47:57	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:47:57	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.027|documentsize=87|outcome=success|failover=false|localport=37928|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=657|cachedecision=n/a	-
+17:47:57	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:47:57	fetch	uri=http://promptstore/voice/advcp/access_center/GreetingDefault.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.021|documentsize=27212|outcome=success|failover=false|localport=33372|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=64|bytesread=27455|byteswritten=306|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:47:57	prompt	type=external|URI=http://promptstore/voice/advcp/access_center/GreetingDefault.wav|outcome=success	-
+17:47:57	system response	latency=1.035	-
+17:48:01	document dump	URL=/usr/local/holly/web/html/browserinfo.xml|fetchtype=data|mimetype=text/xml	-
+17:48:01	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.022|documentsize=1537|outcome=success|failover=false|localport=37938|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:48:01	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:48:01	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.029|documentsize=87|outcome=success|failover=false|localport=37940|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=940|cachedecision=n/a	-
+17:48:01	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:48:01	fetch	uri=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.022|documentsize=1683|outcome=success|failover=false|localport=37942|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=1957|byteswritten=865|cachedecision=n/a	-
+17:48:01	document dump	URL=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:48:01	log	expr=WicStdPromptAndCollect END	-
+17:48:01	document transition	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/Greeting/say_GreetingDefault.vxml.php|cpu=0.130000|normalcpu=0.130000	-
+17:48:01	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/Greeting/say_Greeting.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.042|documentsize=12806|outcome=success|failover=false|localport=37944|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=89|bytesread=13108|byteswritten=546|cachedecision=nc(vxml maxage)(pragma no-cache)	-
+17:48:01	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/Greeting/say_Greeting.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:48:01	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.024|documentsize=19470|outcome=success|failover=false|localport=37946|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=19769|byteswritten=475|cachedecision=nc(pragma no-cache)	-
+17:48:01	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:48:01	log	content= GreetingSlot:default	-
+17:48:01	log	expr=say_Greeting,enter	-
+17:48:01	fetch	uri=http://vxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.024|documentsize=103812|outcome=success|failover=false|localport=37948|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=45|bytesread=104062|byteswritten=502|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:48:01	document dump	URL=http://vxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+17:48:01	log	expr=WicStdPromptAndCollect version 1.11.0 (20160428)	-
+17:48:01	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.021|documentsize=1537|outcome=success|failover=false|localport=37950|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:48:01	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:48:01	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.029|documentsize=87|outcome=success|failover=false|localport=37952|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=657|cachedecision=n/a	-
+17:48:01	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:48:01	fetch	uri=http://promptstore/voice/advcp/access_center/Greeting.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.020|documentsize=44320|outcome=success|failover=false|localport=33398|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=57|bytesread=44564|byteswritten=299|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:48:01	prompt	type=external|URI=http://promptstore/voice/advcp/access_center/Greeting.wav|outcome=success	-
+17:48:07	document dump	URL=/usr/local/holly/web/html/browserinfo.xml|fetchtype=data|mimetype=text/xml	-
+17:48:07	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.019|documentsize=1537|outcome=success|failover=false|localport=37962|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:48:07	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:48:07	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.026|documentsize=87|outcome=success|failover=false|localport=37964|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=926|cachedecision=n/a	-
+17:48:07	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:48:07	fetch	uri=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.022|documentsize=1676|outcome=success|failover=false|localport=37966|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=1950|byteswritten=858|cachedecision=n/a	-
+17:48:07	document dump	URL=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:48:07	log	expr=WicStdPromptAndCollect END	-
+17:48:07	document transition	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/Greeting/say_Greeting.vxml.php|cpu=0.110000|normalcpu=0.110000	-
+17:48:07	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/Greeting/prompt_ProviderOption.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.047|documentsize=32474|outcome=success|failover=false|localport=37968|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=98|bytesread=32792|byteswritten=555|cachedecision=nc(vxml maxage)(pragma no-cache)	-
+17:48:07	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/Greeting/prompt_ProviderOption.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:48:07	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.024|documentsize=19470|outcome=success|failover=false|localport=37970|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=19769|byteswritten=475|cachedecision=nc(pragma no-cache)	-
+17:48:07	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:48:07	log	expr=prompt_ProviderOption,enter	-
+17:48:07	fetch	uri=http://vxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.021|documentsize=103812|outcome=success|failover=false|localport=37972|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=45|bytesread=104062|byteswritten=502|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:48:07	document dump	URL=http://vxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+17:48:07	log	expr=WicStdPromptAndCollect version 1.11.0 (20160428)	-
+17:48:07	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.018|documentsize=1537|outcome=success|failover=false|localport=37974|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:48:07	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:48:07	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.027|documentsize=87|outcome=success|failover=false|localport=37976|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=657|cachedecision=n/a	-
+17:48:07	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:48:07	fetch	uri=http://promptstore/voice/advcp/access_center/ProviderOption.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.020|documentsize=51510|outcome=success|failover=false|localport=33420|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=63|bytesread=51753|byteswritten=305|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:48:07	prompt	type=external|URI=http://promptstore/voice/advcp/access_center/ProviderOption.wav|outcome=success	-
+17:48:07	recognition start	inputmodes=dtmf|threshold=20|timeout=1.500|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=	-
+17:48:15	recognition end	result=no input|inputmode=unknown	-
+17:48:15	vxml_event	event=noinput	-
+17:48:15	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.022|documentsize=1537|outcome=success|failover=false|localport=37988|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:48:15	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:48:15	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.026|documentsize=87|outcome=success|failover=false|localport=37990|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=960|cachedecision=n/a	-
+17:48:15	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:48:15	fetch	uri=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.023|documentsize=1711|outcome=success|failover=false|localport=37992|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=1985|byteswritten=891|cachedecision=n/a	-
+17:48:15	document dump	URL=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:48:15	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.018|documentsize=1537|outcome=success|failover=false|localport=37994|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:48:15	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:48:15	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.030|documentsize=87|outcome=success|failover=false|localport=37996|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=963|cachedecision=n/a	-
+17:48:15	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:48:15	fetch	uri=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.023|documentsize=1714|outcome=success|failover=false|localport=37998|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=1988|byteswritten=894|cachedecision=n/a	-
+17:48:15	document dump	URL=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:48:15	log	expr=Summary : MAXNOINPUT,undefined,0,1,undefined,undefined,undefined	-
+17:48:15	log	expr=WicStdPromptAndCollect END	-
+17:48:15	log	content=*********** PnC VARIABLES *****************	-
+17:48:15	log	content=WicStdResult is: MAXNOINPUT	-
+17:48:15	log	content=WicStdFormValue is: undefined	-
+17:48:15	log	content=WicStdFormNomatchCount is: 0	-
+17:48:15	log	content=WicStdFormNoinputCount is: 1	-
+17:48:15	log	content=WicStdFormInputMode is: undefined	-
+17:48:15	log	content=WicStdError is: undefined	-
+17:48:15	log	expr=prompt_ProviderOption, MAXFAIL -- to Broadcast Check	-
+17:48:15	document transition	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/Greeting/prompt_ProviderOption.vxml.php|cpu=0.150000|normalcpu=0.150000	-
+17:48:15	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/Greeting/say_GreetingBroadcast.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.045|documentsize=14087|outcome=success|failover=false|localport=38000|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=98|bytesread=14389|byteswritten=555|cachedecision=nc(vxml maxage)(pragma no-cache)	-
+17:48:15	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/Greeting/say_GreetingBroadcast.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:48:15	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.024|documentsize=19470|outcome=success|failover=false|localport=38002|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=19769|byteswritten=475|cachedecision=nc(pragma no-cache)	-
+17:48:15	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:48:15	log	content=Patient Lookup API by ANI	-
+17:48:15	fetch	uri=http://promptstore/voice/hfhs/access_center/GMVHits_04_Elemental.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.021|documentsize=30566|outcome=success|failover=false|localport=33446|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=68|bytesread=30810|byteswritten=310|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:48:15	system response	latency=0.291884	-
+17:48:15	document transition	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/Greeting/say_GreetingBroadcast.vxml.php|cpu=0.050000|normalcpu=0.050000	-
+17:48:16	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/host/api_PatientLookup.vxml.php?ANI=7183561005&PatientLookupBy=ANI|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.701|documentsize=15282|outcome=success|failover=false|localport=38006|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=125|bytesread=15583|byteswritten=582|cachedecision=nc(vxml maxage)(pragma no-cache)	-
+17:48:16	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/host/api_PatientLookup.vxml.php?ANI=7183561005&PatientLookupBy=ANI|fetchtype=vxml|mimetype=text/html	-
+17:48:16	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.027|documentsize=19470|outcome=success|failover=false|localport=38008|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=19769|byteswritten=475|cachedecision=nc(pragma no-cache)	-
+17:48:16	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:48:16	fetch	uri=http://vxmlapps/ecmascripts/wicstd/validate.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.021|documentsize=21083|outcome=success|failover=false|localport=38010|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=46|bytesread=21331|byteswritten=503|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:48:16	document dump	URL=http://vxmlapps/ecmascripts/wicstd/validate.js|fetchtype=script|mimetype=application/javascript	-
+17:48:16	log	content= PhoneValid:OK/\ LastElement :: say_GreetingBroadcast	-
+17:48:16	log	expr=api_PatientLookup, enter	-
+17:48:16	log	content=API URL : https://100.75.1.20/Interconnect-IVRWest/wcf/Epic.EMPI.GeneratedServices/Patient.svc/basic	-
+17:48:16	log	content=API http code : 200	-
+17:48:16	log	content=PatientLookup API Request : ###<soapenv:Envelope xmlns:arr="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:Epic-com:EMPI.2012.Services.Patient"><soapenv:Header><wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"><wsse:UsernameToken wsu:Id="UsernameToken-8" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"><wsse:Username>EMP: WESTIVR</wsse:Username><wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">West_IVR</wsse:Password><wsse:Nonce EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary">590ba19fcbd59</wsse:Nonce><wsu:Created>2017-05-04T17:48:15-04:00</wsu:Created></wsse:UsernameToken></wsse:Security></soapenv:Header><soapenv:Body><urn:PatientLookup><urn:SearchType>StandardSearch</urn:SearchType><urn:FallBackToHistoricalMRN>false</urn:FallBackToHistoricalMRN><urn:UserID> WESTIVR</urn:UserID><urn:UserIDType></urn:UserIDType><urn:Address><urn:PhoneNumbers><arr:string>7183561005</arr:string></urn:PhoneNumbers></urn:Address></urn:PatientLookup></soapenv:Body></soapenv:Envelope>###	-
+17:48:16	log	content=PatientLookup API Response : ###<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:u="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"><s:Header><o:Security s:mustUnderstand="1" xmlns:o="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"><u:Timestamp u:Id="_0"><u:Created>2017-05-04T21:48:16.347Z</u:Created><u:Expires>2017-05-04T21:53:16.347Z</u:Expires></u:Timestamp></o:Security></s:Header><s:Body><PatientLookupResponse xmlns="urn:Epic-com:EMPI.2012.Services.Patient"><PatientLookupResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Patients><Patient><Addresses><Address><City>NEW YORK</City><Country>United States of America</Country><County>NEW YORK</County><District i:nil="true"/><Email xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><HouseNumber i:nil="true"/><PhoneNumbers><PhoneInfo><Number>718-356-1005</Number><Type>Home Phone</Type></PhoneInfo></PhoneNumbers><PostalCode>10005</PostalCode><State>New York</State><Street xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>215 Main st</a:string></Street><Type>Permanent</Type></Address><Address><City/><Country/><County/><District i:nil="true"/><Email xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><HouseNumber i:nil="true"/><PhoneNumbers/><PostalCode/><State/><Street xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><Type>Temporary</Type></Address></Addresses><Aliases xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><CareTeam><CareTeamMember><IDs xmlns:a="urn:Epic-com:EMPI.2012.Services.External"><a:IDType><a:ID>1154364081</a:ID><a:Type>NPI</a:Type></a:IDType><a:IDType><a:ID>207R00000X</a:ID><a:Type>TAXSER</a:Type></a:IDType><a:IDType><a:ID>A400160905</a:ID><a:Type>MCR</a:Type></a:IDType><a:IDType><a:ID>02364065</a:ID><a:Type>MCD</a:Type></a:IDType><a:IDType><a:ID>6799118164001</a:ID><a:Type>SPI</a:Type></a:IDTy	-
+17:48:16	log	content=PatientLookup API Response Status : ###200###	-
+17:48:16	log	content=PatientLookup Status : *** M ***	-
+17:48:16	log	content=Patient Record(s) Returned : 2	-
+17:48:16	log	content=PatientInfo Array : Array ( [5000117] => Array ( [DOB] => 1984-06-12 [FirstName] => Allison [LastName] => Ivrnov [PhoneNumbers] => 7183561005 [ZIP] => 10005 ) [5000118] => Array ( [DOB] => 1984-06-12 [FirstName] => Amanda [LastName] => Ivrnov [PhoneNumbers] => 7183561005 [ZIP] => 10005 ) )	-
+17:48:16	log	content=AniMatch : M	-
+17:48:16	log	content=First Patient Ani Look Up.... HoursOfOp:	-
+17:48:16	document transition	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/host/api_PatientLookup.vxml.php?ANI=7183561005&PatientLookupBy=ANI|cpu=0.030000|normalcpu=0.030000	-
+17:48:16	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/MainMenu/prompt_MainMenu.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.047|documentsize=61436|outcome=success|failover=false|localport=38012|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=92|bytesread=61785|byteswritten=549|cachedecision=nc(vxml maxage)(pragma no-cache)	-
+17:48:16	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/MainMenu/prompt_MainMenu.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:48:16	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.026|documentsize=19470|outcome=success|failover=false|localport=38014|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=19769|byteswritten=475|cachedecision=nc(pragma no-cache)	-
+17:48:16	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:48:16	log	expr=prompt_MainMenu,enter	-
+17:48:16	fetch	uri=http://vxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.021|documentsize=103812|outcome=success|failover=false|localport=38016|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=45|bytesread=104062|byteswritten=502|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:48:16	document dump	URL=http://vxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+17:48:16	log	expr=WicStdPromptAndCollect version 1.11.0 (20160428)	-
+17:48:16	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.018|documentsize=1537|outcome=success|failover=false|localport=38018|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:48:16	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:48:16	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.024|documentsize=87|outcome=success|failover=false|localport=38020|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=657|cachedecision=n/a	-
+17:48:16	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:48:16	fetch	uri=http://promptstore/voice/advcp/access_center/MainMenu.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.021|documentsize=147688|outcome=success|failover=false|localport=33464|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=57|bytesread=147934|byteswritten=299|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:48:16	prompt	type=external|URI=http://promptstore/voice/advcp/access_center/MainMenu.wav|outcome=success	-
+17:48:16	recognition start	inputmodes=dtmf|threshold=20|timeout=5.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+17:48:40	recognition end	result=no input|inputmode=unknown	-
+17:48:40	vxml_event	event=noinput	-
+17:48:40	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.021|documentsize=1537|outcome=success|failover=false|localport=38040|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:48:40	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:48:40	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.029|documentsize=87|outcome=success|failover=false|localport=38042|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=942|cachedecision=n/a	-
+17:48:40	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:48:40	fetch	uri=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.021|documentsize=1699|outcome=success|failover=false|localport=38044|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=1973|byteswritten=879|cachedecision=n/a	-
+17:48:40	document dump	URL=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:48:40	fetch	uri=http://promptstore/voice/advcp/access_center/MainMenuNI1.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.020|documentsize=88586|outcome=success|failover=false|localport=33488|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=60|bytesread=88831|byteswritten=302|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:48:40	prompt	type=external|URI=http://promptstore/voice/advcp/access_center/MainMenuNI1.wav|outcome=success	-
+17:48:40	system response	latency=0.120	-
+17:48:40	recognition start	inputmodes=dtmf|threshold=20|timeout=5.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+17:48:56	recognition end	result=no input|inputmode=unknown	-
+17:48:56	vxml_event	event=noinput	-
+17:48:56	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.021|documentsize=1537|outcome=success|failover=false|localport=38060|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:48:56	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:48:56	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.027|documentsize=87|outcome=success|failover=false|localport=38062|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=942|cachedecision=n/a	-
+17:48:56	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:48:56	fetch	uri=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.023|documentsize=1699|outcome=success|failover=false|localport=38064|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=1973|byteswritten=879|cachedecision=n/a	-
+17:48:56	document dump	URL=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:48:56	fetch	uri=http://promptstore/voice/advcp/access_center/MainMenuNI2.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.022|documentsize=106470|outcome=success|failover=false|localport=33508|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=60|bytesread=106716|byteswritten=302|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:48:56	prompt	type=external|URI=http://promptstore/voice/advcp/access_center/MainMenuNI2.wav|outcome=success	-
+17:48:56	system response	latency=0.122	-
+17:48:56	recognition start	inputmodes=dtmf|threshold=20|timeout=5.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+17:49:15	recognition end	result=no input|inputmode=unknown	-
+17:49:15	vxml_event	event=noinput	-
+17:49:15	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.021|documentsize=1537|outcome=success|failover=false|localport=38088|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:49:15	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:49:15	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.027|documentsize=87|outcome=success|failover=false|localport=38090|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=942|cachedecision=n/a	-
+17:49:15	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:49:15	fetch	uri=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.024|documentsize=1699|outcome=success|failover=false|localport=38092|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=1973|byteswritten=879|cachedecision=n/a	-
+17:49:15	document dump	URL=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:49:15	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.018|documentsize=1537|outcome=success|failover=false|localport=38094|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:49:15	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:49:15	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.029|documentsize=87|outcome=success|failover=false|localport=38096|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=936|cachedecision=n/a	-
+17:49:15	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:49:15	fetch	uri=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.024|documentsize=1590|outcome=success|failover=false|localport=38098|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=1864|byteswritten=843|cachedecision=n/a	-
+17:49:15	document dump	URL=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:49:15	log	expr=Summary : MAXFAIL,undefined,0,3,undefined,undefined,undefined	-
+17:49:15	log	expr=WicStdPromptAndCollect END	-
+17:49:15	log	content=*********** PnC VARIABLES *****************	-
+17:49:15	log	content=WicStdResult is: MAXFAIL	-
+17:49:15	log	content=WicStdFormValue is: undefined	-
+17:49:15	log	content=WicStdFormNomatchCount is: 0	-
+17:49:15	log	content=WicStdFormNoinputCount is: 3	-
+17:49:15	log	content=WicStdFormInputMode is: undefined	-
+17:49:15	log	content=WicStdError is: undefined	-
+17:49:15	log	expr=prompt_MainMenu, MAXFAIL -- to transfer	-
+17:49:15	vxml_event	event=MaxFail|message=MaxFail in PnC	-
+17:49:15	document transition	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/MainMenu/prompt_MainMenu.vxml.php|cpu=0.260000|normalcpu=0.260000	-
+17:49:15	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/GlobalOptions_SysErrors/say_MaxNoErrorMsg.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.040|documentsize=13964|outcome=success|failover=false|localport=38100|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=109|bytesread=14266|byteswritten=566|cachedecision=nc(vxml maxage)(pragma no-cache)	-
+17:49:15	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/GlobalOptions_SysErrors/say_MaxNoErrorMsg.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:49:15	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.025|documentsize=19470|outcome=success|failover=false|localport=38102|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=19769|byteswritten=475|cachedecision=nc(pragma no-cache)	-
+17:49:15	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:49:15	document transition	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/GlobalOptions_SysErrors/say_MaxNoErrorMsg.vxml.php|cpu=0.030000|normalcpu=0.030000	-
+17:49:15	fetch	uri=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/index.php?CustomMDY=02%2F02%2F2017&CustomTime=17%3A47&DNIS=3522000|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.023|documentsize=8635|outcome=success|failover=false|localport=38104|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=124|bytesread=8936|byteswritten=581|cachedecision=nc(vxml maxage)(pragma no-cache)	-
+17:49:15	document dump	URL=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/index.php?CustomMDY=02%2F02%2F2017&CustomTime=17%3A47&DNIS=3522000|fetchtype=vxml|mimetype=text/html	-
+17:49:15	fetch	uri=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.025|documentsize=7404|outcome=success|failover=false|localport=38106|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=89|bytesread=7679|byteswritten=509|cachedecision=nc(pragma no-cache)	-
+17:49:15	document dump	URL=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:49:15	document dump	URL=/opt/holly/client/data/dnis/all.js|fetchtype=script|mimetype=test/javascript	-
+17:49:15	document transition	uri=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/index.php?CustomMDY=02%2F02%2F2017&CustomTime=17%3A47&DNIS=3522000|cpu=0.030000|normalcpu=0.030000	-
+17:49:15	fetch	uri=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/start.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.046|documentsize=1162|outcome=success|failover=false|localport=38108|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=90|bytesread=1437|byteswritten=690|cachedecision=n/a	-
+17:49:15	document dump	URL=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/start.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:49:15	fetch	uri=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.024|documentsize=7404|outcome=success|failover=false|localport=38110|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=89|bytesread=7679|byteswritten=509|cachedecision=nc(pragma no-cache)	-
+17:49:15	document dump	URL=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:49:15	log	content=#####################GetHoursOfOperation Start = PREPROD	-
+17:49:15	log	content= In Get Hours Of Operation start.vxml.php.... DNIS:3522000, CustomDate:02/02/2017, CustomTime:17:47	-
+17:49:15	document transition	uri=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/start.vxml.php|cpu=0.010000|normalcpu=0.010000	-
+17:49:15	fetch	uri=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/db_GetHoursOfOperation.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.089|documentsize=2896|outcome=success|failover=false|localport=38112|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=107|bytesread=3171|byteswritten=707|cachedecision=n/a	-
+17:49:15	document dump	URL=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/db_GetHoursOfOperation.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:49:15	fetch	uri=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.023|documentsize=7404|outcome=success|failover=false|localport=38114|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=89|bytesread=7679|byteswritten=509|cachedecision=nc(pragma no-cache)	-
+17:49:15	document dump	URL=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:49:15	log	expr=db_GetHoursOfOperation,enter	-
+17:49:15	log	content=Proc Name: realfeed_hours_operation_allopen_days, Proc Data: 'advcp','3522000','02/02/2017','17:47'	-
+17:49:15	log	content=Input data: 'advcp','3522000','02/02/2017','17:47'	-
+17:49:15	log	content=portrequest:Trying attempt 1	-
+17:49:15	log	content=portrequest:Sending transaction to ibm91_spy for 5 seconds	-
+17:49:15	log	content=portrequest:SUCCESS,MTLSUCC,{{OK|N||OPEN|3522000|05 08:00|05 20:00|}},	-
+17:49:15	log	content=result = Array ( [0] => SUCCESS [1] => MTLSUCC [2] => {{OK|N||OPEN|3522000|05 08:00|05 20:00|}} [3] => )	-
+17:49:15	log	content=transaction history = Array ( [0] => ;ibm91_spy;0.051405906677246;SUCCESS; )	-
+17:49:15	log	content=Set Variables:|OK|N||OPEN	-
+17:49:15	log	content=Hours_OPEN	-
+17:49:15	log	content=PortRequest Return String: SUCCESS, MTLSUCC, OK|N||OPEN|3522000|05 08:00|05 20:00|}}	-
+17:49:15	log	content=DRRNodeName: 'realfeed_hours_operation_allopen_days'	-
+17:49:15	log	content=DRRdataRecv: 'SUCCESS'	-
+17:49:15	log	content=DRRsubEvent: 'DB:realfeed_hours_operation_allopen_days'	-
+17:49:15	log	content=DRRStatus: success	-
+17:49:15	log	content=DRRdataSent: 'advcp','3522000','02/02/2017','17:47'	-
+17:49:15	log	content=What is it Now:3522000, HoursOfOp:OPEN, Holiday:, Exception:N	-
+17:49:15	log	content=Hours Else	-
+17:49:15	document transition	uri=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/db_GetHoursOfOperation.vxml.php|cpu=0.020000|normalcpu=0.020000	-
+17:49:15	fetch	uri=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/end.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.022|documentsize=610|outcome=success|failover=false|localport=38116|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=88|bytesread=884|byteswritten=562|cachedecision=nc(vxml maxage)(pragma no-cache)	-
+17:49:15	document dump	URL=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/end.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:49:15	fetch	uri=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.026|documentsize=7404|outcome=success|failover=false|localport=38118|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=89|bytesread=7679|byteswritten=509|cachedecision=nc(pragma no-cache)	-
+17:49:15	document dump	URL=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:49:15	log	expr=end,enter	-
+17:49:15	log	content=END EXIT	-
+17:49:15	log	content= Hours Of Operation is:OPEN/\ Result:OK/\ Exception:N/\ Holiday:	-
+17:49:15	log	expr=prompt_MainMenu, to say_MaxNoErrorMsg	-
+17:49:15	fetch	uri=http://vxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.021|documentsize=103812|outcome=success|failover=false|localport=38120|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=45|bytesread=104062|byteswritten=502|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:49:15	document dump	URL=http://vxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+17:49:15	log	expr=WicStdPromptAndCollect version 1.11.0 (20160428)	-
+17:49:16	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.020|documentsize=1537|outcome=success|failover=false|localport=38122|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:49:16	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:49:16	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.025|documentsize=87|outcome=success|failover=false|localport=38124|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=657|cachedecision=n/a	-
+17:49:16	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:49:16	fetch	uri=http://promptstore/voice/advcp/access_center/MaxNoErrorMsg.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.018|documentsize=19044|outcome=success|failover=false|localport=33568|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=62|bytesread=19288|byteswritten=304|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:49:16	prompt	type=external|URI=http://promptstore/voice/advcp/access_center/MaxNoErrorMsg.wav|outcome=success	-
+17:49:16	system response	latency=0.837	-
+17:49:18	document dump	URL=/usr/local/holly/web/html/browserinfo.xml|fetchtype=data|mimetype=text/xml	-
+17:49:18	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.021|documentsize=1537|outcome=success|failover=false|localport=38128|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:49:18	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:49:18	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.026|documentsize=87|outcome=success|failover=false|localport=38130|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=936|cachedecision=n/a	-
+17:49:18	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:49:18	fetch	uri=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.024|documentsize=1681|outcome=success|failover=false|localport=38132|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=1955|byteswritten=863|cachedecision=n/a	-
+17:49:18	document dump	URL=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:49:18	log	expr=WicStdPromptAndCollect END	-
+17:49:18	document transition	uri=http://vxmlapps/vxml/advcp/subdialogs/GetHoursOfOperation/version1492031675/end.vxml.php|cpu=0.140000|normalcpu=0.140000	-
+17:49:18	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/Transfer/if_OpenClosed.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.021|documentsize=2560|outcome=success|failover=false|localport=38134|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=90|bytesread=2835|byteswritten=547|cachedecision=nc(vxml maxage)(pragma no-cache)	-
+17:49:18	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/Transfer/if_OpenClosed.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:49:18	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.026|documentsize=19470|outcome=success|failover=false|localport=38136|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=19769|byteswritten=475|cachedecision=nc(pragma no-cache)	-
+17:49:18	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:49:18	log	content=HoursOfOp:OPEN/\ TRANSFER_MENU_BROADCAST_MSG:OFF	-
+17:49:18	log	content=Open To Transfer CADType:DEFAULT	-
+17:49:18	document transition	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/Transfer/if_OpenClosed.vxml.php|cpu=0.020000|normalcpu=0.020000	-
+17:49:19	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/host/api_Avaya.vxml.php?AppointmentId=&Authenticated=N&CADType=DEFAULT&EnteredDOB=&EnteredZip=&MRN=&PatFirstName=&PatLastName=&SelectedApptDate=&SelectedDeptName=&SelectedVisitTypeName=&TransferNumber=6828000&TransferReason=Caller%20unable%20to%20self-service%20in%20the%20IVR|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.378|documentsize=1642|outcome=success|failover=false|localport=38138|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=335|bytesread=1917|byteswritten=792|cachedecision=nc(vxml maxage)(pragma no-cache)	-
+17:49:19	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/host/api_Avaya.vxml.php?AppointmentId=&Authenticated=N&CADType=DEFAULT&EnteredDOB=&EnteredZip=&MRN=&PatFirstName=&PatLastName=&SelectedApptDate=&SelectedDeptName=&SelectedVisitTypeName=&TransferNumber=6828000&TransferReason=Caller%20unable%20to%20self-service%20in%20the%20IVR|fetchtype=vxml|mimetype=text/html	-
+17:49:19	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.026|documentsize=19470|outcome=success|failover=false|localport=38140|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=19769|byteswritten=475|cachedecision=nc(pragma no-cache)	-
+17:49:19	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:49:19	log	expr=api_Avaya ,enter	-
+17:49:19	log	content=API URL is : https://100.75.1.30/services/CSRest/cs/contexts/	-
+17:49:19	log	content=API http code : 200	-
+17:49:19	log	content=Avaya API Request : ###{"data":{"Transfer_Reason":"Caller unable to self-service in the IVR","ANI":"7183561005","Caller_Authenticated":"Caller Not Authenticated","APN":"8113522000"}}###	-
+17:49:19	log	content=Avaya API Response : ###{"data":{"contextId":"wuk9BF2JSfWwmiKYjvPFwA"}}###	-
+17:49:19	log	content=Avaya API Response Status : ###SUCCESS###	-
+17:49:19	log	content=AvayaKey : wuk9BF2JSfWwmiKYjvPFwA	-
+17:49:19	log	content= success: wuk9BF2JSfWwmiKYjvPFwA	-
+17:49:19	log	expr=say_MaxNoErrorMsg, to say_Transfer	-
+17:49:19	document transition	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/host/api_Avaya.vxml.php?AppointmentId=&Authenticated=N&CADType=DEFAULT&EnteredDOB=&EnteredZip=&MRN=&PatFirstName=&PatLastName=&SelectedApptDate=&SelectedDeptName=&SelectedVisitTypeName=&TransferNumber=6828000&TransferReason=Caller%20unable%20to%20self-service%20in%20the%20IVR|cpu=0.030000|normalcpu=0.030000	-
+17:49:19	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/Transfer/say_Transfer.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.041|documentsize=13840|outcome=success|failover=false|localport=38142|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=89|bytesread=14142|byteswritten=546|cachedecision=nc(vxml maxage)(pragma no-cache)	-
+17:49:19	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/Transfer/say_Transfer.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:49:19	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.023|documentsize=19470|outcome=success|failover=false|localport=38144|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=19769|byteswritten=475|cachedecision=nc(pragma no-cache)	-
+17:49:19	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:49:19	log	expr=say_Transfer,enter	-
+17:49:19	fetch	uri=http://vxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.024|documentsize=103812|outcome=success|failover=false|localport=38146|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=45|bytesread=104062|byteswritten=502|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:49:19	document dump	URL=http://vxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+17:49:19	log	expr=WicStdPromptAndCollect version 1.11.0 (20160428)	-
+17:49:19	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.019|documentsize=1537|outcome=success|failover=false|localport=38148|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:49:19	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:49:19	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.028|documentsize=87|outcome=success|failover=false|localport=38150|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=657|cachedecision=n/a	-
+17:49:19	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:49:19	fetch	uri=http://promptstore/voice/advcp/access_center/Transfer.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.019|documentsize=16222|outcome=success|failover=false|localport=33594|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=57|bytesread=16465|byteswritten=299|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:49:19	prompt	type=external|URI=http://promptstore/voice/advcp/access_center/Transfer.wav|outcome=success	-
+17:49:21	document dump	URL=/usr/local/holly/web/html/browserinfo.xml|fetchtype=data|mimetype=text/xml	-
+17:49:21	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.020|documentsize=1537|outcome=success|failover=false|localport=38156|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:49:21	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:49:21	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.026|documentsize=87|outcome=success|failover=false|localport=38158|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=926|cachedecision=n/a	-
+17:49:21	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:49:21	fetch	uri=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.021|documentsize=1676|outcome=success|failover=false|localport=38160|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=1950|byteswritten=858|cachedecision=n/a	-
+17:49:21	document dump	URL=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:49:21	log	expr=WicStdPromptAndCollect END	-
+17:49:21	log	expr=say_Transfer, to Agent Transfer	-
+17:49:21	document transition	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/Transfer/say_Transfer.vxml.php|cpu=0.110000|normalcpu=0.110000	-
+17:49:21	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/Transfer/do_SIPReferTransfer.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.028|documentsize=15901|outcome=success|failover=false|localport=38162|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=96|bytesread=16203|byteswritten=553|cachedecision=nc(vxml maxage)(pragma no-cache)	-
+17:49:21	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/Transfer/do_SIPReferTransfer.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:49:21	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.027|documentsize=19470|outcome=success|failover=false|localport=38164|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=19769|byteswritten=475|cachedecision=nc(pragma no-cache)	-
+17:49:21	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:49:21	log	content=DrrTransferReason:MaxAtt	-
+17:49:21	prompt	type=SSML|content=Transfer to phone number... <say-as interpret-as="digits">6828000</say-as>|language=en-US|outcome=success	-
+17:49:21	log	content=Transfering to:6828000	-
+17:49:21	log	expr=do_SIPReferTransfer,enter	-
+17:49:28	transfer start	mode=BLIND|destination=6828000|maxtime=0.000|connecttimeout=60.000	-
+17:49:28	transfer end	mode=BLIND|result=error|error=-4022	-
+17:49:28	vxml_event	event=connection.disconnect.transfer|message=unknown	-
+17:49:28	log	content=event=connection.disconnect.transfer,message=unknown	-
+17:49:28	fetch	uri=http://vxmlapps/webservices/wicstd/logger.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.023|documentsize=54|outcome=success|failover=false|localport=38176|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=49|bytesread=189|byteswritten=874|cachedecision=n/a	-
+17:49:28	document dump	URL=http://vxmlapps/webservices/wicstd/logger.xml.php|fetchtype=data|mimetype=text/xml	-
+17:49:28	fetch	uri=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.021|documentsize=1474|outcome=success|failover=false|localport=38178|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=1748|byteswritten=798|cachedecision=n/a	-
+17:49:28	document dump	URL=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:49:28	vxml_event	event=wicstd.hangup|message=Caller transferred.	-
+17:49:28	log	content=CALLER TRANSFERRED	-
+17:49:28	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.018|documentsize=1537|outcome=success|failover=false|localport=38180|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:49:28	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:49:28	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.026|documentsize=87|outcome=success|failover=false|localport=38182|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=657|cachedecision=n/a	-
+17:49:28	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:49:28	log	content=ElementName:do_SIPReferTransfer, TransferNumber:6828000, drr_sub_event:MaxAtt:, transfer_reason:M, Transfer WicStdResult:OK	-
+17:49:28	log	content= drr_sub_event: MaxAtt:	-
+17:49:28	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.019|documentsize=1537|outcome=success|failover=false|localport=38184|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:49:28	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:49:28	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.028|documentsize=87|outcome=success|failover=false|localport=38186|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=926|cachedecision=n/a	-
+17:49:28	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:49:28	log	expr=do_SIPReferTransfer,disconnect after DRR Logging	-
+17:49:28	document transition	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/Transfer/do_SIPReferTransfer.vxml.php|cpu=0.100000|normalcpu=0.100000	-
+17:49:28	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/end.vxml.php?DrrExitType=NetworkXfer&DrrTransferReason=MaxAtt|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.024|documentsize=10532|outcome=success|failover=false|localport=38188|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=120|bytesread=10833|byteswritten=577|cachedecision=nc(vxml maxage)(pragma no-cache)	-
+17:49:28	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/end.vxml.php?DrrExitType=NetworkXfer&DrrTransferReason=MaxAtt|fetchtype=vxml|mimetype=text/html	-
+17:49:28	fetch	uri=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.025|documentsize=19470|outcome=success|failover=false|localport=38190|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=19769|byteswritten=475|cachedecision=nc(pragma no-cache)	-
+17:49:28	document dump	URL=http://vxmlapps/vxml/advcp/access_center/version1493843430/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+17:49:28	log	content=**************** End Call ****************	-
+17:49:28	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.018|documentsize=1537|outcome=success|failover=false|localport=38192|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:49:28	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:49:28	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.026|documentsize=87|outcome=success|failover=false|localport=38194|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=718|cachedecision=n/a	-
+17:49:28	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:49:28	log	expr=segID is CustomEvent=SELFSERVICE:FALSE:	-
+17:49:28	log	content=DrrExitType:NetworkXfer, DrrExitReason:abandon	-
+17:49:28	log	expr=Duration is 135 seconds	-
+17:49:28	fetch	uri=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.018|documentsize=1537|outcome=success|failover=false|localport=38196|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=1783|byteswritten=501|cachedecision=ca(vxml maxage)(Last Modified)	-
+17:49:28	document dump	URL=http://vxmlapps/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+17:49:28	fetch	uri=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.030|documentsize=87|outcome=success|failover=false|localport=38198|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=359|byteswritten=786|cachedecision=n/a	-
+17:49:28	document dump	URL=http://vxmlapps/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:49:28	log	content=TimeStampIs:2017-05-04T21:49:28	-
+17:49:28	log	content=WicStdLogHeader:1493934433|4010|896|20170504|174713|8114071947|4027161664, End Date:20170504, End Time:174928	-
+17:49:28	fetch	uri=http://vxmlapps/webservices/wicstd/logger.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.019|documentsize=54|outcome=success|failover=false|localport=38200|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=49|bytesread=189|byteswritten=1500|cachedecision=n/a	-
+17:49:28	document dump	URL=http://vxmlapps/webservices/wicstd/logger.xml.php|fetchtype=data|mimetype=text/xml	-
+17:49:29	fetch	uri=http://vxmlapps/webservices/wicstd/logger.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.020|documentsize=54|outcome=success|failover=false|localport=38202|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=49|bytesread=189|byteswritten=1482|cachedecision=n/a	-
+17:49:29	document dump	URL=http://vxmlapps/webservices/wicstd/logger.xml.php|fetchtype=data|mimetype=text/xml	-
+17:49:29	log	content=Ending the Call	-
+17:49:29	log	content=FinalCallReason :: FirstCallReason :: TransferDetails :: 6828000_MaxAtt Client :: advcp ANI :: 7183561005 AppName :: access_center	-
+17:49:29	fetch	uri=http://vxmlapps/webservices/advcp/db_PredictIntent.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.064|documentsize=459|outcome=success|failover=false|localport=38204|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=58|bytesread=732|byteswritten=659|cachedecision=n/a	-
+17:49:29	document dump	URL=http://vxmlapps/webservices/advcp/db_PredictIntent.xml.php|fetchtype=data|mimetype=text/xml	-
+17:49:29	log	content=CallPath :: Start,predict_intent~FOUND,db_DnisQuery~3522000_DB_Found,db_GetToggles,say_GreetingDefault,say_Greeting,prompt_ProviderOption,api_PatientLookup_ANI~SUCCESS_M,prompt_MainMenu~MaxEvent,say_MaxNoErrorMsg, api_Avaya~SUCCESS,say_Transfer,do_SIPReferTransfer,end,predict_intent_insert~SUCCESS_UPDATED	-
+17:49:29	fetch	uri=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.021|documentsize=1147|outcome=success|failover=false|localport=38206|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=1421|byteswritten=690|cachedecision=n/a	-
+17:49:29	document dump	URL=http://vxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+17:49:29	exit	result=exit	-
+17:49:29	call end	cpu=2.050|normalcpu=2.050|callduration=135.685|connectedduration=135.648|timetofirstprompt=0.593|reccount=8|ttscount=7|ttsduration=24.300|asrduration=135.651|logcount=603|logbytes=103406	-
+ 
