@@ -25,59 +25,64 @@ def main():
 def compare(calllog1, transfertype1, y):
     global failed
     transfer =transfertype1.split()
-    hello = transfer[0]
+    total_terms =len(transfer)
+    split_1 = transfer[0].split('=')
+    print split_1[0]
+
+
 
 
     with open(calllog1) as calllog:
         flag=0
         verbiage = set()
         for line in calllog:
-            if 'fetch' in line and 'fetchtype=audio' in line and 'outcome=success' in line and 'wicstd' not in line and 'TVMusic' not in line and 'typing_30Sec' not in line and 'kalimba' not in line and 'hold_music' not in line:
-                endvalue = line.find(".wav")
-                strtvalue = line.rfind('/', 0, endvalue)
-                prompt = line[strtvalue:endvalue].replace('/','')
-                verbiage.add(prompt)
+            if split_1[0].lower().strip() in line.lower() and (':'in line or'='in line):
+                # endvalue = line.find("|")
+                # strtvalue = line.rfind('|', 0, endvalue)
+                # prompt = line[strtvalue:endvalue].replace('/','')
+                verbiage.add(line)
                 flag = 1
 
+    print calllog1
+    print '\n'.join(verbiage)
 
-
-
-    promptlist = transfertype1.split()
-    countlist =len(promptlist)
-    x= 0
-    z=0
-    y =str(y)
-    print "\nTest "+ y+ ": List of Expected Verbiage:"
-    while x < countlist:
-        if promptlist[x] in verbiage:
-            print promptlist[x] + " Found"
-            x+=1
-        else:
-            print promptlist[x] + " Not Found"
-            x+=1
-            z = 1
-            failed = 1
-    if z == 1:
-        print "                   STATUS: FAILED"
-    else:
-        print "                   STATUS: PASSED"
-    if flag == 0:
-        print "\nTest "+ y + ": Calllog does not contain any .wav file "+ calllog1
-    # with open("transfertype.txt") as success:
-    #     print "\nChecked Expected prompts:"
-    #     y=0
-    #     for line in success:
-    #         x = line.strip()
-    #         if x in verbiage:
-    #             print x + "  Found "
-    #             # y+=1
-    #         else:
-    #             print x + " Not Found "
-
-    if flag ==1:
-        print "\nTest "+ y+ ": List of Verbiage hit by Calllogs for " + calllog1 +":"
-        print '\n'.join(verbiage)
-        # print y
+    #
+    # promptlist = transfertype1.split()
+    # countlist =len(promptlist)
+    # x= 0
+    # z=0
+    # y =str(y)
+    # print "\nTest "+ y+ ": List of Expected Verbiage:"
+    # while x < countlist:
+    #     if promptlist[x] in verbiage:
+    #         print promptlist[x] + " Found"
+    #         x+=1
+    #     else:
+    #         print promptlist[x] + " Not Found"
+    #         x+=1
+    #         z = 1
+    #         failed = 1
+    # if z == 1:
+    #     print "                   STATUS: FAILED"
+    # else:
+    #     print "                   STATUS: PASSED"
+    # if flag == 0:
+    #     print "\nTest "+ y + ": Calllog does not contain any .wav file "+ calllog1
+    # # with open("transfertype.txt") as success:
+    # #     print "\nChecked Expected prompts:"
+    # #     y=0
+    # #     for line in success:
+    # #         x = line.strip()
+    # #         if x in verbiage:
+    # #             print x + "  Found "
+    # #             # y+=1
+    # #         else:
+    # #             print x + " Not Found "
+    #
+    # if flag ==1:
+    #     print "\nTest "+ y+ ": List of Verbiage hit by Calllogs for " + calllog1 +":"
+    #     print '\n'.join(verbiage)
+    #     # print y
 
 
 def excel():
@@ -92,8 +97,8 @@ def excel():
             calllog1 = line[2]
             # print transfertype
             # print len(transfertype)
-            if len(transfertype1) >= 10:
-                if len(calllog1)>= 10:
+            if len(transfertype1) >= 5:
+                if len(calllog1)>= 5:
                     # print transfertype1
                     # print calllog1
                     compare(calllog1, transfertype1, y)
