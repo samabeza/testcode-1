@@ -2,16 +2,15 @@ CallFlow,CallTransfer,CallLogs
 "MainMenuNI1
 MainMenu
 FraudInfoNav_2
-hello","GenesysClient=wunion
+FraudInfoNav_1","GenesysClient=wunion
 VRUTranTypeField= IVR EN",e4010-20170426185718000-384.txt
 "abs
-hdkajdlkalsaads",,e3129-20170509213221571-310.txt
+hdkajdlkalsaads",,e3129-20170511162642241-523.txt
 4125,transfertype=Billing,e3129-20170511162642241-523.txt
  ,,
-"MainMenuNI1
-MainMenu
+"FraudInfoNav_1
 FraudInfoNav_2
-hello",skillfield=7999,e4010-20170426185718000-386.txt
+IntentStatus3",skillfield=7999,e4010-20170504174713447-896.txt
 MainMenu,,
 FraudInfoNav_2,,
 hello,,
