@@ -23,70 +23,38 @@ def main():
         sys.exit(1)
 
 def compare(calllog1, transfertype1, y):
+    x = 0
+    transfer = transfertype1.split(';')
+    total_terms = len(transfer)
     global failed
-    transfer =transfertype1.split()
-    total_terms =len(transfer)
-    split_1 = transfer[0].split('=')
-    print split_1[0]
-    first = split_1[0].lower().strip()
-    first_1 = split_1[0].lower().strip()+'='
+    y = str(y)
+    # print total_terms
+    print "Test " + y + ": " + "For Call log " + calllog1
+    total_terms = total_terms -1
+    while total_terms > x :
+        flag = 0
+        split_1 = transfer[x].split('=')
+        first = split_1[0].lower().strip()
+        second = split_1[1].strip()
+        with open(calllog1) as calllog:
+            verbiage = set()
+            for line in calllog:
+                if (first +':' in line.lower() or first +'=' in line.lower()) and second in line:
+                    verbiage.add(line)
+                    flag = 1
+                elif first +':' in line.lower() or first +'=' in line.lower():
+                    verbiage.add(line)
 
 
-
-
-    with open(calllog1) as calllog:
-        flag=0
-        verbiage = set()
-        for line in calllog:
-            if first in line.lower() and (':'in line or'='in line):
-            # if first.lower() in line.lower() or first.lower() in line.lower():
-                # endvalue = line.find("|")
-                strtvalue = line.find('content')
-                prompt = line[strtvalue:20]
-                verbiage.add(line)
-                flag = 1
-
-    print calllog1
-    print '\n'.join(verbiage)
-
-    #
-    # promptlist = transfertype1.split()
-    # countlist =len(promptlist)
-    # x= 0
-    # z=0
-    # y =str(y)
-    # print "\nTest "+ y+ ": List of Expected Verbiage:"
-    # while x < countlist:
-    #     if promptlist[x] in verbiage:
-    #         print promptlist[x] + " Found"
-    #         x+=1
-    #     else:
-    #         print promptlist[x] + " Not Found"
-    #         x+=1
-    #         z = 1
-    #         failed = 1
-    # if z == 1:
-    #     print "                   STATUS: FAILED"
-    # else:
-    #     print "                   STATUS: PASSED"
-    # if flag == 0:
-    #     print "\nTest "+ y + ": Calllog does not contain any .wav file "+ calllog1
-    # # with open("transfertype.txt") as success:
-    # #     print "\nChecked Expected prompts:"
-    # #     y=0
-    # #     for line in success:
-    # #         x = line.strip()
-    # #         if x in verbiage:
-    # #             print x + "  Found "
-    # #             # y+=1
-    # #         else:
-    # #             print x + " Not Found "
-    #
-    # if flag ==1:
-    #     print "\nTest "+ y+ ": List of Verbiage hit by Calllogs for " + calllog1 +":"
-    #     print '\n'.join(verbiage)
-    #     # print y
-
+        print transfer[x]
+        if flag == 0:
+            print "Not Found"
+        elif len(verbiage)==0:
+            print "Not Found"
+        else:
+            print "Found"
+        print ''.join(verbiage)
+        x += 1
 
 def excel():
     z= 0
