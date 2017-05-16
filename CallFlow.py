@@ -23,6 +23,7 @@ def main():
         sys.exit(1)
 
 def compare(calllog1, callflow1, y):
+    gen_Report = open("report.html","a")
     global failed
     with open(calllog1) as calllog:
         flag=0
