@@ -46,13 +46,13 @@ def compare(calllog1, transfertype1, y):
                     verbiage.add(line)
 
 
-        print transfer[x]
+
         if flag == 0:
-            print "Not Found"
+            print transfer[x] + "\tWrong Value"
         elif len(verbiage)==0:
-            print "Not Found"
+            print transfer[x] + "\tNot Found"
         else:
-            print "Found"
+            print transfer[x] + "\tFound"
         print ''.join(verbiage)
         x += 1
 
