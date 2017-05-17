@@ -62,7 +62,7 @@ def compare(calllog1, callflow1, y, gen_Report):
 	prompi = '\n'.join(promptlist)
 	if z == 1:
 		print "                   STATUS: FAILED"
-		gen_Report.write("<tr><td>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td>Failed</td>  <td>" + calllog1 + "</td></tr>")
+		gen_Report.write("<tr><td width='5%'>" + y + "</td><td width='10%'>" + prompi + "</td> <td>" + verbi + "</td> <td>Failed</td>  <td width='20%'>" + calllog1 + "</td></tr>")
 	
 	else:
 		print "                   STATUS: PASSED"
