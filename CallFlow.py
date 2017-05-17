@@ -60,12 +60,12 @@ def compare(calllog1, callflow1, y, gen_Report, gen_try):
 	prompi = '<br/>'.join(promptlist)
 	if z == 1:
 		print "                   STATUS: FAILED"
-		gen_Report.write("<tr><td align='center'>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td>" + calllog1 + "</td> <td bgcolor='#e06745' align='center'>Failed</td>  </tr>")
-		gen_try.write("<tr><td align='center'>" + y + "</td> <td>" + calllog1 + "</td> <td bgcolor='red'>Failed </td></tr>")
+		gen_result.write("<tr><td align='center'>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td>" + calllog1 + "</td> <td bgcolor='#e06745' align='center'>Failed</td>  </tr>")
+		gen_report.write("<tr><td align='center'>" + y + "</td> <td>" + calllog1 + "</td> <td bgcolor='red'>Failed </td></tr>")
 	else:
 		print "                   STATUS: PASSED"
-		gen_Report.write("<tr><td>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td>" + calllog1 + "</td>  <td bgcolor='#99e26f'>Passed</td>  </tr>")
-		gen_try.write("<tr><td align='center'>" + y + "</td> <td>" + calllog1 + "</td> <td bgcolor='green'>Passed </td></tr>")
+		gen_result.write("<tr><td>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td>" + calllog1 + "</td>  <td bgcolor='#99e26f'>Passed</td>  </tr>")
+		gen_report.write("<tr><td align='center'>" + y + "</td> <td>" + calllog1 + "</td> <td bgcolor='green'>Passed </td></tr>")
 	if flag == 0:
 		print "\nTest "+ y + ": Calllog does not contain any .wav file "+ calllog1
 	if flag ==1:
@@ -75,21 +75,21 @@ def compare(calllog1, callflow1, y, gen_Report, gen_try):
 
 
 def excel():
-	gen_Report = open("report.html", "a")
-	gen_try = open("try.html", "a")
-	gen_Report.write("<html><table align ='center'  border='1' width='70%'> <center><h1>Build Acceptance Test</h1><br/> <h3>Call Flow</h3></center></table>")
-	gen_try.write("<html><table align ='center'  border='1' width='70%'> <center><h1>Build Acceptance Test</h1><br/> <h3>Call Flow</h3></center></table>")
+	gen_result = open("result.html", "a")
+	gen_report = open("report.html", "a")
+	gen_result.write("<html><table align ='center'  border='1' width='70%'> <center><h1>Build Acceptance Test</h1><br/> <h3>Call Flow</h3></center></table>")
+	gen_report.write("<html><table align ='center'  border='1' width='70%'> <center><h1>Build Acceptance Test</h1><br/> <h3>Call Flow</h3></center></table>")
 	z= 0
 	with open('Data File.csv', 'rb') as f:
 		reader = csv.reader(f)
 		next(reader, None)
 		y= 1;
-		gen_Report.write("<table border='1' align='center'><tr><td align='center'> Test Case </td> "
+		gen_result.write("<table border='1' align='center'><tr><td align='center'> Test Case </td> "
 						 "<td align='center'> Expected Verbiage </td> "
 						 "<td align='center'> Verbiage Found </td> "
 						 "<td align='center'> Call Log </td> "
 						 "<td align='center'> Result </td></tr>")
-		gen_try.write("<br/><table border='1' align='center'><tr><td align='center'> Test Case </td> "
+		gen_report.write("<br/><table border='1' align='center'><tr><td align='center'> Test Case </td> "
 						 "<td align='center'> Call Log </td> "
 						 "<td align='center'> Pass/Fail </td></tr>")
 		for line in reader:
