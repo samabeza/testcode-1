@@ -82,17 +82,17 @@ def excel():
 					# "style='background-color:orange;'> "
 					# "<style>table, th, td {border: 1px solid black;}</style>"
 					# "<h1 >Build Acceptance Test</h1><p>Call Flow</p>")
-	gen_Report.write("<html><table align ='center' bgcolor='orange' border='1' width='70%'> <h1>Build Acceptance Test</h1> <p>Call Flow</p>")
+	gen_Report.write("<html><table align ='center'  border='1' width='70%'> <center><h1>Build Acceptance Test</h1><br/> <h3>Call Flow</h3></center>")
 	z= 0
 	with open('Data File.csv', 'rb') as f:
 		reader = csv.reader(f)
 		next(reader, None)
 		y= 1;
-		gen_Report.write("<tr><td> Test Case </td> "
-						 "<td> Expected Verbiage </td> "
-						 "<td> Verbiage Found </td> "
-						 "<td> Result </td> "
-						 "<td>Call Log </td></tr>")
+		gen_Report.write("<tr><td align='center'> Test Case </td> "
+						 "<td align='center'> Expected Verbiage </td> "
+						 "<td align='center'> Verbiage Found </td> "
+						 "<td align='center'> Result </td> "
+						 "<td align='center'>Call Log </td></tr>")
 		for line in reader:
 			callflow1 =line[0]
 			calllog1 = line[2]
