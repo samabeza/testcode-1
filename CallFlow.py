@@ -85,10 +85,10 @@ def excel():
 		next(reader, None)
 		y= 1;
 		gen_Report.write("<tr><td align='center'> Test Case </td> "
-						# "<td align='center'> Expected Verbiage </td> "
-						# "<td align='center'> Verbiage Found </td> "
-						# "<td align='center'> Call Log </td> "
-						# "<td align='center'> Result </td></tr>")
+						 "<td align='center'> Expected Verbiage </td> "
+						 "<td align='center'> Verbiage Found </td> "
+						 "<td align='center'> Call Log </td> "
+						 "<td align='center'> Result </td></tr>")
 		gen_try.write("<br/><table border='1' align='center'><tr><td align='center'> Test Case </td> "
 						 "<td align='center'> Call Log </td> "
 						 "<td align='center'> Pass/Fail </td></tr>")
