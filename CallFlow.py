@@ -14,7 +14,7 @@ def main():
         sys.exit(1)
 
 
-def compare(calllog1, callflow1, y, gen_Report, gen_try):
+def compare(calllog1, callflow1, y, gen_result, gen_report):
 
 
 	global failed
@@ -97,7 +97,7 @@ def excel():
 			calllog1 = line[2]
 			if len(callflow1) >= 10:
 				if len(calllog1)>= 10:
-					compare(calllog1, callflow1, y, gen_Report, gen_try)
+					compare(calllog1, callflow1, y, gen_result, gen_report)
 					y+=1
 if __name__ == "__main__":
 
