@@ -76,7 +76,7 @@ def compare(calllog1, callflow1, y, gen_Report):
 
 def excel():
 	gen_Report = open("report.html", "a")
-	gen_Report.write("<html><table align ='center'  border='1' width='70%'> <center><h1>Build Acceptance Test</h1><br/> <h3>Call Flow</h3></center>")
+	gen_Report.write("<html><table align ='center'  border='1' width='70%'> <center><h1>Build Acceptance Test</h1><br/> <h3>Call Flow</h3></center></table>")
 	z= 0
 	with open('Data File.csv', 'rb') as f:
 		reader = csv.reader(f)
@@ -87,7 +87,7 @@ def excel():
 						# "<td align='center'> Verbiage Found </td> "
 						# "<td align='center'> Call Log </td> "
 						# "<td align='center'> Result </td></tr>")
-		gen_Report.write("<tr><td align='center'> Test Case </td> "
+		gen_Report.write("<table border='1'><tr><td align='center'> Test Case </td> "
 						 "<td align='center'> Call Log </td> "
 						 "<td align='center'> Pass/Fail </td></tr>")
 		for line in reader:
