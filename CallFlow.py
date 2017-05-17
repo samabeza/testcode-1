@@ -61,11 +61,11 @@ def compare(calllog1, callflow1, y, gen_Report):
 	if z == 1:
 		print "                   STATUS: FAILED"
 		#gen_Report.write("<tr><td align='center'>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td>" + calllog1 + "</td> <td bgcolor='#e06745' align='center'>Failed</td>  </tr>")
-		gen_Report.write("<tr><td align='center'>" + y + "</td> <td>" + calllog1 + "</td> <td bgcolor='#e06745>Failed </td></tr>")
+		gen_Report.write("<tr><td align='center'>" + y + "</td> <td>" + calllog1 + "</td> <td bgcolor='red'>Failed </td></tr>")
 	else:
 		print "                   STATUS: PASSED"
 		#gen_Report.write("<tr><td>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td>" + calllog1 + "</td>  <td bgcolor='#99e26f'>Passed</td>  </tr>")
-		gen_Report.write("<tr><td align='center'>" + y + "</td> <td>" + calllog1 + "</td> <td bgcolor='#99e26f>Passed </td></tr>")
+		gen_Report.write("<tr><td align='center'>" + y + "</td> <td>" + calllog1 + "</td> <td bgcolor='green'>Passed </td></tr>")
 	if flag == 0:
 		print "\nTest "+ y + ": Calllog does not contain any .wav file "+ calllog1
 	if flag ==1:
