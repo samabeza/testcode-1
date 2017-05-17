@@ -78,6 +78,7 @@ def compare(calllog1, callflow1, y, gen_Report):
 
 def excel():
 	gen_Report = open("report.html", "a")
+	gen_Report.write("<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script> <script>$(document.ready(function(){ $('.toggle').click(function() { $(this).parent().next().find('table').toggle(); }); });</script>")
 	#gen_Report.write("<html><table align ='center'"
 					# "style='background-color:orange;'> "
 					# "<style>table, th, td {border: 1px solid black;}</style>"
