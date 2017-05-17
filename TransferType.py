@@ -44,6 +44,7 @@ def compare(calllog1, transfertype1, y, gen_result):
             z = 1
         elif len(verbiage)==0:
             print transfer[x] + "\tNot Found"
+            failed = 1
             z = 1
         else:
             print transfer[x] + "\tFound"
