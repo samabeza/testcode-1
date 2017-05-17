@@ -70,7 +70,7 @@ def excel():
         reader = csv.reader(f)
         next(reader, None)
         y= 1;
-        gen_Report.write("<tr><td> Test Case </td> "
+        gen_result.write("<tr><td> Test Case </td> "
                          "<td> Transfer Term </td> "
                          "<td> Actual Logs </td> "
                          "<td> Result </td> "
