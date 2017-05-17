@@ -77,7 +77,7 @@ def compare(calllog1, callflow1, y, gen_result, gen_report):
 def excel():
 	gen_result = open("result.html", "a")
 	gen_report = open("report.html", "a")
-	gen_result.write("<html><table align ='center'  border='1' width='70%'> <center><h1>Build Acceptance Test</h1><br/> <h3>Call Flow</h3></center></table>")
+	gen_result.write("<html><table align ='center'  border='1' width='80%'> <center><h1>Build Acceptance Test</h1><br/> <h3>Call Flow</h3></center></table>")
 	gen_report.write("<html><table align ='center'  border='1' width='70%'> <center><h1>Build Acceptance Test</h1><br/> <h3>Call Flow</h3></center></table>")
 	z= 0
 	with open('Data File.csv', 'rb') as f:
