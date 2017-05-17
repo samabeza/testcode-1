@@ -63,11 +63,11 @@ def compare(calllog1, callflow1, y, gen_Report):
 	if z == 1:
 		print "                   STATUS: FAILED"
 		#gen_Report.write("<tr><td>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td bgcolor='#e06745'>Failed</td>  <td>" + calllog1 + "</td></tr>")
-		gen_Report.write("<table border='1'><tr> <td><button class='toggle'>Show/Hide</button></td>  <td><table><tr><td>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td bgcolor='#e06745'>Failed</td>  <td>" + calllog1 + "</td></tr></table></td></tr>")
+		gen_Report.write("<tr> <td><button class='toggle'>Show/Hide</button></td>  <td><table border='1'><tr><td>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td bgcolor='#e06745'>Failed</td>  <td>" + calllog1 + "</td></tr></table></td></tr>")
 	else:
 		print "                   STATUS: PASSED"
 		#gen_Report.write("<tr><td>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td bgcolor='#99e26f'>Passed</td>  <td>" + calllog1 + "</td></tr>")
-		gen_Report.write("<table border='1'><tr> <td><button class='toggle'>Show/Hide</button></td>  <td><table><tr><td>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td bgcolor='#e06745'>Passed</td>  <td>" + calllog1 + "</td></tr></table></td></tr>")
+		gen_Report.write("<tr> <td><button class='toggle'>Show/Hide</button></td>  <td><table border='1'><tr><td>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td bgcolor='green'>Passed</td>  <td>" + calllog1 + "</td></tr></table></td></tr>")
 	if flag == 0:
 		print "\nTest "+ y + ": Calllog does not contain any .wav file "+ calllog1
 	if flag ==1:
@@ -78,12 +78,13 @@ def compare(calllog1, callflow1, y, gen_Report):
 
 def excel():
 	gen_Report = open("report.html", "a")
-	gen_Report.write("<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script> <script>$(document.ready(function(){ $('.toggle').click(function() { $(this).parent().next().find('table').toggle(); }); });</script>")
+	gen_Report.write("<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script> <script>$(document).ready(function(){ $('.toggle').click(function() { $(this).parent().next().find('table').toggle(); }); });</script>")
 	#gen_Report.write("<html><table align ='center'"
 					# "style='background-color:orange;'> "
 					# "<style>table, th, td {border: 1px solid black;}</style>"
 					# "<h1 >Build Acceptance Test</h1><p>Call Flow</p>")
 	gen_Report.write("<html><table align ='center' bgcolor='orange' border='1' width='70%'> <h1>Build Acceptance Test</h1> <p>Call Flow</p>")
+	gen_Report.write("<table border='1'>")
 	z= 0
 	with open('Data File.csv', 'rb') as f:
 		reader = csv.reader(f)
