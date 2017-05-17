@@ -13,7 +13,7 @@ def main():
         print "Data File.csv not Found"
         sys.exit(1)
 
-def compare(calllog1, transfertype1, y, gen_Report):
+def compare(calllog1, transfertype1, y, gen_result):
     x = 0
     z = 0
     transfer = transfertype1.split(';')
@@ -53,22 +53,18 @@ def compare(calllog1, transfertype1, y, gen_Report):
     prompi = '<br/>'.join(transfer)
     if z == 1:
         print "                   STATUS: FAILED"
-        gen_Report.write(
+        gen_result.write(
             "<tr><td>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td bgcolor='#e06745'>Failed</td>  <td>" + calllog1 + "</td></tr>")
 
     else:
         print "                   STATUS: PASSED"
-        gen_Report.write(
+        gen_result.write(
             "<tr><td>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td bgcolor='#99e26f'>Passed</td>  <td>" + calllog1 + "</td></tr>")
 
 
 def excel():
-    gen_Report = open("report.html", "a")
-    # gen_Report.write("<html><table align ='center'"
-    # "style='background-color:orange;'> "
-    # "<style>table, th, td {border: 1px solid black;}</style>"
-    # "<h1 >Build Acceptance Test</h1><p>Call Flow</p>")
-    gen_Report.write("<html><table align ='center' bgcolor='orange' border='1' width='70%'> <h1>Build Acceptance Test</h1> <p>Transfer Term</p>")
+    gen_result = open("result.html", "a")
+    gen_result.write("<html><table align ='center' border='1' width='70%'> <h1>Build Acceptance Test</h1> <p>Transfer Term</p>")
     z= 0
     with open('Data File.csv', 'rb') as f:
         reader = csv.reader(f)
@@ -84,7 +80,7 @@ def excel():
             calllog1 = line[2]
             if len(transfertype1) >= 5:
                 if len(calllog1)>= 5:
-                    compare(calllog1, transfertype1, y, gen_Report)
+                    compare(calllog1, transfertype1, y, gen_result)
                     y+=1
 
 if __name__ == "__main__":
