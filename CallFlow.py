@@ -84,7 +84,7 @@ def excel():
 		reader = csv.reader(f)
 		next(reader, None)
 		y= 1;
-		gen_Report.write("<tr><td align='center'> Test Case </td> "
+		gen_Report.write("<table border='1' align='center'><tr><td align='center'> Test Case </td> "
 						 "<td align='center'> Expected Verbiage </td> "
 						 "<td align='center'> Verbiage Found </td> "
 						 "<td align='center'> Call Log </td> "
