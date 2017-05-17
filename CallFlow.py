@@ -50,11 +50,9 @@ def compare(calllog1, callflow1, y, gen_Report):
 	while x < countlist:
 		if promptlist[x] in verbiage:
 			print promptlist[x] + " Found"
-			#gen_Report.write("<tr><td>" + y + "</td><td>" + promptlist[x] + "</td>")
 			x+=1
 		else:
 			print promptlist[x] + " Not Found"
-			#gen_Report.write("<tr><td>" + promptlist[x] + "</td>")
 			x+=1
 			z = 1
 			failed = 1
@@ -62,12 +60,12 @@ def compare(calllog1, callflow1, y, gen_Report):
 	prompi = '<br/>'.join(promptlist)
 	if z == 1:
 		print "                   STATUS: FAILED"
-		gen_Report.write("<tr><td align='center'>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td>" + calllog1 + "</td> <td bgcolor='#e06745' align='center'>Failed</td>  </tr>")
-		#gen_Report.write("<tr> <td><button class='toggle'>Show/Hide</button></td>  <td><table border='1'><tr><td>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td bgcolor='#e06745'>Failed</td>  <td>" + calllog1 + "</td></tr></table></td></tr>")
+		#gen_Report.write("<tr><td align='center'>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td>" + calllog1 + "</td> <td bgcolor='#e06745' align='center'>Failed</td>  </tr>")
+		gen_Report.write("<tr><td align='center'>" + y + "</td> <td>" + calllog1 + "</td> <td bgcolor='#e06745>Failed </td></tr>")
 	else:
 		print "                   STATUS: PASSED"
-		gen_Report.write("<tr><td>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td>" + calllog1 + "</td>  <td bgcolor='#99e26f'>Passed</td>  </tr>")
-		#gen_Report.write("<tr> <td><button class='toggle'>Show/Hide</button></td>  <td><table border='1'><tr><td>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td bgcolor='green'>Passed</td>  <td>" + calllog1 + "</td></tr></table></td></tr>")
+		#gen_Report.write("<tr><td>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td>" + calllog1 + "</td>  <td bgcolor='#99e26f'>Passed</td>  </tr>")
+		gen_Report.write("<tr><td align='center'>" + y + "</td> <td>" + calllog1 + "</td> <td bgcolor='#99e26f>Passed </td></tr>")
 	if flag == 0:
 		print "\nTest "+ y + ": Calllog does not contain any .wav file "+ calllog1
 	if flag ==1:
@@ -78,21 +76,20 @@ def compare(calllog1, callflow1, y, gen_Report):
 
 def excel():
 	gen_Report = open("report.html", "a")
-	#gen_Report.write("<html><table align ='center'"
-					# "style='background-color:orange;'> "
-					# "<style>table, th, td {border: 1px solid black;}</style>"
-					# "<h1 >Build Acceptance Test</h1><p>Call Flow</p>")
 	gen_Report.write("<html><table align ='center'  border='1' width='70%'> <center><h1>Build Acceptance Test</h1><br/> <h3>Call Flow</h3></center>")
 	z= 0
 	with open('Data File.csv', 'rb') as f:
 		reader = csv.reader(f)
 		next(reader, None)
 		y= 1;
+		#gen_Report.write("<tr><td align='center'> Test Case </td> "
+						# "<td align='center'> Expected Verbiage </td> "
+						# "<td align='center'> Verbiage Found </td> "
+						# "<td align='center'> Call Log </td> "
+						# "<td align='center'> Result </td></tr>")
 		gen_Report.write("<tr><td align='center'> Test Case </td> "
-						 "<td align='center'> Expected Verbiage </td> "
-						 "<td align='center'> Verbiage Found </td> "
 						 "<td align='center'> Call Log </td> "
-						 "<td align='center'> Result </td></tr>")
+						 "<td align='center'> Pass/Fail </td></tr>")
 		for line in reader:
 			callflow1 =line[0]
 			calllog1 = line[2]
