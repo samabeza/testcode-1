@@ -82,7 +82,7 @@ def excel():
 					# "style='background-color:orange;'> "
 					# "<style>table, th, td {border: 1px solid black;}</style>"
 					# "<h1 >Build Acceptance Test</h1><p>Call Flow</p>")
-	gen_Report.write("<html><table align ='center' bgcolor='orange' border='1'> <h1>Build Acceptance Test</h1> <p>Call Flow</p>")
+	gen_Report.write("<html><table align ='center' bgcolor='orange' border='1' width='70%'> <h1>Build Acceptance Test</h1> <p>Call Flow</p>")
 	z= 0
 	with open('Data File.csv', 'rb') as f:
 		reader = csv.reader(f)
