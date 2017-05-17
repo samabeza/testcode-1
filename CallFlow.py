@@ -50,9 +50,11 @@ def compare(calllog1, callflow1, y, gen_Report):
 	while x < countlist:
 		if promptlist[x] in verbiage:
 			print promptlist[x] + " Found"
+			gen_Report.write("<tr><td>" + y + "</td><td>" + promptlist[x] + "</td>")
 			x+=1
 		else:
 			print promptlist[x] + " Not Found"
+			gen_Report.write("<tr><td>" + promptlist[x] + "</td>")
 			x+=1
 			z = 1
 			failed = 1
@@ -60,10 +62,12 @@ def compare(calllog1, callflow1, y, gen_Report):
 	prompi = '\n'.join(promptlist)
 	if z == 1:
 		print "                   STATUS: FAILED"
-		gen_Report.write("<tr><td>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td>Failed</td>  <td>" + calllog1 + "</td></tr>")
+		#gen_Report.write("<tr><td>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td>Failed</td>  <td>" + calllog1 + "</td></tr>")
+		gen_Report.write("<td>" + verbi + "</td><td> FAILED</td>" + calllog1 + "</td></tr>") 
 	else:
 		print "                   STATUS: PASSED"
-		gen_Report.write("<tr><td>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td>Passed</td>  <td>" + calllog1 + "</td></tr>")
+		#gen_Report.write("<tr><td>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td>Passed</td>  <td>" + calllog1 + "</td></tr>")
+		gen_Report.write("<td>" + verbi + "</td><td> PASSED</td>" + calllog1 + "</td></tr>") 
 	if flag == 0:
 		print "\nTest "+ y + ": Calllog does not contain any .wav file "+ calllog1
 	if flag ==1:
