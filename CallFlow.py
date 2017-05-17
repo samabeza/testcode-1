@@ -91,8 +91,8 @@ def excel():
 		gen_Report.write("<tr><td align='center'> Test Case </td> "
 						 "<td align='center'> Expected Verbiage </td> "
 						 "<td align='center'> Verbiage Found </td> "
-						 "<td align='center'> Result </td> "
-						 "<td align='center'>Call Log </td></tr>")
+						 "<td align='center'> Call Log </td> "
+						 "<td align='center'> Result </td></tr>")
 		for line in reader:
 			callflow1 =line[0]
 			calllog1 = line[2]
