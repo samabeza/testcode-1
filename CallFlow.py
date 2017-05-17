@@ -14,7 +14,7 @@ def main():
         sys.exit(1)
 
 
-def compare(calllog1, callflow1, y, gen_Report):
+def compare(calllog1, callflow1, y, gen_Report, gen_try):
 
 
 	global failed
@@ -60,12 +60,12 @@ def compare(calllog1, callflow1, y, gen_Report):
 	prompi = '<br/>'.join(promptlist)
 	if z == 1:
 		print "                   STATUS: FAILED"
-		#gen_Report.write("<tr><td align='center'>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td>" + calllog1 + "</td> <td bgcolor='#e06745' align='center'>Failed</td>  </tr>")
-		gen_Report.write("<tr><td align='center'>" + y + "</td> <td>" + calllog1 + "</td> <td bgcolor='red'>Failed </td></tr>")
+		gen_Report.write("<tr><td align='center'>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td>" + calllog1 + "</td> <td bgcolor='#e06745' align='center'>Failed</td>  </tr>")
+		gen_try.write("<tr><td align='center'>" + y + "</td> <td>" + calllog1 + "</td> <td bgcolor='red'>Failed </td></tr>")
 	else:
 		print "                   STATUS: PASSED"
-		#gen_Report.write("<tr><td>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td>" + calllog1 + "</td>  <td bgcolor='#99e26f'>Passed</td>  </tr>")
-		gen_Report.write("<tr><td align='center'>" + y + "</td> <td>" + calllog1 + "</td> <td bgcolor='green'>Passed </td></tr>")
+		gen_Report.write("<tr><td>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td>" + calllog1 + "</td>  <td bgcolor='#99e26f'>Passed</td>  </tr>")
+		gen_try.write("<tr><td align='center'>" + y + "</td> <td>" + calllog1 + "</td> <td bgcolor='green'>Passed </td></tr>")
 	if flag == 0:
 		print "\nTest "+ y + ": Calllog does not contain any .wav file "+ calllog1
 	if flag ==1:
@@ -76,18 +76,20 @@ def compare(calllog1, callflow1, y, gen_Report):
 
 def excel():
 	gen_Report = open("report.html", "a")
+	gen_try = open("try.html", "a")
 	gen_Report.write("<html><table align ='center'  border='1' width='70%'> <center><h1>Build Acceptance Test</h1><br/> <h3>Call Flow</h3></center></table>")
+	gen_try.write("<html><table align ='center'  border='1' width='70%'> <center><h1>Build Acceptance Test</h1><br/> <h3>Call Flow</h3></center></table>")
 	z= 0
 	with open('Data File.csv', 'rb') as f:
 		reader = csv.reader(f)
 		next(reader, None)
 		y= 1;
-		#gen_Report.write("<tr><td align='center'> Test Case </td> "
+		gen_Report.write("<tr><td align='center'> Test Case </td> "
 						# "<td align='center'> Expected Verbiage </td> "
 						# "<td align='center'> Verbiage Found </td> "
 						# "<td align='center'> Call Log </td> "
 						# "<td align='center'> Result </td></tr>")
-		gen_Report.write("<br/><table border='1' align='center'><tr><td align='center'> Test Case </td> "
+		gen_try.write("<br/><table border='1' align='center'><tr><td align='center'> Test Case </td> "
 						 "<td align='center'> Call Log </td> "
 						 "<td align='center'> Pass/Fail </td></tr>")
 		for line in reader:
@@ -95,7 +97,7 @@ def excel():
 			calllog1 = line[2]
 			if len(callflow1) >= 10:
 				if len(calllog1)>= 10:
-					compare(calllog1, callflow1, y, gen_Report)
+					compare(calllog1, callflow1, y, gen_Report, gen_try)
 					y+=1
 if __name__ == "__main__":
 
