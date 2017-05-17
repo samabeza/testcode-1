@@ -87,7 +87,7 @@ def excel():
 						# "<td align='center'> Verbiage Found </td> "
 						# "<td align='center'> Call Log </td> "
 						# "<td align='center'> Result </td></tr>")
-		gen_Report.write("<table border='1'><tr><td align='center'> Test Case </td> "
+		gen_Report.write("<br/><table border='1' align='center'><tr><td align='center'> Test Case </td> "
 						 "<td align='center'> Call Log </td> "
 						 "<td align='center'> Pass/Fail </td></tr>")
 		for line in reader:
