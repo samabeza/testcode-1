@@ -43,7 +43,7 @@ def compare(calllog1, transfertype1, y, gen_result, gen_report):
 
         if flag == 0:
             print transfer[x] + "\tWrong Value or Not Found"
-            not_found_prompt.add(promptlist[x] + " Wrong Value or Not Found")
+            not_found_prompt.add(transfer[x] + " Wrong Value or Not Found")
             z = 1
         elif len(verbiage)==0:
             print transfer[x] + "\tNot Found"
@@ -51,7 +51,7 @@ def compare(calllog1, transfertype1, y, gen_result, gen_report):
             z = 1
         else:
             print transfer[x] + "\tFound"
-            found_prompt.add(promptlist[x] + " Found")
+            found_prompt.add(transfer[x] + " Found")
         print ''.join(verbiage)
         x += 1
     verbi = '<br/>'.join(alllines)
