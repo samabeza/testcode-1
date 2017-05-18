@@ -91,8 +91,8 @@ def excel():
 		next(reader, None)
 		y= 1;
 		gen_result.write("<table border='1' align='center'><tr><td align='center'> Test Case </td> "
-						 "<td align='center'> Expected Verbiage </td> "
-						 "<td align='center'> Verbiage Found </td> "
+						 "<td align='center'> Expected Prompts </td> "
+						 "<td align='center'> Prompts Found </td> "
 						 "<td align='center'> Call Log </td> "
 				 		 "<td align='center'> Remarks </td>"
 						 "<td align='center'> Result </td></tr>")
