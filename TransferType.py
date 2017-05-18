@@ -76,11 +76,11 @@ def excel():
         next(reader, None)
         y= 1;
         gen_result.write("<table border='1' align='center'> <tr><td> Test Case </td> "
-                         "<td> Transfer Term </td> "
-                         "<td> Actual Logs </td> "
-                         "<td> Result </td> "
-                         "<td> Remarks </td> "
-                         "<td>Call Log </td></tr>")
+                         "<td bgcolor='#c2c4c6' align='center'> <b>Transfer Term</b> </td> "
+                         "<td bgcolor='#c2c4c6' align='center'> <b>Actual Logs</b> </td> "
+                         "<td bgcolor='#c2c4c6' align='center'> <b>Call Logs</b> </td> "
+                         "<td bgcolor='#c2c4c6' align='center'> <b>Remarks</b> </td> "
+                         "<td bgcolor='#c2c4c6' align='center'> <b>Result</b> </td></tr>")
       	gen_report.write("<br/> <table border='1' align='center'> <tr><td align='center'> Test Case </td> " 
                          "<td align='center'> Call Log </td>"
                          "<td align='center'> Pass/Fail </td></tr>")
