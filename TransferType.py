@@ -61,7 +61,7 @@ def compare(calllog1, transfertype1, y, gen_result, gen_report):
     else:
         print "                   STATUS: PASSED"
         gen_result.write(
-            "<tr><td>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td>   <td>" + calllog1 + "</td> <td>Remarks</td> <td bgcolor='#99e26f'>Passed</td> </tr>")
+            "<tr><td align='center'>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td>   <td>" + calllog1 + "</td> <td>Remarks</td> <td bgcolor='#99e26f'>Passed</td> </tr>")
         gen_report.write(
             "<tr><td align='center'>" + y + "</td><td>" + calllog1 + "</td> <td bgcolor='#99e26f'>Passed </td></tr>")
 
@@ -75,15 +75,15 @@ def excel():
         reader = csv.reader(f)
         next(reader, None)
         y= 1;
-        gen_result.write("<table border='1' align='center'> <tr><td> Test Case </td> "
+        gen_result.write("<table border='1' align='center'> <tr><td bgcolor='#c2c4c6' align='center'> <b>Test Case</b> </td> "
                          "<td bgcolor='#c2c4c6' align='center'> <b>Transfer Term</b> </td> "
                          "<td bgcolor='#c2c4c6' align='center'> <b>Actual Logs</b> </td> "
                          "<td bgcolor='#c2c4c6' align='center'> <b>Call Logs</b> </td> "
                          "<td bgcolor='#c2c4c6' align='center'> <b>Remarks</b> </td> "
                          "<td bgcolor='#c2c4c6' align='center'> <b>Result</b> </td></tr>")
-      	gen_report.write("<br/> <table border='1' align='center'> <tr><td align='center'> Test Case </td> " 
-                         "<td align='center'> Call Log </td>"
-                         "<td align='center'> Pass/Fail </td></tr>")
+      	gen_report.write("<br/> <table border='1' align='center'> <tr><td align='center' bgcolor='#c2c4c6'> <b>Test Case</b> </td> " 
+                         "<td align='center' bgcolor='#c2c4c6'> <b>Call Log </b></td>"
+                         "<td align='center' bgcolor='#c2c4c6'> <b>Pass/Fail </b></td></tr>")
         for line in reader:
             transfertype1 =line[1]
             calllog1 = line[2]
