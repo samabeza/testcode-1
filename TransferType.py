@@ -24,7 +24,7 @@ def compare(calllog1, transfertype1, y, gen_result, gen_report):
     total_terms = total_terms -1
     alllines = set()
     found_prompt = set()
-	not_found_prompt = set()
+    not_found_prompt = set()
     while total_terms > x :
         flag = 0
         split_1 = transfer[x].split('=')
