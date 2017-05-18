@@ -3,7 +3,11 @@ import os
 import glob
 import subprocess
 import csv
+from decimal import *
 failed = 0
+testcases = 0#add on top (divider)
+exec_counter = 0 #thissss 
+overall_passed = 0 #thissss
 def main():
     try:
         file = os.stat("Data File.csv")
@@ -15,9 +19,10 @@ def main():
 
 
 def compare(calllog1, callflow1, y, gen_result, gen_report):
-
-
+	global overall_passed #thisssss
 	global failed
+	global testcases #thisss
+	global exec_counter #thisss
 	with open(calllog1) as calllog:
 		flag=0
 		verbiage = set()
@@ -43,6 +48,7 @@ def compare(calllog1, callflow1, y, gen_result, gen_report):
 
 	promptlist = callflow1.split()
 	countlist =len(promptlist)
+	testcases = countlist
 	x= 0
 	z=0
 	y =str(y)
@@ -69,6 +75,7 @@ def compare(calllog1, callflow1, y, gen_result, gen_report):
 		gen_result.write("<tr><td align='center'>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td>" + calllog1 + "</td> <td>" + nf_prompt + "</td> <td bgcolor='#e06745' align='center'>Failed</td>  </tr>")
 		gen_report.write("<tr><td align='center'>" + y + "</td> <td>" + calllog1 + "</td> <td bgcolor='#e06745'>Failed </td></tr>")
 	else:
+		overall_passed+=1#add this
 		print "                   STATUS: PASSED"
 		gen_result.write("<tr><td align='center'" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td>" + calllog1 + "</td> <td>" + f_prompt + "</td>  <td bgcolor='#99e26f'>Passed</td>  </tr>")
 		gen_report.write("<tr><td align='center'>" + y + "</td> <td>" + calllog1 + "</td> <td bgcolor='#99e26f'>Passed </td></tr>")
@@ -78,9 +85,10 @@ def compare(calllog1, callflow1, y, gen_result, gen_report):
 		print "\nTest "+ y+ ": List of Verbiage hit by Calllogs for " + calllog1 +":"
 		print '\n'.join(verbiage)
 		# print y
-
-
+	exec_counter +=1 #---------------------
+ 
 def excel():
+	global gen_report
 	gen_result = open("result.html", "a")
 	gen_report = open("report.html", "a")
 	gen_result.write("<html><table align ='center'  border='1' width='80%'> <center><h1>Build Acceptance Test</h1><br/> <h3>Call Flow</h3></center></table>")
@@ -107,9 +115,14 @@ def excel():
 					compare(calllog1, callflow1, y, gen_result, gen_report)
 					y+=1
 if __name__ == "__main__":
-    main()
-    excel()
-    if failed == 1:
-        print"\n\n\n"
-        raise SystemError('One of the Test Cases Failed')
-	
+	main()
+	excel()
+	if exec_counter == testcases:
+		getcontext().prec = 2
+		percentage = Decimal(overall_passed)/Decimal(testcases) * 100
+		totalper = str(percentage) + '%'
+		gen_report.write("</table><br/><br/><table align='center' border='1'> <tr><td>"+ totalper +"</td></tr> </table>")
+	if failed == 1:
+		print"\n\n\n"
+		raise SystemError('One of the Test Cases Failed')
+
