@@ -61,7 +61,7 @@ def compare(calllog1, callflow1, y, gen_result, gen_report):
 			z = 1
 			failed = 1
 	f_prompt = '<br/>'.join(found_prompt)
-	nf_promt = '<br/>'.join(not_found_prompt)
+	nf_prompt = '<br/>'.join(not_found_prompt)
 	verbi ='<br/>'.join(verbiage)
 	prompi = '<br/>'.join(promptlist)
 	if z == 1:
