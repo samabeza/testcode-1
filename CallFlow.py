@@ -109,7 +109,6 @@ def excel():
 if __name__ == "__main__":
     main()
     excel()
-    gen_report = excel()
     if failed == 1:
         print"\n\n\n"
         raise SystemError('One of the Test Cases Failed')
