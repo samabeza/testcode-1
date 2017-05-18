@@ -110,9 +110,7 @@ if __name__ == "__main__":
     main()
     excel()
     gen_report = excel()
-    if failed == 0:
-	#gen_report.write("<table border='1'>  </table>")
-	gen_report.write("<br/><center><h2>Percentage</h2></center>")
     if failed == 1:
         print"\n\n\n"
         raise SystemError('One of the Test Cases Failed')
+	gen_report.write("<br/><center> <h2>Percentage</h2> </center>")
