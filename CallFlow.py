@@ -46,25 +46,31 @@ def compare(calllog1, callflow1, y, gen_result, gen_report):
 	x= 0
 	z=0
 	y =str(y)
+	found_prompt = set()
+	not_found_prompt = set()
 	print "\nTest "+ y+ ": List of Expected Verbiage:"
 	while x < countlist:
 		if promptlist[x] in verbiage:
 			print promptlist[x] + " Found"
+			found_prompt.add(promptlist[x] + " Found")
 			x+=1
 		else:
 			print promptlist[x] + " Not Found"
+			not_found_prompt.add(promptlist[x] + " Not Found")
 			x+=1
 			z = 1
 			failed = 1
+	f_prompt = '<br/>'.join(found_prompt)
+	nf_promt = '<br/>'.join(not_found_prompt)
 	verbi ='<br/>'.join(verbiage)
 	prompi = '<br/>'.join(promptlist)
 	if z == 1:
 		print "                   STATUS: FAILED"
-		gen_result.write("<tr><td align='center'>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td>" + calllog1 + "</td> <td bgcolor='#e06745' align='center'>Failed</td>  </tr>")
+		gen_result.write("<tr><td align='center'>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td>" + calllog1 + "</td> <td>" + nf_prompt + "</td> <td bgcolor='#e06745' align='center'>Failed</td>  </tr>")
 		gen_report.write("<tr><td align='center'>" + y + "</td> <td>" + calllog1 + "</td> <td bgcolor='red'>Failed </td></tr>")
 	else:
 		print "                   STATUS: PASSED"
-		gen_result.write("<tr><td>align='center'" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td>" + calllog1 + "</td>  <td bgcolor='#99e26f'>Passed</td>  </tr>")
+		gen_result.write("<tr><td>align='center'" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td>" + calllog1 + "</td> <td>" + f_prompt + "</td>  <td bgcolor='#99e26f'>Passed</td>  </tr>")
 		gen_report.write("<tr><td align='center'>" + y + "</td> <td>" + calllog1 + "</td> <td bgcolor='green'>Passed </td></tr>")
 	if flag == 0:
 		print "\nTest "+ y + ": Calllog does not contain any .wav file "+ calllog1
@@ -88,6 +94,7 @@ def excel():
 						 "<td align='center'> Expected Verbiage </td> "
 						 "<td align='center'> Verbiage Found </td> "
 						 "<td align='center'> Call Log </td> "
+				 		 "<td align='center'> Remarks </td>"
 						 "<td align='center'> Result </td></tr>")
 		gen_report.write("<br/><table border='1' align='center'><tr><td align='center'> Test Case </td> "
 						 "<td align='center'> Call Log </td> "
