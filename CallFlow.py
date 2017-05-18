@@ -111,6 +111,5 @@ if __name__ == "__main__":
     excel()
     if failed == 1:
         print"\n\n\n"
-	gen_report.write("<br/><center> <h2>Percentage</h2> </center>")
         raise SystemError('One of the Test Cases Failed')
 	
