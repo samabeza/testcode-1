@@ -90,15 +90,15 @@ def excel():
 		reader = csv.reader(f)
 		next(reader, None)
 		y= 1;
-		gen_result.write("<table border='1' align='center'><tr><td align='center'> Test Case </td> "
-						 "<td align='center'> Expected Prompts </td> "
-						 "<td align='center'> Prompts Found </td> "
-						 "<td align='center'> Call Log </td> "
-				 		 "<td align='center'> Remarks </td>"
-						 "<td align='center'> Result </td></tr>")
-		gen_report.write("<br/><table border='1' align='center'><tr><td align='center'> Test Case </td> "
-						 "<td align='center'> Call Log </td> "
-						 "<td align='center'> Pass/Fail </td></tr>")
+		gen_result.write("<table border='1' align='center'><tr><td align='center' bgcolor='#c2c4c6'> <b>Test Case </b> </td> "
+						 "<td align='center' bgcolor='#c2c4c6'> <b> Expected Prompts</b> </td> "
+						 "<td align='center' bgcolor='#c2c4c6'> <b>Prompts Found </b></td> "
+						 "<td align='center' bgcolor='#c2c4c6'> <b>Call Log </b></td> "
+				 		 "<td align='center' bgcolor='#c2c4c6'> <b>Remarks </b></td>"
+						 "<td align='center' bgcolor='#c2c4c6'> <b>Result </b></td></tr>")
+		gen_report.write("<br/><table border='1' align='center'><tr><td align='center' bgcolor='#c2c4c6'> <b>Test Case</b> </td> "
+						 "<td align='center' bgcolor='#c2c4c6'> <b>Call Log</b> </td> "
+						 "<td align='center' bgcolor='#c2c4c6'> <b>Pass/Fail </b></td></tr>")
 		for line in reader:
 			callflow1 =line[0]
 			calllog1 = line[2]
