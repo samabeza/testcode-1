@@ -57,7 +57,7 @@ def compare(calllog1, transfertype1, y, gen_result, gen_report):
     verbi = '<br/>'.join(alllines)
     prompi = '<br/>'.join(transfer)
     f_prompt = '<br/>'.join(found_prompt)
-	nf_prompt = '<br/>'.join(not_found_prompt)
+    nf_prompt = '<br/>'.join(not_found_prompt)
     if z == 1:
         print "                   STATUS: FAILED"
         gen_result.write(
