@@ -5,7 +5,7 @@ z = y.replace('\\','\\\\')
 
 
 initial_path = "jmeter -J jmeter.save.saveservice.output_format=xml -n -t"
-command = "-l HTTP Request.jtl"
+command = "-l HTTPRequest.jtl"
 print "PATH: ", y
 print "INITIAL_PATH: ", initial_path
 
