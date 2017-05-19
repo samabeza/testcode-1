@@ -10,6 +10,6 @@ command = "-l HTTPRequest.jtl"
 
 
 final = initial_path + " " + z + " " + command
+print final
 
-
-os.system(final)
+#os.system(final)
