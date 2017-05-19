@@ -12,4 +12,4 @@ print "INITIAL_PATH: ", initial_path
 final = initial_path + " " + z + " " + command
 print final
 
-#os.system(final)
+os.system(final)
