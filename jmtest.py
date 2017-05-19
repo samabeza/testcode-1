@@ -1,11 +1,11 @@
 import os
 
-y = os.path.abspath("./HTTPRequest.jmx")
+y = os.path.abspath("./HTTP Request.jmx")
 z = y.replace('\\','\\\\') 
 
 
 initial_path = "jmeter -J jmeter.save.saveservice.output_format=xml -n -t"
-command = "-l HTTPRequest.jtl"
+command = "-l HTTP Request.jtl"
 print "PATH: ", y
 print "INITIAL_PATH: ", initial_path
 
