@@ -2,7 +2,7 @@ CallFlow,CallTransfer,CallLogs
 "MainMenuNI1
 MainMenu
 FraudInfoNav_5
-FraudInfoNav_1","LanguageField: En;
+FraudInfoNav_1","LanguageField=En;
 GenesysClient=wunion;
 SkillField=7999;
 VRUTranTypeField = IVR EN;",e4010-20170426185718000-384.txt
@@ -24,8 +24,8 @@ MoreOptions",languagefield=EN;,e4010-20170426185718000-386.txt
  ,,
  ,"Skill = 7999;
 LanguageField = en-us ; 
-TransactionTypeField: 5; 
-VRUTranTypeField: ExchangeRate EN;
+TransactionTypeField= 5; 
+VRUTranTypeField = ExchangeRate EN;
 ",
 ,"CTCallType = Payment;
 CTTransferVar = WhichStoredCC_fail;
