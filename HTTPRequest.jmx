@@ -185,18 +185,8 @@
                 <url>true</url>
               </value>
             </objProp>
-            <stringProp name="filename">test-final6.xml</stringProp>
+            <stringProp name="filename">Test1.xml</stringProp>
           </ResultCollector>
-          <hashTree/>
-          <ResultSaver guiclass="ResultSaverGui" testclass="ResultSaver" testname="Save Responses to a file" enabled="true">
-            <stringProp name="FileSaver.filename">RESP</stringProp>
-            <boolProp name="FileSaver.errorsonly">false</boolProp>
-            <boolProp name="FileSaver.skipautonumber">false</boolProp>
-            <boolProp name="FileSaver.skipsuffix">false</boolProp>
-            <boolProp name="FileSaver.successonly">false</boolProp>
-            <stringProp name="FileSaver.variablename">${I_ACCOUNT_NUMBER}</stringProp>
-            <stringProp name="FileSaver.numberPadLen">5</stringProp>
-          </ResultSaver>
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Test2" enabled="true">
@@ -323,45 +313,32 @@
             <objProp>
               <name>saveConfig</name>
               <value class="SampleSaveConfiguration">
-                <time>true</time>
-                <latency>true</latency>
-                <timestamp>true</timestamp>
-                <success>true</success>
+                <time>false</time>
+                <latency>false</latency>
+                <timestamp>false</timestamp>
+                <success>false</success>
                 <label>true</label>
-                <code>true</code>
-                <message>true</message>
-                <threadName>true</threadName>
+                <code>false</code>
+                <message>false</message>
+                <threadName>false</threadName>
                 <dataType>false</dataType>
                 <encoding>false</encoding>
-                <assertions>true</assertions>
+                <assertions>false</assertions>
                 <subresults>false</subresults>
                 <responseData>true</responseData>
                 <samplerData>true</samplerData>
                 <xml>true</xml>
-                <fieldNames>true</fieldNames>
+                <fieldNames>false</fieldNames>
                 <responseHeaders>false</responseHeaders>
                 <requestHeaders>true</requestHeaders>
                 <responseDataOnError>true</responseDataOnError>
-                <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+                <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
                 <assertionsResultsToSave>0</assertionsResultsToSave>
-                <bytes>true</bytes>
-                <hostname>true</hostname>
-                <threadCounts>true</threadCounts>
-                <sampleCount>true</sampleCount>
+                <url>true</url>
               </value>
             </objProp>
-            <stringProp name="filename">Test.xml</stringProp>
+            <stringProp name="filename">Test2.xml</stringProp>
           </ResultCollector>
-          <hashTree/>
-          <ResultSaver guiclass="ResultSaverGui" testclass="ResultSaver" testname="Save Responses to a file" enabled="true">
-            <stringProp name="FileSaver.filename">GPIO</stringProp>
-            <boolProp name="FileSaver.errorsonly">false</boolProp>
-            <boolProp name="FileSaver.skipautonumber">false</boolProp>
-            <boolProp name="FileSaver.skipsuffix">false</boolProp>
-            <boolProp name="FileSaver.successonly">false</boolProp>
-            <stringProp name="FileSaver.variablename">${I_ACCOUNT_NUMBER}</stringProp>
-            <stringProp name="FileSaver.numberPadLen">5</stringProp>
-          </ResultSaver>
           <hashTree/>
         </hashTree>
       </hashTree>
