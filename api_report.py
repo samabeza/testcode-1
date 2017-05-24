@@ -49,7 +49,7 @@ for results in gettestcases:
 		
 print "Passed: ", passed
 print "Failed: ", failed
-getcontext().prec = 2
+getcontext().prec = 3
 percentage = Decimal(passed) / Decimal(testcases) * 100
 totalper = str(percentage) + '%'
 gen_report.write("</table><br/><br/><table align='center'> <tr><td><h2>Passed: " + totalper + "</h2></td></tr> </table>")
@@ -61,5 +61,4 @@ for gettime in opentime:
 		starttime = gettime[12:].strip()
 gen_report.write("<table align='left' border='1' width='40%'> <tr><td> <b>Start Time:</b></td> <td>" + starttime +  "</td></tr>"
 		 "<tr><td><b>End Time:</b></td> <td>" + endtime + "</td></tr>"
-		 "<tr><td> <b>Elapsed Time:</b> </td><td>1231232213</td></tr>"
 		 "<tr><td> <b>Log File:</b></td><td>report.html</td></tr> </table>")
