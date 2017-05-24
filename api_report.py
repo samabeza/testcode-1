@@ -1,7 +1,7 @@
 import os
 from decimal import *
 gen_report = open("report.html", "a")
-gen_report.write("<html><table align='center' border='1' width='80%'> <center> <h1>Build Acceptance Test</h1> <h3>Transfer Term</h3></center></table>")
+gen_report.write("<html><table align='center' border='1' width='80%'> </table><center>  <h3>API</h3></center>")
 gen_report.write("<br/> <table border='1' align='center'> <tr><td align='center' bgcolor='#c2c4c6'> <b>Test Case</b> </td> <td align='center' bgcolor='#c2c4c6'> <b>API </b></td>""<td align='center' bgcolor='#c2c4c6'> <b>Pass/Fail </b></td></tr>")
 
 passed = 0
