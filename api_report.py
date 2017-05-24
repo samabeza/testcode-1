@@ -40,7 +40,7 @@ for results in gettestcases:
 		print "TEST CASE:", y,   "   ", getapi,  "Failed"
 		getapi = str(getapi)
 		y = str(y)
-		gen_report.write("<tr><td align='center'>" + y + "</td><td>" + getapi + "</td> <td bgcolor='#e06745'>Passed </td></tr>")
+		gen_report.write("<tr><td align='center'>" + y + "</td><td>" + getapi + "</td> <td bgcolor='#e06745'>Failed </td></tr>")
 		failed+=1
 		y = int(y)
 		y+=1
