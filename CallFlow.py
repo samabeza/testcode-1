@@ -4,6 +4,8 @@ import glob
 import subprocess
 import csv
 from decimal import *
+from datetime import datetime
+
 failed = 0
 testcases = 0#add on top (divider)
 exec_counter = 0 #thissss 
@@ -89,6 +91,12 @@ def compare(calllog1, callflow1, y, gen_result, gen_report):
  
 def excel():
 	global gen_report
+	
+	starttime = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+	writetime = open("writetime.txt", "a")
+	writetime.write("Start Time= " + starttime + "\n")
+	
+	
 	gen_result = open("Call Flow Result.html", "a")
 	gen_report = open("report.html", "a")
 	gen_result.write("<html><table align ='center'  border='1' width='80%'> <center><h1>Build Acceptance Test</h1><br/> <h3>Call Flow</h3></center></table>")
