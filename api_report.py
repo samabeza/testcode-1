@@ -59,7 +59,7 @@ opentime = open("writetime.txt", "r")
 for gettime in opentime:
 	if "Start Time" in gettime:
 		starttime = gettime[12:].strip()
-gen_report.write("<table align='left' border='1' width='40%'> <tr><td> <b>Start Time:</b></td> <td>" + starttime +  "</td></tr>
-		 "<tr><td><b>End Time:</b></td> <td>" + endtime + "</td></tr>
-		 "<tr><td> <b>Elapsed Time:</b> </td><td>1231232213</td></tr>
+gen_report.write("<table align='left' border='1' width='40%'> <tr><td> <b>Start Time:</b></td> <td>" + starttime +  "</td></tr>"
+		 "<tr><td><b>End Time:</b></td> <td>" + endtime + "</td></tr>"
+		 "<tr><td> <b>Elapsed Time:</b> </td><td>1231232213</td></tr>"
 		 "<tr><td> <b>Log File:</b></td><td>report.html</td></tr> </table>")
