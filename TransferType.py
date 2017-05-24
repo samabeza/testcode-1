@@ -94,7 +94,7 @@ def excel():
     gen_result.write(
         "<html><table align ='center' border='1' width='80%'> <center> <h1>Build Acceptance Test</h1> <h3>Transfer Term</h3></center></table>")
     gen_report.write(
-        "<html><table align='center' border='1' width='80%'> <center> <h1>Build Acceptance Test</h1> <h3>Transfer Term</h3></center></table>")
+        "<html><table align='center' border='1' width='80%'> <center> <h3>Transfer Term</h3></center></table>")
     z = 0
     with open('Data File.csv', 'rb') as f:
         reader = csv.reader(f)
