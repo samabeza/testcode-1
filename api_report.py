@@ -7,7 +7,7 @@ gen_report.write("<br/> <table border='1' align='center'> <tr><td align='center'
 passed = 0
 failed = 0
 gettestcases = set()
-jtl = open("rep.jtl", "r")
+jtl = open("HTTPRequest.jtl", "r")
 for line in jtl:
 	if "lb" in line:
 		line = line.replace('</httpSample>','').strip()
