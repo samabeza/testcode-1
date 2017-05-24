@@ -1,5 +1,7 @@
 import os
 from decimal import *
+from datetime import datetime
+
 gen_report = open("report.html", "a")
 gen_report.write("<html><table align='center' border='1' width='80%'> </table><center>  <h3>API</h3></center>")
 gen_report.write("<br/> <table border='1' align='center' width='35%'> <tr><td align='center' bgcolor='#c2c4c6' width='10%'> <b>Test Case</b> </td> <td align='center' bgcolor='#c2c4c6' width='60%'> <b>API </b></td>""<td align='center' bgcolor='#c2c4c6' width='20%'> <b>Pass/Fail </b></td></tr>")
@@ -51,3 +53,13 @@ getcontext().prec = 2
 percentage = Decimal(passed) / Decimal(testcases) * 100
 totalper = str(percentage) + '%'
 gen_report.write("</table><br/><br/><table align='center'> <tr><td><h2>Passed: " + totalper + "</h2></td></tr> </table>")
+
+endtime = datetime.now().strftime('%Y-%m-%d %H:%M:%S')#time
+opentime = open("writetime.txt", "r")
+for gettime in opentime:
+	if "Start Time" in gettime:
+		starttime = gettime[12:].strip()
+gen_report.write("<table align='left' border='1' width='40%'> <tr><td> <b>Start Time:</b></td> <td>" + starttime +  "</td></tr>
+		 "<tr><td><b>End Time:</b></td> <td>" + endtime + "</td></tr>
+		 "<tr><td> <b>Elapsed Time:</b> </td><td>1231232213</td></tr>
+		 "<tr><td> <b>Log File:</b></td><td>report.html</td></tr> </table>")
