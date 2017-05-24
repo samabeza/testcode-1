@@ -108,7 +108,7 @@ def excel():
             "<td bgcolor='#c2c4c6' align='center'> <b>Remarks</b> </td> "
             "<td bgcolor='#c2c4c6' align='center'> <b>Result</b> </td></tr>")
         gen_report.write(
-            "<br/> <table border='1' align='center'> <tr><td align='center' bgcolor='#c2c4c6'> <b>Test Case</b> </td> "
+            "<br/> <table border='1' align='center' width='50%'> <tr><td align='center' bgcolor='#c2c4c6'> <b>Test Case</b> </td> "
             "<td align='center' bgcolor='#c2c4c6'> <b>Call Log </b></td>"
             "<td align='center' bgcolor='#c2c4c6'> <b>Pass/Fail </b></td></tr>")
         for line in reader:
