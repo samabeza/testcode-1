@@ -89,7 +89,7 @@ def compare(calllog1, transfertype1, y, gen_result, gen_report):
 def excel():
     global gen_report
     global testcases  # thisss
-    gen_result = open("result.html", "a")
+    gen_result = open("KVPs Result.html", "a")
     gen_report = open("report.html", "a")
     gen_result.write(
         "<html><table align ='center' border='1' width='80%'> <center> <h1>Build Acceptance Test</h1> <h3>Transfer Term</h3></center></table>")
