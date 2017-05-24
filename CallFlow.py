@@ -126,7 +126,7 @@ if __name__ == "__main__":
 	main()
 	excel()
 	if exec_counter == testcases:
-		getcontext().prec = 2
+		getcontext().prec = 3
 		percentage = Decimal(overall_passed)/Decimal(testcases) * 100
 		totalper = str(percentage) + '%'
 		gen_report.write("</table><br/><br/><table align='center'> <tr><td><h2>Passed: "+ totalper +"</h2></td></tr> </table>")
