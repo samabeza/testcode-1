@@ -127,7 +127,7 @@ if __name__ == "__main__":
     print "EXEC COUNTER: ", exec_counter
     print "TEST CASES: ", testcases
     if exec_counter == testcases:
-        getcontext().prec = 2
+        getcontext().prec = 3
         percentage = Decimal(overall_passed) / Decimal(testcases) * 100
         totalper = str(percentage) + '%'
         gen_report.write(
