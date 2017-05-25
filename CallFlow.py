@@ -23,7 +23,7 @@ def main():
 def compare(calllog1, callflow1, y, gen_result, gen_report):
 	global overall_passed #thisssss
 	global failed
-	global testcases #thisss
+
 	global exec_counter #thisss
 	with open(calllog1) as calllog:
 		flag=0
@@ -91,7 +91,7 @@ def compare(calllog1, callflow1, y, gen_result, gen_report):
  
 def excel():
 	global gen_report
-	
+	global testcases #thisss
 	starttime = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 	writetime = open("writetime.txt", "a")
 	writetime.write("Start Time= " + starttime + "\n")
@@ -122,6 +122,7 @@ def excel():
 				if len(calllog1)>= 10:
 					compare(calllog1, callflow1, y, gen_result, gen_report)
 					y+=1
+	testcases = y - 1
 if __name__ == "__main__":
 	main()
 	excel()
