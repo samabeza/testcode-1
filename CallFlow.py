@@ -132,7 +132,7 @@ if __name__ == "__main__":
 		totalper = str(percentage) + '%'
 		gen_report.write("</table><table align='center'> <tr><td><h3>Passed: "+ totalper +"</h3></td></tr> </table>")
 		write_percentage = open("callflow_percentage.txt","a")
-		write_percentage.write("Call flow Percentage= " + percentage + "\n")
+		write_percentage.write("Call flow Percentage= " + totalper + "\n")
 	if failed == 1:
 		print"\n\n\n"
 		raise SystemError('One of the Test Cases Failed')
