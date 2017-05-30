@@ -3,7 +3,7 @@ from decimal import *
 from datetime import datetime
 
 gen_report = open("report.html", "a")
-gen_report.write("<html><table align='center' border='1' width='80%'> </table><center>  <h3>API</h3></center>")
+gen_report.write("<html><table align='center' border='1' width='80%'> </table>")
 gen_report.write("<br/><table border='1' align='center' width='35%'><tr><td><h3>API</h3></td></tr></table>")
 gen_report.write("<table border='1' align='center' width='35%'> <tr><td align='center' bgcolor='#c2c4c6' width='10%'> <b>Test Case</b> </td> <td align='center' bgcolor='#c2c4c6' width='60%'> <b>API </b></td>""<td align='center' bgcolor='#c2c4c6' width='20%'> <b>Pass/Fail </b></td></tr>")
 
