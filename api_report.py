@@ -116,7 +116,6 @@ api_weight_val = 0.10
 cflow_percentage = Decimal(cflow_per) * Decimal(cflow_weight_val)
 ttype_percentage = Decimal(ttype_per) * Decimal(trans_weight_val)
 api_percentage = Decimal(percentage) * Decimal(api_weight_val)
-overall_weighted = Decimal(
 print "Call Flow PERCENTAGE: ", cflow_percentage
 print "Transfer Term PERCENTAGE: ", ttype_percentage
 print "API PERCENTAGE ", api_percentage
