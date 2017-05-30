@@ -130,7 +130,7 @@ if __name__ == "__main__":
 		getcontext().prec = 3
 		percentage = Decimal(overall_passed)/Decimal(testcases) * 100
 		totalper = str(percentage) + '%'
-		gen_report.write("</table><br/><table align='center'> <tr><td><h2>Passed: "+ totalper +"</h2></td></tr> </table>")
+		gen_report.write("</table><table align='center'> <tr><td><h3>Passed: "+ totalper +"</h3></td></tr> </table>")
 	if failed == 1:
 		print"\n\n\n"
 		raise SystemError('One of the Test Cases Failed')
