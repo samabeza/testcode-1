@@ -132,7 +132,7 @@ if __name__ == "__main__":
         gen_report.write(
             "</table><table align='center'> <tr><td><h3>Passed: " + totalper + "</h3></td></tr> </table>")
         writetime = open("writetime.txt","a")
-        writetime.write("TransferType Percentage= " + percentage + "\n")
+        writetime.write("TransferType Percentage= " + totalper + "\n")
     if failed == 1:
         print"\n\n\n"
         raise SystemError('One of the Test Cases Failed')
