@@ -131,7 +131,7 @@ if __name__ == "__main__":
 		percentage = Decimal(overall_passed)/Decimal(testcases) * 100
 		totalper = str(percentage) + '%'
 		gen_report.write("</table><table align='center'> <tr><td><h3>Passed: "+ totalper +"</h3></td></tr> </table>")
-		write_percentage = open("writetime.txt","a")
+		write_percentage = open("callflow_percentage.txt","a")
 		write_percentage.write("Call flow Percentage= " + percentage + "\n")
 	if failed == 1:
 		print"\n\n\n"
