@@ -131,7 +131,7 @@ if __name__ == "__main__":
 		percentage = Decimal(overall_passed)/Decimal(testcases) * 100
 		totalper = str(percentage) + '%'
 		gen_report.write("</table><table align='center'> <tr><td><h3>Passed: "+ totalper +"</h3></td></tr> </table>")
-		writetime.write("Call flow Percentage= ",totalper, "\n")
+		writetime.write("Call flow Percentage= " + totalper + "\n")
 	if failed == 1:
 		print"\n\n\n"
 		raise SystemError('One of the Test Cases Failed')
