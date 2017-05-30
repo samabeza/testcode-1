@@ -101,6 +101,7 @@ for extractor in gettestcases:
 
 endtime = datetime.now().strftime('%Y-%m-%d %H:%M:%S')#time
 opentime = open("writetime.txt", "r")
+writetime.write("API Percentage= " + percentage + "\n")
 for gettime in opentime:
 	if "Start Time" in gettime:
 		starttime = gettime[12:].strip()
