@@ -100,7 +100,8 @@ def excel():
 	gen_result = open("Call Flow Result.html", "a")
 	gen_report = open("report.html", "a")
 	gen_result.write("<html> <center><h1>Build Acceptance Test</h1> <h3>Call Flow</h3></center>")
-	gen_report.write("<html><table align ='center'  border='1' width='70%'> <center><h1>Build Acceptance Test</h1><br/></table> <center><h3>Call Flow</h3></center> ")
+	gen_report.write("<html><table align ='center'  border='1' width='70%'> <center><h1>Build Acceptance Test</h1><br/></table>") 
+	gen_report.write("<table border='1' align='center' width='35%'><tr><td align='center'><h3>Call Flow</h3></td></tr></table>")
 	z= 0
 	with open('Data File.csv', 'rb') as f:
 		reader = csv.reader(f)
