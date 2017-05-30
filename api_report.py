@@ -120,7 +120,7 @@ print "Call Flow PERCENTAGE: ", cflow_percentage
 print "Transfer Term PERCENTAGE: ", ttype_percentage
 print "API PERCENTAGE ", api_percentage
 overall_weighted = Decimal(cflow_percentage) + Decimal(ttype_percentage) + Decimal(api_percentage)
-overall_weighted = str(overall_weighted) + %
+overall_weighted = str(overall_weighted) + '%'
 gen_report.write("<html><table align='center' border='1' width='80%'> </table>")
 gen_report.write("<center><h2>Test Info</h2></center><table align='center' border='1' width='35%'> <tr><td><font size='4'><b>Percentage:</font></b></td> <td width='70%'><font size='4'>"+ overall_weighted +"</font></td></tr> <tr><td> <b>Start Time:</b></td> <td>" + starttime +  "</td></tr>"
 		 "<tr><td><b>End Time:</b></td> <td>" + endtime + "</td></tr>"
