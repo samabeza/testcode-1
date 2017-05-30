@@ -54,7 +54,7 @@ def compare(calllog1, transfertype1, y, gen_result, gen_report):
 
         if flag == 0:
             print transfer[x] + "\tWrong Value"
-            not_found_prompt.add(transfer[x] + " Wrong Value")
+            not_found_prompt.add(transfer[x] + " Wrong Value or Not Found")
             z = 1
             failed = 1
         elif len(verbiage) == 0:
