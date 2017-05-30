@@ -92,10 +92,10 @@ def compare(calllog1, callflow1, y, gen_result, gen_report):
 def excel():
 	global gen_report
 	global testcases #thisss
-	global writetime
 	starttime = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 	writetime = open("writetime.txt", "a")
 	writetime.write("Start Time= " + starttime + "\n")
+	writetime.close()
 	gen_result = open("Call Flow Result.html", "a")
 	gen_report = open("report.html", "a")
 	gen_result.write("<html> <center><h1>Build Acceptance Test</h1> <h3>Call Flow</h3></center>")
@@ -131,7 +131,8 @@ if __name__ == "__main__":
 		percentage = Decimal(overall_passed)/Decimal(testcases) * 100
 		totalper = str(percentage) + '%'
 		gen_report.write("</table><table align='center'> <tr><td><h3>Passed: "+ totalper +"</h3></td></tr> </table>")
-		writetime.write("Call flow Percentage= " + percentage + "\n")
+		write_percentage = open("writetime.txt","a")
+		write_percentage.write("Call flow Percentage= " + percentage + "\n")
 	if failed == 1:
 		print"\n\n\n"
 		raise SystemError('One of the Test Cases Failed')
