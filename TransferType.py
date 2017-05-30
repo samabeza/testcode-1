@@ -92,7 +92,8 @@ def excel():
     gen_result = open("KVPs Result.html", "a")
     gen_report = open("report.html", "a")
     gen_result.write("<html> <center><h1>Build Acceptance Test</h1> <h3>Transfer Term</h3></center>")
-    gen_report.write("<br/><table align='center' width='35%'><tr><td><font size='4'>Transfer Term</font></td></tr></table>")
+    gen_report.write("<html><table align='center' border='1' width='70%'> </table>")
+    gen_report.write("<br/><table align='center' width='35%'><tr><td><font size='6'><b>Transfer Term</b></font></td></tr></table>")
     z = 0
     with open('Data File.csv', 'rb') as f:
         reader = csv.reader(f)
