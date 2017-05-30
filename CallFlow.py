@@ -113,7 +113,7 @@ def excel():
 						 "<td align='center' bgcolor='#c2c4c6'> <b>Call Log </b></td> "
 				 		 "<td align='center' bgcolor='#c2c4c6'> <b>Remarks </b></td>"
 						 "<td align='center' bgcolor='#c2c4c6'> <b>Result </b></td></tr>")
-		gen_report.write("<br/><table border='1' align='center' width='35%'><tr><td align='center' bgcolor='#c2c4c6' width='10%'> <b>Test Case</b> </td> "
+		gen_report.write("<table border='1' align='center' width='35%'><tr><td align='center' bgcolor='#c2c4c6' width='10%'> <b>Test Case</b> </td> "
 						 "<td align='center' bgcolor='#c2c4c6' width='60%'> <b>Call Log</b> </td> "
 						 "<td align='center' bgcolor='#c2c4c6' width='20%'> <b>Pass/Fail </b></td></tr>")
 		for line in reader:
