@@ -54,6 +54,48 @@ percentage = Decimal(passed) / Decimal(testcases) * 100
 totalper = str(percentage) + '%'
 gen_report.write("</table><br/><table align='center'> <tr><td><h2>Passed: " + totalper + "</h2></td></tr> </table>")
 
+#api_result------------------------------------------------------------------------------==========================
+api_result = open("api_result.html","a")
+api_result.write("<br/> <table border='1' width='70%' align='center' width='35%'> <tr><td align='center' bgcolor='#c2c4c6' width='10%'> <b>Test Case</b> </td> <td align='center' bgcolor='#c2c4c6' width='40%'> <b>API </b></td> <td align='center' bgcolor='#c2c4c6'><b>Response Code</td>  <td align='center' bgcolor='#c2c4c6'><b>Response Message</td> <td align='center' bgcolor='#c2c4c6' width='20%'> <b>Result</b></td></tr>")
+
+cc = 1
+for extractor in gettestcases:
+	endvalue_rc = extractor.find("rc=") 
+	endvalue2_rc = extractor.find("rm")
+	strtvalue_rc = extractor.rfind('', 0, endvalue_rc)
+	strtvalue2_rc = extractor.rfind('', 0, endvalue2_rc)
+	get_rc = extractor[strtvalue_rc:strtvalue2_rc].replace('rc=','').replace('"',' ').strip()
+	print get_rc
+
+	endvalue_rm = extractor.find("rm=") 
+	endvalue2_rm = extractor.find("tn")
+	strtvalue_rm = extractor.rfind('', 0, endvalue_rm)
+	strtvalue2_rm = extractor.rfind('', 0, endvalue2_rm)
+	get_rm = extractor[strtvalue_rm:strtvalue2_rm].replace('rm=','').replace('"',' ').strip()
+	print get_rm
+
+	endvalue_lb = extractor.find("lb=") 
+	endvalue2_lb = extractor.find("rc")
+	strtvalue_lb = extractor.rfind('', 0, endvalue_lb)
+	strtvalue2_lb = extractor.rfind('', 0, endvalue2_lb)
+	get_lb = extractor[strtvalue_lb:strtvalue2_lb].replace('lb=','').replace('"',' ').strip()
+	print get_lb
+
+	if ('rc="200"' in extractor) and ('rm="OK"' in extractor):
+		cc = str(cc)
+		api_result.write("<tr><td align='center'>" + cc + "</td><td>" + get_lb + "</td> <td>" + get_rc + "</td> <td>" + get_rm + "</td> <td bgcolor='#99e26f'>Passed </td></tr>")
+		cc = int(cc)
+		cc+=1
+	else:
+		cc = str(cc)
+		api_result.write("<tr><td align='center'>" + cc + "</td><td>" + get_lb + "</td> <td>" + get_rc + "</td> <td>" + get_rm + "</td> <td bgcolor='#e06745'>Failed </td></tr>")
+		cc = int(cc)
+		cc+=1
+#api_result------------------------------------------------------------------------------=============================
+
+
+
+
 endtime = datetime.now().strftime('%Y-%m-%d %H:%M:%S')#time
 opentime = open("writetime.txt", "r")
 for gettime in opentime:
