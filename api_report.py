@@ -122,6 +122,7 @@ print "API PERCENTAGE ", api_percentage
 overall_weighted = Decimal(cflow_percentage) + Decimal(ttype_percentage) + Decimal(api_percentage)
 overall_weighted = str(overall_weighted) + '%'
 gen_report.write("<html><table align='center' border='1' width='80%'> </table>")
-gen_report.write("<center><h2>Test Info</h2></center><table align='center' border='1' width='35%'> <tr><td><font size='4'><b>Percentage:</font></b></td> <td width='70%'><font size='4'>"+ overall_weighted +"</font></td></tr> <tr><td> <b>Start Time:</b></td> <td>" + starttime +  "</td></tr>"
+gen_report.write("<center><font size='8'><b>" + overall_weighted + "</b></font></center>")
+gen_report.write("<table align='center' border='1' width='35%'> <tr><td> <b>Start Time:</b></td> <td>" + starttime +  "</td></tr>"
 		 "<tr><td><b>End Time:</b></td> <td>" + endtime + "</td></tr>"
 		 "<tr><td> <b>Log File:</b></td><td>report.html</td></tr> </table>")
