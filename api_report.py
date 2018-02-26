@@ -110,9 +110,9 @@ for gettime in opentime:
 		ttype_per = gettime[25:].replace('%','').strip()
 
 getcontext().prec = 3
-cflow_weight_val = 0.50
-trans_weight_val = 0.40
-api_weight_val = 0.10
+cflow_weight_val = 0.30
+trans_weight_val = 0.20
+api_weight_val = 0.50
 cflow_percentage = Decimal(cflow_per) * Decimal(cflow_weight_val)
 ttype_percentage = Decimal(ttype_per) * Decimal(trans_weight_val)
 api_percentage = Decimal(percentage) * Decimal(api_weight_val)
