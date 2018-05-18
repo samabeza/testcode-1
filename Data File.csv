@@ -2,17 +2,27 @@ CallFlow,CallTransfer,CallLogs
 "PaymentsGreeting_1
 PaymentsGreeting_2
 AskCustomerNum
-AskCustomerNumConf",log content=CTCallApplicationType: Care; log content=CTCallType: Care;,e4007-20180328181307553-488.txt
+AskCustomerNumConf","billSystem=MMB;
+accountId=12139346;
+billingZipCode=33430;
+isBillSystemAvailable= true;
+CTAPIStatus=notfound;",e4007-20180328181307553-488.txt
 "AskABANum
 AskABANumConf
 AskBankAcctNum
-AskBankAcctNumConf",log script=CTWicStdClient = adt; log script=CTWicStdAppName = care2; log content=CTCallApplicationType: Care;,e4007-20180328181308053-490.txt
+AskBankAcctNumConf","billingZipCode=33430;
+isBillSystemAvailable= true;
+CTAPIStatus=notfound;",e4007-20180328181308053-490.txt
 "PayPmtDueAmt
 AskPayMakePmt
 AskPmtAmt
 AskPmtAmtConf
-AskCreditOrBankAcct",log script=CTWicStdClient = adt; log content=CTCallType: XXX;,e4007-20180329163100916-016.txt
+AskCreditOrBankAcct","billSystem=MMB;
+accountId=12139346;
+billingZipCode=33430;",e4007-20180329163100916-016.txt
 "AskBillZipCode
 AskBillZipCodeConf
 CCPmtSuccess
-ConfirmationNum34",log content=CTApplication Type: Care; log script=CTWicStdClient = adt; log script=CTWicStdAppName = care2;,e4007-20180329163101416-018.txt
+ConfirmationNum34","accountId=12139346;
+billingZipCode=33430;
+isBillSystemAvailable= true;",e4007-20180329163101416-018.txt
