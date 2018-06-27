@@ -157,7 +157,7 @@
             <url>true</url>
           </value>
         </objProp>
-        <stringProp name="filename">test.xml</stringProp>
+        <stringProp name="filename">ADT.xml</stringProp>
         <boolProp name="ResultCollector.success_only_logging">true</boolProp>
       </ResultCollector>
       <hashTree/>
