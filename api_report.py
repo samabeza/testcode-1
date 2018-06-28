@@ -164,7 +164,7 @@ if check_len_cflow!=0 and check_len_ttype!=0 and percentage<=0:
 	gen_report.write("<html><table align='center' border='1' width='80%'> </table>")
 	gen_report.write("<br/><center><font size='7'><b>" + overall_percentage_str + "</b></font></center>")
 	
-if overall_percentage_str >= 75:
+if overall_percentage  >= 75:
 	gen_report.write("<table align='center'><tr><td bgcolor='#99e26f'>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </td> <td>&nbsp;&nbsp;&nbsp;&nbsp;<font size='4'><b>PASSED</b></font></table><br/>")
 else:
 	gen_report.write("<table align='center'><tr><td bgcolor='#e06745'>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </td> <td>&nbsp;&nbsp;&nbsp;&nbsp;<font size='4'><b>FAILED</b></font></table><br/>")
