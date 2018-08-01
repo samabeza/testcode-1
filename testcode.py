@@ -6,10 +6,11 @@ import csv
 from decimal import *
 from datetime import datetime
 
-failed = 0
-testcases = 0#add on top (divider)
-exec_counter = 0 #thissss 
-overall_passed = 0 #thissss
+failed_callflow = 0
+testcases_callflow = 0#add on top (divider)
+exec_counter_callflow = 0 #thissss 
+overall_passed_callflow = 0 #thissss
+
 def main():
     try:
         file = os.stat("Data File.csv")
@@ -21,10 +22,10 @@ def main():
 
 
 def compare_callflow(calllog1, callflow1, y, gen_result, gen_report):
-	global overall_passed #thisssss
-	global failed
+	global overall_passed_callflow #thisssss
+	global failed_callflow
 
-	global exec_counter #thisss
+	global exec_counter_callflow #thisss
 	with open(calllog1) as calllog:
 		flag=0
 		verbiage = set()
@@ -50,7 +51,7 @@ def compare_callflow(calllog1, callflow1, y, gen_result, gen_report):
 
 	promptlist = callflow1.split()
 	countlist =len(promptlist)
-	testcases = countlist
+	testcases_callflow = countlist
 	x= 0
 	z=0
 	y =str(y)
@@ -122,7 +123,7 @@ def excel():
 				if len(calllog1)>= 10:
 					compare_callflow(calllog1, callflow1, y, gen_result, gen_report)
 					y+=1
-	testcases = y - 1
+	testcases_callflow = y - 1
 if __name__ == "__main__":
 	main()
 	excel()
