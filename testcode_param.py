@@ -104,7 +104,7 @@ def compare_callflow(calllog1, callflow1, y, gen_result, gen_report):
 		# print y
 	exec_counter_callflow +=1 #---------------------
  
-def excel_callflow():
+def excel_callflow(testpath):
 	global gen_report
 	global testcases_callflow #thisss
 	global writetime
@@ -135,7 +135,7 @@ def excel_callflow():
 			calllog1 = line[2]
 			if len(callflow1) >= 10:
 				if len(calllog1)>= 10:
-					compare_callflow(calllog1, callflow1, y, gen_result, gen_report)
+					compare_callflow(calllog1, callflow1, y, gen_result, gen_report,testpath)
 					y+=1
 	testcases_callflow = y - 1
 
@@ -259,7 +259,7 @@ if __name__ == "__main__":
 	main(foldername)
 	testpath = main(foldername)
 	start(testpath)
-	excel_callflow()
+	excel_callflow(testpath)
 	if exec_counter_callflow == testcases_callflow:
 		getcontext().prec = 3
 		percentage = Decimal(overall_passed_callflow)/Decimal(testcases_callflow) * 100
