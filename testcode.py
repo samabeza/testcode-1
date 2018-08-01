@@ -127,7 +127,7 @@ def excel():
 if __name__ == "__main__":
 	main()
 	excel()
-	if exec_counter_callflow == testcases:
+	if exec_counter_callflow == testcases_callflow:
 		getcontext().prec = 3
 		percentage = Decimal(overall_passed_callflow)/Decimal(testcases_callflow) * 100
 		totalper = str(percentage) + '%'
