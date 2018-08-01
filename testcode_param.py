@@ -240,12 +240,12 @@ def excel_transfer(testpath):
     testcases_transfer = y - 1	
 
 def jmtest(testpath):
-	finaldatapath = testpath + "HTTPRequest.jmx"
+	finaldatapath = "./" + testpath + "HTTPRequest.jmx"
 	check_file = os.path.isfile(finaldatapath)
 	print check_file
 	check_file = str(check_file)
 	if check_file=="True":
-	  y = os.path.abspath("./HTTPRequest.jmx")
+	  y = os.path.abspath(finaldatapath)
 	  z = y.replace('\\','\\\\') 
 
 	  initial_path = "jmeter -Jjmeter.save.saveservice.output_format=xml -n -t"
