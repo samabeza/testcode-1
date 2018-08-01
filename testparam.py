@@ -5,11 +5,11 @@ def main(foldername):
     # print command line arguments
     for arg in sys.argv[1:]:
         data_path=arg
-        print data_path
-       # os.system("dir")
+        #print data_path
+        #os.system("dir")
         
         testpath = "dir" + " " + data_path + "/"
-        getdirbyparam(testpath)
+        return(testpath)
 
 def getdirbyparam(testpath):
     print testpath
@@ -20,4 +20,4 @@ if __name__ == "__main__":
             exit()
     foldername=sys.argv[1]
     main(foldername)
- 
+    testpath = getdirbyparam(testpath)
