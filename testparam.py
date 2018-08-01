@@ -1,4 +1,5 @@
 import sys
+import os
 
 def main():
     # print command line arguments
@@ -6,4 +7,10 @@ def main():
         print arg
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv)==0:
+            print("Please pass foldername as argument")
+            exit()
+    foldername=sys.argv[1]
+    print('foldername==>{}'.format(foldername) )
+    main(foldername)
+    
