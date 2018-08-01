@@ -7,11 +7,11 @@ def main(foldername):
         data_path=arg
         #print data_path
         #os.system("dir")
-        
+        global testpath
         testpath = "dir" + " " + data_path + "/"
-        return testpath
+        
 
-def getdirbyparam(testpath):
+def getdirbyparam():
     print testpath
         
 if __name__ == "__main__":
@@ -20,5 +20,4 @@ if __name__ == "__main__":
             exit()
     foldername=sys.argv[1]
     main(foldername)
-    testpath=main(testpath)
-    getdirbyparam(testpath)
+
