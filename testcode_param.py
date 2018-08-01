@@ -35,7 +35,7 @@ def start(testpath):
         sys.exit(1)
 
 
-def compare_callflow(calllog1, callflow1, y, gen_result, gen_report):
+def compare_callflow(calllog1, callflow1, y, gen_result, gen_report,testpath):
 	global overall_passed_callflow #thisssss
 	global failed_callflow
 
@@ -117,7 +117,8 @@ def excel_callflow(testpath):
 	gen_report.write("<html><table align ='center'  border='1' width='70%'> <center><h1>Inbound Build Acceptance Automation</h1><br/></table>") 
 	gen_report.write("<br/><table  align='center' width='35%'><tr><td align='center'><font size='4'><b>Call Flow</b></font></td></tr></table>")
 	z= 0
-	with open('Data File.csv', 'rb') as f:
+	finaldatapath = testpath + "Data File.csv"
+	with open(finaldatapath, 'rb') as f:
 		reader = csv.reader(f)
 		next(reader, None)
 		y= 1;
@@ -139,7 +140,7 @@ def excel_callflow(testpath):
 					y+=1
 	testcases_callflow = y - 1
 
-def compare_transfer(calllog1, transfertype1, y, gen_result, gen_report):
+def compare_transfer(calllog1, transfertype1, y, gen_result, gen_report,testpath):
     global overall_passed_transfer  # thisssss
     global failed_transfer
     global exec_counter_transfer  # thisss
@@ -203,7 +204,7 @@ def compare_transfer(calllog1, transfertype1, y, gen_result, gen_report):
             "<tr><td align='center'>" + y + "</td><td>" + calllog1 + "</td> <td bgcolor='#99e26f'>Passed </td></tr>")
     exec_counter_transfer += 1	
 	
-def excel_transfer():
+def excel_transfer(testpath):
     global gen_report
     global testcases_transfer  # thisss
     gen_result = open("KVPs Result.html", "a")
@@ -212,7 +213,8 @@ def excel_transfer():
     gen_report.write("<html><table align='center' border='1' width='70%'> </table>")
     gen_report.write("<br/><table align='center' width='35%'><tr><td align='center'><font size='4'><b>Transfer Term</b></font></td></tr></table>")
     z = 0
-    with open('Data File.csv', 'rb') as f:
+    finaldatapath = testpath + "Data File.csv"
+    with open(finaldatapath, 'rb') as f:
         reader = csv.reader(f)
         next(reader, None)
         y = 1;
@@ -232,12 +234,13 @@ def excel_transfer():
             calllog1 = line[2]
             if len(transfertype1) >= 5:
                 if len(calllog1) >= 5:
-                    compare_transfer(calllog1, transfertype1, y, gen_result, gen_report)
+                    compare_transfer(calllog1, transfertype1, y, gen_result, gen_report,testpath)
                     y += 1
     testcases_transfer = y - 1	
 
-def jmtest():
-	check_file = os.path.isfile("HTTPRequest.jmx")
+def jmtest(testpath):
+	finaldatapath = testpath + "HTTPRequest.jmx"
+	check_file = os.path.isfile(finaldatapath)
 	print check_file
 	check_file = str(check_file)
 	if check_file=="True":
@@ -269,7 +272,7 @@ if __name__ == "__main__":
 	if failed_callflow == 1:
 		print"\n\n\n"
 		raise SystemError('One of the Test Cases Failed')
-	excel_transfer()
+	excel_transfer(testpath)
 	if exec_counter_transfer == testcases_transfer:
         	getcontext().prec = 3
         	percentage = Decimal(overall_passed_transfer) / Decimal(testcases_transfer) * 100
@@ -280,5 +283,5 @@ if __name__ == "__main__":
    	if failed_transfer == 1:
         	print"\n\n\n"
         	raise SystemError('One of the Test Cases Failed')
-	jmtest()
+	jmtest(testpath)
 	
