@@ -92,7 +92,7 @@ def compare_callflow(calllog1, callflow1, y, gen_result, gen_report):
  
 def excel():
 	global gen_report
-	global testcases #thisss
+	global testcases_callflow #thisss
 	global writetime
 	starttime = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 	writetime = open("writetime.txt", "a")
