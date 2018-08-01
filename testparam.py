@@ -9,10 +9,10 @@ def main(foldername):
        # os.system("dir")
         
         testpath = "dir" + " " + data_path + "/"
-       # print testpath
+       return(testpath)
 
-def getdirbyparam(foldername):
-    print test_path
+def getdirbyparam(testpath):
+    print testpath
         
 if __name__ == "__main__":
     if len(sys.argv)==0:
@@ -20,4 +20,4 @@ if __name__ == "__main__":
             exit()
     foldername=sys.argv[1]
     main(foldername)
-    getdirbyparam(foldername)
+    getdirbyparam(testpath)
