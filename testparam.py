@@ -20,5 +20,5 @@ if __name__ == "__main__":
             exit()
     foldername=sys.argv[1]
     main(foldername)
-    testpath = main()
+    testpath = main(foldername)
     getdirbyparam(testpath)
