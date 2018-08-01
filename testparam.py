@@ -11,6 +11,5 @@ if __name__ == "__main__":
             print("Please pass foldername as argument")
             exit()
     foldername=sys.argv[1]
-    print foldername
     main(foldername)
     
