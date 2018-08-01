@@ -244,6 +244,8 @@ def jmtest():
 	  os.system(final)
 
 def api_report():
+	global ttype_per
+	global cflow_per
 	gen_report = open("report.html", "a")
 	gen_report.write("<html><table align='center' border='1' width='70%'> </table>")
 	gen_report.write("<br/><table align='center' width='35%'><tr><td align='center'><font size='4'><b>API</b></font></td></tr></table>")
@@ -352,8 +354,6 @@ def api_report():
 			cc = int(cc)
 			cc+=1
 #api_result------------------------------------------------------------------------------=============================
-	global ttype_per
-	global cflow_per
 	endtime = datetime.now().strftime('%Y-%m-%d %H:%M:%S')#time
 	opentime = open("writetime.txt", "r")
 	for gettime in opentime:
