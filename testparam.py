@@ -1,7 +1,7 @@
 import sys
 import os
 
-def main():
+def main(foldername):
     # print command line arguments
     for arg in sys.argv[1:]:
         print arg
