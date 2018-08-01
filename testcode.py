@@ -20,7 +20,7 @@ def main():
         sys.exit(1)
 
 
-def compare(calllog1, callflow1, y, gen_result, gen_report):
+def compare_callflow(calllog1, callflow1, y, gen_result, gen_report):
 	global overall_passed #thisssss
 	global failed
 
@@ -120,7 +120,7 @@ def excel():
 			calllog1 = line[2]
 			if len(callflow1) >= 10:
 				if len(calllog1)>= 10:
-					compare(calllog1, callflow1, y, gen_result, gen_report)
+					compare_callflow(calllog1, callflow1, y, gen_result, gen_report)
 					y+=1
 	testcases = y - 1
 if __name__ == "__main__":
