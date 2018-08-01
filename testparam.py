@@ -16,9 +16,9 @@ def main(foldername):
         sys.exit(1)
 
 if __name__ == "__main__":
-	    if len(sys.argv)==0:
-		  print("please pass folder name as argument")
-	  	exit()
+	if len(sys.argv)==0:
+		print("please pass folder name as argument")
+		exit()
 	foldername=sys.argv[1]
 	print('foldername==>{}'.format(foldername) )
 	main(foldername)
