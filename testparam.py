@@ -8,7 +8,7 @@ def main(foldername):
         print data_path
        # os.system("dir")
         
-        testpath = dir + " " + data_path + "/"
+        testpath = "dir" + " " + data_path + "/"
         print testpath
 
 if __name__ == "__main__":
