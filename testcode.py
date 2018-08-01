@@ -223,7 +223,7 @@ def excel_transfer():
             calllog1 = line[2]
             if len(transfertype1) >= 5:
                 if len(calllog1) >= 5:
-                    compare(calllog1, transfertype1, y, gen_result, gen_report)
+                    compare_transfer(calllog1, transfertype1, y, gen_result, gen_report)
                     y += 1
     testcases_transfer = y - 1	
 	
