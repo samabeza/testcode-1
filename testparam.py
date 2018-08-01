@@ -9,7 +9,7 @@ def main(foldername):
        # os.system("dir")
         
         testpath = "dir" + " " + data_path + "/"
-       return(testpath)
+        return(testpath)
 
 def getdirbyparam(testpath):
     print testpath
