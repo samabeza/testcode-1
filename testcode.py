@@ -5,6 +5,7 @@ import subprocess
 import csv
 from decimal import *
 from datetime import datetime
+import os.path
 
 failed_callflow = 0
 testcases_callflow = 0#add on top (divider)
@@ -226,6 +227,21 @@ def excel_transfer():
                     compare_transfer(calllog1, transfertype1, y, gen_result, gen_report)
                     y += 1
     testcases_transfer = y - 1	
+
+def jmtest():
+	check_file = os.path.isfile("HTTPRequest.jmx")
+	print check_file
+	check_file = str(check_file)
+	if check_file=="True":
+	  y = os.path.abspath("./HTTPRequest.jmx")
+	  z = y.replace('\\','\\\\') 
+
+	  initial_path = "jmeter -Jjmeter.save.saveservice.output_format=xml -n -t"
+	  command = "-l HTTPRequest.jtl"
+
+	  final = initial_path + " " + z + " " + command
+
+	  os.system(final)
 	
 if __name__ == "__main__":
 	main()
@@ -250,3 +266,4 @@ if __name__ == "__main__":
    	if failed_transfer == 1:
         	print"\n\n\n"
         	raise SystemError('One of the Test Cases Failed')
+	jmtest()
