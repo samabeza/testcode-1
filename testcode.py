@@ -78,7 +78,7 @@ def compare_callflow(calllog1, callflow1, y, gen_result, gen_report):
 		gen_result.write("<tr><td align='center'>" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td>" + calllog1 + "</td> <td>" + nf_prompt + "</td> <td bgcolor='#e06745' align='center'>Failed</td>  </tr>")
 		gen_report.write("<tr><td align='center'>" + y + "</td> <td>" + calllog1 + "</td> <td bgcolor='#e06745'>Failed </td></tr>")
 	else:
-		overall_passed+=1#add this
+		overall_passed_callflow+=1#add this
 		print "                   STATUS: PASSED"
 		gen_result.write("<tr><td align='center'" + y + "</td><td>" + prompi + "</td> <td>" + verbi + "</td> <td>" + calllog1 + "</td> <td>" + f_prompt + "</td>  <td bgcolor='#99e26f'>Passed</td>  </tr>")
 		gen_report.write("<tr><td align='center'>" + y + "</td> <td>" + calllog1 + "</td> <td bgcolor='#99e26f'>Passed </td></tr>")
@@ -88,7 +88,7 @@ def compare_callflow(calllog1, callflow1, y, gen_result, gen_report):
 		print "\nTest "+ y+ ": List of Verbiage hit by Calllogs for " + calllog1 +":"
 		print '\n'.join(verbiage)
 		# print y
-	exec_counter +=1 #---------------------
+	exec_counter_callflow +=1 #---------------------
  
 def excel():
 	global gen_report
