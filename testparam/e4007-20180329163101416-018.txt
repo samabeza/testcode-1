@@ -1,0 +1,727 @@
+HVP-6.0-SP2p41.1-2199-39494
+Interactive Services
+AdministrationReportsConfigurationuser: mbejosano@west.com Logout
+Customer Usage
+Call
+Call ID:	e4007-20180329163101416-018
+Application Name:	Care2.0
+Application Description:	Care2.0
+CLID:	HUI0000020000
+DNIS:	4070077
+Call Date:	Thursday, March 29th 2018
+Call Utterance:	not available
+Event Search
+Event ID:	  
+Parameter:	
+ 
+Events
+Time	ID	Param ID	Utterance
+16:31:01	sip session	callid=ed63c013-365a-4094-8fdf-864ceab3b5cb@10.27.131.217|remote-rtp=10.27.131.217:30424|local-rtp=10.27.128.108:11156|originator=REMOTE	-
+16:31:01	call start	ANI=HUI0000020000|DNIS=4070077|VURL=http://vxmlnasapps/CallRouter/?session.connection.local.uri=adt_care_2_TEST&useExternalIP=true|outbound=N	-
+16:31:01	asr session	asrengine=nuance90-mrcp1-ng|sessionid=FKLNENAFAAAGGKBEAAAAAAAD|address=10.27.139.152:554|server=Nuance Open Speech Recognizer for MRCPv1|setuptime=0.069|endpoint=10.27.130.136:8564	-
+16:31:01	fetch	uri=http://vxmlnasapps/CallRouter/?session.connection.local.uri=adt_care_2_TEST&useExternalIP=true|fetchtype=vxml|mimetype=text/xml;charset=ISO-8859-1|incache=false|latency=0.005|documentsize=303|outcome=success|failover=false|localport=44124|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=94|bytesread=486|byteswritten=236|cachedecision=nc(no expiration)|method=GET	-
+16:31:01	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/srv/tuvoxcvr?useExternalIP=true&session.connection.local.uri=adt_care_2_TEST|fetchtype=vxml|mimetype=text/xml;charset=ISO-8859-1|incache=false|latency=0.007|documentsize=16415|outcome=success|failover=false|localport=44126|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=141|bytesread=16752|byteswritten=283|cachedecision=nc(no expiration)|method=GET	-
+16:31:01	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.008|documentsize=84228|outcome=success|failover=false|localport=44128|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	severe	msg=ReferenceError: asrengine is not defined|line=1	-
+16:31:01	fetch	uri=http://vxmlnasapps/ecmascripts/wicstd/wicstd.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.004|documentsize=26744|outcome=success|failover=false|localport=44130|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=47|bytesread=27134|byteswritten=189|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	fetch	uri=http://vxmlnasapps/ecmascripts/wicstd/MTLPortRequest.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.005|documentsize=18722|outcome=success|failover=false|localport=44132|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=55|bytesread=19112|byteswritten=197|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	fetch	uri=http://vxmlnasapps/ecmascripts/wicstd/QueportPortRequest.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.004|documentsize=11014|outcome=success|failover=false|localport=44134|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=59|bytesread=11404|byteswritten=201|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	fetch	uri=http://vxmlnasapps/ecmascripts/wicstd/XMLParsingFunctions.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.005|documentsize=14460|outcome=success|failover=false|localport=44136|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=60|bytesread=14850|byteswritten=202|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	fetch	uri=http://vxmlnasapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.007|documentsize=103812|outcome=success|failover=false|localport=44138|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=48|bytesread=104204|byteswritten=190|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	fetch	uri=http://vxmlnasapps/ecmascripts/wicstd/audioArray.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.003|documentsize=4942|outcome=success|failover=false|localport=44140|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=51|bytesread=5333|byteswritten=193|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	fetch	uri=http://vxmlnasapps/ecmascripts/wicstd/voiceCapture.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.004|documentsize=13192|outcome=success|failover=false|localport=44142|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=13582|byteswritten=195|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	fetch	uri=http://vxmlnasapps/ecmascripts/wicstd/rfbhvlogging.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.004|documentsize=15622|outcome=success|failover=false|localport=44144|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=16012|byteswritten=195|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	fetch	uri=http://vxmlnasapps/ecmascripts/wicstd/txllogging.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.004|documentsize=16604|outcome=success|failover=false|localport=44146|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=51|bytesread=16994|byteswritten=193|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	fetch	uri=http://vxmlnasapps/ecmascripts/wicstd/wiclogging.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.003|documentsize=1718|outcome=success|failover=false|localport=44148|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=51|bytesread=2106|byteswritten=193|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	fetch	uri=http://vxmlnasapps/ecmascripts/wicstd/prompt.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.003|documentsize=5145|outcome=success|failover=false|localport=44150|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=47|bytesread=5534|byteswritten=189|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	fetch	uri=http://vxmlnasapps/ecmascripts/wicstd/gvp.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.004|documentsize=9491|outcome=success|failover=false|localport=44152|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=9880|byteswritten=186|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	fetch	uri=http://vxmlnasapps/ecmascripts/wicstd/allocate.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.003|documentsize=3338|outcome=success|failover=false|localport=44154|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=49|bytesread=3726|byteswritten=191|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	fetch	uri=http://vxmlnasapps/ecmascripts/wicstd/DatabaseRequest.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.003|documentsize=3573|outcome=success|failover=false|localport=44156|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=3963|byteswritten=198|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/javascript/JavascriptFunctions.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.008|documentsize=127138|outcome=success|failover=false|localport=44158|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=98|bytesread=127531|byteswritten=380|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	fetch	uri=http://linux3232/realfeed/realfeed_client_data.php?SourceID=WIC&EventType=drr.inbound&EventTimestamp=1522355461.625&Unit=4007&Line=018&ParentTime=1522355461&APNKEY=4070077|fetchtype=data|mimetype=text/xml|incache=false|latency=0.010|documentsize=101|outcome=success|failover=false|localport=56446|hostname=linux3232|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=171|bytesread=237|byteswritten=287|cachedecision=nc(no expiration)|method=GET	-
+16:31:01	fetch	uri=http://vxmlnasapps/WicStdInitServlet/GetInitialConfigurations|fetchtype=data|mimetype=text/xml;charset=ISO-8859-1|incache=false|latency=0.012|documentsize=308|outcome=success|failover=false|localport=44162|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=61|bytesread=491|byteswritten=708|cachedecision=n/a|method=POST	-
+16:31:01	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STLivePath.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.003|documentsize=3577|outcome=success|failover=false|localport=44164|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=88|bytesread=3968|byteswritten=370|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.007|documentsize=84228|outcome=success|failover=false|localport=44166|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STInitializeWicStdCTs.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=11272|outcome=success|failover=false|localport=44168|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=99|bytesread=11665|byteswritten=381|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.006|documentsize=84228|outcome=success|failover=false|localport=44170|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	log	content=FRAMEWORK FILENAME: /wic/wic/wic/wicstd/framework/v.holly.16.20180329	-
+16:31:01	log	content=FRAMEWORK LOGDATA: 1522355461,4007,018,20180329,163101,8114070077,0000000000,adt,care2,NotSet,Holly,4007,e4007-20180329163101416-018,NotSet,QA	-
+16:31:01	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STLivePath.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.003|documentsize=3577|outcome=success|failover=false|localport=44172|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=88|bytesread=3968|byteswritten=370|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.006|documentsize=84228|outcome=success|failover=false|localport=44174|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STInitializeCTs.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.005|documentsize=22985|outcome=success|failover=false|localport=44176|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=93|bytesread=23378|byteswritten=375|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.007|documentsize=84228|outcome=success|failover=false|localport=44178|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	log	content=Done With Init, Checking for disconnect, ApplicationEndEvent=	-
+16:31:01	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STLivePath.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.003|documentsize=3577|outcome=success|failover=false|localport=44182|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=88|bytesread=3968|byteswritten=370|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.006|documentsize=84228|outcome=success|failover=false|localport=44184|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STBuildHeader.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.006|documentsize=58424|outcome=success|failover=false|localport=44186|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=91|bytesread=58817|byteswritten=373|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.006|documentsize=84228|outcome=success|failover=false|localport=44188|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	fetch	uri=http://vxmlnasapps/voice/wicstd/buildheader/unit_number.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=10410|outcome=success|failover=false|localport=44190|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=59|bytesread=10789|byteswritten=175|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	prompt	type=external|URI=/voice/wicstd/buildheader/unit_number.wav|outcome=success	-
+16:31:01	fetch	uri=http://vxmlnasapps/voice/wicstd/lucy/dynocat/fnum04.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=11358|outcome=success|failover=false|localport=44192|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=55|bytesread=11737|byteswritten=171|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	prompt	type=external|URI=/voice/wicstd/lucy/dynocat/fnum04.wav|outcome=success	-
+16:31:01	fetch	uri=http://vxmlnasapps/voice/wicstd/lucy/dynocat/fnum00.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=12310|outcome=success|failover=false|localport=44194|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=55|bytesread=12689|byteswritten=171|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	prompt	type=external|URI=/voice/wicstd/lucy/dynocat/fnum00.wav|outcome=success	-
+16:31:01	fetch	uri=http://vxmlnasapps/voice/wicstd/lucy/dynocat/fnum00.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=12310|outcome=success|failover=false|localport=44196|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=55|bytesread=12689|byteswritten=171|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	prompt	type=external|URI=/voice/wicstd/lucy/dynocat/fnum00.wav|outcome=success	-
+16:31:01	fetch	uri=http://vxmlnasapps/voice/wicstd/lucy/dynocat/snum07.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=8886|outcome=success|failover=false|localport=44198|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=55|bytesread=9264|byteswritten=171|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	prompt	type=external|URI=/voice/wicstd/lucy/dynocat/snum07.wav|outcome=success	-
+16:31:01	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/prompts/system/topics/TVMusic/TVMusic_silence_200ms.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=1658|outcome=success|failover=false|localport=44200|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=120|bytesread=2036|byteswritten=376|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	prompt	type=external|URI=../prompts/system/topics/TVMusic/TVMusic_silence_200ms.wav|outcome=success	-
+16:31:01	fetch	uri=http://vxmlnasapps/voice/wicstd/buildheader/line_number.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=10340|outcome=success|failover=false|localport=44202|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=59|bytesread=10719|byteswritten=175|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	prompt	type=external|URI=/voice/wicstd/buildheader/line_number.wav|outcome=success	-
+16:31:01	fetch	uri=http://vxmlnasapps/voice/wicstd/lucy/dynocat/fnum00.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=12310|outcome=success|failover=false|localport=44204|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=55|bytesread=12689|byteswritten=171|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	prompt	type=external|URI=/voice/wicstd/lucy/dynocat/fnum00.wav|outcome=success	-
+16:31:01	fetch	uri=http://vxmlnasapps/voice/wicstd/lucy/dynocat/fnum01.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=9762|outcome=success|failover=false|localport=44206|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=55|bytesread=10140|byteswritten=171|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	prompt	type=external|URI=/voice/wicstd/lucy/dynocat/fnum01.wav|outcome=success	-
+16:31:01	fetch	uri=http://vxmlnasapps/voice/wicstd/lucy/dynocat/snum08.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=7042|outcome=success|failover=false|localport=44208|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=55|bytesread=7420|byteswritten=171|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	prompt	type=external|URI=/voice/wicstd/lucy/dynocat/snum08.wav|outcome=success	-
+16:31:01	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/prompts/system/topics/TVMusic/TVMusic_silence_200ms.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=1658|outcome=success|failover=false|localport=44210|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=120|bytesread=2036|byteswritten=376|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	prompt	type=external|URI=../prompts/system/topics/TVMusic/TVMusic_silence_200ms.wav|outcome=success	-
+16:31:01	fetch	uri=http://vxmlnasapps/voice/wicstd/buildheader/connect_time.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=11934|outcome=success|failover=false|localport=44212|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=60|bytesread=12313|byteswritten=176|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	prompt	type=external|URI=/voice/wicstd/buildheader/connect_time.wav|outcome=success	-
+16:31:01	fetch	uri=http://vxmlnasapps/voice/wicstd/lucy/dynocat/f04.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=8396|outcome=success|failover=false|localport=44214|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=52|bytesread=8774|byteswritten=168|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	prompt	type=external|URI=/voice/wicstd/lucy/dynocat/f04.wav|outcome=success	-
+16:31:01	fetch	uri=http://vxmlnasapps/voice/wicstd/lucy/dynocat/f31.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.008|documentsize=7720|outcome=success|failover=false|localport=44216|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=52|bytesread=8098|byteswritten=168|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	prompt	type=external|URI=/voice/wicstd/lucy/dynocat/f31.wav|outcome=success	-
+16:31:01	fetch	uri=http://vxmlnasapps/voice/wicstd/lucy/dynocat/s01.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=11092|outcome=success|failover=false|localport=44218|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=52|bytesread=11471|byteswritten=168|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	prompt	type=external|URI=/voice/wicstd/lucy/dynocat/s01.wav|outcome=success	-
+16:31:01	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/prompts/system/topics/TVMusic/TVMusic_silence_200ms.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=1658|outcome=success|failover=false|localport=44220|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=120|bytesread=2036|byteswritten=376|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:01	prompt	type=external|URI=../prompts/system/topics/TVMusic/TVMusic_silence_200ms.wav|outcome=success	-
+16:31:15	fetch	uri=http://vxmlnasapps/voice/wicstd/buildheader/enter_apn.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=33578|outcome=success|failover=false|localport=44240|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=57|bytesread=33957|byteswritten=173|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:15	prompt	type=external|URI=/voice/wicstd/buildheader/enter_apn.wav|outcome=success	-
+16:31:15	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=4.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=	-
+16:31:19	recognition end	result=success|inputmode=dtmf|utterance=2 9 1 2 6 6 8|confidence=100|grammar=Grammar_0|bargein=true|recordutterances=N	-
+16:31:19	fetch	uri=http://vxmlnasapps/voice/wicstd/buildheader/enter_ani.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=28998|outcome=success|failover=false|localport=44248|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=57|bytesread=29377|byteswritten=173|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:19	prompt	type=external|URI=/voice/wicstd/buildheader/enter_ani.wav|outcome=success	-
+16:31:19	system response	latency=0.016	-
+16:31:19	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=4.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=	-
+16:31:24	recognition end	result=success|inputmode=dtmf|utterance=5 5 0 3 6 0 6 3 8 0|confidence=100|grammar=Grammar_0|bargein=true|recordutterances=N	-
+16:31:25	fetch	uri=http://vxmlnasapps/voice/wicstd/buildheader/enter_hourmin.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.593|documentsize=31726|outcome=success|failover=false|localport=44260|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=61|bytesread=32105|byteswritten=177|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:25	prompt	type=external|URI=/voice/wicstd/buildheader/enter_hourmin.wav|outcome=success	-
+16:31:25	system response	latency=0.604	-
+16:31:25	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=4.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=	-
+16:31:27	recognition end	result=success|inputmode=dtmf|utterance=#|confidence=100|grammar=Grammar_0|bargein=true|recordutterances=N	-
+16:31:27	fetch	uri=http://vxmlnasapps/voice/wicstd/buildheader/enter_mmddyyyy.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=36834|outcome=success|failover=false|localport=44266|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=62|bytesread=37213|byteswritten=178|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:27	prompt	type=external|URI=/voice/wicstd/buildheader/enter_mmddyyyy.wav|outcome=success	-
+16:31:27	system response	latency=0.011	-
+16:31:27	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=4.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=	-
+16:31:28	recognition end	result=success|inputmode=dtmf|utterance=#|confidence=100|grammar=Grammar_0|bargein=true|recordutterances=N	-
+16:31:28	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STLivePath.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.002|documentsize=3577|outcome=success|failover=false|localport=44328|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=88|bytesread=3968|byteswritten=370|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:28	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44330|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:28	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STStart.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.002|documentsize=17046|outcome=success|failover=false|localport=44332|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=85|bytesread=17439|byteswritten=367|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:28	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44334|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:28	log	content=STStart,enter	-
+16:31:28	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STLogWicStdVars.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.002|documentsize=2109|outcome=success|failover=false|localport=44336|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=93|bytesread=2500|byteswritten=375|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:28	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44338|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:28	log	script=Language = en-us	-
+16:31:28	log	script=CTWicStdAni = 5503606380	-
+16:31:28	log	script=CTWicStdApn = 8112912668	-
+16:31:28	log	script=CTWicStdDnis = 2912668	-
+16:31:28	log	script=CTWicStdUnit = 4007	-
+16:31:28	log	script=CTWicStdLine = 018	-
+16:31:28	log	script=CTWicStdDialedNumber = NotSet	-
+16:31:28	log	script=CTWicStdSite = NotSet	-
+16:31:28	log	script=CTWicStdTg = NotSet	-
+16:31:28	log	script=CTWicStdCallRef = e4007-20180329163101416-018	-
+16:31:28	log	script=CTWicStdBrowserType = Holly	-
+16:31:28	log	script=CTWicStdBrowserDesc = Holly Connects	-
+16:31:28	log	script=CTWicStdConnectDateYYYYMMDD = 20180329	-
+16:31:28	log	script=CTWicStdConnectTimeHHMMSS = 163101	-
+16:31:28	log	script=CTWicStdConnectYearYYYY = 2018	-
+16:31:28	log	script=CTWicStdConnectYearYY = NotSet	-
+16:31:28	log	script=CTWicStdConnectMonthMM = 03	-
+16:31:28	log	script=CTWicStdConnectDayOfMonthDD = 29	-
+16:31:28	log	script=CTWicStdConnectTimeHHMM = 1631	-
+16:31:28	log	script=CTWicStdConnectHourHH = 16	-
+16:31:28	log	script=CTWicStdConnectMinuteMM = 31	-
+16:31:28	log	script=CTWicStdConnectSecondSS = 01	-
+16:31:28	log	script=CTWicStdConnectDateObj = Thu Mar 29 2018 16:31:01 GMT-0400 (EDT)	-
+16:31:28	log	script=CTWicStdConnectTs = 1522355461	-
+16:31:28	log	script=CTWicStdConnectMonthAbbr = Mar	-
+16:31:28	log	script=CTWicStdConnectMonthSpelledOut = March	-
+16:31:28	log	script=CTWicStdConnectDayOfWeekNumber = 4	-
+16:31:28	log	script=CTWicStdConnectDayOfWeekAbbr = Thu	-
+16:31:28	log	script=CTWicStdConnectDayOfWeekSpelledOut = Thursday	-
+16:31:28	log	script=CTWicStdConnectJulianDayOfYearJJJ = 088	-
+16:31:28	log	script=CTWicStdClient = adt	-
+16:31:28	log	script=CTWicStdAppName = care2	-
+16:31:28	log	script=CTWicStdLogLoc = /wic/wic/adt/care2/	-
+16:31:28	log	script=CTWicStdLogHeader = 1522355461,4007,018,20180329,163101,8112912668,5503606380	-
+16:31:28	log	script=CTWicStdLogName = log	-
+16:31:28	log	script=CTWicStdIiDigits = undefined	-
+16:31:28	log	script=CTWicStdUui =	-
+16:31:28	log	script=CTWicStdLogFrequency = HOURLY	-
+16:31:28	log	script=CTWicStdLogFilename = v.log.16.20180329	-
+16:31:28	log	script=CTWicStdEnvironment = QA	-
+16:31:28	log	script=CTWicStdApplicationServer = NotSet	-
+16:31:28	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STStart.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.002|documentsize=17046|outcome=success|failover=false|localport=44340|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=85|bytesread=17439|byteswritten=367|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:28	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44342|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:28	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STDBGetANILookup.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.002|documentsize=12652|outcome=success|failover=false|localport=44344|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=94|bytesread=13045|byteswritten=376|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:28	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44346|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:28	log	content=STDBGetANILookup,enter	-
+16:31:28	log	script=DBAlias is set to: informixdb15	-
+16:31:28	log	script=Data sent to adt_get_ani_lookup: 5503606380	-
+16:31:28	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/prompts/system/topics/TVMusic/earcon.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.005|documentsize=128180|outcome=success|failover=false|localport=44348|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=105|bytesread=128562|byteswritten=361|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:28	prompt	type=filler|URI=../prompts/system/topics/TVMusic/earcon.wav|delay=2.000|minimum=5.000|mode=foreground	-
+16:31:28	system response	latency=0.099210	-
+16:31:28	fetch	uri=http://vxmlapps/webservices/wicstd/database.json.php|fetchtype=data|mimetype=application/json; charset=utf-8;|incache=false|latency=0.091|documentsize=43|outcome=success|failover=false|localport=36110|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=52|bytesread=476|byteswritten=1024|cachedecision=n/a|method=POST	-
+16:31:28	log	content=resp=["NOTFOUND", "0", "0"]	-
+16:31:28	log	content=ANILookup=NOTFOUND	-
+16:31:28	log	content=drrstatus=success,'5503606380'	-
+16:31:28	log	content=STDBGetANILookup,exit,STStart	-
+16:31:28	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STStart.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.003|documentsize=17046|outcome=success|failover=false|localport=44352|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=85|bytesread=17439|byteswritten=367|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:28	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44354|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:28	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STDBAPNAssignment.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.003|documentsize=11835|outcome=success|failover=false|localport=44356|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=95|bytesread=12228|byteswritten=377|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:28	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44358|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:28	log	content=STDBAPNAssignment,enter	-
+16:31:28	log	script=DBAlias is set to: informixdb15	-
+16:31:28	log	script=Data sent to adt_get_apn_info: 2912668	-
+16:31:28	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/prompts/system/topics/TVMusic/earcon.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=128180|outcome=success|failover=false|localport=44360|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=105|bytesread=128562|byteswritten=361|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:28	prompt	type=filler|URI=../prompts/system/topics/TVMusic/earcon.wav|delay=2.000|minimum=5.000|mode=foreground	-
+16:31:28	fetch	uri=http://vxmlapps/webservices/wicstd/database.json.php|fetchtype=data|mimetype=application/json; charset=utf-8;|incache=false|latency=0.106|documentsize=47|outcome=success|failover=false|localport=36122|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=52|bytesread=343|byteswritten=1210|cachedecision=n/a|method=POST	-
+16:31:28	log	content=Result = ["FOUND", "Care", "0", "0"]	-
+16:31:28	log	content=drrstatus=success,'2912668'	-
+16:31:28	log	content=CTApplication Type: Care	-
+16:31:28	log	content=CTCallApplicationType: Care	-
+16:31:28	log	content=CTCallType: Care	-
+16:31:28	log	content=STDBAPNAssignment,exit,STStart	-
+16:31:28	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STStart.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.002|documentsize=17046|outcome=success|failover=false|localport=44364|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=85|bytesread=17439|byteswritten=367|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:28	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.005|documentsize=84228|outcome=success|failover=false|localport=44366|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:28	log	content=FCRToggle=0	-
+16:31:28	log	content=FCRToggle=discard	-
+16:31:28	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STApplicationTypeCheck.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.002|documentsize=3772|outcome=success|failover=false|localport=44368|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=100|bytesread=4163|byteswritten=382|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:28	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44370|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:28	log	content=STApplicationTypeCheck,enter	-
+16:31:28	log	content=Care: CTApplicationType	-
+16:31:28	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STDoCareDNISCheck.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.002|documentsize=9799|outcome=success|failover=false|localport=44372|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=95|bytesread=10191|byteswritten=377|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:28	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44374|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:28	log	content=STDoCareDNISCheck,enter	-
+16:31:28	log	content=Payments APN	-
+16:31:28	log	content=STDoCareDNISCheck,exit,STDoPaymentModuleLogic	-
+16:31:28	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STDoPaymentModuleLogic.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.002|documentsize=14690|outcome=success|failover=false|localport=44376|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=100|bytesread=15083|byteswritten=382|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:28	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44378|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:28	log	content=STDoPaymentModuleLogic,enter	-
+16:31:28	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STPromptPaymentsGreeting.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.003|documentsize=28818|outcome=success|failover=false|localport=44380|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=102|bytesread=29211|byteswritten=384|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:28	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44382|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:28	log	content=STPromptPaymentsGreeting,enter	-
+16:31:28	log	label='CTPaymentGreetFlag Value: '|content=true	-
+16:31:28	fetch	uri=http://vxmlnasapps/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADTPaymentMod/PaymentsGreeting_1.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=23226|outcome=success|failover=false|localport=44384|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=123|bytesread=23606|byteswritten=239|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:28	prompt	type=external|URI=/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADTPaymentMod/PaymentsGreeting_1.wav|outcome=success	-
+16:31:28	recognition start	inputmodes=dtmf|threshold=20|timeout=0.002|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+16:31:32	recognition end	result=no input|inputmode=unknown	-
+16:31:32	vxml_event	event=noinput	-
+16:31:32	fetch	uri=http://vxmlnasapps/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADTPaymentMod/PaymentsGreeting_2.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=64046|outcome=success|failover=false|localport=44388|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=123|bytesread=64426|byteswritten=239|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:32	prompt	type=external|URI=/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADTPaymentMod/PaymentsGreeting_2.wav|outcome=success	-
+16:31:32	system response	latency=0.017	-
+16:31:32	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=4.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=n	-
+16:31:34	recognition end	result=success|inputmode=dtmf|utterance=1|confidence=100|grammar=Grammar_1|bargein=true|recordutterances=N	-
+16:31:34	log	content=STPromptPaymentsGreeting,Payment	-
+16:31:34	log	content=STPromptPaymentsGreeting,exit,STDoPaymentModuleLogic#accountIdentified	-
+16:31:34	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STDoPaymentModuleLogic.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.003|documentsize=14690|outcome=success|failover=false|localport=44406|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=100|bytesread=15083|byteswritten=382|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:34	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44408|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:34	log	content=Caller has not identified, checking ANI.	-
+16:31:34	log	content=STDoPaymentModuleLogic,exit,STAPILookupCustomer	-
+16:31:34	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STAPILookupCustomer.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.003|documentsize=33475|outcome=success|failover=false|localport=44410|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=97|bytesread=33868|byteswritten=379|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:34	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44412|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:34	recognition start	inputmodes=dtmf|threshold=20|timeout=0.002|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+16:31:34	recognition end	result=no input|inputmode=unknown	-
+16:31:34	vxml_event	event=noinput	-
+16:31:34	log	content=STAPILookupCustomer,enter	-
+16:31:34	log	script=createLooupCustomerRequest, enter	-
+16:31:34	log	script=customerAni = 5503606380	-
+16:31:34	log	script=5503606380	-
+16:31:34	log	script=createPaymentForIVRRequest, exit	-
+16:31:34	log	content=phoneNumber=5503606380	-
+16:31:34	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/prompts/system/topics/TVMusic/earcon.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.005|documentsize=128180|outcome=success|failover=false|localport=44414|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=105|bytesread=128562|byteswritten=361|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:34	prompt	type=filler|URI=../prompts/system/topics/TVMusic/earcon.wav|delay=2.000|minimum=5.000|mode=foreground	-
+16:31:34	system response	latency=0.014408	-
+16:31:34	fetch	uri=http://linux5259:8280/services/ADT_LookupCustomerStatus|fetchtype=data|mimetype=text/xml;charset=utf-8|incache=false|latency=0.567|documentsize=419|outcome=success|failover=false|localport=60870|hostname=linux5259|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=55|bytesread=658|byteswritten=656|cachedecision=n/a|method=POST	-
+16:31:34	log	script=errorNumber = -1	-
+16:31:34	log	script=errorMessage = No Sites/Customers found for phone number:5503606380 MMB message:no record found	-
+16:31:34	log	script=message = undefined	-
+16:31:34	log	content=CTAPIStatus = notfound	-
+16:31:34	log	content=Ani not Found	-
+16:31:34	log	script=CTAPISiteType =	-
+16:31:34	log	script=CTAPIAccountID =	-
+16:31:34	log	script=CTAPIIsDelinquent =	-
+16:31:34	log	script=CTAPICollectionLevel =	-
+16:31:34	log	script=CTAPIPulseLevel =	-
+16:31:34	log	script=CTAPIIsTestAlarm =	-
+16:31:34	log	script=CTAPIIsActiveAlarm =	-
+16:31:34	log	script=CTAPICustomerStatus =	-
+16:31:34	log	script=CTANIMatch = N	-
+16:31:34	log	content=CTJumpPoint = STDoPaymentModuleLogic#aniMatch	-
+16:31:34	log	content=STDoPaymentModuleLogic,exit,STDoPaymentModuleLogic#aniMatch	-
+16:31:34	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STDoPaymentModuleLogic.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.003|documentsize=14690|outcome=success|failover=false|localport=44418|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=100|bytesread=15083|byteswritten=382|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:34	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44420|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:34	log	label='Checking ANI Match:'|content=CTANIMatch = N	-
+16:31:34	log	content=STDoPaymentModuleLogic,exit,STPromptAskCustorPhone	-
+16:31:34	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STPromptAskCustomerNum.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=48531|outcome=success|failover=false|localport=44422|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=100|bytesread=48924|byteswritten=382|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:34	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44424|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:34	log	content=STPromptAskCustomerNum,enter	-
+16:31:34	fetch	uri=http://vxmlnasapps/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADTPaymentMod/AskCustomerNum.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=46840|outcome=success|failover=false|localport=44432|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=119|bytesread=47220|byteswritten=235|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:34	prompt	type=external|URI=/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADTPaymentMod/AskCustomerNum.wav|outcome=success	-
+16:31:34	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=4.000|bargeintype=speech|completetimeout=2.000|incompletetimeout=2.000|interdigittimeout=2.000|termtimeout=0.000|termchar=n	-
+16:31:41	recognition end	result=success|inputmode=dtmf|utterance=1 2 1 3 9 3 4 6|confidence=100|grammar=Grammar_0|bargein=true|recordutterances=N	-
+16:31:41	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/fnum01.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=3770|outcome=success|failover=false|localport=44538|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=4149|byteswritten=172|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:41	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/fnum01.wav|outcome=success	-
+16:31:41	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/fnum02.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=3864|outcome=success|failover=false|localport=44540|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=4243|byteswritten=172|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:41	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/fnum02.wav|outcome=success	-
+16:31:41	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/fnum01.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=3770|outcome=success|failover=false|localport=44542|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=4149|byteswritten=172|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:41	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/fnum01.wav|outcome=success	-
+16:31:41	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/fnum03.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=4018|outcome=success|failover=false|localport=44544|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=4397|byteswritten=172|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:41	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/fnum03.wav|outcome=success	-
+16:31:41	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/fnum09.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=4966|outcome=success|failover=false|localport=44546|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=5346|byteswritten=172|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:41	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/fnum09.wav|outcome=success	-
+16:31:41	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/fnum03.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=4018|outcome=success|failover=false|localport=44548|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=4397|byteswritten=172|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:41	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/fnum03.wav|outcome=success	-
+16:31:41	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/fnum04.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=4528|outcome=success|failover=false|localport=44550|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=4908|byteswritten=172|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:41	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/fnum04.wav|outcome=success	-
+16:31:41	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/snum06.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=5006|outcome=success|failover=false|localport=44552|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=5386|byteswritten=172|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:41	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/snum06.wav|outcome=success	-
+16:31:41	fetch	uri=http://vxmlnasapps/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADTPaymentMod/AskCustomerNumConf.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=12138|outcome=success|failover=false|localport=44554|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=123|bytesread=12518|byteswritten=239|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:41	prompt	type=external|URI=/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADTPaymentMod/AskCustomerNumConf.wav|outcome=success	-
+16:31:41	system response	latency=0.037	-
+16:31:41	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=4.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+16:31:44	recognition end	result=success|inputmode=speech|utterance=yes|confidence=98|grammar=Grammar_0|bargein=true|recordutterances=N	-
+16:31:44	log	content=STPromptAskCustomerNum,Confirm	-
+16:31:44	log	content=CTPromptAskCustomerNum=Yes	-
+16:31:44	fetch	uri=http://linux3232/realfeed/realfeed_client_data.php?SourceID=WIC&EventType=drr.segment&SegmentGroup=Custom&EventTimestamp=1522355504.400&Unit=4007&Line=018&ParentTime=1522355461&APNKEY=4070077&Segment=CUST%3ASINGLE%3A|fetchtype=data|mimetype=text/xml|incache=false|latency=0.011|documentsize=101|outcome=success|failover=false|localport=56874|hostname=linux3232|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=216|bytesread=237|byteswritten=332|cachedecision=nc(no expiration)|method=GET	-
+16:31:44	log	content=STPromptAskCustomerNum,exit,STAPIGetAccountInfoWSO2	-
+16:31:44	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STAPIGetAccountInfoWSO2.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.003|documentsize=22487|outcome=success|failover=false|localport=44590|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=101|bytesread=22880|byteswritten=383|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:44	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44592|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:44	log	content=STAPIGetAccountInfoWSO2,enter	-
+16:31:44	log	label='CTAskCustomerNum'|content=12139346	-
+16:31:44	log	script=Account ID Sent: 12139346	-
+16:31:44	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/prompts/system/topics/TVMusic/earcon.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=128180|outcome=success|failover=false|localport=44594|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=105|bytesread=128562|byteswritten=361|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:44	prompt	type=filler|URI=../prompts/system/topics/TVMusic/earcon.wav|delay=2.000|minimum=5.000|mode=foreground	-
+16:31:44	system response	latency=0.044093	-
+16:31:45	fetch	uri=http://linux5259:8280/services/ADT_GetAccountInformation|fetchtype=data|mimetype=text/xml;charset=utf-8|incache=false|latency=0.683|documentsize=896|outcome=success|failover=false|localport=32818|hostname=linux5259|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=1135|byteswritten=719|cachedecision=n/a|method=POST	-
+16:31:45	log	script=qr1-({'soapenv:Body':{'NS1:Body':{'NS2:getAccountInformationResponse':{accountInformation:{accountId:"12139346", billSystem:"MMB", customerFirstName:"LITTLE STARS LEARNING", lastPaymentAmount:"0", nonRecurringCharges:"0", pastDueAmount:"1626.4", paymentDue:"1626.4", pendingPaymentAmount:"791.4", billingZipCode:"33430-3503", accountNo:"", ccType:"", ccExpirationDate:"", isBillSystemAvailable:"true"}}}}})	-
+16:31:45	log	script=lastPaymentAmount: 0.00	-
+16:31:45	log	script=lastPaymentDate:	-
+16:31:45	log	script=nonRecurringCharges: 0.00	-
+16:31:45	log	script=pastDueAmount: 1626.40	-
+16:31:45	log	script=paymentDue: 1626.40	-
+16:31:45	log	script=paymentDueDate:	-
+16:31:45	log	script=recurringPaymentType:	-
+16:31:45	log	script=pendingPaymentAmount: 791.40	-
+16:31:45	log	script=accountNo:	-
+16:31:45	log	script=ccType:	-
+16:31:45	log	script=ccExpirationDate:	-
+16:31:45	log	script=billingZipCode: 33430	-
+16:31:45	log	script=isBillSystemAvailable: true	-
+16:31:45	log	script=accountId: 12139346	-
+16:31:45	log	script=billSystem: MMB	-
+16:31:45	log	script=firstName: LITTLE STARS LEARNING	-
+16:31:45	log	script=CTAPIStatus : success	-
+16:31:45	log	content={"soapenv":{"NS1":{"getAccountInformationResponse":{"accountInformation":{"accountId":"12139346","billSystem":"MMB","customerFirstName":"LITTLE STARS LEARNING","lastPaymentAmount":"0","nonRecurringCharges":"0","pastDueAmount":"1626.4","paymentDue":"1626.4","pendingPaymentAmount":"791.4","billingZipCode":"33430-3503","accountNo":"","ccType":"","ccExpirationDate":"","isBillSystemAvailable":"true"}}}}}	-
+16:31:45	log	label='CTPaymentLessPending'|content=835.0000000000001	-
+16:31:45	log	label='CTDelinqLessPending'|content=835.0000000000001	-
+16:31:45	log	content=result	-
+16:31:45	log	label='CTJumpPoint'|content=#return	-
+16:31:45	log	content=STAPIGetAccountInfoWSO2,return,STPromptAskCustomerNum	-
+16:31:45	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STPromptAskCustomerNum.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.003|documentsize=48531|outcome=success|failover=false|localport=44600|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=100|bytesread=48924|byteswritten=382|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:45	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44602|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:45	log	content=STPromptAskCustomerNum,#accountInfoResult	-
+16:31:45	log	label='WSO2 GetAccountInfo Status'|content=success	-
+16:31:45	log	content=STPromptAskCustomerNum,exit,STDoPaymentModuleLogic#accountFound	-
+16:31:45	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STDoPaymentModuleLogic.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.002|documentsize=14690|outcome=success|failover=false|localport=44604|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=100|bytesread=15083|byteswritten=382|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:45	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44606|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:45	log	label='Checking if account found:'|content=CTAccountFound = Y	-
+16:31:45	log	content=STDoPaymentModuleLogic,#collectionsLevel	-
+16:31:45	log	label='Checking collection level:'|content=CTAPICollectionLevel =	-
+16:31:45	log	content=STDoPaymentModuleLogic,#paymentIntent	-
+16:31:45	log	label='CTPaymentMainMenu'|content=Payment	-
+16:31:45	log	content=STDoPaymentModuleLogic,exit,STDoPayChk	-
+16:31:45	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STDoPayChk.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.002|documentsize=10746|outcome=success|failover=false|localport=44608|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=88|bytesread=11139|byteswritten=370|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:45	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44610|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:45	log	content=STDoPayChk,enter	-
+16:31:45	log	label='Bill System Available?'|content=true	-
+16:31:45	log	content=STDoPayChk#acctZipToggle	-
+16:31:45	log	label='Acct Zip Toggle Value'|content=Off	-
+16:31:45	log	content=STDoPayChk#checkPending	-
+16:31:45	log	label='Pending Payment Amount'|content=835.0000000000001	-
+16:31:45	log	content=STDoPayChk#zeroBalance	-
+16:31:45	log	content=STDoPayChk#creditBalance	-
+16:31:45	log	content=STDoPayChk#jumpToAmtDue	-
+16:31:45	log	content=STDoPayChk,exit,STSayPayPmtDueAmt	-
+16:31:45	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STSayPayPmtDueAmt.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.002|documentsize=7836|outcome=success|failover=false|localport=44612|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=95|bytesread=8228|byteswritten=377|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:45	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44614|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:45	log	content=STSayPayPmtDueAmt,enter	-
+16:31:45	fetch	uri=http://vxmlnasapps/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/PayPmtDueAmt.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=28688|outcome=success|failover=false|localport=44616|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=107|bytesread=29068|byteswritten=223|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:45	prompt	type=external|URI=/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/PayPmtDueAmt.wav|outcome=success	-
+16:31:45	recognition start	inputmodes=dtmf|threshold=20|timeout=0.002|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+16:31:47	recognition end	result=no input|inputmode=unknown	-
+16:31:47	vxml_event	event=noinput	-
+16:31:47	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/fh8.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=7294|outcome=success|failover=false|localport=44622|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=7674|byteswritten=169|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:47	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/fh8.wav|outcome=success	-
+16:31:47	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/sd35.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=10558|outcome=success|failover=false|localport=44624|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=54|bytesread=10939|byteswritten=170|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:47	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/sd35.wav|outcome=success	-
+16:31:47	log	content=STSayPayPmtDueAmt,exit,STPromptAskPayMakePmt	-
+16:31:47	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STPromptAskPayMakePmt.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.002|documentsize=22911|outcome=success|failover=false|localport=44626|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=99|bytesread=23304|byteswritten=381|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:47	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.005|documentsize=84228|outcome=success|failover=false|localport=44628|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:47	log	content=STPromptAskPayMakePmt,enter	-
+16:31:47	system response	latency=0.145	-
+16:31:49	fetch	uri=http://vxmlnasapps/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskPayMakePmt.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.005|documentsize=65240|outcome=success|failover=false|localport=44650|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=108|bytesread=65620|byteswritten=224|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:49	prompt	type=external|URI=/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskPayMakePmt.wav|outcome=success	-
+16:31:49	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=4.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+16:31:53	recognition end	result=success|inputmode=speech|utterance=no|confidence=98|grammar=Grammar_0|bargein=true|recordutterances=N	-
+16:31:53	log	content=STPromptAskPayMakePmt,No	-
+16:31:53	log	content=STPromptAskPayMakePmt,exit,STPromptAskPmtAmt	-
+16:31:53	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STPromptAskPmtAmt.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=39150|outcome=success|failover=false|localport=44664|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=95|bytesread=39543|byteswritten=377|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:53	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.005|documentsize=84228|outcome=success|failover=false|localport=44666|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:53	log	content=STPromptAskPmtAmt,enter	-
+16:31:53	fetch	uri=http://vxmlnasapps/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskPmtAmt.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=93230|outcome=success|failover=false|localport=44668|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=104|bytesread=93611|byteswritten=220|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:53	prompt	type=external|URI=/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskPmtAmt.wav|outcome=success	-
+16:31:53	system response	latency=0.053	-
+16:31:53	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=4.000|bargeintype=speech|completetimeout=0.250|incompletetimeout=1.750|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+16:31:55	recognition end	result=success|inputmode=speech|utterance=two dollars|confidence=95|grammar=Grammar_0|bargein=true|recordutterances=N	-
+16:31:55	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/sd02.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=9458|outcome=success|failover=false|localport=44680|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=54|bytesread=9838|byteswritten=170|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:55	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/sd02.wav|outcome=success	-
+16:31:55	fetch	uri=http://vxmlnasapps/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskPmtAmtConf.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.005|documentsize=53272|outcome=success|failover=false|localport=44682|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=108|bytesread=53652|byteswritten=224|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:55	prompt	type=external|URI=/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskPmtAmtConf.wav|outcome=success	-
+16:31:55	system response	latency=0.023	-
+16:31:55	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=4.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+16:31:59	recognition end	result=success|inputmode=speech|utterance=yes|confidence=98|grammar=Grammar_0|bargein=true|recordutterances=N	-
+16:31:59	log	content=STPromptAskPmtAmt,Confirm	-
+16:31:59	log	content=STPromptAskPmtAmt,exit,STIfPaymentGreater	-
+16:31:59	log	content=Amount=`2.00`	-
+16:31:59	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STIfPaymentGreater.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.003|documentsize=13827|outcome=success|failover=false|localport=44696|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=96|bytesread=14220|byteswritten=378|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:59	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44698|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:59	log	content=STIfPaymentGreater,enter	-
+16:31:59	log	content=STIfPaymentGreater#paymentDescription	-
+16:31:59	log	content=CTPmtAmt=2.00	-
+16:31:59	log	content=CTPaymentDescription=Partial	-
+16:31:59	log	content=STIfPaymentGreaterpaymentType	-
+16:31:59	log	content=STIfPaymentGreaterexit,STPromptAskCreditOrBankAcct	-
+16:31:59	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STPromptAskCreditOrBankAcct.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.003|documentsize=21289|outcome=success|failover=false|localport=44700|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=105|bytesread=21682|byteswritten=387|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:59	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44702|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:59	log	content=STPromptAskCreditOrBankAcct,enter	-
+16:31:59	fetch	uri=http://vxmlnasapps/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskCreditOrBankAcct.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=66864|outcome=success|failover=false|localport=44704|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=114|bytesread=67245|byteswritten=230|cachedecision=nc(pragma no-cache)|method=GET	-
+16:31:59	prompt	type=external|URI=/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskCreditOrBankAcct.wav|outcome=success	-
+16:31:59	system response	latency=0.074	-
+16:31:59	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=4.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+16:32:02	recognition end	result=success|inputmode=speech|utterance=credit card|confidence=95|grammar=Grammar_0|bargein=true|recordutterances=N	-
+16:32:02	log	content=STPromptAskCreditOrBankAcct,Credit Card	-
+16:32:03	log	content=STPromptAskCreditOrBankAcct,exit,STPromptAskCCNum	-
+16:32:03	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STPromptAskCCNum.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.011|documentsize=23651|outcome=success|failover=false|localport=44732|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=94|bytesread=24044|byteswritten=376|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:03	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.007|documentsize=84228|outcome=success|failover=false|localport=44734|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:03	log	content=STPromptAskCCNum,enter	-
+16:32:03	fetch	uri=http://vxmlnasapps/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskCCNum.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.007|documentsize=91816|outcome=success|failover=false|localport=44736|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=103|bytesread=92197|byteswritten=219|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:03	prompt	type=external|URI=/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskCCNum.wav|outcome=success	-
+16:32:03	system response	latency=0.052	-
+16:32:03	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=4.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.750|interdigittimeout=3.000|termtimeout=0.000|termchar=#	-
+16:32:04	recognition end	result=success|inputmode=dtmf|utterance=*|confidence=100|grammar=Grammar_0|bargein=true|recordutterances=N	-
+16:32:04	log	content=STPromptAskCCNum ,exit,STPromptAskToEndHold	-
+16:32:04	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STPromptAskToEndHold.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.007|documentsize=70868|outcome=success|failover=false|localport=44746|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=98|bytesread=71262|byteswritten=380|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:04	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.007|documentsize=84228|outcome=success|failover=false|localport=44748|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:04	log	content=STPromptAskToEndHold,enter	-
+16:32:04	fetch	uri=http://vxmlnasapps/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskToEndHold.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.006|documentsize=44060|outcome=success|failover=false|localport=44750|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=107|bytesread=44440|byteswritten=223|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:04	prompt	type=external|URI=/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskToEndHold.wav|outcome=success	-
+16:32:04	fetch	uri=http://vxmlnasapps/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/fingerpop_15sec.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.008|documentsize=128180|outcome=success|failover=false|localport=44752|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=110|bytesread=128562|byteswritten=226|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:04	prompt	type=external|URI=/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/fingerpop_15sec.wav|outcome=success	-
+16:32:04	system response	latency=0.063	-
+16:32:04	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=1.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+16:32:06	recognition end	result=success|inputmode=dtmf|utterance=1|confidence=100|grammar=Grammar_0|bargein=true|recordutterances=N	-
+16:32:06	log	content=STPromptAskToEndHold,End Hold	-
+16:32:06	log	content=STPromptAskToEndHold,exit,STPromptAskCCNum	-
+16:32:06	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STPromptAskCCNum.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.005|documentsize=23651|outcome=success|failover=false|localport=44760|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=94|bytesread=24044|byteswritten=376|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:06	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.007|documentsize=84228|outcome=success|failover=false|localport=44762|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:06	log	content=STPromptAskCCNum,enter	-
+16:32:06	fetch	uri=http://vxmlnasapps/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskCCNum.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.007|documentsize=91816|outcome=success|failover=false|localport=44764|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=103|bytesread=92197|byteswritten=219|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:06	prompt	type=external|URI=/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskCCNum.wav|outcome=success	-
+16:32:06	system response	latency=0.044	-
+16:32:06	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=4.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.750|interdigittimeout=3.000|termtimeout=0.000|termchar=#	-
+16:32:14	recognition end	result=success|inputmode=dtmf|utterance=4 1 1 2 3 4 4 1 1 2 3 4 4 1 1 3|confidence=100|grammar=Grammar_0|bargein=true|recordutterances=N	-
+16:32:14	log	content=CTCCType=V	-
+16:32:14	log	content=CTLast4=4113	-
+16:32:14	log	content=STPromptAskCCNum, exit,STPromptAskConfCCNum	-
+16:32:14	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STPromptAskConfCCNum.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.003|documentsize=26990|outcome=success|failover=false|localport=44792|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=98|bytesread=27383|byteswritten=380|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:14	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.005|documentsize=84228|outcome=success|failover=false|localport=44794|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:14	log	content=STPromptAskConfCCNum,enter	-
+16:32:14	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/f41.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=7658|outcome=success|failover=false|localport=44796|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=8038|byteswritten=169|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:14	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/f41.wav|outcome=success	-
+16:32:14	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/f12.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=8658|outcome=success|failover=false|localport=44798|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=9038|byteswritten=169|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:14	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/f12.wav|outcome=success	-
+16:32:14	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/f34.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=7558|outcome=success|failover=false|localport=44800|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=7938|byteswritten=169|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:14	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/f34.wav|outcome=success	-
+16:32:14	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/f41.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=7658|outcome=success|failover=false|localport=44802|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=8038|byteswritten=169|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:14	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/f41.wav|outcome=success	-
+16:32:14	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/f12.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=8658|outcome=success|failover=false|localport=44804|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=9038|byteswritten=169|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:14	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/f12.wav|outcome=success	-
+16:32:14	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/f34.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=7558|outcome=success|failover=false|localport=44806|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=7938|byteswritten=169|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:14	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/f34.wav|outcome=success	-
+16:32:14	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/f41.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=7658|outcome=success|failover=false|localport=44808|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=8038|byteswritten=169|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:14	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/f41.wav|outcome=success	-
+16:32:14	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/s13.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=7458|outcome=success|failover=false|localport=44810|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=7838|byteswritten=169|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:14	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/s13.wav|outcome=success	-
+16:32:14	fetch	uri=http://vxmlnasapps/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskCCNumConf.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=19614|outcome=success|failover=false|localport=44812|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=107|bytesread=19994|byteswritten=223|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:14	prompt	type=external|URI=/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskCCNumConf.wav|outcome=success	-
+16:32:14	system response	latency=0.064	-
+16:32:14	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=4.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+16:32:18	recognition end	result=success|inputmode=speech|utterance=yes|confidence=98|grammar=Grammar_0|bargein=true|recordutterances=N	-
+16:32:18	log	label='Mod 10 Check'|content=Good	-
+16:32:18	log	content=STPromptAskConfCCNum, Yes	-
+16:32:18	log	content=STPromptAskConfCCNum,exit,STPromptAskExpDate	-
+16:32:18	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STPromptAskExpDate.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=42357|outcome=success|failover=false|localport=44828|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=96|bytesread=42750|byteswritten=378|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:18	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44830|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:18	log	content=STPromptAskExpDate,enter	-
+16:32:18	log	content=/adt_care2_en-us_AskExpDate.php?in=20180329	-
+16:32:18	fetch	uri=http://vxmlnasapps/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskExpDate.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.007|documentsize=152752|outcome=success|failover=false|localport=44832|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=105|bytesread=153134|byteswritten=221|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:18	prompt	type=external|URI=/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskExpDate.wav|outcome=success	-
+16:32:18	system response	latency=0.082	-
+16:32:18	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=4.000|bargeintype=speech|completetimeout=0.250|incompletetimeout=1.750|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+16:32:22	recognition end	result=success|inputmode=speech|utterance=january two thousand twenty one|confidence=82|grammar=Grammar_0|bargein=true|recordutterances=N	-
+16:32:22	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/fjan.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=5826|outcome=success|failover=false|localport=44850|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=54|bytesread=6206|byteswritten=170|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:22	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/fjan.wav|outcome=success	-
+16:32:22	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/sy2021.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=12658|outcome=success|failover=false|localport=44852|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=13039|byteswritten=172|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:22	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/sy2021.wav|outcome=success	-
+16:32:22	fetch	uri=http://vxmlnasapps/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskExpDateConf.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=19616|outcome=success|failover=false|localport=44854|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=109|bytesread=19996|byteswritten=225|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:22	prompt	type=external|URI=/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskExpDateConf.wav|outcome=success	-
+16:32:22	system response	latency=0.020	-
+16:32:22	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=4.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+16:32:25	recognition end	result=success|inputmode=speech|utterance=yes|confidence=98|grammar=Grammar_0|bargein=true|recordutterances=N	-
+16:32:25	log	content=STPromptAskExpDate ,Yes	-
+16:32:25	log	content=STPromptAskExpDate ,exit,#validate	-
+16:32:25	log	content=CTCCExpDate=012021	-
+16:32:25	log	content=STPromptAskExpDate,exit,STPromptAskBillZipCode	-
+16:32:25	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STPromptAskBillZipCode.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.003|documentsize=38838|outcome=success|failover=false|localport=44856|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=100|bytesread=39231|byteswritten=382|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:25	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.005|documentsize=84228|outcome=success|failover=false|localport=44858|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:25	log	content=STPromptAskBillZipCode,enter	-
+16:32:25	fetch	uri=http://vxmlnasapps/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskBillZipCode.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=61454|outcome=success|failover=false|localport=44860|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=109|bytesread=61834|byteswritten=225|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:25	prompt	type=external|URI=/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskBillZipCode.wav|outcome=success	-
+16:32:25	system response	latency=0.045	-
+16:32:25	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=4.000|bargeintype=speech|completetimeout=0.250|incompletetimeout=1.750|interdigittimeout=3.000|termtimeout=0.000|termchar=#	-
+16:32:29	recognition end	result=success|inputmode=speech|utterance=six eight one five four|confidence=95|grammar=Grammar_0|bargein=true|recordutterances=N	-
+16:32:29	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/681.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=10554|outcome=success|failover=false|localport=44870|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=10935|byteswritten=169|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:29	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/681.wav|outcome=success	-
+16:32:29	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/s54.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=9058|outcome=success|failover=false|localport=44872|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=9438|byteswritten=169|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:29	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/s54.wav|outcome=success	-
+16:32:29	fetch	uri=http://vxmlnasapps/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskBillZipCodeConf.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=19194|outcome=success|failover=false|localport=44874|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=113|bytesread=19574|byteswritten=229|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:29	prompt	type=external|URI=/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskBillZipCodeConf.wav|outcome=success	-
+16:32:29	system response	latency=0.026	-
+16:32:29	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=4.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+16:32:32	recognition end	result=success|inputmode=speech|utterance=yes|confidence=98|grammar=Grammar_0|bargein=true|recordutterances=N	-
+16:32:32	log	content=STPromptAskBillZipCode ,exit,STIfEZPayCreditCard#zipConfirmed	-
+16:32:32	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STIfEZPayCreditCard.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.002|documentsize=9268|outcome=success|failover=false|localport=44916|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=97|bytesread=9660|byteswritten=379|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:32	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.005|documentsize=84228|outcome=success|failover=false|localport=44918|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:32	log	content=STPromptAskBillZipCode,exit,STAPIProfileAddWSO2	-
+16:32:32	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STAPIProfileAddWSO2.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.003|documentsize=28683|outcome=success|failover=false|localport=44920|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=97|bytesread=29076|byteswritten=379|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:32	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44922|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:32	log	content=STAPIProfileAddWSO2,enter	-
+16:32:32	fetch	uri=http://vxmlnasapps/MTLPortRequestServlet/MTLPortRequestServlet|fetchtype=data|mimetype=text/xml;charset=ISO-8859-1|incache=false|latency=0.126|documentsize=1657|outcome=success|failover=false|localport=44924|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=62|bytesread=1859|byteswritten=1919|cachedecision=n/a|method=POST	-
+16:32:32	log	content=result:({Status:"SUCCESS", Error:"MTLSUCC", Result:{Part1:{MTLLENGTH:"294", returntext:"Success", eoslogstr:"", MTLDEST:"linux4095_3932_379314_sock8", eosevent:"800 done", eosservice:"CISP_Service", respvalue:"ndkpBUO0w7LEpHsWHncKUg==:WIC:adt:18030:2", resptruncvalue:"************4113", MTLID:"linux4095_3932_379314_sock8_1", eossetuptime:"", respvaluelen:"40", returncode:"0", MTLTYPE:"MSG", MTLTTL:"7", MTLSRC:"led33371_2408_86829_sock8"}, Part2:"<?xml version=\"1.0\"?>\n<cispdata><keyencdcommand>resp_get_key_enc</keyencdcommand><Returntext>Success</Returntext><Returncode>0</Returncode><Respvalue>ndkpBUO0w7LEpHsWHncKUg==:WIC:adt:18030:2</Respvalue><Resptruncvalue>************4113</Resptruncvalue><Resptrunclen>16</Resptrunclen></cispdata>", Errors:""}, TransactionHistory:{Transaction:{Port:"11555", Service:"CISP_Service", Duration:"115", Status:"SUCCESS", Message:"", Manager:"localhost", Part1Error:"", Part2Error:""}}})	-
+16:32:32	log	script=createProfileAddRequest, enter	-
+16:32:32	log	script=Request XML logging:	-
+16:32:32	log	script=T8001WEST	-
+16:32:32	log	script=FW32LY5Q1	-
+16:32:32	log	script=2.7	-
+16:32:32	log	script=000001	-
+16:32:32	log	script=247010	-
+16:32:32	log	script=No	-
+16:32:32	log	script=A	-
+16:32:32	log	script=ProfileAdd	-
+16:32:32	log	script=CC	-
+16:32:32	log	script=NotSet	-
+16:32:32	log	script=202101	-
+16:32:32	log	script=A	-
+16:32:32	log	script=MMB	-
+16:32:32	log	script=12139346	-
+16:32:32	log	script=createProfileAddRequest, exit	-
+16:32:32	log	content=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:pay="urn:ws.paymentech.net/PaymentechGateway"><soapenv:Header/><soapenv:Body><pay:ProfileAdd><pay:profileAddRequest><pay:orbitalConnectionUsername>T8001WEST</pay:orbitalConnectionUsername><pay:orbitalConnectionPassword>FW32LY5Q1</pay:orbitalConnectionPassword><pay:version>2.7</pay:version><pay:bin>000001</pay:bin><pay:merchantID>247010</pay:merchantID><pay:customerName></pay:customerName><pay:customerRefNum></pay:customerRefNum><pay:customerAddress1></pay:customerAddress1><pay:customerAddress2></pay:customerAddress2><pay:customerCity></pay:customerCity><pay:customerState></pay:customerState><pay:customerZIP>68154</pay:customerZIP><pay:customerEmail></pay:customerEmail><pay:customerPhone></pay:customerPhone><pay:customerCountryCode></pay:customerCountryCode><pay:customerProfileOrderOverideInd>No</pay:customerProfileOrderOverideInd><pay:customerProfileFromOrderInd>A</pay:customerProfileFromOrderInd><pay:orderDefaultDescription>ProfileAdd</pay:orderDefaultDescription><pay:orderDefaultAmount></pay:orderDefaultAmount><pay:customerAccountType>CC</pay:customerAccountType><pay:ccAccountNum>4112344112344113</pay:ccAccountNum><pay:ccExp>202101</pay:ccExp><pay:status>A</pay:status></pay:profileAddRequest></pay:ProfileAdd></soapenv:Body></soapenv:Envelope>	-
+16:32:32	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/prompts/system/topics/TVMusic/earcon.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.005|documentsize=128180|outcome=success|failover=false|localport=44926|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=105|bytesread=128562|byteswritten=361|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:32	prompt	type=filler|URI=../prompts/system/topics/TVMusic/earcon.wav|delay=2.000|minimum=5.000|mode=foreground	-
+16:32:32	system response	latency=0.187909	-
+16:32:33	fetch	uri=http://linux5259:8280/services/ADT_AddProfile|fetchtype=data|mimetype=text/xml; charset=utf-8|incache=false|latency=0.597|documentsize=2190|outcome=success|failover=false|localport=33150|hostname=linux5259|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=45|bytesread=2451|byteswritten=2006|cachedecision=n/a|method=POST	-
+16:32:33	log	script=createProfileAddResponse, enter	-
+16:32:33	log	script=ResponseValuesLogging:	-
+16:32:33	log	script=customerRefNum:110802365	-
+16:32:33	log	script=profileAction:CREATE	-
+16:32:33	log	script=procStatus:0	-
+16:32:33	log	script=procStatusMessage:Profile Request Processed	-
+16:32:33	log	script=profileOrderOverideInd:A	-
+16:32:33	log	script=orderDefaultDescription:ProfileAdd	-
+16:32:33	log	script=orderDefaultAmount:	-
+16:32:33	log	script=customerAccountType:CC	-
+16:32:33	log	script=CTAPIStatus : success	-
+16:32:33	log	script=createProfileAddResponse, exit	-
+16:32:33	log	content=result = [object Object]	-
+16:32:33	log	content=ProfileAddObj=[object Object]	-
+16:32:33	log	content=CTCustomerRefNum=110802365	-
+16:32:33	log	content=drrstatus=success,adt_security|ProfileAdd|ProfileAddResp|2.7|000001|247010||||||||68154|||No|A|ProfileAdd||CC|NotSet|202101|A	-
+16:32:33	warning	msg=reference to undefined property application.gConceptMemory.STAPIProfileAddWSO2_DRRDataSent|line=1	-
+16:32:33	log	content=CTJumpPoint=STAPIMakeCCPaymentWSO2	-
+16:32:33	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STAPIMakeCCPaymentWSO2.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.003|documentsize=20638|outcome=success|failover=false|localport=44930|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=100|bytesread=21031|byteswritten=382|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:33	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44932|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:33	log	content=STAPIMakeCCPaymentWSO2,enter	-
+16:32:33	log	content=CTResultAPIAddProfile.customerRefNum=110802365	-
+16:32:33	log	label='Request: '|content=newBody	-
+16:32:33	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/prompts/system/topics/TVMusic/earcon.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.005|documentsize=128180|outcome=success|failover=false|localport=44934|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=105|bytesread=128562|byteswritten=361|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:33	prompt	type=filler|URI=../prompts/system/topics/TVMusic/earcon.wav|delay=2.000|minimum=5.000|mode=foreground	-
+16:32:33	fetch	uri=http://linux5259:8280/services/ADT_Payment|fetchtype=data|mimetype=text/xml;charset=utf-8|incache=false|latency=0.466|documentsize=399|outcome=success|failover=false|localport=33158|hostname=linux5259|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=42|bytesread=638|byteswritten=1134|cachedecision=n/a|method=POST	-
+16:32:33	log	content={"soapenv":{"makeCCPaymentResponse":{"paymentStatus":{"operationSuccessful":"true","confirmationNumber":"27221549"}}}}	-
+16:32:33	log	label='CTAPIStatus'|content=success	-
+16:32:33	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STDBInsertPaymentInfo.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=14164|outcome=success|failover=false|localport=44938|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=99|bytesread=14557|byteswritten=381|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:33	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44940|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:33	log	content=STDBInsertPaymentInfo,enter	-
+16:32:33	log	script=DBAlias is set to: informixdb15	-
+16:32:33	log	script=Data sent to adt_insert_payment: '4007','018','N','CC', '2.00','Partial','03/29/2018','2912668'	-
+16:32:33	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/prompts/system/topics/TVMusic/earcon.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.005|documentsize=128180|outcome=success|failover=false|localport=44942|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=105|bytesread=128562|byteswritten=361|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:33	prompt	type=filler|URI=../prompts/system/topics/TVMusic/earcon.wav|delay=2.000|minimum=5.000|mode=foreground	-
+16:32:33	fetch	uri=http://vxmlapps/webservices/wicstd/database.json.php|fetchtype=data|mimetype=application/json; charset=utf-8;|incache=false|latency=0.073|documentsize=42|outcome=success|failover=false|localport=36704|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=52|bytesread=338|byteswritten=1312|cachedecision=n/a|method=POST	-
+16:32:33	log	content=Result = ["SUCCESS", "0", "0"]	-
+16:32:33	log	content=Payment record successfully inserted	-
+16:32:33	log	content=drrstatus=success,'4007','018','N','CC', '2.00','Partial','03/29/2018','2912668'	-
+16:32:33	log	label='CTPmtType'|content=creditCard	-
+16:32:33	log	content=CTJumpPoint=STSayCCPmtSuccess	-
+16:32:33	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STSayCCPmtSuccess.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.003|documentsize=7992|outcome=success|failover=false|localport=44946|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=95|bytesread=8384|byteswritten=377|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:33	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44948|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:33	log	content=STSayCCPmtSuccess, enter	-
+16:32:33	fetch	uri=http://vxmlnasapps/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/CCPmtSuccess.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.008|documentsize=148200|outcome=success|failover=false|localport=44950|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=107|bytesread=148582|byteswritten=223|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:33	prompt	type=external|URI=/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/CCPmtSuccess.wav|outcome=success	-
+16:32:43	recognition start	inputmodes=dtmf|threshold=20|timeout=0.002|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+16:32:43	recognition end	result=no input|inputmode=unknown	-
+16:32:43	vxml_event	event=noinput	-
+16:32:43	log	content=STSayCCPmtSuccess ,exit,STConfirmPaymentEnd	-
+16:32:43	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STConfirmPaymentEnd.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.002|documentsize=6833|outcome=success|failover=false|localport=44988|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=97|bytesread=7225|byteswritten=379|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:43	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44990|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:43	log	content=STConfirmPaymentEnd,enter	-
+16:32:43	log	content=CTPmtAmt=2.00	-
+16:32:43	log	content=CTPaymentLessPending=835.0000000000001	-
+16:32:43	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STSayConfirmationNum.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.002|documentsize=9392|outcome=success|failover=false|localport=44992|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=98|bytesread=9784|byteswritten=380|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:43	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=44994|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:43	log	content=STSayConfirmationNum,enter	-
+16:32:43	fetch	uri=http://vxmlnasapps/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/ConfirmationNum.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=26640|outcome=success|failover=false|localport=44996|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=110|bytesread=27020|byteswritten=226|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:43	prompt	type=external|URI=/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/ConfirmationNum.wav|outcome=success	-
+16:32:43	system response	latency=0.047	-
+16:32:43	recognition start	inputmodes=dtmf|threshold=20|timeout=0.002|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+16:32:45	recognition end	result=no input|inputmode=unknown	-
+16:32:45	vxml_event	event=noinput	-
+16:32:45	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/fnum02.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=3864|outcome=success|failover=false|localport=45000|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=4243|byteswritten=172|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:45	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/fnum02.wav|outcome=success	-
+16:32:45	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/fnum07.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=4642|outcome=success|failover=false|localport=45002|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=5022|byteswritten=172|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:45	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/fnum07.wav|outcome=success	-
+16:32:45	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/fnum02.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=3864|outcome=success|failover=false|localport=45004|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=4243|byteswritten=172|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:45	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/fnum02.wav|outcome=success	-
+16:32:45	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/fnum02.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=3864|outcome=success|failover=false|localport=45006|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=4243|byteswritten=172|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:45	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/fnum02.wav|outcome=success	-
+16:32:45	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/fnum01.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=3770|outcome=success|failover=false|localport=45008|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=4149|byteswritten=172|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:45	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/fnum01.wav|outcome=success	-
+16:32:45	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/fnum05.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=5648|outcome=success|failover=false|localport=45010|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=6028|byteswritten=172|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:45	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/fnum05.wav|outcome=success	-
+16:32:45	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/fnum04.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=4528|outcome=success|failover=false|localport=45012|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=4908|byteswritten=172|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:45	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/fnum04.wav|outcome=success	-
+16:32:45	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/snum09.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=4340|outcome=success|failover=false|localport=45014|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=4720|byteswritten=172|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:45	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/snum09.wav|outcome=success	-
+16:32:45	log	content=STSayConfirmationNum,exit,STPromptAskConfirmationNumRepeat	-
+16:32:45	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STPromptAskConfirmationNumRepeat.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=20308|outcome=success|failover=false|localport=45016|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=110|bytesread=20701|byteswritten=392|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:45	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=45018|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:45	log	content=STPromptAskConfirmationNumRepeat,enter	-
+16:32:45	system response	latency=0.151	-
+16:32:49	fetch	uri=http://vxmlnasapps/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskConfirmationNumRepeat.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=63560|outcome=success|failover=false|localport=45038|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=119|bytesread=63940|byteswritten=235|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:49	prompt	type=external|URI=/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskConfirmationNumRepeat.wav|outcome=success	-
+16:32:49	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=4.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+16:32:53	recognition end	result=success|inputmode=speech|utterance=no|confidence=99|grammar=Grammar_0|bargein=true|recordutterances=N	-
+16:32:53	log	content=STPromptAskConfirmationNumRepeat,No	-
+16:32:53	log	content=STPromptAskConfirmationNumRepeatreturn,STConfirmPaymentEnd#latePaymentOB	-
+16:32:53	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STConfirmPaymentEnd.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.002|documentsize=6833|outcome=success|failover=false|localport=45072|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=97|bytesread=7225|byteswritten=379|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:53	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=45074|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:53	log	label='CTAPIRecurringPaymentType'	-
+16:32:53	log	content=STPromptAskConfirmationNumRepeat,exit,STPromptAskEZPaySetupFromPay	-
+16:32:53	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STPromptAskEZPaySetupFromPay.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.002|documentsize=20002|outcome=success|failover=false|localport=45076|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=106|bytesread=20395|byteswritten=388|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:53	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=45078|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:53	log	content=STPromptAskEZPaySetupFromPay,enter	-
+16:32:53	fetch	uri=http://vxmlnasapps/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskEZPaySetupFromPay.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.006|documentsize=237546|outcome=success|failover=false|localport=45084|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=115|bytesread=237928|byteswritten=231|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:53	prompt	type=external|URI=/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskEZPaySetupFromPay.wav|outcome=success	-
+16:32:53	system response	latency=0.062	-
+16:32:53	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=4.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+16:32:57	recognition end	result=success|inputmode=speech|utterance=yes|confidence=98|grammar=Grammar_0|bargein=true|recordutterances=N	-
+16:32:57	log	content=STPromptAskEZPaySetupFromPay,Yes	-
+16:32:57	log	content=STPromptAskEZPaySetupFromPayexit,STPromptAskEZPayUseSameAcct	-
+16:32:57	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STPromptAskEZPayUseSameAcct.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.003|documentsize=19659|outcome=success|failover=false|localport=45126|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=105|bytesread=20052|byteswritten=387|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:57	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=45128|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:57	log	content=STPromptAskEZPayUseSameAcct,enter	-
+16:32:57	fetch	uri=http://vxmlnasapps/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskEZPayUseSameAcct.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=80908|outcome=success|failover=false|localport=45130|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=114|bytesread=81289|byteswritten=230|cachedecision=nc(pragma no-cache)|method=GET	-
+16:32:57	prompt	type=external|URI=/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskEZPayUseSameAcct.wav|outcome=success	-
+16:32:57	system response	latency=0.040	-
+16:32:57	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=4.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+16:33:00	recognition end	result=success|inputmode=speech|utterance=yes|confidence=98|grammar=Grammar_0|bargein=true|recordutterances=N	-
+16:33:00	log	content=STPromptAskEZPayUseSameAcct,Yes	-
+16:33:00	log	content=STPromptAskEZPayUseSameAcctexit,STPromptAskEZPayUseSameAcct	-
+16:33:00	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STPromptAskEZPayConfAcctNum.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.003|documentsize=23858|outcome=success|failover=false|localport=45136|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=105|bytesread=24251|byteswritten=387|cachedecision=nc(pragma no-cache)|method=GET	-
+16:33:00	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=84228|outcome=success|failover=false|localport=45138|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:33:00	log	content=STPromptAskEZPayConfAcctNum,enter	-
+16:33:00	fetch	uri=http://vxmlnasapps/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskEZPayConfAcctNum_1.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=52018|outcome=success|failover=false|localport=45140|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=116|bytesread=52398|byteswritten=232|cachedecision=nc(pragma no-cache)|method=GET	-
+16:33:00	prompt	type=external|URI=/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskEZPayConfAcctNum_1.wav|outcome=success	-
+16:33:00	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/fnum04.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=4528|outcome=success|failover=false|localport=45142|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=4908|byteswritten=172|cachedecision=nc(pragma no-cache)|method=GET	-
+16:33:00	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/fnum04.wav|outcome=success	-
+16:33:00	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/fnum01.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=3770|outcome=success|failover=false|localport=45144|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=4149|byteswritten=172|cachedecision=nc(pragma no-cache)|method=GET	-
+16:33:00	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/fnum01.wav|outcome=success	-
+16:33:00	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/fnum01.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=3770|outcome=success|failover=false|localport=45146|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=4149|byteswritten=172|cachedecision=nc(pragma no-cache)|method=GET	-
+16:33:00	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/fnum01.wav|outcome=success	-
+16:33:00	fetch	uri=http://vxmlnasapps/voice/wicstd/kevin/dynocat/snum03.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=4240|outcome=success|failover=false|localport=45148|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=56|bytesread=4620|byteswritten=172|cachedecision=nc(pragma no-cache)|method=GET	-
+16:33:00	prompt	type=external|URI=/voice/wicstd/kevin/dynocat/snum03.wav|outcome=success	-
+16:33:00	fetch	uri=http://vxmlnasapps/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskEZPayConfAcctNum_2.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.005|documentsize=56024|outcome=success|failover=false|localport=45150|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=116|bytesread=56404|byteswritten=232|cachedecision=nc(pragma no-cache)|method=GET	-
+16:33:00	prompt	type=external|URI=/Projects/adt/care2/External_Resources_20180322100322//voice/en-us/PLADT/AskEZPayConfAcctNum_2.wav|outcome=success	-
+16:33:00	system response	latency=0.062	-
+16:33:00	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=4.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+16:33:03	recognition end	result=success|inputmode=speech|utterance=yes|confidence=98|grammar=Grammar_0|bargein=true|recordutterances=N	-
+16:33:03	vxml_event	event=connection.disconnect.hangup|message=no reason supplied	-
+16:33:03	vxml_event	event=wicstd.hangup	-
+16:33:03	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STEnd.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.006|documentsize=37284|outcome=success|failover=false|localport=45160|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=83|bytesread=37677|byteswritten=365|cachedecision=nc(pragma no-cache)|method=GET	-
+16:33:03	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.007|documentsize=84228|outcome=success|failover=false|localport=45162|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:33:03	log	script=FRAMEWORK FILENAME: /wic/wic/wic/wicstd/framework/v.holly.16.20180329	-
+16:33:03	log	script=FRAMEWORK LOGDATA: 1522355461,4007,018,20180329,163101,8114070077,0000000000,adt,care2,NotSet,Holly,4007,e4007-20180329163101416-018,NotSet,QA	-
+16:33:03	log	label='Continue processing? '|content=true	-
+16:33:03	log	content=STEnd, enter	-
+16:33:03	log	content=STEnd, startTime is 1522355461000	-
+16:33:03	log	content=STEnd, endTime is 1522355583863	-
+16:33:03	log	content=STEnd secDur is 122	-
+16:33:03	log	content=STEnd msDur is 122863	-
+16:33:03	fetch	uri=http://linux3232/realfeed/realfeed_client_data.php?SourceID=WIC&EventType=drr.segment&SegmentGroup=Custom&EventTimestamp=1522355583.868&Unit=4007&Line=018&ParentTime=1522355461&APNKEY=4070077&Segment=SELFSERVICE%3AACHIEVED%3A|fetchtype=data|mimetype=text/xml|incache=false|latency=0.010|documentsize=101|outcome=success|failover=false|localport=57450|hostname=linux3232|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=225|bytesread=237|byteswritten=341|cachedecision=nc(no expiration)|method=GET	-
+16:33:03	log	content=CTSelfService=SELFSERVICE:ACHIEVED:	-
+16:33:03	log	content=CTTransferFlag=false	-
+16:33:03	log	content=CTSelfServiceFlag=true	-
+16:33:03	fetch	uri=http://linux3232/realfeed/realfeed_client_data.php?SourceID=WIC&EventType=drr.segment&SegmentGroup=Custom&EventTimestamp=1522355583.883&Unit=4007&Line=018&ParentTime=1522355461&APNKEY=4070077&Segment=CallerHup%3ACOMPLETE%3A|fetchtype=data|mimetype=text/xml|incache=false|latency=0.009|documentsize=101|outcome=success|failover=false|localport=57452|hostname=linux3232|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=223|bytesread=237|byteswritten=339|cachedecision=nc(no expiration)|method=GET	-
+16:33:03	log	content=Abandon=C	-
+16:33:03	log	content=CTHungUp=CallerHUPCTDRRExitReason=completeCTPlayMessageNodename=	-
+16:33:03	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STCallRecording.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.006|documentsize=56074|outcome=success|failover=false|localport=45168|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=93|bytesread=56467|byteswritten=375|cachedecision=nc(pragma no-cache)|method=GET	-
+16:33:03	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.006|documentsize=84228|outcome=success|failover=false|localport=45170|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:33:03	log	content=FULL CALL RECORDING DISCARD (SUCC)	-
+16:33:03	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STEnd.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.005|documentsize=37284|outcome=success|failover=false|localport=45172|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=83|bytesread=37677|byteswritten=365|cachedecision=nc(pragma no-cache)|method=GET	-
+16:33:03	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.006|documentsize=84228|outcome=success|failover=false|localport=45174|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:33:03	log	content=vcapFilepath=NotSet	-
+16:33:03	log	content=vcapFilename=NotSet	-
+16:33:03	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STCallDetailRecord.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.005|documentsize=23306|outcome=success|failover=false|localport=45176|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=96|bytesread=23699|byteswritten=378|cachedecision=nc(pragma no-cache)|method=GET	-
+16:33:03	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.006|documentsize=84228|outcome=success|failover=false|localport=45178|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:33:03	log	content=STCallDetailRecord,enter	-
+16:33:03	log	content=CDRLogData=1522355461,4007,018,03292018,163101,123,8114070077,4070077,adt,care2,0000000000,,12139346,,,,2.00,creditCard,success,F,,,NA,,,,,,,CUST_NUM,BillingandPayments,,,STPromptAskEZPayUseSameAcct,,,791.40,1626.40,1626.40,,,MMB,,,,,,,,,,,,	-
+16:33:03	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STDBStoreCDRDataMTL.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=10755|outcome=success|failover=false|localport=45180|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=97|bytesread=11148|byteswritten=379|cachedecision=nc(pragma no-cache)|method=GET	-
+16:33:03	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.006|documentsize=84228|outcome=success|failover=false|localport=45182|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:33:04	log	content=STDBStoreCDRDataMTL,enter	-
+16:33:04	log	script=DBAlias is set to: informixdb15	-
+16:33:04	log	script=Data sent to insert_adt_cdr_7: 1522355461,4007,018,03292018,163101,123,8114070077,4070077,adt,care2,0000000000,,12139346,,,,2.00,creditCard,success,F,,,NA,,,,,,,CUST_NUM,BillingandPayments,,,STPromptAskEZPayUseSameAcct,,,791.40,1626.40,1626.40,,,MMB,,,,,,,,,,,,	-
+16:33:04	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/prompts/system/topics/TVMusic/earcon.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.008|documentsize=128180|outcome=success|failover=false|localport=45184|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=105|bytesread=128562|byteswritten=361|cachedecision=nc(pragma no-cache)|method=GET	-
+16:33:04	prompt	type=filler|URI=../prompts/system/topics/TVMusic/earcon.wav|delay=2.000|minimum=5.000|mode=foreground	-
+16:33:04	system response	latency=0.177065	-
+16:33:04	fetch	uri=http://vxmlapps/webservices/wicstd/database.json.php|fetchtype=data|mimetype=application/json; charset=utf-8;|incache=false|latency=0.061|documentsize=42|outcome=success|failover=false|localport=36946|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=52|bytesread=338|byteswritten=1864|cachedecision=n/a|method=POST	-
+16:33:04	log	content=Status is: SUCCESS	-
+16:33:04	log	content=STDBStoreCDRDataMTL response =["SUCCESS", "0", "0"]	-
+16:33:04	log	content=STDBStoreCDRDataMTL,Success	-
+16:33:04	log	content=drrstatus=success,1522355461,4007,018,03292018,163101,123,8114070077,4070077,adt,care2,0000000000,,12139346,,,,2.00,creditCard,success,F,,,NA,,,,,,,CUST_NUM,BillingandPayments,,,STPromptAskEZPayUseSameAcct,,,791.40,1626.40,1626.40,,,MMB,,,,,,,,,,,,	-
+16:33:04	fetch	uri=http://linux3232/realfeed/realfeed_client_data.php?SourceID=WIC&EventType=drr.request&EventTimestamp=1522355584.003&Unit=4007&Line=018&ParentTime=1522355461&APNKEY=4070077&Subevent=DB%3Ainsert_adt_cdr_7&Status=success&Language=en-us&LOR=0|fetchtype=data|mimetype=text/xml|incache=false|latency=0.015|documentsize=101|outcome=success|failover=false|localport=57474|hostname=linux3232|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=238|bytesread=237|byteswritten=354|cachedecision=nc(no expiration)|method=GET	-
+16:33:04	log	content=STDBStoreCDRDataMTL,exit,STCallDetailRecord	-
+16:33:04	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STCallDetailRecord.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.005|documentsize=23306|outcome=success|failover=false|localport=45190|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=96|bytesread=23699|byteswritten=378|cachedecision=nc(pragma no-cache)|method=GET	-
+16:33:04	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.007|documentsize=84228|outcome=success|failover=false|localport=45192|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:33:04	log	content=STCallDetailRecord,return,STEnd	-
+16:33:04	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/STEnd.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.005|documentsize=37284|outcome=success|failover=false|localport=45194|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=83|bytesread=37677|byteswritten=365|cachedecision=nc(pragma no-cache)|method=GET	-
+16:33:04	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.007|documentsize=84228|outcome=success|failover=false|localport=45196|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:33:04	log	content=STEnd END EXIT	-
+16:33:04	vxml_event	event=wicstd.endcall	-
+16:33:04	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/srv/tuvoxcvr|fetchtype=vxml|mimetype=text/xml;charset=ISO-8859-1|incache=false|latency=0.015|documentsize=1196|outcome=success|failover=false|localport=45198|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=77|bytesread=1500|byteswritten=38710|cachedecision=n/a|method=POST	-
+16:33:04	fetch	uri=http://vxmlnasapps/Projects/adt/care2/Application_20180329104443/dialogs/TuVoxRoot.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.008|documentsize=84228|outcome=success|failover=false|localport=45200|hostname=vxmlnasapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=87|bytesread=84622|byteswritten=369|cachedecision=nc(pragma no-cache)|method=GET	-
+16:33:04	fetch	uri=http://linux3232/realfeed/realfeed_client_data.php?SourceID=WIC&EventType=drr.exit&EventTimestamp=1522355584.143&Unit=4007&Line=018&ParentTime=1522355461&APNKEY=4070077&Subevent=NA&ExitType=CallerHUP&Status=Success&Language=en-us&LOC=123|fetchtype=data|mimetype=text/xml|incache=false|latency=0.014|documentsize=101|outcome=success|failover=false|localport=57488|hostname=linux3232|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=237|bytesread=237|byteswritten=353|cachedecision=nc(no expiration)|method=GET	-
+16:33:04	exit	result=exit	-
+16:33:04	call end	cpu=1.590|normalcpu=1.590|callduration=122.777|connectedduration=122.698|timetofirstprompt=0.392|reccount=28|ttscount=0|ttsduration=0.000|asrduration=122.704|logcount=708|logbytes=126488	-
+ 
