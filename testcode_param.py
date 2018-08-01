@@ -20,9 +20,11 @@ overall_passed_transfer = 0
 def main(foldername):
 	for arg in sys.argv[1:]:
 		data_path=arg
-		testpathdata = arg + "/" + "Data File.csv"
+		print data_path
+
+def start():
     try:
-        file = os.stat(testpathdata)
+        file = os.stat("Data File.csv")
         if file.st_size == 0:
             print "Data File is Empty"
     except OSError:
@@ -252,6 +254,7 @@ if __name__ == "__main__":
 		exit()
 	foldername=sys.argv[1]
 	main(foldername)
+	start()
 	excel_callflow()
 	if exec_counter_callflow == testcases_callflow:
 		getcontext().prec = 3
