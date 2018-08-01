@@ -17,9 +17,12 @@ testcases_transfer = 0
 exec_counter_transfer = 0
 overall_passed_transfer = 0
 
-def main():
+def main(foldername):
+	for arg in sys.argv[1:]:
+		data_path=arg
+		testpathdata = arg + "/" + "Data File.csv"
     try:
-        file = os.stat("Data File.csv")
+        file = os.stat(testpathdata)
         if file.st_size == 0:
             print "Data File is Empty"
     except OSError:
@@ -244,7 +247,11 @@ def jmtest():
 	  os.system(final)
 		
 if __name__ == "__main__":
-	main()
+	if len(sys.argv)==0:
+		print("Please pass foldername as argument")
+		exit()
+	foldername=sys.argv[1]
+	main(foldername)
 	excel_callflow()
 	if exec_counter_callflow == testcases_callflow:
 		getcontext().prec = 3
