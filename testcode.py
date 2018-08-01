@@ -11,6 +11,11 @@ testcases_callflow = 0#add on top (divider)
 exec_counter_callflow = 0 #thissss 
 overall_passed_callflow = 0 #thissss
 
+failed_transfer = 0
+testcases_transfer = 0
+exec_counter_transfer = 0
+overall_passed_transfer = 0
+
 def main():
     try:
         file = os.stat("Data File.csv")
@@ -90,7 +95,7 @@ def compare_callflow(calllog1, callflow1, y, gen_result, gen_report):
 		# print y
 	exec_counter_callflow +=1 #---------------------
  
-def excel():
+def excel_callflow():
 	global gen_report
 	global testcases_callflow #thisss
 	global writetime
@@ -126,7 +131,7 @@ def excel():
 	testcases_callflow = y - 1
 if __name__ == "__main__":
 	main()
-	excel()
+	excel_callflow()
 	if exec_counter_callflow == testcases_callflow:
 		getcontext().prec = 3
 		percentage = Decimal(overall_passed_callflow)/Decimal(testcases_callflow) * 100
