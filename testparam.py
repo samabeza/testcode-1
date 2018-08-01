@@ -6,6 +6,7 @@ def main(foldername):
     for arg in sys.argv[1:]:
         data_path=arg
         print data_path
+        os.system("dir")
 
 if __name__ == "__main__":
     if len(sys.argv)==0:
