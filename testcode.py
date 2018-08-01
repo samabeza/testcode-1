@@ -240,14 +240,13 @@ if __name__ == "__main__":
 		print"\n\n\n"
 		raise SystemError('One of the Test Cases Failed')
 	excel_transfer()
-	    if exec_counter_transfer == testcases_transfer:
-        getcontext().prec = 3
-        percentage = Decimal(overall_passed_transfer) / Decimal(testcases_transfer) * 100
-        totalper = str(percentage) + '%'
-        gen_report.write(
-            "</table><table align='center'> <tr><td><h3>Passed: " + totalper + "</h3></td></tr> </table>")
-        writetime = open("writetime.txt","a")
-        writetime.write("TransferType Percentage= " + totalper + "\n")
-    if failed_transfer == 1:
-        print"\n\n\n"
-        raise SystemError('One of the Test Cases Failed')
+	if exec_counter_transfer == testcases_transfer:
+        	getcontext().prec = 3
+        	percentage = Decimal(overall_passed_transfer) / Decimal(testcases_transfer) * 100
+        	totalper = str(percentage) + '%'
+        	gen_report.write("</table><table align='center'> <tr><td><h3>Passed: " + totalper + "</h3></td></tr> </table>")
+        	writetime = open("writetime.txt","a")
+        	writetime.write("TransferType Percentage= " + totalper + "\n")
+   	if failed_transfer == 1:
+        	print"\n\n\n"
+        	raise SystemError('One of the Test Cases Failed')
