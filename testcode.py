@@ -352,7 +352,8 @@ def api_report():
 			cc = int(cc)
 			cc+=1
 #api_result------------------------------------------------------------------------------=============================
-
+	global ttype_per
+	global cflow_per
 	endtime = datetime.now().strftime('%Y-%m-%d %H:%M:%S')#time
 	opentime = open("writetime.txt", "r")
 	for gettime in opentime:
