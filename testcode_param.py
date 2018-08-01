@@ -38,9 +38,9 @@ def start(testpath):
 def compare_callflow(calllog1, callflow1, y, gen_result, gen_report,testpath):
 	global overall_passed_callflow #thisssss
 	global failed_callflow
-
+	finaldatapath = testpath + calllog1
 	global exec_counter_callflow #thisss
-	with open(calllog1) as calllog:
+	with open(finaldatapath) as calllog:
 		flag=0
 		verbiage = set()
 		for line in calllog:
@@ -160,7 +160,8 @@ def compare_transfer(calllog1, transfertype1, y, gen_result, gen_report,testpath
         split_1 = transfer[x].split('=')
         first = split_1[0].lower().strip()
         second = split_1[1].strip()
-        with open(calllog1) as calllog:
+	finaldatapath = testpath + calllog1
+        with open(finaldatapath) as calllog:
             verbiage = set()
             for line in calllog:
                 if (first + ':' in line.lower() or first + '=' in line.lower()) and second in line:
