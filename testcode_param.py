@@ -113,6 +113,7 @@ def compare_callflow(calllog1, callflow1, y, gen_result, gen_report,testpath):
 	exec_counter_callflow +=1 
 #########################END##############################
 
+########################## START WRITING OF PASSED AND FAILED CALLFLOW (GENERATE HTML) ###############################
 def excel_callflow(testpath):
 	global gen_report
 	global testcases_callflow #thisss
@@ -148,7 +149,9 @@ def excel_callflow(testpath):
 					compare_callflow(calllog1, callflow1, y, gen_result, gen_report,testpath)
 					y+=1
 	testcases_callflow = y - 1
-
+########################## END CODE OF WRITING PASSED AND FAILED CALLFLOW (GENERATE HTML) ###############################
+	
+############################### START COMPARE OF TRANSFER TERM FROM DATA CSV FILE TO CALL LOGS ###################################	
 def compare_transfer(calllog1, transfertype1, y, gen_result, gen_report,testpath):
     global overall_passed_transfer  
     global failed_transfer
@@ -213,7 +216,9 @@ def compare_transfer(calllog1, transfertype1, y, gen_result, gen_report,testpath
         gen_report.write(
             "<tr><td align='center'>" + y + "</td><td>" + calllog1 + "</td> <td bgcolor='#99e26f'>Passed </td></tr>")
     exec_counter_transfer += 1	
-	
+############################### END CODE OF COMPARING THE TRANSFER TERM FROM DATA CSV FILE TO CALL LOGS ###############################
+
+########################## START WRITING OF PASSED AND FAILED TRANSFER TERM (GENERATE HTML) ###############################
 def excel_transfer(testpath):
     global gen_report
     global testcases_transfer  
@@ -247,6 +252,7 @@ def excel_transfer(testpath):
                     compare_transfer(calllog1, transfertype1, y, gen_result, gen_report,testpath)
                     y += 1
     testcases_transfer = y - 1	
+########################## END CODE OF WRITING PASSED AND FAILED TRANSFER TERM (GENERATE HTML) ###############################
 
 ######################### START RUN OF JMETER TEST ###################################
 def jmtest(testpath):
