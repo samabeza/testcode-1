@@ -150,9 +150,9 @@ def excel_callflow(testpath):
 	testcases_callflow = y - 1
 
 def compare_transfer(calllog1, transfertype1, y, gen_result, gen_report,testpath):
-    global overall_passed_transfer  # thisssss
+    global overall_passed_transfer  
     global failed_transfer
-    global exec_counter_transfer  # thisss
+    global exec_counter_transfer  
     x = 0
     z = 0
     transfer = transfertype1.split(';')
@@ -216,7 +216,7 @@ def compare_transfer(calllog1, transfertype1, y, gen_result, gen_report,testpath
 	
 def excel_transfer(testpath):
     global gen_report
-    global testcases_transfer  # thisss
+    global testcases_transfer  
     gen_result = open("KVPs Result.html", "a")
     gen_report = open("report.html", "a")
     gen_result.write("<html> <center><h1>Inbound Build Acceptance Automation</h1> <h3>Transfer Term</h3></center>")
@@ -248,6 +248,7 @@ def excel_transfer(testpath):
                     y += 1
     testcases_transfer = y - 1	
 
+######################### START RUN OF JMETER TEST ###################################
 def jmtest(testpath):
 	finaldatapath = "./" + testpath + "HTTPRequest.jmx"
 	check_file = os.path.isfile(finaldatapath)
@@ -256,13 +257,11 @@ def jmtest(testpath):
 	if check_file=="True":
 	  y = os.path.abspath(finaldatapath)
 	  z = y.replace('\\','\\\\') 
-
 	  initial_path = "jmeter -Jjmeter.save.saveservice.output_format=xml -n -t"
 	  command = "-l HTTPRequest.jtl"
-
 	  final = initial_path + " " + z + " " + command
-
 	  os.system(final)
+#########################  END CODE FOR JMETER ###################################
 		
 if __name__ == "__main__":
 	if len(sys.argv)==0:
@@ -271,8 +270,9 @@ if __name__ == "__main__":
 	foldername=sys.argv[1]
 	main(foldername)
 	testpath = main(foldername)
-	start(testpath)
-	excel_callflow(testpath)
+	start(testpath) ############## Check the DATA CVS FILE ########################
+	excel_callflow(testpath) ############## RUN Call Flow Test ########################
+	####################### COUNTER for Call Flow ##################################
 	if exec_counter_callflow == testcases_callflow:
 		getcontext().prec = 3
 		percentage = Decimal(overall_passed_callflow)/Decimal(testcases_callflow) * 100
@@ -282,7 +282,9 @@ if __name__ == "__main__":
 	if failed_callflow == 1:
 		print"\n\n\n"
 		raise SystemError('One of the Test Cases Failed')
-	excel_transfer(testpath)
+		##################################### END of Code for Counter for Call Flow ######################################
+	excel_transfer(testpath) ############## RUN Transfer Term Test ########################
+	####################### COUNTER for Transfer Term ##################################
 	if exec_counter_transfer == testcases_transfer:
         	getcontext().prec = 3
         	percentage = Decimal(overall_passed_transfer) / Decimal(testcases_transfer) * 100
@@ -293,5 +295,6 @@ if __name__ == "__main__":
    	if failed_transfer == 1:
         	print"\n\n\n"
         	raise SystemError('One of the Test Cases Failed')
-	jmtest(testpath)
+	##################################### END OF CODE of Counter for Transfer Term ######################################
+	jmtest(testpath) ############## RUN JMeter Test ########################
 	
