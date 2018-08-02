@@ -7,22 +7,29 @@ from decimal import *
 from datetime import datetime
 import os.path
 
+###############counter for callflow##############################
 failed_callflow = 0
-testcases_callflow = 0#add on top (divider)
-exec_counter_callflow = 0 #thissss 
-overall_passed_callflow = 0 #thissss
+testcases_callflow = 0
+exec_counter_callflow = 0  
+overall_passed_callflow = 0 
+#########################END##############################
 
+###############counter for transfer##############################
 failed_transfer = 0
 testcases_transfer = 0
 exec_counter_transfer = 0
 overall_passed_transfer = 0
+#########################END##############################
 
+###############Get the value of the PARAMETER##############################
 def main(foldername):
 	for arg in sys.argv[1:]:
 		data_path=arg
 		testpath = data_path + "/"
 		return testpath
+#########################END##############################
 
+#########################CHECK if DATA file CSV Exist in the folder##############################
 def start(testpath):
     try:
 	print testpath
@@ -33,14 +40,15 @@ def start(testpath):
     except OSError:
         print "Data File.csv not Found"
         sys.exit(1)
+#########################END##############################
 
-
+#########################START COMPARE SET Verbiage in Data File CSV to Call logs prompt##############################
 def compare_callflow(calllog1, callflow1, y, gen_result, gen_report,testpath):
-	global overall_passed_callflow #thisssss
+	global overall_passed_callflow 
 	global failed_callflow
-	finaldatapath = testpath + calllog1
-	global exec_counter_callflow #thisss
-	with open(finaldatapath) as calllog:
+	finaldatapath = testpath + calllog1 ####path of the call logs
+	global exec_counter_callflow 
+	with open(finaldatapath) as calllog: ####open the call logs associated in the Data File CSV
 		flag=0
 		verbiage = set()
 		for line in calllog:
@@ -102,8 +110,9 @@ def compare_callflow(calllog1, callflow1, y, gen_result, gen_report,testpath):
 		print "\nTest "+ y+ ": List of Verbiage hit by Calllogs for " + calllog1 +":"
 		print '\n'.join(verbiage)
 		# print y
-	exec_counter_callflow +=1 #---------------------
- 
+	exec_counter_callflow +=1 
+#########################END##############################
+
 def excel_callflow(testpath):
 	global gen_report
 	global testcases_callflow #thisss
