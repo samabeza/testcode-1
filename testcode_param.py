@@ -24,7 +24,7 @@ overall_passed_transfer = 0
 #########################END##############################
 
 ###############Get the value of the PARAMETER##############################
-def main(foldername)
+def main(foldername):
 	for arg in sys.argv[1:]:
 		data_path=arg
 		testpath = data_path + "/"
