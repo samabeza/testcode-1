@@ -273,8 +273,7 @@ def jmtest(testpath):
 	  command = "-l HTTPRequest.jtl"
 	  final = initial_path + " " + z + " " + command
 	  os.system(final)
-	done=time.time()
-	return done
+
 	  	
 #########################  END CODE FOR JMETER ###################################
 		
