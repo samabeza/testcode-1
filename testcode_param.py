@@ -284,7 +284,7 @@ if __name__ == "__main__":
 	foldername=sys.argv[1]
 	main(foldername)
 	testpath = main(foldername)
-	used_by=sys.argv[1]
+	used_by=sys.argv[2]
 	start(testpath,used_by) ############## Check the DATA CVS FILE ########################
 	user_email = start(testpath,used_by)
 	excel_callflow(testpath) ############## RUN Call Flow Test ########################
