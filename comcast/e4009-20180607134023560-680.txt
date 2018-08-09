@@ -1,0 +1,1177 @@
+HVP-6.0-SP2p41.1-2199-39494
+Interactive ServicesComcast
+AdministrationReportsConfigurationuser: Cecil.Tolentino@comcast.wic Logout
+Customer Usage
+Call
+Call ID:	e4009-20180607134023560-680
+Application Name:	EIVR QA comcastvxmlapps
+Application Description:	EIVR QA comcastvxmlapps
+CLID:	8008388383
+DNIS:	1490056
+Call Date:	Thursday, June 7th 2018
+Call Utterance:	
+Event Search
+Event ID:	  
+Parameter:	
+ 
+Events
+Time	ID	Param ID	Utterance
+13:40:23	sip session	callid=637838625_46582407@10.27.219.50|remote-rtp=10.27.219.10:12534|local-rtp=10.27.217.213:12242|originator=REMOTE	-
+13:40:23	call start	ANI=8008388383|DNIS=1490056|VURL=http://comcastvxmlapps/clients/comcast/indexes/eivr-qa-index.vxml.php?e=mc2|outbound=N	-
+13:40:23	asr session	asrengine=nuance90-mrcp1-comcast|sessionid=FLBJGNNPAAAECCPJAAAAAAAA|address=10.27.139.146:554|server=Nuance Open Speech Recognizer for MRCPv1|setuptime=0.002|endpoint=10.27.130.171:8994	-
+13:40:23	document dump	URL=/opt/holly/client/data/dnis/all.js|fetchtype=script|mimetype=test/javascript	-
+13:40:23	note	message=enable full call recording|callrecording=/var/data/holly/data/call/2018/0607/1340/e4009-20180607134023560-680/call.wav	-
+13:40:23	document transition	uri=call_initialization|cpu=0.010000|normalcpu=0.010000	-
+13:40:23	fetch	uri=http://comcastvxmlapps/clients/comcast/indexes/eivr-qa-index.vxml.php?e=mc2|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.003|documentsize=195|outcome=success|failover=false|localport=59852|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=75|bytesread=418|byteswritten=217|cachedecision=nc(no expiration)|method=GET	-
+13:40:23	document dump	URL=http://comcastvxmlapps/clients/comcast/indexes/eivr-qa-index.vxml.php?e=mc2|fetchtype=vxml|mimetype=text/html	-
+13:40:23	document transition	uri=http://comcastvxmlapps/clients/comcast/indexes/eivr-qa-index.vxml.php?e=mc2|cpu=0.010000|normalcpu=0.010000	-
+13:40:23	fetch	uri=http://comcastvxmlapps/clients/comcast/testheader2/index.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.008|documentsize=11495|outcome=success|failover=false|localport=59854|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=60|bytesread=11854|byteswritten=322|cachedecision=nc(pragma no-cache)|method=GET	-
+13:40:23	document dump	URL=http://comcastvxmlapps/clients/comcast/testheader2/index.php|fetchtype=vxml|mimetype=text/html	-
+13:40:23	fetch	uri=http://comcastvxmlapps/clients/comcast/testheader2/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.008|documentsize=5528|outcome=success|failover=false|localport=59856|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=68|bytesread=5803|byteswritten=422|cachedecision=nc(pragma no-cache)|method=GET	-
+13:40:23	document dump	URL=http://comcastvxmlapps/clients/comcast/testheader2/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+13:40:23	asr session	asrengine=nuance90-mrcp1-comcast-n10|sessionid=FLBJGPCFAAADJCBMAAAAAAAA|address=10.27.131.82:554|server=Nuance Open Speech Recognizer for MRCPv1|setuptime=0.007|endpoint=10.27.131.82:8044	-
+13:40:23	document transition	uri=http://comcastvxmlapps/clients/comcast/testheader2/index.php|cpu=0.020000|normalcpu=0.020000	-
+13:40:23	fetch	uri=http://comcastvxmlapps/clients/comcast/testheader2/index.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.007|documentsize=569|outcome=success|failover=false|localport=59860|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=60|bytesread=843|byteswritten=2096|cachedecision=n/a|method=POST	-
+13:40:23	document dump	URL=http://comcastvxmlapps/clients/comcast/testheader2/index.php|fetchtype=vxml|mimetype=text/html	-
+13:40:23	fetch	uri=http://comcastvxmlapps/clients/comcast/testheader2/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.007|documentsize=5528|outcome=success|failover=false|localport=59862|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=68|bytesread=5803|byteswritten=422|cachedecision=nc(pragma no-cache)|method=GET	-
+13:40:23	document dump	URL=http://comcastvxmlapps/clients/comcast/testheader2/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+13:40:23	log	content=FRAMEWORK FILENAME: /wic/wic/wic/wicstd/framework/v.holly.13.20180607	-
+13:40:23	log	content=FRAMEWORK LOGDATA: 1528393223,4009,680,20180607,134023,8111490056,8008388383,comcast,,20,Holly,4009,e4009-20180607134023560-680,led32178,8008388383	-
+13:40:23	document transition	uri=http://comcastvxmlapps/clients/comcast/testheader2/index.php|cpu=0.000000|normalcpu=0.000000	-
+13:40:23	fetch	uri=http://comcastvxmlapps/clients/comcast/testheader2/dev/start.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.041|documentsize=90012|outcome=success|failover=false|localport=59864|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=69|bytesread=90386|byteswritten=518|cachedecision=n/a|method=POST	-
+13:40:23	document dump	URL=http://comcastvxmlapps/clients/comcast/testheader2/dev/start.vxml.php|fetchtype=vxml|mimetype=text/html	-
+13:40:23	fetch	uri=http://comcastvxmlapps/clients/comcast/testheader2/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.008|documentsize=5528|outcome=success|failover=false|localport=59866|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=68|bytesread=5803|byteswritten=422|cachedecision=nc(pragma no-cache)|method=GET	-
+13:40:23	document dump	URL=http://comcastvxmlapps/clients/comcast/testheader2/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+13:40:23	fetch	uri=http://comcastvxmlapps/clients/comcast/testheader2/voice/Greeting.wav|fetchtype=audio|mimetype=audio/x-wav|incache=true|latency=0.000|documentsize=23836|outcome=success|failover=false|hostname=comcastvxmlapps|urilength=69|cachedecision=in(Last Modified)	-
+13:40:23	prompt	type=external|URI=http://comcastvxmlapps/clients/comcast/testheader2/voice/Greeting.wav|outcome=success	-
+13:40:23	fetch	uri=http://comcastvxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.005|documentsize=108953|outcome=success|failover=false|localport=59868|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=52|bytesread=109203|byteswritten=462|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+13:40:23	document dump	URL=http://comcastvxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+13:40:23	log	expr=WicStdPromptAndCollect version 1.11.0.1 (20160624)	-
+13:40:23	fetch	uri=http://comcastvxmlapps/clients/comcast/testheader2/voice/AccessCode.wav|fetchtype=audio|mimetype=audio/x-wav|incache=true|latency=0.000|documentsize=35942|outcome=success|failover=false|hostname=comcastvxmlapps|urilength=71|cachedecision=in(Last Modified)	-
+13:40:23	prompt	type=external|URI=http://comcastvxmlapps/clients/comcast/testheader2/voice/AccessCode.wav|outcome=success	-
+13:40:23	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=5.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=5.000|termtimeout=0.000|termchar=#	-
+13:40:31	recognition end	result=success|inputmode=dtmf|utterance=0 0 1 8|confidence=100|grammar=Grammar_0|bargein=false|recordutterances=N	-
+13:40:31	NUANCE	WEST_CALL_DATA=1528393223,4009,680,20180607,134023,8111490056,8008388383	-
+13:40:31	log	expr=WicStdFormValue = 0018	-
+13:40:31	log	expr=WicStdFormConfidence = 100	-
+13:40:31	log	expr=WicStdFormUtterance = 0 0 1 8	-
+13:40:31	log	expr=WicStdFormInputMode = dtmf	-
+13:40:31	log	expr=WicStdCompleteNBestStr = +AskCue:0018^^^1^^^0 0 1 8^^^dtmf	-
+13:40:31	log	expr=Summary : OK,0018,0,0,dtmf,100,undefined	-
+13:40:31	log	expr=WicStdPromptAndCollect END	-
+13:40:31	log	content=*********** PnC WicStd Variables *****************	-
+13:40:31	log	content= WicStdResult is: OK	-
+13:40:31	log	content= WicStdFormValue is: 0018	-
+13:40:31	log	content=WicStdFormNomatchCount is: 0	-
+13:40:31	log	content=WicStdFormNoinputCount is: 0	-
+13:40:31	log	content= WicStdFormFailCount is: 0	-
+13:40:31	log	content= WicStdFormInputMode is: dtmf	-
+13:40:31	log	content= WicStdError is: undefined	-
+13:40:31	fetch	uri=http://comcastvxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.006|documentsize=108953|outcome=success|failover=false|localport=59874|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=52|bytesread=109203|byteswritten=462|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+13:40:31	document dump	URL=http://comcastvxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+13:40:31	log	expr=WicStdPromptAndCollect version 1.11.0.1 (20160624)	-
+13:40:31	fetch	uri=http://comcastvxmlapps/clients/comcast/testheader2/voice/Password.wav|fetchtype=audio|mimetype=audio/x-wav|incache=true|latency=0.000|documentsize=29148|outcome=success|failover=false|hostname=comcastvxmlapps|urilength=69|cachedecision=in(Last Modified)	-
+13:40:31	prompt	type=external|URI=http://comcastvxmlapps/clients/comcast/testheader2/voice/Password.wav|outcome=success	-
+13:40:31	system response	latency=0.032	-
+13:40:31	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=5.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=5.000|termtimeout=0.000|termchar=#	-
+13:40:34	recognition end	result=success|inputmode=dtmf|utterance=0 6 2 6|confidence=100|grammar=Grammar_0|bargein=false|recordutterances=N	-
+13:40:34	log	expr=WicStdFormValue = 0626	-
+13:40:34	log	expr=WicStdFormConfidence = 100	-
+13:40:34	log	expr=WicStdFormUtterance = 0 6 2 6	-
+13:40:34	log	expr=WicStdFormInputMode = dtmf	-
+13:40:34	log	expr=WicStdCompleteNBestStr = +AskCue:0626^^^1^^^0 6 2 6^^^dtmf	-
+13:40:34	log	expr=Summary : OK,0626,0,0,dtmf,100,undefined	-
+13:40:34	log	expr=WicStdPromptAndCollect END	-
+13:40:34	log	content=*********** PnC WicStd Variables *****************	-
+13:40:34	log	content= WicStdResult is: OK	-
+13:40:34	log	content= WicStdFormValue is: 0626	-
+13:40:34	log	content=WicStdFormNomatchCount is: 0	-
+13:40:34	log	content=WicStdFormNoinputCount is: 0	-
+13:40:34	log	content= WicStdFormFailCount is: 0	-
+13:40:34	log	content= WicStdFormInputMode is: dtmf	-
+13:40:34	log	content= WicStdError is: undefined	-
+13:40:34	fetch	uri=http://comcastvxmlapps/clients/comcast/testheader2/voice/WelcomeTestHeader.wav|fetchtype=audio|mimetype=audio/x-wav|incache=true|latency=0.000|documentsize=40748|outcome=success|failover=false|hostname=comcastvxmlapps|urilength=78|cachedecision=in(Last Modified)	-
+13:40:34	prompt	type=external|URI=http://comcastvxmlapps/clients/comcast/testheader2/voice/WelcomeTestHeader.wav|outcome=success	-
+13:40:34	fetch	uri=http://comcastvxmlapps/clients/comcast/testheader2/voice/testHeaderUnit.wav|fetchtype=audio|mimetype=audio/x-wav|incache=true|latency=0.000|documentsize=25812|outcome=success|failover=false|hostname=comcastvxmlapps|urilength=75|cachedecision=in(Last Modified)	-
+13:40:34	prompt	type=external|URI=http://comcastvxmlapps/clients/comcast/testheader2/voice/testHeaderUnit.wav|outcome=success	-
+13:40:34	prompt	type=SSML|content=<prosody volume="loud"><say-as interpret-as="digits">4009</say-as></prosody>|language=en-US|outcome=success	-
+13:40:34	fetch	uri=http://comcastvxmlapps/clients/comcast/testheader2/voice/testHeaderLine.wav|fetchtype=audio|mimetype=audio/x-wav|incache=true|latency=0.000|documentsize=27130|outcome=success|failover=false|hostname=comcastvxmlapps|urilength=75|cachedecision=in(Last Modified)	-
+13:40:34	prompt	type=external|URI=http://comcastvxmlapps/clients/comcast/testheader2/voice/testHeaderLine.wav|outcome=success	-
+13:40:34	prompt	type=SSML|content=<prosody volume="loud"><say-as interpret-as="digits">680</say-as></prosody>|language=en-US|outcome=success	-
+13:40:34	fetch	uri=http://comcastvxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.006|documentsize=108953|outcome=success|failover=false|localport=59878|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=52|bytesread=109203|byteswritten=462|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+13:40:34	document dump	URL=http://comcastvxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+13:40:34	log	expr=WicStdPromptAndCollect version 1.11.0.1 (20160624)	-
+13:40:34	fetch	uri=http://comcastvxmlapps/clients/comcast/testheader2/voice/EnterPhoneNumber.wav|fetchtype=audio|mimetype=audio/x-wav|incache=true|latency=0.000|documentsize=36454|outcome=success|failover=false|hostname=comcastvxmlapps|urilength=77|cachedecision=in(Last Modified)	-
+13:40:34	prompt	type=external|URI=http://comcastvxmlapps/clients/comcast/testheader2/voice/EnterPhoneNumber.wav|outcome=success	-
+13:40:34	system response	latency=0.035	-
+13:40:34	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=5.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=5.000|termtimeout=0.000|termchar=	-
+13:40:53	recognition end	result=no input|inputmode=unknown	-
+13:40:53	vxml_event	event=noinput	-
+13:40:53	fetch	uri=http://comcastvxmlapps/clients/comcast/testheader2/voice/EnterPhoneNumberNI1.wav|fetchtype=audio|mimetype=audio/x-wav|incache=true|latency=0.000|documentsize=50880|outcome=success|failover=false|hostname=comcastvxmlapps|urilength=80|cachedecision=in(Last Modified)	-
+13:40:53	prompt	type=external|URI=http://comcastvxmlapps/clients/comcast/testheader2/voice/EnterPhoneNumberNI1.wav|outcome=success	-
+13:40:53	system response	latency=0.005	-
+13:40:53	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=5.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=5.000|termtimeout=0.000|termchar=	-
+13:40:55	recognition end	result=success|inputmode=dtmf|utterance=#|confidence=100|grammar=Grammar_0|bargein=true|recordutterances=N	-
+13:40:55	log	expr=WicStdFormValue = skip	-
+13:40:55	log	expr=WicStdFormConfidence = 100	-
+13:40:55	log	expr=WicStdFormUtterance = #	-
+13:40:55	log	expr=WicStdFormInputMode = dtmf	-
+13:40:55	log	expr=WicStdCompleteNBestStr = +AskCue:skip^^^1^^^#^^^dtmf	-
+13:40:55	log	expr=Summary : OK,skip,0,1,dtmf,100,undefined	-
+13:40:55	log	expr=WicStdPromptAndCollect END	-
+13:40:55	log	content=*********** PnC WicStd Variables *****************	-
+13:40:55	log	content= WicStdResult is: OK	-
+13:40:55	log	content= WicStdFormValue is: skip	-
+13:40:55	log	content=WicStdFormNomatchCount is: 0	-
+13:40:55	log	content=WicStdFormNoinputCount is: 1	-
+13:40:55	log	content= WicStdFormFailCount is: 1	-
+13:40:55	log	content= WicStdFormInputMode is: dtmf	-
+13:40:55	log	content= WicStdError is: undefined	-
+13:40:55	fetch	uri=http://comcastvxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.006|documentsize=108953|outcome=success|failover=false|localport=59908|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=52|bytesread=109203|byteswritten=462|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+13:40:55	document dump	URL=http://comcastvxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+13:40:55	log	expr=WicStdPromptAndCollect version 1.11.0.1 (20160624)	-
+13:40:55	fetch	uri=http://comcastvxmlapps/clients/comcast/testheader2/voice/EnterDNIS.wav|fetchtype=audio|mimetype=audio/x-wav|incache=true|latency=0.000|documentsize=35258|outcome=success|failover=false|hostname=comcastvxmlapps|urilength=70|cachedecision=in(Last Modified)	-
+13:40:55	prompt	type=external|URI=http://comcastvxmlapps/clients/comcast/testheader2/voice/EnterDNIS.wav|outcome=success	-
+13:40:55	system response	latency=0.031	-
+13:40:55	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=5.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=5.000|termtimeout=0.000|termchar=	-
+13:41:01	recognition end	result=success|inputmode=dtmf|utterance=3 0 3 4 4 1 6|confidence=100|grammar=Grammar_0|bargein=false|recordutterances=N	-
+13:41:01	log	expr=WicStdFormValue = 3034416	-
+13:41:01	log	expr=WicStdFormConfidence = 100	-
+13:41:01	log	expr=WicStdFormUtterance = 3 0 3 4 4 1 6	-
+13:41:01	log	expr=WicStdFormInputMode = dtmf	-
+13:41:01	log	expr=WicStdCompleteNBestStr = +AskCue:3034416^^^1^^^3 0 3 4 4 1 6^^^dtmf	-
+13:41:01	log	expr=Summary : OK,3034416,0,0,dtmf,100,undefined	-
+13:41:01	log	expr=WicStdPromptAndCollect END	-
+13:41:01	log	content=*********** PnC WicStd Variables *****************	-
+13:41:01	log	content= WicStdResult is: OK	-
+13:41:01	log	content= WicStdFormValue is: 3034416	-
+13:41:01	log	content=WicStdFormNomatchCount is: 0	-
+13:41:01	log	content=WicStdFormNoinputCount is: 0	-
+13:41:01	log	content= WicStdFormFailCount is: 0	-
+13:41:01	log	content= WicStdFormInputMode is: dtmf	-
+13:41:01	log	content= WicStdError is: undefined	-
+13:41:01	document transition	uri=http://comcastvxmlapps/clients/comcast/testheader2/dev/start.vxml.php|cpu=0.160000|normalcpu=0.160000	-
+13:41:01	fetch	uri=http://comcastvxmlapps/clients/comcast/testheader2/dev/uui.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.047|documentsize=134466|outcome=success|failover=false|localport=59914|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=134880|byteswritten=447|cachedecision=nc(vxml maxage)(pragma no-cache)|method=GET	-
+13:41:01	document dump	URL=http://comcastvxmlapps/clients/comcast/testheader2/dev/uui.vxml.php|fetchtype=vxml|mimetype=text/html	-
+13:41:01	fetch	uri=http://comcastvxmlapps/clients/comcast/testheader2/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.011|documentsize=5528|outcome=success|failover=false|localport=59916|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=68|bytesread=5803|byteswritten=422|cachedecision=nc(pragma no-cache)|method=GET	-
+13:41:01	document dump	URL=http://comcastvxmlapps/clients/comcast/testheader2/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+13:41:01	fetch	uri=http://comcastvxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.009|documentsize=108953|outcome=success|failover=false|localport=59918|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=52|bytesread=109203|byteswritten=462|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+13:41:01	document dump	URL=http://comcastvxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+13:41:01	log	expr=WicStdPromptAndCollect version 1.11.0.1 (20160624)	-
+13:41:01	fetch	uri=http://comcastvxmlapps/clients/comcast/testheader2/voice/TestUpdateUUIYN.wav|fetchtype=audio|mimetype=audio/x-wav|incache=true|latency=0.000|documentsize=52866|outcome=success|failover=false|hostname=comcastvxmlapps|urilength=76|cachedecision=in(Last Modified)	-
+13:41:01	prompt	type=external|URI=http://comcastvxmlapps/clients/comcast/testheader2/voice/TestUpdateUUIYN.wav|outcome=success	-
+13:41:01	system response	latency=0.121	-
+13:41:01	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=5.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=5.000|termtimeout=0.000|termchar=#	-
+13:41:06	recognition end	result=success|inputmode=dtmf|utterance=2|confidence=100|grammar=Grammar_1|bargein=false|recordutterances=N	-
+13:41:06	log	expr=WicStdFormValue = no	-
+13:41:06	log	expr=WicStdFormConfidence = 100	-
+13:41:06	log	expr=WicStdFormUtterance = 2	-
+13:41:06	log	expr=WicStdFormInputMode = dtmf	-
+13:41:06	log	expr=WicStdCompleteNBestStr = +AskCue:no^^^1^^^2^^^dtmf	-
+13:41:06	log	expr=Summary : OK,no,0,0,dtmf,100,undefined	-
+13:41:06	log	expr=WicStdPromptAndCollect END	-
+13:41:06	log	content=*********** PnC WicStd Variables *****************	-
+13:41:06	log	content= WicStdResult is: OK	-
+13:41:06	log	content= WicStdFormValue is: no	-
+13:41:06	log	content=WicStdFormNomatchCount is: 0	-
+13:41:06	log	content=WicStdFormNoinputCount is: 0	-
+13:41:06	log	content= WicStdFormFailCount is: 0	-
+13:41:06	log	content= WicStdFormInputMode is: dtmf	-
+13:41:06	log	content= WicStdError is: undefined	-
+13:41:06	fetch	uri=http://comcastvxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=false|latency=0.009|documentsize=108953|outcome=success|failover=false|localport=59928|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=52|bytesread=109203|byteswritten=462|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+13:41:06	document dump	URL=http://comcastvxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+13:41:06	log	expr=WicStdPromptAndCollect version 1.11.0.1 (20160624)	-
+13:41:06	fetch	uri=http://comcastvxmlapps/clients/comcast/testheader2/voice/UseDASIntergration.wav|fetchtype=audio|mimetype=audio/x-wav|incache=true|latency=0.000|documentsize=138356|outcome=success|failover=false|hostname=comcastvxmlapps|urilength=79|cachedecision=in(Last Modified)	-
+13:41:06	prompt	type=external|URI=http://comcastvxmlapps/clients/comcast/testheader2/voice/UseDASIntergration.wav|outcome=success	-
+13:41:06	system response	latency=0.033	-
+13:41:06	recognition start	inputmodes=dtmf,voice|threshold=20|timeout=5.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=5.000|termtimeout=0.000|termchar=#	-
+13:41:11	recognition end	result=success|inputmode=dtmf|utterance=1|confidence=100|grammar=Grammar_0|bargein=true|recordutterances=N	-
+13:41:11	log	expr=WicStdFormValue = preprod	-
+13:41:11	log	expr=WicStdFormConfidence = 100	-
+13:41:11	log	expr=WicStdFormUtterance = 1	-
+13:41:11	log	expr=WicStdFormInputMode = dtmf	-
+13:41:11	log	expr=WicStdCompleteNBestStr = +AskCue:preprod^^^1^^^1^^^dtmf	-
+13:41:11	log	expr=Summary : OK,preprod,0,0,dtmf,100,undefined	-
+13:41:11	log	expr=WicStdPromptAndCollect END	-
+13:41:11	log	content=*********** PnC WicStd Variables *****************	-
+13:41:11	log	content= WicStdResult is: OK	-
+13:41:11	log	content= WicStdFormValue is: preprod	-
+13:41:11	log	content=WicStdFormNomatchCount is: 0	-
+13:41:11	log	content=WicStdFormNoinputCount is: 0	-
+13:41:11	log	content= WicStdFormFailCount is: 0	-
+13:41:11	log	content= WicStdFormInputMode is: dtmf	-
+13:41:11	log	content= WicStdError is: undefined	-
+13:41:11	document transition	uri=http://comcastvxmlapps/clients/comcast/testheader2/dev/uui.vxml.php|cpu=0.080000|normalcpu=0.080000	-
+13:41:11	fetch	uri=http://comcastvxmlapps/clients/comcast/testheader2/dev/end.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.008|documentsize=1116|outcome=success|failover=false|localport=59932|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1391|byteswritten=619|cachedecision=n/a|method=POST	-
+13:41:11	document dump	URL=http://comcastvxmlapps/clients/comcast/testheader2/dev/end.vxml.php|fetchtype=vxml|mimetype=text/html	-
+13:41:11	fetch	uri=http://comcastvxmlapps/clients/comcast/testheader2/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.008|documentsize=5528|outcome=success|failover=false|localport=59934|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=68|bytesread=5803|byteswritten=422|cachedecision=nc(pragma no-cache)|method=GET	-
+13:41:11	document dump	URL=http://comcastvxmlapps/clients/comcast/testheader2/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+13:41:11	log	content= loginvalue: 0018	-
+13:41:11	log	content= passwordvalue: 0626	-
+13:41:11	log	content= phonenumberValue:	-
+13:41:11	log	content= dnisValue: 3034416	-
+13:41:11	log	content= testAuthenticationValue:	-
+13:41:11	log	content= testTFNValue:	-
+13:41:11	log	content= testPhoneNumberValue:	-
+13:41:11	log	content= testAccountNumberValue:	-
+13:41:11	log	content= useDasIntegrationValue: preprod	-
+13:41:11	log	content= testHeaderUUIString: 1,,,,,,e0201806071337030000ba141a4450c3,,,,	-
+13:41:11	log	content= firstDigit: 0	-
+13:41:11	log	content= env: qa	-
+13:41:11	log	content= application: eivr	-
+13:41:11	log	content= path: clients/comcast/qa_062618/vxml/eivr/index.php	-
+13:41:11	log	content= PATH: clients/comcast/qa_062618/vxml/eivr/index.php	-
+13:41:11	log	content= PREPROD URL: http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/index.php?e=mc2	-
+13:41:11	document transition	uri=http://comcastvxmlapps/clients/comcast/testheader2/dev/end.vxml.php|cpu=0.010000|normalcpu=0.010000	-
+13:41:11	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/index.php?e=mc2&wic_testcall=t|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.008|documentsize=8657|outcome=success|failover=false|localport=59936|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=89|bytesread=8958|byteswritten=469|cachedecision=nc(vxml maxage)(pragma no-cache)|method=GET	-
+13:41:11	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/index.php?e=mc2&wic_testcall=t|fetchtype=vxml|mimetype=text/html	-
+13:41:11	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.019|documentsize=9363|outcome=success|failover=false|localport=59938|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=9664|byteswritten=426|cachedecision=nc(pragma no-cache)|method=GET	-
+13:41:11	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+13:41:11	fetch	uri=http://comcastvxmlapps/ecmascripts/wicstd/convertAddress.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=47339|outcome=success|failover=false|hostname=comcastvxmlapps|urilength=59|cachedecision=in(Last Modified)	-
+13:41:11	document dump	URL=http://comcastvxmlapps/ecmascripts/wicstd/convertAddress.js|fetchtype=script|mimetype=application/javascript	-
+13:41:11	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/ecmascripts/logging.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=105|outcome=success|failover=false|hostname=comcastvxmlapps|urilength=71|cachedecision=in(Last Modified)	-
+13:41:11	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/ecmascripts/logging.js|fetchtype=script|mimetype=application/javascript	-
+13:41:11	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/ecmascripts/uui.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=844|outcome=success|failover=false|hostname=comcastvxmlapps|urilength=67|cachedecision=in(Last Modified)	-
+13:41:11	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/ecmascripts/uui.js|fetchtype=script|mimetype=application/javascript	-
+13:41:11	document transition	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/index.php?e=mc2&wic_testcall=t|cpu=0.020000|normalcpu=0.020000	-
+13:41:11	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/start.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.084|documentsize=1131|outcome=success|failover=false|localport=59940|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=73|bytesread=1406|byteswritten=517|cachedecision=n/a|method=POST	-
+13:41:11	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/start.vxml.php|fetchtype=vxml|mimetype=text/html	-
+13:41:11	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.059|documentsize=9358|outcome=success|failover=false|localport=59942|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=9659|byteswritten=426|cachedecision=nc(pragma no-cache)|method=GET	-
+13:41:11	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+13:41:11	log	content=EIVR WicStdEnvironment: QA	-
+13:41:11	log	label=omniVoice Engine|content= 'Changing acoustic model from to en-us'	-
+13:41:11	log	content=Incoming UUI String: 1,,,,,,e0201806071337030000ba141a4450c3,,,,	-
+13:41:11	log	content= UUI: (new String("1,,,,,,e0201806071337030000ba141a4450c3,,,,")), session string: [object __SBjsiScope], session source: ({_platDefaults_$:{_wi_dm:function _wi_dm(d) {if (typeof d == "undefined") {return "";}if (d == "4070249") {return "8552166355";}if (d == "4070250") {return "8552235423";}if (d == "4070252") {return "8552235425";}if (d == "4070377") {return "8446912960";}if (d == "4070379") {return "8446912964";}if (d == "4070395") {return "8446912990";}if (d == "4070406") {return "8446913010";}if (d == "4072343") {return "8555534539";}if (d == "4072651") {return "8553269528";}if (d == "4072684") {return "8553876620";}if (d == "4072689") {return "8553876632";}if (d == "4072691") {return "8553876653";}if (d == "4072690") {return "8553876634";}if (d == "4072697") {return "8553876853";}if (d == "4072698") {return "8553877187";}if (d == "4072727") {return "8553877188";}if (d == "4072877") {return "8553877190";}if (d == "4072876") {return "8553877189";}if (d == "4072878") {return "8553877191";}return d;}, application:{lastresult$:undefined, waveform$:undefined, WicStdAni:"", WicStdAniOrig:"8008388383", WicStdApn:"8111490056", WicStdDnis:"3034416", WicStdUnit:"4009", WicStdLine:"680", WicStdDialedNumber:undefined, WicStdConnectTs:"1528393223", WicStdConnectDateYYYYMMDD:"20180607", WicStdConnectYearYYYY:2018, WicStdConnectYearYY:"18", WicStdConnectMonthMM:"06", WicStdConnectMonthAbbr:"Jun", WicStdConnectMonthSpelledOut:"June", WicStdConnectDayOfMonthDD:"07", WicStdConnectDayOfWeekNumber:4, WicStdConnectDayOfWeekAbbr:"Thu", WicStdConnectDayOfWeekSpelledOut:"Thursday", WicStdConnectJulianDayOfYearJJJ:158, WicStdConnectTimeHHMM:"1340", WicStdConnectTimeHHMMSS:"134023", WicStdConnectHourHH:13, WicStdConnectMinuteMM:40, WicStdConnectSecondsSS:undefined, WicStdPickupTs:"1528393223", WicStdClient:"comcast", WicStdAppName:"eivr", WicStdTestLive:"t", WicStdLogLoc:"/wic/wic/comcast//", WicStdLogHeader:"1528393223,4009,680,20180607,134023,8111490056,8008388383	-
+13:41:11	document transition	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/start.vxml.php|cpu=0.020000|normalcpu=0.020000	-
+13:41:12	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.752|documentsize=34129|outcome=success|failover=false|localport=59944|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=34454|byteswritten=566|cachedecision=n/a|method=POST	-
+13:41:12	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|fetchtype=vxml|mimetype=text/html	-
+13:41:12	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.059|documentsize=9402|outcome=success|failover=false|localport=59946|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=9703|byteswritten=426|cachedecision=nc(pragma no-cache)|method=GET	-
+13:41:12	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+13:41:12	log	label=omniVoice Engine|content= 'start_eivr: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'start_eivr: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'start_eivr: Using custom file: startOfCallREF.php, and function: incomingUUI'	-
+13:41:12	log	label=incomingUUI|content= 'POST Data: array ( 'uuiStringIn' => '1,,,,,,e0201806071337030000ba141a4450c3,,,,', )'	-
+13:41:12	log	label=incomingUUI|content= 'Incoming UUI is '1,,,,,,e0201806071337030000ba141a4450c3,,,,''	-
+13:41:12	log	label=omniVoice engine|content= 'Set global: incomingUUIRaw='1,,,,,,e0201806071337030000ba141a4450c3,,,,''	-
+13:41:12	log	label=omniVoice Engine|content= 'start_eivr: Custom file directed exit to: startOfCallRefactoringCheck'	-
+13:41:12	log	label=omniVoice Engine|content= 'start_eivr: Returning from logic. Exiting to: startOfCallRefactoringCheck'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallRefactoringCheck: Coming from start_eivr'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallRefactoringCheck: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallRefactoringCheck: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallRefactoringCheck: Using custom file: startOfCallREF.php, and function: startOfCallRefactoringCheck'	-
+13:41:12	log	label=startOfCallRefactoringCheck|content= 'Starting IDandV'	-
+13:41:12	log	label=omniVoice Engine|content= 'Failover strategy Not Found (DB, BALANCE).'	-
+13:41:12	log	label=getRefactorAlloc|content= 'Input Array = array ( 0 => '3034416', 1 => 'APRefactor_throttle', )'	-
+13:41:12	log	label=omniVoice Engine Strategy DB|content= 'refactorAlloc request: array ( 0 => '3034416', 1 => 'APRefactor_throttle', )'	-
+13:41:12	log	label=HandleRequest|content= 'REQUEST = '\'3034416\',\'APRefactor_throttle\'''	-
+13:41:12	log	label=omniVoice Engine|content= 'refactorAlloc Primary Server ibm91_spy on comcast'	-
+13:41:12	log	label=omniVoice Engine|content= 'refactorAlloc Secondary Server ibm91_spy'	-
+13:41:12	log	label=omniVoice Engine|content= 'refactorAlloc Tertiary Server ibm91_spy'	-
+13:41:12	log	label=omniVoice Engine|content= 'refactorAlloc response took 0.193 sec'	-
+13:41:12	log	label=omniVoice Engine|content= 'request='\'3034416\',\'APRefactor_throttle\'''	-
+13:41:12	log	label=omniVoice Engine|content= 'response=array ( 0 => array ( 'STATUS' => 'SUCCESS', 'SQL_ERR' => '0', 'ISAM_ERR' => '0', 'PERCENT' => '0', ), )'	-
+13:41:12	log	label=transaction info|content= 'array ( 'nodeName' => 'refactorAlloc', 'type' => 'DB', 'getRequestFunc' => 'getRefactorAlloc', 'parseResponseFunc' => 'parseRefactorAlloc', 'transactionFile' => 'refactorAlloc.php', 'DBStoredProc' => 'refactor_alloc_throttle_2', 'DBParams' => 'app_db_read_only', 'alwaysReturnsRows' => 'true', 'DBMaxRows' => '1', )'	-
+13:41:12	log	label=omniVoice\COMCAST_TXLLOG_DATA_REQUEST|content= 'refactorAlloc:DB:success:1528393223,4009,680,1'	-
+13:41:12	log	label=omniVoice\COMCAST_TXLLOG_DATA_REQUEST_RESPONSE|content= 'data sent: array ( 0 => 'param0=3034416', 1 => 'param1=APRefactor_throttle', )'	-
+13:41:12	log	label=parseRefactorAlloc|content= 'DBResp = Array ( [0] => Array ( [STATUS] => SUCCESS [SQL_ERR] => 0 [ISAM_ERR] => 0 [PERCENT] => 0 ) ) '	-
+13:41:12	log	label=startOfCallRefactoringCheck|content= 'Throttle = 0'	-
+13:41:12	log	label=omniVoice engine|content= 'Set global: flag_APRefactor=false'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallRefactoringCheck: Custom file directed exit to: startOfCallREF'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallRefactoringCheck: Returning from logic. Exiting to: startOfCallREF'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallREF: Coming from startOfCallRefactoringCheck'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallREF: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallREF: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallREF: Using custom file: startOfCallREF.php, and function: startOfCallREF'	-
+13:41:12	log	label=setTransferTypeFields|content= 'Setting Transfer Types: startOfCallREF; transferType_module=CallerID; transferType_type=; transferType_subType=; transferType_extType=; '	-
+13:41:12	log	label=omniVoice engine|content= 'Set global: CDR_appCoE='OTHR''	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallREF: Custom file directed exit to: queryDASChecks'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallREF: Returning from logic. Exiting to: queryDASChecks'	-
+13:41:12	log	label=omniVoice Engine|content= 'queryDASChecks: Coming from startOfCallREF'	-
+13:41:12	log	label=omniVoice Engine|content= 'queryDASChecks: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'queryDASChecks: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'queryDASChecks: Using custom file: startOfCallREF.php, and function: queryDASChecks'	-
+13:41:12	log	label=omniVoice\omniPushState|content= 'pushing engine state'	-
+13:41:12	log	label=omniVoice\omniPushState|content= array ( 0 => stdClass::__set_state(array( 'ExitState' => 'dasChecksREF', 'PopState' => 'queryIncomingDNIS', 'NLToggle' => NULL, )), )	-
+13:41:12	log	label=omniVoice Engine|content= 'queryDASChecks: State pushed to the stack. Using exiting to : dasChecksREF; Will return to : queryIncomingDNIS'	-
+13:41:12	log	label=omniVoice Engine|content= 'queryDASChecks: Returning from logic. Exiting to: dasChecksREF'	-
+13:41:12	log	label=omniVoice Engine|content= 'dasChecksREF: Coming from queryDASChecks'	-
+13:41:12	log	label=omniVoice Engine|content= 'dasChecksREF: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'dasChecksREF: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'dasChecksREF: Returning from logic. Exiting to: pingDASTransactionRef'	-
+13:41:12	log	label=omniVoice Engine|content= 'pingDASTransactionRef: Coming from dasChecksREF'	-
+13:41:12	log	label=omniVoice Engine|content= 'pingDASTransactionRef: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'pingDASTransactionRef: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'pingDASTransactionRef: Using custom file: dasChecksREF.php, and function: pingDASTransactionRef'	-
+13:41:12	log	label=getRequestPingDASWithConsumer|content= 'Holly Call ID = e4009-20180607134023560-680'	-
+13:41:12	log	label=getRequestPingDASWithConsumer|content= 'XML request = <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:typ="http://das.comcast.com/common/types" xmlns:ser="http://das.comcast.com/dasutilities/services"><soapenv:Header><wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">	<wsse:UsernameToken wsu:Id="UsernameToken-6B55F3D73E2227AAF9143318612236417">	<wsse:Username>westeivr</wsse:Username>	<wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">4westEIVR</wsse:Password>	<wsse:Nonce EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary">9Xtf9WavTxcW6v3jf9Nzjw==</wsse:Nonce>	<wsu:Created>2015-06-01T19:15:22.363Z</wsu:Created>	</wsse:UsernameToken></wsse:Security><typ:requestHeader><typ:timestamp>2018-06-07T13:37:04-04:00</typ:timestamp><typ:sourceSystemId>1</typ:sourceSystemId><typ:sourceSystemUserId>1</typ:sourceSystemUserId><typ:sourceServerId>1</typ:sourceServerId><typ:trackingId/></typ:requestHeader></soapenv:Header><soapenv:Body><ser:pingDASWithConsumer><dasPingConsumerRequest><consumerName>WESTEIVR,,e4009-20180607134023560-680</consumerName></dasPingConsumerRequest></ser:pingDASWithConsumer></soapenv:Body></soapenv:Envelope>'	-
+13:41:12	log	label=omniVoice Engine|content= 'pingDASWithConsumer request'	-
+13:41:12	log	label=header|content= array ( 0 => 'Content-Type: application/xml', 1 => 'charset=UTF-8', )	-
+13:41:12	log	content= array ( 'nodeName' => 'pingDASWithConsumer', 'type' => 'WSO2', 'getRequestFunc' => 'getRequestPingDASWithConsumer', 'parseResponseFunc' => 'parseResponsePingDASWithConsumer', 'transactionFile' => 'pingDASWithConsumer.php', 'WSO2EndpointURL' => 'comcast_PingDASWithConsumer', 'timeout' => '5', )	-
+13:41:12	log	label=pingDASWithConsumer|content= 'URL: https://linux5259:8243/services/comcast_PingDASWithConsumer'	-
+13:41:12	log	label=omniVoice Engine|content= 'pingDASWithConsumer response took 0.305 sec'	-
+13:41:12	log	label=cURL info|content= array ( 'url' => 'https://linux5259:8243/services/comcast_PingDASWithConsumer', 'content_type' => 'text/xml;charset=ISO-8859-1', 'http_code' => 200, 'header_size' => 152, 'request_size' => 165, 'filetime' => -1, 'ssl_verify_result' => 19, 'redirect_count' => 0, 'total_time' => 0.305033, 'namelookup_time' => 4.7E-5, 'connect_time' => 0.000614, 'pretransfer_time' => 0.014967, 'size_upload' => 1422, 'size_download' => 573, 'speed_download' => 1878, 'speed_upload' => 4661, 'download_content_length' => -1, 'upload_content_length' => 1422, 'starttransfer_time' => 0.01919, 'redirect_time' => 0, 'certinfo' => array ( ), 'request_header' => 'POST /services/comcast_PingDASWithConsumer HTTP/1.1 Host: linux5259:8243 Accept: */* Content-Type: application/xml Content-Length: 1422 Expect: 100-continue ', )	-
+13:41:12	log	label=HandleRequest|content= 'SETTING THE RESPONSE'	-
+13:41:12	log	label=transaction info|content= 'array ( 'nodeName' => 'pingDASWithConsumer', 'type' => 'WSO2', 'getRequestFunc' => 'getRequestPingDASWithConsumer', 'parseResponseFunc' => 'parseResponsePingDASWithConsumer', 'transactionFile' => 'pingDASWithConsumer.php', 'WSO2EndpointURL' => 'comcast_PingDASWithConsumer', 'timeout' => '5', )'	-
+13:41:12	log	label=omniVoice\COMCAST_TXLLOG_DATA_REQUEST|content= 'pingDASWithConsumer:Host:success:1528393223,4009,680,3'	-
+13:41:12	log	label=omniVoice\COMCAST_TXLLOG_DATA_REQUEST_RESPONSE|content= 'data sent: array ( 0 => 'Username=westeivr', 1 => 'Password=4westEIVR', 2 => 'Nonce=9Xtf9WavTxcW6v3jf9Nzjw==', 3 => 'Created=2015-06-01T19:15:22.363Z', 4 => 'timestamp=2018-06-07T13:37:04-04:00', 5 => 'sourceSystemId=1', 6 => 'sourceSystemUserId=1', 7 => 'sourceServerId=1', 8 => 'trackingId=', 9 => 'consumerName=WESTEIVR,,e4009-20180607134023560-680', )'	-
+13:41:12	log	label=parseResponsePingDASWithConsumer|content= 'API response = array ( 'Body' => array ( 'pingDASWithConsumerResponse' => array ( 'pingDASWithConsumerReturn' => array ( 'serverName' => 'daswic-wc-a1q.sys.comcast.net:8080', 'serviceStatus' => array ( 'entry' => array ( 0 => array ( 'key' => 'ISPN', 'value' => '1', ), 1 => array ( 'key' => 'ACAD', 'value' => '1', ), ), ), 'sessionId' => 'd020180607134031000011638fcef3a4', ), ), ), )'	-
+13:41:12	log	label=omniVoice engine|content= 'Set global: pingDASWithConsumer_status='success''	-
+13:41:12	log	label=omniVoice engine|content= 'Set global: pingDASWithConsumer_sessionId='d020180607134031000011638fcef3a4''	-
+13:41:12	log	label=omniVoice Engine|content= 'pingDASTransactionRef: Custom file directed exit to: insertDASResponseRef'	-
+13:41:12	log	label=omniVoice Engine|content= 'pingDASTransactionRef: Returning from logic. Exiting to: insertDASResponseRef'	-
+13:41:12	log	label=omniVoice Engine|content= 'insertDASResponseRef: Coming from pingDASTransactionRef'	-
+13:41:12	log	label=omniVoice Engine|content= 'insertDASResponseRef: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'insertDASResponseRef: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'insertDASResponseRef: Using custom file: dasChecksREF.php, and function: insertDASResponseRef'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: pingDASWithConsumer_status='success''	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: pingDASWithConsumer_sessionId='d020180607134031000011638fcef3a4''	-
+13:41:12	log	label=omniVoice Engine|content= 'insertDASResponseRef: Custom file directed exit to: sessionIDResponseRef'	-
+13:41:12	log	label=omniVoice Engine|content= 'insertDASResponseRef: Returning from logic. Exiting to: sessionIDResponseRef'	-
+13:41:12	log	label=omniVoice Engine|content= 'sessionIDResponseRef: Coming from insertDASResponseRef'	-
+13:41:12	log	label=omniVoice Engine|content= 'sessionIDResponseRef: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'sessionIDResponseRef: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'sessionIDResponseRef: Using custom file: dasChecksREF.php, and function: sessionIDResponseRef'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: pingDASWithConsumer_sessionId='d020180607134031000011638fcef3a4''	-
+13:41:12	log	label=omniVoice Engine|content= 'sessionIDResponseRef: Custom file directed exit to: dasEmergencyToggleCheckRef'	-
+13:41:12	log	label=omniVoice Engine|content= 'sessionIDResponseRef: Returning from logic. Exiting to: dasEmergencyToggleCheckRef'	-
+13:41:12	log	label=omniVoice Engine|content= 'dasEmergencyToggleCheckRef: Coming from sessionIDResponseRef'	-
+13:41:12	log	label=omniVoice Engine|content= 'dasEmergencyToggleCheckRef: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'dasEmergencyToggleCheckRef: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'dasEmergencyToggleCheckRef: Using custom file: dasChecksREF.php, and function: dasEmergencyToggleCheckRef'	-
+13:41:12	log	label=omniVoice Engine|content= 'Failover strategy Not Found (DB, BALANCE).'	-
+13:41:12	log	label=omniVoice Engine Strategy DB|content= 'getDASAvailability request: NULL'	-
+13:41:12	log	label=HandleRequest|content= 'REQUEST = '''	-
+13:41:12	log	label=omniVoice Engine|content= 'getDASAvailability Primary Server ibm91_spy on comcast'	-
+13:41:12	log	label=omniVoice Engine|content= 'getDASAvailability Secondary Server ibm91_spy'	-
+13:41:12	log	label=omniVoice Engine|content= 'getDASAvailability Tertiary Server ibm91_spy'	-
+13:41:12	log	label=omniVoice Engine|content= 'getDASAvailability response took 0.073 sec'	-
+13:41:12	log	label=omniVoice Engine|content= 'request='''	-
+13:41:12	log	label=omniVoice Engine|content= 'response=array ( 0 => array ( 'STATUS' => 'SUCCESS', 'SQL_ERR' => '0', 'ISAM_ERR' => '0', 'TOGGLE_VALUE' => 'OFF', ), )'	-
+13:41:12	log	label=transaction info|content= 'array ( 'nodeName' => 'getDASAvailability', 'type' => 'DB', 'getRequestFunc' => 'getReqDASAvailability', 'parseResponseFunc' => 'parseResponseDASAvailability', 'transactionFile' => 'getDASAvailability.php', 'DBStoredProc' => 'get_das_availability_3', 'DBParams' => 'app_db_read_only', 'alwaysReturnsRows' => 'true', 'DBMaxRows' => '1', )'	-
+13:41:12	log	label=omniVoice\COMCAST_TXLLOG_DATA_REQUEST|content= 'getDASAvailability:DB:success:1528393223,4009,680,6'	-
+13:41:12	log	label=omniVoice\COMCAST_TXLLOG_DATA_REQUEST_RESPONSE|content= 'data sent: array ( 0 => 'param0=', )'	-
+13:41:12	log	label=parseResponseFunction|content= 'DBResp = array ( 0 => array ( 'STATUS' => 'SUCCESS', 'SQL_ERR' => '0', 'ISAM_ERR' => '0', 'TOGGLE_VALUE' => 'OFF', ), )'	-
+13:41:12	log	label=omniVoice engine|content= 'Set global: DRModeActive='false''	-
+13:41:12	log	label=omniVoice Engine|content= 'dasEmergencyToggleCheckRef: Custom file directed exit to: checkANIValid'	-
+13:41:12	log	label=omniVoice Engine|content= 'dasEmergencyToggleCheckRef: Returning from logic. Exiting to: checkANIValid'	-
+13:41:12	log	label=omniVoice Engine|content= 'checkANIValid: Coming from dasEmergencyToggleCheckRef'	-
+13:41:12	log	label=omniVoice Engine|content= 'checkANIValid: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'checkANIValid: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'checkANIValid: Using custom file: dasChecksREF.php, and function: checkANIValid'	-
+13:41:12	log	label=omniVoice engine|content= 'Set global: caller_phoneNumber='''	-
+13:41:12	log	label=isPhoneNumber|content= 'Validate Class: isPhoneNumber'	-
+13:41:12	log	label=isPhoneNumber|content= 'aniMatchNANP = '	-
+13:41:12	log	label=omniVoice engine|content= 'Set global: caller_validANI='false''	-
+13:41:12	log	label=omniVoice\omniPopState|content= 'popping engine state'	-
+13:41:12	log	label=omniVoice\omniPopState|content= array ( 0 => stdClass::__set_state(array( 'ExitState' => 'dasChecksREF', 'PopState' => 'queryIncomingDNIS', 'NLToggle' => NULL, )), )	-
+13:41:12	log	label=omniVoice Engine|content= 'checkANIValid: Custom file directed exit to: queryIncomingDNIS'	-
+13:41:12	log	label=omniVoice Engine|content= 'checkANIValid: Returning from logic. Exiting to: queryIncomingDNIS'	-
+13:41:12	log	label=omniVoice Engine|content= 'queryIncomingDNIS: Coming from checkANIValid'	-
+13:41:12	log	label=omniVoice Engine|content= 'queryIncomingDNIS: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'queryIncomingDNIS: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'queryIncomingDNIS: Using custom file: startOfCallREF.php, and function: queryIncomingDNIS'	-
+13:41:12	log	label=queryIncomingDNIS|content= '3034416'	-
+13:41:12	log	label=omniVoice Engine|content= 'Failover strategy Not Found (DB, BALANCE).'	-
+13:41:12	log	label=omniVoice Engine Strategy DB|content= 'DNISSettings request: array ( 0 => '3034416', )'	-
+13:41:12	log	label=HandleRequest|content= 'REQUEST = '\'3034416\'''	-
+13:41:12	log	label=omniVoice Engine|content= 'DNISSettings Primary Server ibm91_spy on comcast'	-
+13:41:12	log	label=omniVoice Engine|content= 'DNISSettings Secondary Server ibm91_spy'	-
+13:41:12	log	label=omniVoice Engine|content= 'DNISSettings Tertiary Server ibm91_spy'	-
+13:41:12	log	label=omniVoice Engine|content= 'DNISSettings response took 0.009 sec'	-
+13:41:12	log	label=omniVoice Engine|content= 'request='\'3034416\'''	-
+13:41:12	log	label=omniVoice Engine|content= 'response=array ( 0 => array ( 0 => 'FOUND', 1 => '0', 2 => '0', 3 => 'DialedNumber', 4 => '8666324252', ), 1 => array ( 0 => 'FOUND', 1 => '0', 2 => '0', 3 => 'account_type', 4 => 'RES', ), 2 => array ( 0 => 'FOUND', 1 => '0', 2 => '0', 3 => 'application', 4 => 'EIVR', ), 3 => array ( 0 => 'FOUND', 1 => '0', 2 => '0', 3 => 'market_id', 4 => '47', ), )'	-
+13:41:12	log	label=transaction info|content= 'array ( 'nodeName' => 'DNISSettings', 'type' => 'DB', 'getRequestFunc' => 'getReqDNISSettings', 'parseResponseFunc' => 'getRespDNISSettings', 'transactionFile' => 'getDNISSettings.php', 'DBStoredProc' => 'get_dnis_settings', 'DBParams' => 'app_db_read_only', 'alwaysReturnsRows' => 'true', 'DBMaxRows' => '1000', )'	-
+13:41:12	log	label=omniVoice\COMCAST_TXLLOG_DATA_REQUEST|content= 'DNISSettings:DB:success:1528393223,4009,680,8'	-
+13:41:12	log	label=omniVoice\COMCAST_TXLLOG_DATA_REQUEST_RESPONSE|content= 'data sent: array ( 0 => 'param0=3034416', )'	-
+13:41:12	log	label=getRespDNISSettings|content= 'DBResp = Array ( [0] => Array ( [0] => FOUND [1] => 0 [2] => 0 [3] => DialedNumber [4] => 8666324252 ) [1] => Array ( [0] => FOUND [1] => 0 [2] => 0 [3] => account_type [4] => RES ) [2] => Array ( [0] => FOUND [1] => 0 [2] => 0 [3] => application [4] => EIVR ) [3] => Array ( [0] => FOUND [1] => 0 [2] => 0 [3] => market_id [4] => 47 ) ) '	-
+13:41:12	log	label=omniVoice engine|content= 'Set global: caller_marketId='47''	-
+13:41:12	log	label=omniVoice engine|content= 'Set global: caller_accountType='RES''	-
+13:41:12	log	label=omniVoice Engine|content= 'queryIncomingDNIS: Custom file directed exit to: doTuningDecision'	-
+13:41:12	log	label=omniVoice Engine|content= 'queryIncomingDNIS: Returning from logic. Exiting to: doTuningDecision'	-
+13:41:12	log	label=omniVoice Engine|content= 'doTuningDecision: Coming from queryIncomingDNIS'	-
+13:41:12	log	label=omniVoice Engine|content= 'doTuningDecision: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'doTuningDecision: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'doTuningDecision: Using custom file: startOfCallREF.php, and function: doTuningDecision'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: caller_accountType='RES''	-
+13:41:12	log	label=doTuningDecision|content= 'Call type: EIVR'	-
+13:41:12	log	label=omniVoice Engine|content= 'Failover strategy Not Found (DB, BALANCE).'	-
+13:41:12	log	label=omniVoice Engine Strategy DB|content= 'tuningDecision request: array ( 0 => 'EIVR', )'	-
+13:41:12	log	label=HandleRequest|content= 'REQUEST = '\'EIVR\'''	-
+13:41:12	log	label=omniVoice Engine|content= 'tuningDecision Primary Server ibm91_spy on comcast'	-
+13:41:12	log	label=omniVoice Engine|content= 'tuningDecision Secondary Server ibm91_spy'	-
+13:41:12	log	label=omniVoice Engine|content= 'tuningDecision Tertiary Server ibm91_spy'	-
+13:41:12	log	label=omniVoice Engine|content= 'tuningDecision response took 0.055 sec'	-
+13:41:12	log	label=omniVoice Engine|content= 'request='\'EIVR\'''	-
+13:41:12	log	label=omniVoice Engine|content= 'response=array ( 0 => array ( 'STATUS' => 'SUCCESS', 'SQL_ERR' => '0', 'ISAM_ERR' => '0', 'DO_I_TUNE' => 'Y', ), )'	-
+13:41:12	log	label=transaction info|content= 'array ( 'nodeName' => 'tuningDecision', 'type' => 'DB', 'getRequestFunc' => 'getReqTuningDecision', 'parseResponseFunc' => 'parseRespTuningDecision', 'transactionFile' => 'tuningDecision.php', 'DBStoredProc' => 'do_i_tune', 'alwaysReturnsRows' => 'true', 'DBParams' => 'app_db_read_only', 'DBMaxRows' => '1', )'	-
+13:41:12	log	label=omniVoice\COMCAST_TXLLOG_DATA_REQUEST|content= 'tuningDecision:DB:success:1528393223,4009,680,10'	-
+13:41:12	log	label=omniVoice\COMCAST_TXLLOG_DATA_REQUEST_RESPONSE|content= 'data sent: array ( 0 => 'param0=EIVR', )'	-
+13:41:12	log	label=parseResponse|content= 'DBResp = Array ( [0] => Array ( [STATUS] => SUCCESS [SQL_ERR] => 0 [ISAM_ERR] => 0 [DO_I_TUNE] => Y ) ) '	-
+13:41:12	log	label=doTuningDecision|content= 'Speech Services Tuning decision says we tune.'	-
+13:41:12	log	label=omniVoice Engine|content= 'doTuningDecision: Custom file directed exit to: omDNISValid'	-
+13:41:12	log	label=omniVoice Engine|content= 'doTuningDecision: Returning from logic. Exiting to: omDNISValid'	-
+13:41:12	log	label=omniVoice Engine|content= 'omDNISValid: Coming from doTuningDecision'	-
+13:41:12	log	label=omniVoice Engine|content= 'omDNISValid: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'omDNISValid: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'omDNISValid: Using custom file: startOfCallREF.php, and function: omDNISValid'	-
+13:41:12	log	label=omDNISValid|content= 'Is the DNIS Order Management = '	-
+13:41:12	log	label=omniVoice engine|content= 'Set global: caller_dnisType='CARE''	-
+13:41:12	log	label=omniVoice Engine|content= 'omDNISValid: Custom file directed exit to: checkNSMValid'	-
+13:41:12	log	label=omniVoice Engine|content= 'omDNISValid: Returning from logic. Exiting to: checkNSMValid'	-
+13:41:12	log	label=omniVoice Engine|content= 'checkNSMValid: Coming from omDNISValid'	-
+13:41:12	log	label=omniVoice Engine|content= 'checkNSMValid: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'checkNSMValid: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'checkNSMValid: Using custom file: startOfCallREF.php, and function: checkNSMValid'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: caller_dnisType='CARE''	-
+13:41:12	log	label=omniVoice Engine|content= 'checkNSMValid: Custom file directed exit to: startOfCallXmDNIS'	-
+13:41:12	log	label=omniVoice Engine|content= 'checkNSMValid: Returning from logic. Exiting to: startOfCallXmDNIS'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallXmDNIS: Coming from checkNSMValid'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallXmDNIS: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallXmDNIS: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallXmDNIS: Using custom file: startOfCallREF.php, and function: startOfCallXmDNIS'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallXmDNIS: Custom file directed exit to: startOfCall_getVoiceNodeExclusions'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallXmDNIS: Returning from logic. Exiting to: startOfCall_getVoiceNodeExclusions'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCall_getVoiceNodeExclusions: Coming from startOfCallXmDNIS'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCall_getVoiceNodeExclusions: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCall_getVoiceNodeExclusions: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCall_getVoiceNodeExclusions: Using custom file: startOfCallREF.php, and function: startOfCall_getVoiceNodeExclusions'	-
+13:41:12	log	label=omniVoice engine|content= 'Set global: lastVoiceNodeExcludes=array ( 0 => 'prompt_GetSSNTransfer', 1 => 'prompt_SSNNoMatch', 2 => 'prompt_BUSAccountNumAuth', 3 => 'say_LastFourAcctInvalid', 4 => 'say_SSNXferMatched', 5 => 'say_SSNXferNoMatch', 6 => 'prompt_LastFourSMOP', 7 => 'say_LastFourSMOPInvalid', 8 => 'say_ClosedMessage', 9 => 'say_CellClosedMessage', 10 => 'say_BillingHolidayClosed', 11 => 'say_BillingClosedMessage', 12 => 'say_SalesClosed', 13 => 'say_WeatherClosed', 14 => 'say_EmergencyClosed', 15 => 'say_SalesHolidayClosed', 16 => 'say_CollectionClosed', 17 => 'say_CollectionHolidayClosed', 18 => 'say_RetentionClosed', 19 => 'say_wavDynClosedMsg', 20 => 'prompt_ClosedMsgReturn', 21 => 'say_GoodbyeClosedMsg', 22 => 'prompt_OfferTextZeroHold', 23 => 'prompt_SMSMobileNumber', 24 => 'prompt_SMSMobileConfirm', 25 => 'prompt_SMSChatReturn', 26 => 'say_SMSChatTechDiff', 27 => 'say_OptedInAlready', 28 => 'say_ChatTransition', 29 => 'say_SMSGoodbye', 30 => 'prompt_SurveyOffer', 31 => 'prompt_SurveyCBPhNumYN', 32 => 'say_SurveyThanks', 33 => 'prompt_ConfirmSurvey', 34 => 'say_TransferNatlInf', 35 => 'say_NoTransferTerm', 36 => 'say_CellNoTransferTerm', 37 => 'say_TransferTerm', 38 => 'prompt_TriageMenu', 39 => 'prompt_TriageOtherOptions', 40 => 'prompt_APTriageMenu', 41 => 'prompt_MaxErrorTriage', 42 => 'say_MaxErrorDisc', 43 => 'prompt_LOBMenuTriage', 44 => 'say_RecDisclosureXfer', 45 => 'say_Transfer', )'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCall_getVoiceNodeExclusions: Custom file directed exit to: startOfCallRefFlushQueue'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCall_getVoiceNodeExclusions: Returning from logic. Exiting to: startOfCallRefFlushQueue'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallRefFlushQueue: Coming from startOfCall_getVoiceNodeExclusions'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallRefFlushQueue: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallRefFlushQueue: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallRefFlushQueue: Using custom file: startOfCallREF.php, and function: startOfCallRefFlushQueue'	-
+13:41:12	prompt	type=filler|URI=file:///usr/local/holly/etc/defaults/silence-1.0.wav|delay=2.000|minimum=1.000|mode=foreground	-
+13:41:12	system response	latency=1.089827	-
+13:41:12	document dump	URL=/usr/local/holly/web/html/browserinfo.xml|fetchtype=data|mimetype=text/xml	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallRefFlushQueue: Custom file directed exit to: startOfCallRefASRResourceAvailable'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallRefFlushQueue: No custom file defined. Using flow to define exit: startOfCallRefactoringCheck'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallRefFlushQueue: Returning from logic. Exiting to: startOfCallRefASRResourceAvailable'	-
+13:41:12	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/voice/en-us/typing_30Sec.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.011|documentsize=232559|outcome=success|failover=false|localport=59948|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=77|bytesread=232798|byteswritten=462|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+13:41:12	prompt	type=filler|URI=../../voice/en-us/typing_30Sec.wav|delay=2.000|minimum=1.000|mode=foreground	-
+13:41:12	document transition	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|cpu=0.050000|normalcpu=0.050000	-
+13:41:12	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.226|documentsize=135002|outcome=success|failover=false|localport=59950|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=135335|byteswritten=623|cachedecision=n/a|method=POST	-
+13:41:12	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|fetchtype=vxml|mimetype=text/html	-
+13:41:12	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.062|documentsize=9402|outcome=success|failover=false|localport=59952|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=9703|byteswritten=426|cachedecision=nc(pragma no-cache)|method=GET	-
+13:41:12	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallRefASRResourceAvailable: Coming from startOfCallRefFlushQueue'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallRefASRResourceAvailable: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallRefASRResourceAvailable: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallRefASRResourceAvailable: Using custom file: startOfCallREF.php, and function: startOfCallRefASRResourceAvailable'	-
+13:41:12	log	label=startOfCallRefASRResourceAvailable|content= 'asr_sessionid is 'FLBJGPCFAAADJCBMAAAAAAAA|address=10.27.131.82:554|server=Nuance Open Speech Recognizer for MRCPv1''	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallRefASRResourceAvailable: Custom file directed exit to: iepORiecDNISValid'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallRefASRResourceAvailable: Returning from logic. Exiting to: iepORiecDNISValid'	-
+13:41:12	log	label=omniVoice Engine|content= 'iepORiecDNISValid: Coming from startOfCallRefASRResourceAvailable'	-
+13:41:12	log	label=omniVoice Engine|content= 'iepORiecDNISValid: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'iepORiecDNISValid: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'iepORiecDNISValid: Using custom file: startOfCallREF.php, and function: iepORiecDNISValid'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: caller_dnisType='CARE''	-
+13:41:12	log	label=omniVoice Engine|content= 'iepORiecDNISValid: Custom file directed exit to: onAvayaPlatform'	-
+13:41:12	log	label=omniVoice Engine|content= 'iepORiecDNISValid: Returning from logic. Exiting to: onAvayaPlatform'	-
+13:41:12	log	label=omniVoice Engine|content= 'onAvayaPlatform: Coming from iepORiecDNISValid'	-
+13:41:12	log	label=omniVoice Engine|content= 'onAvayaPlatform: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'onAvayaPlatform: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'onAvayaPlatform: Using custom file: startOfCallREF.php, and function: onAvayaPlatform'	-
+13:41:12	log	label=omniVoice engine|content= 'Set global: Holly='true''	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: caller_divisionId='99''	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: caller_regionId='999''	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: caller_marketId='47''	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: caller_phoneNumber='''	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: caller_accountNumber='''	-
+13:41:12	log	label=omniVoice Engine|content= 'Failover strategy Not Found (DB, BALANCE).'	-
+13:41:12	log	label=getReqAppSettings|content= 'application	= EIVR'	-
+13:41:12	log	label=getReqAppSettings|content= 'account_type	= RES'	-
+13:41:12	log	label=getReqAppSettings|content= 'division_id	= 99'	-
+13:41:12	log	label=getReqAppSettings|content= 'region_id	= 999'	-
+13:41:12	log	label=getReqAppSettings|content= 'market_id	= 47'	-
+13:41:12	log	label=getReqAppSettings|content= 'phone_num	= '	-
+13:41:12	log	label=getReqAppSettings|content= 'acctSys	= '	-
+13:41:12	log	label=getReqAppSettings|content= 'acctPrin	= '	-
+13:41:12	log	label=getReqAppSettings|content= 'acctAgent	= '	-
+13:41:12	log	label=getReqAppSettings|content= 'zip	= '	-
+13:41:12	log	label=getReqAppSettings|content= 'language	= '	-
+13:41:12	log	label=omniVoice Engine Strategy DB|content= 'appSettings request: array ( 0 => 'EIVR', 1 => 'RES', 2 => '1', 3 => '99', 4 => '999', 5 => '47', 6 => '', 7 => '', 8 => '', 9 => '', 10 => '', 11 => '13:37', 12 => '4', 13 => '', )'	-
+13:41:12	log	label=HandleRequest|content= 'REQUEST = '\'EIVR\',\'RES\',\'1\',\'99\',\'999\',\'47\',\'\',\'\',\'\',\'\',\'\',\'13:37\',\'4\',\'\'''	-
+13:41:12	log	label=omniVoice Engine|content= 'appSettings Primary Server ibm91_spy on comcast'	-
+13:41:12	log	label=omniVoice Engine|content= 'appSettings Secondary Server ibm91_spy'	-
+13:41:12	log	label=omniVoice Engine|content= 'appSettings Tertiary Server ibm91_spy'	-
+13:41:12	log	label=omniVoice Engine|content= 'appSettings response took 0.111 sec'	-
+13:41:12	log	label=omniVoice Engine|content= 'request='\'EIVR\',\'RES\',\'1\',\'99\',\'999\',\'47\',\'\',\'\',\'\',\'\',\'\',\'13:37\',\'4\',\'\'''	-
+13:41:12	log	label=omniVoice Engine|content= 'response=array ( 0 => array ( 0 => 'FOUND', 1 => '0', 2 => '0', 3 => 'ACTIVATION', 4 => 'toggle', 5 => 'activation_agent', 6 => 'OFF', ), 1 => array ( 0 => 'FOUND', 1 => '0', 2 => '0', 3 => 'ACTIVATION', 4 => 'toggle', 5 => 'activation_check', 6 => 'OFF', ), 2 => array ( 0 => 'FOUND', 1 => '0', 2 => '0', 3 => 'ACTIVATION', 4 => 'toggle', 5 => 'activations_refactor', 6 => 'OFF', ), 3 => array ( 0 => 'FOUND', 1 => '0', 2 => '0', 3 => 'ACTIVATION', 4 => 'toggle', 5 => 'agent_activating_reminder', 6 => 'OFF', ), 4 => array ( 0 => 'FOUND', 1 => '0', 2 => '0', 3 => 'ACTIVATION', 4 => 'toggle', 5 => 'facebook_activation', 6 => 'OFF', ), 5 => array ( 0 => 'FOUND', 1 => '0', 2 => '0', 3 => 'ACTIVATION', 4 => 'toggle', 5 => 'x1_act_sms', 6 => 'OFF', ), 6 => array ( 0 => 'FOUND', 1 => '0', 2 => '0', 3 => 'APPOINTMENTS', 4 => 'allocation', 5 => 'appointment_last_X_hrs', 6 => '0', ), 7 => array ( 0 => 'FOUND', 1 => '0', 2 => '0', 3 => 'APPOINTMENTS', 4 => 'allocation', 5 => 'appt_last_X_hrs_cancelled', 6 => '0', ), 8 => array ( 0 => 'FOUND', 1 => '0', 2 => '0', 3 => 'APPOINTMENTS', 4 => 'toggle', 5 => 'aaw_market', 6 => 'OFF', ), 9 => array ( 0 => 'FOUND', 1 => '0', 2 => '0', 3 => 'APPOINTMENTS', 4 => 'toggle', 5 => 'aaw_sameday_appt', 6 => 'OFF', ), 10 => array ( 0 => 'FOUND', 1 => '0', 2 => '0', 3 => 'APPOINTMENTS', 4 => 'toggle', 5 => 'appointment_cancel_ani_block', 6 => 'ON', ), 11 => array ( 0 => 'FOUND', 1 => '0', 2 => '0', 3 => 'APPOINTMENTS', 4 => 'toggle', 5 => 'appointment_confirmation_sms', 6 => 'ON', ), 12 => array (	-
+13:41:12	log	label=transaction info|content= 'array ( 'nodeName' => 'appSettings', 'delayLogging' => 'true', 'type' => 'DB', 'getRequestFunc' => 'getReqAppSettings', 'parseResponseFunc' => 'getRespAppSettings', 'transactionFile' => 'getAppSettings.php', 'DBStoredProc' => 'get_app_settings_5', 'DBParams' => 'app_db_read_only', 'alwaysReturnsRows' => 'true', 'DBMaxRows' => '1000', )'	-
+13:41:12	log	label=txllog_data_request|content= 'pulling app settings'	-
+13:41:12	log	label=txllog_data_request|content= 'app settings: NULL'	-
+13:41:12	log	label=getRespAppSettings|content= 'DBResp = Array ( [0] => Array ( [0] => FOUND [1] => 0 [2] => 0 [3] => ACTIVATION [4] => toggle [5] => activation_agent [6] => OFF ) [1] => Array ( [0] => FOUND [1] => 0 [2] => 0 [3] => ACTIVATION [4] => toggle [5] => activation_check [6] => OFF ) [2] => Array ( [0] => FOUND [1] => 0 [2] => 0 [3] => ACTIVATION [4] => toggle [5] => activations_refactor [6] => OFF ) [3] => Array ( [0] => FOUND [1] => 0 [2] => 0 [3] => ACTIVATION [4] => toggle [5] => agent_activating_reminder [6] => OFF ) [4] => Array ( [0] => FOUND [1] => 0 [2] => 0 [3] => ACTIVATION [4] => toggle [5] => facebook_activation [6] => OFF ) [5] => Array ( [0] => FOUND [1] => 0 [2] => 0 [3] => ACTIVATION [4] => toggle [5] => x1_act_sms [6] => OFF ) [6] => Array ( [0] => FOUND [1] => 0 [2] => 0 [3] => APPOINTMENTS [4] => allocation [5] => appointment_last_X_hrs [6] => 0 ) [7] => Array ( [0] => FOUND [1] => 0 [2] => 0 [3] => APPOINTMENTS [4] => allocation [5] => appt_last_X_hrs_cancelled [6] => 0 ) [8] => Array ( [0] => FOUND [1] => 0 [2] => 0 [3] => APPOINTMENTS [4] => toggle	-
+13:41:12	log	label=getRespAppSettings|content= 'varArray = AccessTrackingArray\AccessTrackingArray Object ( [internalArray:AccessTrackingArray\AccessTrackingArray:private] => Array ( [ACTIVATION] => AccessTrackingArray\AccessTrackingArray Object ( [internalArray:AccessTrackingArray\AccessTrackingArray:private] => Array ( [toggle] => AccessTrackingArray\AccessTrackingArray Object ( [internalArray:AccessTrackingArray\AccessTrackingArray:private] => Array ( [activation_agent] => OFF [activation_check] => OFF [activations_refactor] => OFF [agent_activating_reminder] => OFF [facebook_activation] => OFF [x1_act_sms] => OFF ) [accessed:AccessTrackingArray\AccessTrackingArray:private] => Array ( ) [nodename:AccessTrackingArray\AccessTrackingArray:private] => toggle ) ) [accessed:AccessTrackingArray\AccessTrackingArray:private] => Array ( [toggle] => 1 ) [nodename:AccessTrackingArray\AccessTrackingArray:private] => ACTIVATION ) [APPOINTMENTS] => AccessTrackingArray\AccessTrackingArray Object ( [internalArray:AccessTrackingArray\AccessTrackingArray:private] => Array	-
+13:41:12	log	label=omniVoice Engine|content= 'onAvayaPlatform: Custom file directed exit to: fullCallRecordingToggle'	-
+13:41:12	log	label=omniVoice Engine|content= 'onAvayaPlatform: Returning from logic. Exiting to: fullCallRecordingToggle'	-
+13:41:12	log	label=omniVoice Engine|content= 'fullCallRecordingToggle: Coming from onAvayaPlatform'	-
+13:41:12	log	label=omniVoice Engine|content= 'fullCallRecordingToggle: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'fullCallRecordingToggle: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'fullCallRecordingToggle: Using custom file: startOfCallREF.php, and function: fullCallRecordingToggle'	-
+13:41:12	log	label=omniVoice engine|content= 'Set global: full_call_recording='OFF''	-
+13:41:12	log	label=omniVoice Engine|content= 'fullCallRecordingToggle: Custom file directed exit to: dasAvailableREF'	-
+13:41:12	log	label=omniVoice Engine|content= 'fullCallRecordingToggle: Returning from logic. Exiting to: dasAvailableREF'	-
+13:41:12	log	label=omniVoice Engine|content= 'dasAvailableREF: Coming from fullCallRecordingToggle'	-
+13:41:12	log	label=omniVoice Engine|content= 'dasAvailableREF: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'dasAvailableREF: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'dasAvailableREF: Using custom file: startOfCallREF.php, and function: dasAvailableREF'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: DRModeActive='false''	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: caller_dnisType='CARE''	-
+13:41:12	log	label=dasAvailableREF|content= 'DR Mode is Inactive. Resuming normal call flow.'	-
+13:41:12	log	label=omniVoice Engine|content= 'dasAvailableREF: Custom file directed exit to: getAppSettings'	-
+13:41:12	log	label=omniVoice Engine|content= 'dasAvailableREF: Returning from logic. Exiting to: getAppSettings'	-
+13:41:12	log	label=omniVoice Engine|content= 'getAppSettings: Coming from dasAvailableREF'	-
+13:41:12	log	label=omniVoice Engine|content= 'getAppSettings: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'getAppSettings: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'getAppSettings: Using custom file: startOfCallREF.php, and function: getAppSettings'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: caller_divisionId='99''	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: caller_regionId='999''	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: caller_marketId='47''	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: caller_phoneNumber='''	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: caller_accountNumber='''	-
+13:41:12	log	label=omniVoice Engine|content= 'getAppSettings: Custom file directed exit to: startOfCallOMFlag'	-
+13:41:12	log	label=omniVoice Engine|content= 'getAppSettings: Returning from logic. Exiting to: startOfCallOMFlag'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallOMFlag: Coming from getAppSettings'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallOMFlag: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallOMFlag: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallOMFlag: Using custom file: startOfCallREF.php, and function: startOfCallOMFlag'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: caller_OM='''	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallOMFlag: Custom file directed exit to: getLanguagePreference'	-
+13:41:12	log	label=omniVoice Engine|content= 'startOfCallOMFlag: Returning from logic. Exiting to: getLanguagePreference'	-
+13:41:12	log	label=omniVoice Engine|content= 'getLanguagePreference: Coming from startOfCallOMFlag'	-
+13:41:12	log	label=omniVoice Engine|content= 'getLanguagePreference: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'getLanguagePreference: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'getLanguagePreference: Using custom file: startOfCallREF.php, and function: getLanguagePreference'	-
+13:41:12	log	label=omniVoice\omniPushState|content= 'pushing engine state'	-
+13:41:12	log	label=omniVoice\omniPushState|content= array ( 0 => stdClass::__set_state(array( 'ExitState' => 'languagePref', 'PopState' => 'callBlocking', 'NLToggle' => NULL, )), )	-
+13:41:12	log	label=omniVoice Engine|content= 'getLanguagePreference: State pushed to the stack. Using exiting to : languagePref; Will return to : callBlocking'	-
+13:41:12	log	label=omniVoice Engine|content= 'getLanguagePreference: Returning from logic. Exiting to: languagePref'	-
+13:41:12	log	label=omniVoice Engine|content= 'languagePref: Coming from getLanguagePreference'	-
+13:41:12	log	label=omniVoice Engine|content= 'languagePref: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'languagePref: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'languagePref: Returning from logic. Exiting to: DNISLanguageChecking'	-
+13:41:12	log	label=omniVoice Engine|content= 'DNISLanguageChecking: Coming from languagePref'	-
+13:41:12	log	label=omniVoice Engine|content= 'DNISLanguageChecking: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'DNISLanguageChecking: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'DNISLanguageChecking: Using custom file: languagePref.php, and function: DNISLanguageChecking'	-
+13:41:12	log	label=DNISLanguageChecking|content= 'DNISSettings_assocArray[ language ] = '	-
+13:41:12	log	label=omniVoice Engine|content= 'DNISLanguageChecking: Custom file directed exit to: languagePrefToggleCheck'	-
+13:41:12	log	label=omniVoice Engine|content= 'DNISLanguageChecking: Returning from logic. Exiting to: languagePrefToggleCheck'	-
+13:41:12	log	label=omniVoice Engine|content= 'languagePrefToggleCheck: Coming from DNISLanguageChecking'	-
+13:41:12	log	label=omniVoice Engine|content= 'languagePrefToggleCheck: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'languagePrefToggleCheck: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'languagePrefToggleCheck: Using custom file: languagePref.php, and function: languagePrefToggleCheck'	-
+13:41:12	log	label=getToggleOnOff|content= 'languagePrefToggleCheck CALLERID language_preference toggle = OFF'	-
+13:41:12	log	label=omniVoice Engine|content= 'languagePrefToggleCheck: Custom file directed exit to: languageCheckPushPopState'	-
+13:41:12	log	label=omniVoice Engine|content= 'languagePrefToggleCheck: Returning from logic. Exiting to: languageCheckPushPopState'	-
+13:41:12	log	label=omniVoice Engine|content= 'languageCheckPushPopState: Coming from languagePrefToggleCheck'	-
+13:41:12	log	label=omniVoice Engine|content= 'languageCheckPushPopState: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'languageCheckPushPopState: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'languageCheckPushPopState: Using custom file: languagePref.php, and function: languageCheckPushPopState'	-
+13:41:12	log	label=omniVoice\omniPopState|content= 'popping engine state'	-
+13:41:12	log	label=omniVoice\omniPopState|content= array ( 0 => stdClass::__set_state(array( 'ExitState' => 'languagePref', 'PopState' => 'callBlocking', 'NLToggle' => NULL, )), )	-
+13:41:12	log	label=languageCheckPushPopState|content= 'popReturnState = callBlocking'	-
+13:41:12	log	label=omniVoice Engine|content= 'languageCheckPushPopState: Custom file directed exit to: callBlocking'	-
+13:41:12	log	label=omniVoice Engine|content= 'languageCheckPushPopState: Returning from logic. Exiting to: callBlocking'	-
+13:41:12	log	label=omniVoice Engine|content= 'callBlocking: Coming from languageCheckPushPopState'	-
+13:41:12	log	label=omniVoice Engine|content= 'callBlocking: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'callBlocking: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'callBlocking: Using custom file: startOfCallREF.php, and function: callBlocking'	-
+13:41:12	log	label=omniVoice\omniPushState|content= 'pushing engine state'	-
+13:41:12	log	label=omniVoice\omniPushState|content= array ( 0 => stdClass::__set_state(array( 'ExitState' => 'callBlockingREF', 'PopState' => 'skipGreeting', 'NLToggle' => NULL, )), )	-
+13:41:12	log	label=omniVoice Engine|content= 'callBlocking: State pushed to the stack. Using exiting to : callBlockingREF; Will return to : skipGreeting'	-
+13:41:12	log	label=omniVoice Engine|content= 'callBlocking: Returning from logic. Exiting to: callBlockingREF'	-
+13:41:12	log	label=omniVoice Engine|content= 'callBlockingREF: Coming from callBlocking'	-
+13:41:12	log	label=omniVoice Engine|content= 'callBlockingREF: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'callBlockingREF: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'callBlockingREF: Returning from logic. Exiting to: callBlockingToggledREF'	-
+13:41:12	log	label=omniVoice Engine|content= 'callBlockingToggledREF: Coming from callBlockingREF'	-
+13:41:12	log	label=omniVoice Engine|content= 'callBlockingToggledREF: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'callBlockingToggledREF: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'callBlockingToggledREF: Using custom file: callBlocking.php, and function: callBlockingToggledREF'	-
+13:41:12	log	label=getToggleOnOff|content= 'callBlockingToggledREF CALLERID call_blocking toggle = OFF'	-
+13:41:12	log	label=omniVoice Engine|content= 'callBlockingToggledREF: Custom file directed exit to: callBlockingPushPopStateReturn'	-
+13:41:12	log	label=omniVoice Engine|content= 'callBlockingToggledREF: Returning from logic. Exiting to: callBlockingPushPopStateReturn'	-
+13:41:12	log	label=omniVoice Engine|content= 'callBlockingPushPopStateReturn: Coming from callBlockingToggledREF'	-
+13:41:12	log	label=omniVoice Engine|content= 'callBlockingPushPopStateReturn: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'callBlockingPushPopStateReturn: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'callBlockingPushPopStateReturn: Using custom file: callBlocking.php, and function: callBlockingPushPopStateReturn'	-
+13:41:12	log	label=omniVoice\omniPopState|content= 'popping engine state'	-
+13:41:12	log	label=omniVoice\omniPopState|content= array ( 0 => stdClass::__set_state(array( 'ExitState' => 'callBlockingREF', 'PopState' => 'skipGreeting', 'NLToggle' => NULL, )), )	-
+13:41:12	log	label=omniVoice Engine|content= 'callBlockingPushPopStateReturn: Custom file directed exit to: skipGreeting'	-
+13:41:12	log	label=omniVoice Engine|content= 'callBlockingPushPopStateReturn: Returning from logic. Exiting to: skipGreeting'	-
+13:41:12	log	label=omniVoice Engine|content= 'skipGreeting: Coming from callBlockingPushPopStateReturn'	-
+13:41:12	log	label=omniVoice Engine|content= 'skipGreeting: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'skipGreeting: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'skipGreeting: Using custom file: startOfCallREF.php, and function: skipGreeting'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: skipGreetingFromInternetEssentials='''	-
+13:41:12	log	label=omniVoice Engine|content= 'skipGreeting: Custom file directed exit to: alternateGretting'	-
+13:41:12	log	label=omniVoice Engine|content= 'skipGreeting: Returning from logic. Exiting to: alternateGretting'	-
+13:41:12	log	label=omniVoice Engine|content= 'alternateGretting: Coming from skipGreeting'	-
+13:41:12	log	label=omniVoice Engine|content= 'alternateGretting: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'alternateGretting: Starting logic of type custom.'	-
+13:41:12	log	label=omniVoice Engine|content= 'alternateGretting: Using custom file: startOfCallREF.php, and function: alternateGretting'	-
+13:41:12	log	label=omniVoice Engine|content= 'alternateGretting: Custom file directed exit to: say_REFWelcomeXfinity'	-
+13:41:12	log	label=omniVoice Engine|content= 'alternateGretting: Returning from logic. Exiting to: say_REFWelcomeXfinity'	-
+13:41:12	log	label=omniVoice Engine|content= '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'	-
+13:41:12	log	label=omniVoice Engine|content= '~~~~~Not using fingerpop~~~~~'	-
+13:41:12	log	label=omniVoice Engine|content= 'Curr:	custom'	-
+13:41:12	log	label=omniVoice Engine|content= 'Next:	say'	-
+13:41:12	log	label=omniVoice Engine|content= 'NLFoundNext:	'	-
+13:41:12	log	label=omniVoice Engine|content= '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'	-
+13:41:12	document transition	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|cpu=0.050000|normalcpu=0.050000	-
+13:41:12	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.100|documentsize=8772|outcome=success|failover=false|localport=59954|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=9073|byteswritten=490|cachedecision=n/a|method=POST	-
+13:41:12	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|fetchtype=vxml|mimetype=text/html	-
+13:41:12	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.065|documentsize=9402|outcome=success|failover=false|localport=59956|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=9703|byteswritten=426|cachedecision=nc(pragma no-cache)|method=GET	-
+13:41:12	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+13:41:12	fetch	uri=http://comcastvxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=108953|outcome=success|failover=false|hostname=comcastvxmlapps|urilength=52|cachedecision=in(Last Modified)	-
+13:41:12	document dump	URL=http://comcastvxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+13:41:12	log	label=omniVoice Engine|content= 'say_REFWelcomeXfinity: Coming from alternateGretting'	-
+13:41:12	log	label=omniVoice Engine|content= 'say_REFWelcomeXfinity: Entering state.'	-
+13:41:12	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:12	log	label=omniVoice Engine|content= 'say_REFWelcomeXfinity: Starting logic of type say.'	-
+13:41:12	log	label=omniVoice engine|content= 'Set global: lastVoiceNode='say_REFWelcomeXfinity''	-
+13:41:12	log	expr=WicStdPromptAndCollect version 1.11.0.1 (20160624)	-
+13:41:12	fetch	uri=http://comcastvxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.048|documentsize=736|outcome=success|failover=false|localport=59958|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=60|bytesread=1009|byteswritten=514|cachedecision=n/a|method=POST	-
+13:41:12	document dump	URL=http://comcastvxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+13:41:12	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/voice/en-us/REFWelcomeXfinity.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.009|documentsize=24146|outcome=success|failover=false|localport=59960|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=82|bytesread=24383|byteswritten=467|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+13:41:12	prompt	type=external|URI=http://comcastvxmlapps/clients/comcast/qa_062618/voice/en-us/REFWelcomeXfinity.wav|outcome=success	-
+13:41:15	prompt	type=filler|URI=file:///usr/local/holly/etc/defaults/silence-1.0.wav|delay=2.000|minimum=1.000|mode=foreground	-
+13:41:15	document dump	URL=/usr/local/holly/web/html/browserinfo.xml|fetchtype=data|mimetype=text/xml	-
+13:41:16	fetch	uri=http://comcastvxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.047|documentsize=1490|outcome=success|failover=false|localport=59968|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=60|bytesread=1764|byteswritten=762|cachedecision=n/a|method=POST	-
+13:41:16	document dump	URL=http://comcastvxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+13:41:16	log	expr=WicStdPromptAndCollect END	-
+13:41:16	log	label=omniVoice Engine|content= 'say_REFWelcomeXfinity: Returning from logic. Exiting to: recDisclosureSetting'	-
+13:41:16	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/voice/en-us/typing_30Sec.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.009|documentsize=232559|outcome=success|failover=false|localport=59970|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=77|bytesread=232798|byteswritten=462|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+13:41:16	prompt	type=filler|URI=../../voice/en-us/typing_30Sec.wav|delay=2.000|minimum=1.000|mode=foreground	-
+13:41:16	document transition	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|cpu=0.040000|normalcpu=0.040000	-
+13:41:16	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.076|documentsize=2337|outcome=success|failover=false|localport=59972|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=2612|byteswritten=490|cachedecision=n/a|method=POST	-
+13:41:16	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|fetchtype=vxml|mimetype=text/html	-
+13:41:16	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.059|documentsize=9402|outcome=success|failover=false|localport=59976|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=9703|byteswritten=426|cachedecision=nc(pragma no-cache)|method=GET	-
+13:41:16	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+13:41:16	log	label=omniVoice Engine|content= 'recDisclosureSetting: Coming from say_REFWelcomeXfinity'	-
+13:41:16	log	label=omniVoice Engine|content= 'recDisclosureSetting: Entering state.'	-
+13:41:16	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:16	log	label=omniVoice Engine|content= 'recDisclosureSetting: Starting logic of type custom.'	-
+13:41:16	log	label=omniVoice Engine|content= 'recDisclosureSetting: Using custom file: startOfCallREF.php, and function: recDisclosureSetting'	-
+13:41:16	log	label=omniVoice engine|content= 'Get global: caller_accountType='RES''	-
+13:41:16	log	label=omniVoice engine|content= 'Get global: caller_divisionId='99''	-
+13:41:16	log	label=omniVoice engine|content= 'Get global: caller_regionId='999''	-
+13:41:16	log	label=omniVoice engine|content= 'Get global: caller_marketId='47''	-
+13:41:16	log	label=omniVoice engine|content= 'Get global: caller_phoneNumber='''	-
+13:41:16	log	label=omniVoice engine|content= 'Get global: caller_accountNumber='''	-
+13:41:16	log	label=getRecDisclosure|content= 'recDisclosureSetting GLOBAL rec_disclosure toggle = startOfCall'	-
+13:41:16	log	label=omniVoice engine|content= 'Set global: rec_disclosure='startOfCall''	-
+13:41:16	log	label=omniVoice Engine|content= 'recDisclosureSetting: Custom file directed exit to: say_REFRecDisclosure'	-
+13:41:16	log	label=omniVoice Engine|content= 'recDisclosureSetting: Returning from logic. Exiting to: say_REFRecDisclosure'	-
+13:41:16	log	label=omniVoice Engine|content= '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'	-
+13:41:16	log	label=omniVoice Engine|content= '~~~~~Not using fingerpop~~~~~'	-
+13:41:16	log	label=omniVoice Engine|content= 'Curr:	custom'	-
+13:41:16	log	label=omniVoice Engine|content= 'Next:	say'	-
+13:41:16	log	label=omniVoice Engine|content= 'NLFoundNext:	'	-
+13:41:16	log	label=omniVoice Engine|content= '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'	-
+13:41:16	document transition	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|cpu=0.010000|normalcpu=0.010000	-
+13:41:16	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.098|documentsize=8800|outcome=success|failover=false|localport=59978|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=9101|byteswritten=490|cachedecision=n/a|method=POST	-
+13:41:16	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|fetchtype=vxml|mimetype=text/html	-
+13:41:16	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.062|documentsize=9402|outcome=success|failover=false|localport=59980|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=9703|byteswritten=426|cachedecision=nc(pragma no-cache)|method=GET	-
+13:41:16	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+13:41:16	fetch	uri=http://comcastvxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=108953|outcome=success|failover=false|hostname=comcastvxmlapps|urilength=52|cachedecision=in(Last Modified)	-
+13:41:16	document dump	URL=http://comcastvxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+13:41:16	log	label=omniVoice Engine|content= 'say_REFRecDisclosure: Coming from recDisclosureSetting'	-
+13:41:16	log	label=omniVoice Engine|content= 'say_REFRecDisclosure: Entering state.'	-
+13:41:16	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:16	log	label=omniVoice Engine|content= 'say_REFRecDisclosure: Starting logic of type say.'	-
+13:41:16	log	label=omniVoice engine|content= 'Set global: lastVoiceNode='say_REFRecDisclosure''	-
+13:41:16	log	expr=WicStdPromptAndCollect version 1.11.0.1 (20160624)	-
+13:41:16	fetch	uri=http://comcastvxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.047|documentsize=736|outcome=success|failover=false|localport=59982|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=60|bytesread=1009|byteswritten=514|cachedecision=n/a|method=POST	-
+13:41:16	document dump	URL=http://comcastvxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+13:41:16	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/voice/en-us/REFRecDisclosure.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=34464|outcome=success|failover=false|localport=59984|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=81|bytesread=34701|byteswritten=466|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+13:41:16	prompt	type=external|URI=http://comcastvxmlapps/clients/comcast/qa_062618/voice/en-us/REFRecDisclosure.wav|outcome=success	-
+13:41:20	prompt	type=filler|URI=file:///usr/local/holly/etc/defaults/silence-1.0.wav|delay=2.000|minimum=1.000|mode=foreground	-
+13:41:20	document dump	URL=/usr/local/holly/web/html/browserinfo.xml|fetchtype=data|mimetype=text/xml	-
+13:41:21	fetch	uri=http://comcastvxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.045|documentsize=1489|outcome=success|failover=false|localport=59990|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=60|bytesread=1763|byteswritten=761|cachedecision=n/a|method=POST	-
+13:41:21	document dump	URL=http://comcastvxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+13:41:21	log	expr=WicStdPromptAndCollect END	-
+13:41:21	log	label=omniVoice Engine|content= 'say_REFRecDisclosure: Returning from logic. Exiting to: omCheckIfCallerIs'	-
+13:41:21	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/voice/en-us/typing_30Sec.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.010|documentsize=232559|outcome=success|failover=false|localport=59992|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=77|bytesread=232798|byteswritten=462|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+13:41:21	prompt	type=filler|URI=../../voice/en-us/typing_30Sec.wav|delay=2.000|minimum=1.000|mode=foreground	-
+13:41:21	document transition	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|cpu=0.050000|normalcpu=0.050000	-
+13:41:21	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.081|documentsize=8207|outcome=success|failover=false|localport=59994|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=8506|byteswritten=490|cachedecision=n/a|method=POST	-
+13:41:21	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|fetchtype=vxml|mimetype=text/html	-
+13:41:21	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.060|documentsize=9402|outcome=success|failover=false|localport=59996|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=9703|byteswritten=426|cachedecision=nc(pragma no-cache)|method=GET	-
+13:41:21	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+13:41:21	log	label=omniVoice Engine|content= 'omCheckIfCallerIs: Coming from say_REFRecDisclosure'	-
+13:41:21	log	label=omniVoice Engine|content= 'omCheckIfCallerIs: Entering state.'	-
+13:41:21	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:21	log	label=omniVoice Engine|content= 'omCheckIfCallerIs: Starting logic of type custom.'	-
+13:41:21	log	label=omniVoice Engine|content= 'omCheckIfCallerIs: Using custom file: startOfCallREF.php, and function: omCheckIfCallerIs'	-
+13:41:21	log	label=omniVoice engine|content= 'Get global: caller_dnisType='CARE''	-
+13:41:21	log	label=omniVoice Engine|content= 'omCheckIfCallerIs: Custom file directed exit to: nsmCheckIfCallerIs'	-
+13:41:21	log	label=omniVoice Engine|content= 'omCheckIfCallerIs: Returning from logic. Exiting to: nsmCheckIfCallerIs'	-
+13:41:21	log	label=omniVoice Engine|content= 'nsmCheckIfCallerIs: Coming from omCheckIfCallerIs'	-
+13:41:21	log	label=omniVoice Engine|content= 'nsmCheckIfCallerIs: Entering state.'	-
+13:41:21	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:21	log	label=omniVoice Engine|content= 'nsmCheckIfCallerIs: Starting logic of type custom.'	-
+13:41:21	log	label=omniVoice Engine|content= 'nsmCheckIfCallerIs: Using custom file: startOfCallREF.php, and function: nsmCheckIfCallerIs'	-
+13:41:21	log	label=omniVoice engine|content= 'Get global: caller_dnisType='CARE''	-
+13:41:21	log	label=omniVoice Engine|content= 'nsmCheckIfCallerIs: Custom file directed exit to: languageREF'	-
+13:41:21	log	label=omniVoice Engine|content= 'nsmCheckIfCallerIs: Returning from logic. Exiting to: languageREF'	-
+13:41:21	log	label=omniVoice Engine|content= 'languageREF: Coming from nsmCheckIfCallerIs'	-
+13:41:21	log	label=omniVoice Engine|content= 'languageREF: Entering state.'	-
+13:41:21	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:21	log	label=omniVoice Engine|content= 'languageREF: Starting logic of type custom.'	-
+13:41:21	log	label=omniVoice Engine|content= 'languageREF: Returning from logic. Exiting to: pushVIPCheckFromLanguageREF'	-
+13:41:21	log	label=omniVoice Engine|content= 'pushVIPCheckFromLanguageREF: Coming from languageREF'	-
+13:41:21	log	label=omniVoice Engine|content= 'pushVIPCheckFromLanguageREF: Entering state.'	-
+13:41:21	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:21	log	label=omniVoice Engine|content= 'pushVIPCheckFromLanguageREF: Starting logic of type custom.'	-
+13:41:21	log	label=omniVoice Engine|content= 'pushVIPCheckFromLanguageREF: Using custom file: languageCheckREF.php, and function: pushVIPCheckFromLanguageREF'	-
+13:41:21	log	label=omniVoice engine|content= 'Set global: vipReturnState='languageReturnFromVIPCheckREF''	-
+13:41:21	log	label=omniVoice Engine|content= 'pushVIPCheckFromLanguageREF: Custom file directed exit to: vipCheckREF'	-
+13:41:21	log	label=omniVoice Engine|content= 'pushVIPCheckFromLanguageREF: Returning from logic. Exiting to: vipCheckREF'	-
+13:41:21	log	label=omniVoice Engine|content= 'vipCheckREF: Coming from pushVIPCheckFromLanguageREF'	-
+13:41:21	log	label=omniVoice Engine|content= 'vipCheckREF: Entering state.'	-
+13:41:21	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:21	log	label=omniVoice Engine|content= 'vipCheckREF: Starting logic of type custom.'	-
+13:41:21	log	label=omniVoice Engine|content= 'vipCheckREF: Using custom file: vipCheckREF.php, and function: vipCheckREF'	-
+13:41:21	log	label=getToggleOnOff|content= 'vipCheckREF CALLERID vip toggle = OFF'	-
+13:41:21	log	label=omniVoice Engine|content= 'vipCheckREF: Custom file directed exit to: vipPushPopStateReturn'	-
+13:41:21	log	label=omniVoice Engine|content= 'vipCheckREF: Returning from logic. Exiting to: vipPushPopStateReturn'	-
+13:41:21	log	label=omniVoice Engine|content= 'vipPushPopStateReturn: Coming from vipCheckREF'	-
+13:41:21	log	label=omniVoice Engine|content= 'vipPushPopStateReturn: Entering state.'	-
+13:41:21	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:21	log	label=omniVoice Engine|content= 'vipPushPopStateReturn: Starting logic of type custom.'	-
+13:41:21	log	label=omniVoice Engine|content= 'vipPushPopStateReturn: Using custom file: vipCheckREF.php, and function: vipPushPopStateReturn'	-
+13:41:21	log	label=omniVoice engine|content= 'Get global: vipReturnState='languageReturnFromVIPCheckREF''	-
+13:41:21	log	label=vipPushPopStateReturn|content= 'VIP Return Back To: languageReturnFromVIPCheckREF'	-
+13:41:21	log	label=omniVoice Engine|content= 'vipPushPopStateReturn: Custom file directed exit to: languageReturnFromVIPCheckREF'	-
+13:41:21	log	label=omniVoice Engine|content= 'vipPushPopStateReturn: Returning from logic. Exiting to: languageReturnFromVIPCheckREF'	-
+13:41:21	log	label=omniVoice Engine|content= 'languageReturnFromVIPCheckREF: Coming from vipPushPopStateReturn'	-
+13:41:21	log	label=omniVoice Engine|content= 'languageReturnFromVIPCheckREF: Entering state.'	-
+13:41:21	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:21	log	label=omniVoice Engine|content= 'languageReturnFromVIPCheckREF: Starting logic of type custom.'	-
+13:41:21	log	label=omniVoice Engine|content= 'languageReturnFromVIPCheckREF: Returning from logic. Exiting to: languageKnownREF'	-
+13:41:21	log	label=omniVoice Engine|content= 'languageKnownREF: Coming from languageReturnFromVIPCheckREF'	-
+13:41:21	log	label=omniVoice Engine|content= 'languageKnownREF: Entering state.'	-
+13:41:21	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:21	log	label=omniVoice Engine|content= 'languageKnownREF: Starting logic of type custom.'	-
+13:41:21	log	label=omniVoice Engine|content= 'languageKnownREF: Using custom file: languageCheckREF.php, and function: languageKnownREF'	-
+13:41:21	log	label=omniVoice engine|content= 'Get global: caller_language='''	-
+13:41:21	log	label=omniVoice Engine|content= 'languageKnownREF: Custom file directed exit to: prompt_REFSpanish'	-
+13:41:21	log	label=omniVoice Engine|content= 'languageKnownREF: Returning from logic. Exiting to: prompt_REFSpanish'	-
+13:41:21	log	label=omniVoice Engine|content= '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'	-
+13:41:21	log	label=omniVoice Engine|content= '~~~~~Not using fingerpop~~~~~'	-
+13:41:21	log	label=omniVoice Engine|content= 'Curr:	custom'	-
+13:41:21	log	label=omniVoice Engine|content= 'Next:	prompt'	-
+13:41:21	log	label=omniVoice Engine|content= 'NLFoundNext:	'	-
+13:41:21	log	label=omniVoice Engine|content= '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'	-
+13:41:21	document transition	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|cpu=0.030000|normalcpu=0.030000	-
+13:41:21	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.096|documentsize=22718|outcome=success|failover=false|localport=59998|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=23028|byteswritten=490|cachedecision=n/a|method=POST	-
+13:41:21	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|fetchtype=vxml|mimetype=text/html	-
+13:41:21	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.060|documentsize=9402|outcome=success|failover=false|localport=60000|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=9703|byteswritten=426|cachedecision=nc(pragma no-cache)|method=GET	-
+13:41:21	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+13:41:21	fetch	uri=http://comcastvxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=108953|outcome=success|failover=false|hostname=comcastvxmlapps|urilength=52|cachedecision=in(Last Modified)	-
+13:41:21	document dump	URL=http://comcastvxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+13:41:21	log	label=omniVoice Engine|content= 'prompt_REFSpanish: Coming from languageKnownREF'	-
+13:41:21	log	label=omniVoice Engine|content= 'prompt_REFSpanish: Entering state.'	-
+13:41:21	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:21	log	label=omniVoice Engine|content= 'prompt_REFSpanish: Starting logic of type prompt.'	-
+13:41:21	log	label=omniVoice engine|content= 'Set global: lastVoiceNode='prompt_REFSpanish''	-
+13:41:21	log	label=omniVoice engine|content= 'Set global: grammarStream='062618''	-
+13:41:21	log	label=omniVoice engine|content= 'Get global: grammarStream='062618''	-
+13:41:21	log	label=omniVoice Engine|content= 'Short form grammar has been found '.comcast_callerid_dtmf_Spanish''	-
+13:41:21	log	label=omniVoice\omniTransformGrammarArray|content= 'The grammar to use is = 'file:///grammar/comcast/062618/callerid/dtmf/comcast_callerid_dtmf.gram#TOP_Spanish''	-
+13:41:21	log	label=omniVoice\omniPrompt|content= 'Setting Confidence Level for prompt_REFSpanish to confidence level of 0.4'	-
+13:41:21	log	expr=WicStdPromptAndCollect version 1.11.0.1 (20160624)	-
+13:41:21	fetch	uri=http://comcastvxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.048|documentsize=736|outcome=success|failover=false|localport=60002|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=60|bytesread=1009|byteswritten=514|cachedecision=n/a|method=POST	-
+13:41:21	document dump	URL=http://comcastvxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+13:41:21	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/voice/en-us/REFSpanish.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=17792|outcome=success|failover=false|localport=60004|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=75|bytesread=18029|byteswritten=460|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+13:41:21	prompt	type=external|URI=http://comcastvxmlapps/clients/comcast/qa_062618/voice/en-us/REFSpanish.wav|outcome=success	-
+13:41:21	recognition start	inputmodes=dtmf,voice|threshold=40|timeout=2.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+13:41:25	recognition end	result=no input|inputmode=unknown	-
+13:41:25	vxml_event	event=noinput	-
+13:41:25	fetch	uri=http://comcastvxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.045|documentsize=1548|outcome=success|failover=false|localport=60008|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=60|bytesread=1822|byteswritten=836|cachedecision=n/a|method=POST	-
+13:41:25	document dump	URL=http://comcastvxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+13:41:25	fetch	uri=http://comcastvxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.047|documentsize=1439|outcome=success|failover=false|localport=60010|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=60|bytesread=1713|byteswritten=800|cachedecision=n/a|method=POST	-
+13:41:25	document dump	URL=http://comcastvxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+13:41:25	log	expr=Summary : MAXFAIL,undefined,0,1,undefined,undefined,undefined	-
+13:41:25	log	expr=WicStdPromptAndCollect END	-
+13:41:25	log	label=omniVoice Engine|content= 'prompt_REFSpanish: Returning from logic. Exiting to: languagePreferenceToggleOnREF'	-
+13:41:25	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/voice/en-us/typing_30Sec.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.010|documentsize=232559|outcome=success|failover=false|localport=60012|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=77|bytesread=232798|byteswritten=462|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+13:41:25	prompt	type=filler|URI=../../voice/en-us/typing_30Sec.wav|delay=2.000|minimum=1.000|mode=foreground	-
+13:41:25	system response	latency=0.120538	-
+13:41:25	document transition	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|cpu=0.050000|normalcpu=0.050000	-
+13:41:25	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.099|documentsize=4499|outcome=success|failover=false|localport=60014|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=4774|byteswritten=586|cachedecision=n/a|method=POST	-
+13:41:25	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|fetchtype=vxml|mimetype=text/html	-
+13:41:26	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.061|documentsize=9402|outcome=success|failover=false|localport=60016|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=9703|byteswritten=426|cachedecision=nc(pragma no-cache)|method=GET	-
+13:41:26	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+13:41:26	log	label=omniVoice Engine|content= 'languagePreferenceToggleOnREF: Coming from prompt_REFSpanish'	-
+13:41:26	log	label=omniVoice Engine|content= 'languagePreferenceToggleOnREF: Entering state.'	-
+13:41:26	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:26	log	label=omniVoice Engine|content= 'languagePreferenceToggleOnREF: Starting logic of type custom.'	-
+13:41:26	log	label=omniVoice Engine|content= 'languagePreferenceToggleOnREF: Using custom file: languageCheckREF.php, and function: languagePreferenceToggleOnREF'	-
+13:41:26	log	label=omniVoice engine|content= 'Set global: thisCallLanguagePreference='en-us''	-
+13:41:26	log	label=getToggleOnOff|content= 'languagePreferenceToggleOnREF CALLERID language_preference toggle = OFF'	-
+13:41:26	log	label=omniVoice Engine|content= 'languagePreferenceToggleOnREF: Custom file directed exit to: setCallLanguageToSelectedREF'	-
+13:41:26	log	label=omniVoice Engine|content= 'languagePreferenceToggleOnREF: Returning from logic. Exiting to: setCallLanguageToSelectedREF'	-
+13:41:26	log	label=omniVoice Engine|content= 'setCallLanguageToSelectedREF: Coming from languagePreferenceToggleOnREF'	-
+13:41:26	log	label=omniVoice Engine|content= 'setCallLanguageToSelectedREF: Entering state.'	-
+13:41:26	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:26	log	label=omniVoice Engine|content= 'setCallLanguageToSelectedREF: Starting logic of type custom.'	-
+13:41:26	log	label=omniVoice Engine|content= 'setCallLanguageToSelectedREF: Using custom file: languageCheckREF.php, and function: setCallLanguageToSelectedREF'	-
+13:41:26	log	label=omniVoice engine|content= 'Set global: languagePrefNeedUpdating='true''	-
+13:41:26	log	label=omniVoice engine|content= 'Get global: thisCallLanguagePreference='en-us''	-
+13:41:26	log	label=omniVoice Engine|content= 'Changing acoustic model from en-us to en-us'	-
+13:41:26	log	label=omniVoice engine|content= 'Set global: language_pref_last_call='en-us''	-
+13:41:26	log	label=omniVoice engine|content= 'Set global: caller_language='en-us''	-
+13:41:26	log	label=omniVoice Engine|content= 'setCallLanguageToSelectedREF: Custom file directed exit to: languageRefFlushQueue'	-
+13:41:26	log	label=omniVoice Engine|content= 'setCallLanguageToSelectedREF: Returning from logic. Exiting to: languageRefFlushQueue'	-
+13:41:26	log	label=omniVoice Engine|content= 'languageRefFlushQueue: Coming from setCallLanguageToSelectedREF'	-
+13:41:26	log	label=omniVoice Engine|content= 'languageRefFlushQueue: Entering state.'	-
+13:41:26	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:26	log	label=omniVoice Engine|content= 'languageRefFlushQueue: Starting logic of type custom.'	-
+13:41:26	log	label=omniVoice Engine|content= 'languageRefFlushQueue: Using custom file: languageCheckREF.php, and function: languageRefFlushQueue'	-
+13:41:26	prompt	type=filler|URI=file:///usr/local/holly/etc/defaults/silence-1.0.wav|delay=2.000|minimum=1.000|mode=foreground	-
+13:41:26	document dump	URL=/usr/local/holly/web/html/browserinfo.xml|fetchtype=data|mimetype=text/xml	-
+13:41:26	log	label=omniVoice Engine|content= 'languageRefFlushQueue: Custom file directed exit to: languageREFASRResourceAvailable'	-
+13:41:26	log	label=omniVoice Engine|content= 'languageRefFlushQueue: No custom file defined. Using flow to define exit: languageREFASRResourceAvailable'	-
+13:41:26	log	label=omniVoice Engine|content= 'languageRefFlushQueue: Returning from logic. Exiting to: languageREFASRResourceAvailable'	-
+13:41:26	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/voice/en-us/typing_30Sec.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.009|documentsize=232559|outcome=success|failover=false|localport=60018|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=77|bytesread=232798|byteswritten=462|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+13:41:26	prompt	type=filler|URI=../../voice/en-us/typing_30Sec.wav|delay=2.000|minimum=1.000|mode=foreground	-
+13:41:26	document transition	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|cpu=0.030000|normalcpu=0.030000	-
+13:41:26	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.089|documentsize=14717|outcome=success|failover=false|localport=60020|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=15019|byteswritten=623|cachedecision=n/a|method=POST	-
+13:41:26	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|fetchtype=vxml|mimetype=text/html	-
+13:41:26	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.063|documentsize=9402|outcome=success|failover=false|localport=60022|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=9703|byteswritten=426|cachedecision=nc(pragma no-cache)|method=GET	-
+13:41:26	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+13:41:26	log	label=omniVoice Engine|content= 'languageREFASRResourceAvailable: Coming from languageRefFlushQueue'	-
+13:41:26	log	label=omniVoice Engine|content= 'languageREFASRResourceAvailable: Entering state.'	-
+13:41:26	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:26	log	label=omniVoice Engine|content= 'languageREFASRResourceAvailable: Starting logic of type custom.'	-
+13:41:26	log	label=omniVoice Engine|content= 'languageREFASRResourceAvailable: Using custom file: languageCheckREF.php, and function: languageREFASRResourceAvailable'	-
+13:41:26	log	label=languageREFASRResourceAvailable|content= 'asr_sessionid is 'FLBJGPCFAAADJCBMAAAAAAAA|address=10.27.131.82:554|server=Nuance Open Speech Recognizer for MRCPv1''	-
+13:41:26	log	label=omniVoice Engine|content= 'languageREFASRResourceAvailable: Custom file directed exit to: goToANICEDChecksREF'	-
+13:41:26	log	label=omniVoice Engine|content= 'languageREFASRResourceAvailable: Returning from logic. Exiting to: goToANICEDChecksREF'	-
+13:41:26	log	label=omniVoice Engine|content= 'goToANICEDChecksREF: Coming from languageREFASRResourceAvailable'	-
+13:41:26	log	label=omniVoice Engine|content= 'goToANICEDChecksREF: Entering state.'	-
+13:41:26	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:26	log	label=omniVoice Engine|content= 'goToANICEDChecksREF: Starting logic of type custom.'	-
+13:41:26	log	label=omniVoice Engine|content= 'goToANICEDChecksREF: Returning from logic. Exiting to: ANICEDChecksREF'	-
+13:41:26	log	label=omniVoice Engine|content= 'ANICEDChecksREF: Coming from goToANICEDChecksREF'	-
+13:41:26	log	label=omniVoice Engine|content= 'ANICEDChecksREF: Entering state.'	-
+13:41:26	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:26	log	label=omniVoice Engine|content= 'ANICEDChecksREF: Starting logic of type custom.'	-
+13:41:26	log	label=omniVoice Engine|content= 'ANICEDChecksREF: Returning from logic. Exiting to: ANICEDGetUUI'	-
+13:41:26	log	label=omniVoice Engine|content= 'ANICEDGetUUI: Coming from ANICEDChecksREF'	-
+13:41:26	log	label=omniVoice Engine|content= 'ANICEDGetUUI: Entering state.'	-
+13:41:26	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:26	log	label=omniVoice Engine|content= 'ANICEDGetUUI: Starting logic of type custom.'	-
+13:41:26	log	label=omniVoice Engine|content= 'ANICEDGetUUI: Using custom file: ANICEDChecks.php, and function: ANICEDGetUUI'	-
+13:41:26	log	label=omniVoice\omniPushState|content= 'pushing engine state'	-
+13:41:26	log	label=omniVoice\omniPushState|content= array ( 0 => stdClass::__set_state(array( 'ExitState' => 'uuiAvailable', 'PopState' => 'fullOrPartialAccountReturned', 'NLToggle' => NULL, )), )	-
+13:41:26	log	label=omniVoice Engine|content= 'ANICEDGetUUI: State pushed to the stack. Using exiting to : uuiAvailable; Will return to : fullOrPartialAccountReturned'	-
+13:41:26	log	label=omniVoice Engine|content= 'ANICEDGetUUI: Returning from logic. Exiting to: uuiAvailable'	-
+13:41:26	log	label=omniVoice Engine|content= 'uuiAvailable: Coming from ANICEDGetUUI'	-
+13:41:26	log	label=omniVoice Engine|content= 'uuiAvailable: Entering state.'	-
+13:41:26	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:26	log	label=omniVoice Engine|content= 'uuiAvailable: Starting logic of type custom.'	-
+13:41:26	log	label=omniVoice Engine|content= 'uuiAvailable: Using custom file: uuiREF.php, and function: uuiAvailable'	-
+13:41:26	log	label=omniVoice engine|content= 'Get global: incomingUUIRaw='1,,,,,,e0201806071337030000ba141a4450c3,,,,''	-
+13:41:26	log	label=omniVoice engine|content= 'Set global: incomingUUIParsed='1,,,N,,,00ba141a4450c3,,,N,''	-
+13:41:26	log	label=uuiAvailable|content= 'UUI formatID = 1'	-
+13:41:26	log	label=uuiAvailable|content= 'UUI sessionID = 00ba141a4450c3'	-
+13:41:26	log	label=uuiAvailable|content= 'UUI is available and follow the rule '	-
+13:41:26	log	label=omniVoice engine|content= 'Get global: incomingUUIParsed='1,,,N,,,00ba141a4450c3,,,N,''	-
+13:41:26	log	label=omniVoice Engine|content= 'uuiAvailable: Custom file directed exit to: uuiHaveAccountNumber'	-
+13:41:26	log	label=omniVoice Engine|content= 'uuiAvailable: Returning from logic. Exiting to: uuiHaveAccountNumber'	-
+13:41:26	log	label=omniVoice Engine|content= 'uuiHaveAccountNumber: Coming from uuiAvailable'	-
+13:41:26	log	label=omniVoice Engine|content= 'uuiHaveAccountNumber: Entering state.'	-
+13:41:26	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:26	log	label=omniVoice Engine|content= 'uuiHaveAccountNumber: Starting logic of type custom.'	-
+13:41:26	log	label=omniVoice Engine|content= 'uuiHaveAccountNumber: Using custom file: uuiREF.php, and function: uuiHaveAccountNumber'	-
+13:41:26	log	label=omniVoice engine|content= 'Get global: incomingUUIParsed='1,,,N,,,00ba141a4450c3,,,N,''	-
+13:41:26	log	label=omniVoice Engine|content= 'uuiHaveAccountNumber: Custom file directed exit to: uuiPopReturnState'	-
+13:41:26	log	label=omniVoice Engine|content= 'uuiHaveAccountNumber: Returning from logic. Exiting to: uuiPopReturnState'	-
+13:41:26	log	label=omniVoice Engine|content= 'uuiPopReturnState: Coming from uuiHaveAccountNumber'	-
+13:41:26	log	label=omniVoice Engine|content= 'uuiPopReturnState: Entering state.'	-
+13:41:26	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:26	log	label=omniVoice Engine|content= 'uuiPopReturnState: Starting logic of type custom.'	-
+13:41:26	log	label=omniVoice Engine|content= 'uuiPopReturnState: Using custom file: uuiREF.php, and function: uuiPopReturnState'	-
+13:41:26	log	label=omniVoice\omniPopState|content= 'popping engine state'	-
+13:41:26	log	label=omniVoice\omniPopState|content= array ( 0 => stdClass::__set_state(array( 'ExitState' => 'uuiAvailable', 'PopState' => 'fullOrPartialAccountReturned', 'NLToggle' => NULL, )), )	-
+13:41:26	log	label=omniVoice Engine|content= 'uuiPopReturnState: Custom file directed exit to: fullOrPartialAccountReturned'	-
+13:41:26	log	label=omniVoice Engine|content= 'uuiPopReturnState: Returning from logic. Exiting to: fullOrPartialAccountReturned'	-
+13:41:26	log	label=omniVoice Engine|content= 'fullOrPartialAccountReturned: Coming from uuiPopReturnState'	-
+13:41:26	log	label=omniVoice Engine|content= 'fullOrPartialAccountReturned: Entering state.'	-
+13:41:26	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:26	log	label=omniVoice Engine|content= 'fullOrPartialAccountReturned: Starting logic of type custom.'	-
+13:41:26	log	label=omniVoice Engine|content= 'fullOrPartialAccountReturned: Using custom file: ANICEDChecks.php, and function: fullOrPartialAccountReturned'	-
+13:41:26	log	label=omniVoice engine|content= 'Get global: addressNeedsConfirm='''	-
+13:41:26	log	label=omniVoice Engine|content= 'fullOrPartialAccountReturned: Custom file directed exit to: flaggedAsValidANI'	-
+13:41:26	log	label=omniVoice Engine|content= 'fullOrPartialAccountReturned: Returning from logic. Exiting to: flaggedAsValidANI'	-
+13:41:26	log	label=omniVoice Engine|content= 'flaggedAsValidANI: Coming from fullOrPartialAccountReturned'	-
+13:41:26	log	label=omniVoice Engine|content= 'flaggedAsValidANI: Entering state.'	-
+13:41:26	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:26	log	label=omniVoice Engine|content= 'flaggedAsValidANI: Starting logic of type custom.'	-
+13:41:26	log	label=omniVoice Engine|content= 'flaggedAsValidANI: Using custom file: ANICEDChecks.php, and function: flaggedAsValidANI'	-
+13:41:26	log	label=omniVoice engine|content= 'Get global: caller_validANI='false''	-
+13:41:26	log	label=omniVoice engine|content= 'Set global: accountFoundBasedByANI='false''	-
+13:41:26	log	label=omniVoice Engine|content= 'flaggedAsValidANI: Custom file directed exit to: ANICEDgoToCallerIDInfoREF'	-
+13:41:26	log	label=omniVoice Engine|content= 'flaggedAsValidANI: Returning from logic. Exiting to: ANICEDgoToCallerIDInfoREF'	-
+13:41:26	log	label=omniVoice Engine|content= 'ANICEDgoToCallerIDInfoREF: Coming from flaggedAsValidANI'	-
+13:41:26	log	label=omniVoice Engine|content= 'ANICEDgoToCallerIDInfoREF: Entering state.'	-
+13:41:26	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:26	log	label=omniVoice Engine|content= 'ANICEDgoToCallerIDInfoREF: Starting logic of type custom.'	-
+13:41:26	log	label=omniVoice Engine|content= 'ANICEDgoToCallerIDInfoREF: Returning from logic. Exiting to: getPhnAccntNum'	-
+13:41:26	log	label=omniVoice Engine|content= 'getPhnAccntNum: Coming from ANICEDgoToCallerIDInfoREF'	-
+13:41:26	log	label=omniVoice Engine|content= 'getPhnAccntNum: Entering state.'	-
+13:41:26	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:26	log	label=omniVoice Engine|content= 'getPhnAccntNum: Starting logic of type custom.'	-
+13:41:26	log	label=omniVoice Engine|content= 'getPhnAccntNum: Returning from logic. Exiting to: thirdTimeThroughCallerIDInfo'	-
+13:41:26	log	label=omniVoice Engine|content= 'thirdTimeThroughCallerIDInfo: Coming from getPhnAccntNum'	-
+13:41:26	log	label=omniVoice Engine|content= 'thirdTimeThroughCallerIDInfo: Entering state.'	-
+13:41:26	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:26	log	label=omniVoice Engine|content= 'thirdTimeThroughCallerIDInfo: Starting logic of type custom.'	-
+13:41:26	log	label=omniVoice Engine|content= 'thirdTimeThroughCallerIDInfo: Using custom file: getPhnAccntNum.php, and function: thirdTimeThroughCallerIDInfo'	-
+13:41:26	log	label=thirdTimeThroughCallerIDInfo|content= '3x Through Here? 1'	-
+13:41:26	log	label=omniVoice engine|content= 'Set global: fromLearnVIPFast='false''	-
+13:41:26	log	label=omniVoice Engine|content= 'thirdTimeThroughCallerIDInfo: Custom file directed exit to: setupPromptREFChooseID'	-
+13:41:26	log	label=omniVoice Engine|content= 'thirdTimeThroughCallerIDInfo: Returning from logic. Exiting to: setupPromptREFChooseID'	-
+13:41:26	log	label=omniVoice Engine|content= 'setupPromptREFChooseID: Coming from thirdTimeThroughCallerIDInfo'	-
+13:41:26	log	label=omniVoice Engine|content= 'setupPromptREFChooseID: Entering state.'	-
+13:41:26	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:26	log	label=omniVoice Engine|content= 'setupPromptREFChooseID: Starting logic of type custom.'	-
+13:41:26	log	label=omniVoice Engine|content= 'setupPromptREFChooseID: Using custom file: getPhnAccntNum.php, and function: setupPromptREFChooseID'	-
+13:41:26	log	label=setupPromptREFChooseID|content= 'DNISSettings_assocArray[ advanced_products ] = '	-
+13:41:26	log	label=omniVoice engine|content= 'Get global: callerIDInfoTabCount=1'	-
+13:41:26	log	label=omniVoice engine|content= 'Get global: multi_account_list_flag='''	-
+13:41:26	log	label=omniVoice engine|content= 'Get global: flag_inputEntered='''	-
+13:41:26	log	label=setupPromptREFChooseID|content= 'Normal Caller'	-
+13:41:26	log	label=setupPromptREFChooseID|content= 'Using grammar: .comcast_callerid_en-us_ChooseIDNewCust and .comcast_callerid_dtmf_ChooseIDNewCust'	-
+13:41:26	log	label=omniVoice engine|content= 'Set global: phoneNumberFlag='true''	-
+13:41:26	log	label=omniVoice engine|content= 'Set global: newCustomerPromptFlag='true''	-
+13:41:26	log	label=omniVoice engine|content= 'Set global: iDontKnowFlag='false''	-
+13:41:26	log	label=omniVoice engine|content= 'Set global: flag_heardREFChooseID='yes''	-
+13:41:26	log	label=omniVoice Engine|content= 'setupPromptREFChooseID: Custom file directed exit to: prompt_REFChooseID'	-
+13:41:26	log	label=omniVoice Engine|content= 'setupPromptREFChooseID: Returning from logic. Exiting to: prompt_REFChooseID'	-
+13:41:26	log	label=omniVoice Engine|content= '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'	-
+13:41:26	log	label=omniVoice Engine|content= '~~~~~Not using fingerpop~~~~~'	-
+13:41:26	log	label=omniVoice Engine|content= 'Curr:	custom'	-
+13:41:26	log	label=omniVoice Engine|content= 'Next:	prompt'	-
+13:41:26	log	label=omniVoice Engine|content= 'NLFoundNext:	'	-
+13:41:26	log	label=omniVoice Engine|content= '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'	-
+13:41:26	document transition	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|cpu=0.020000|normalcpu=0.020000	-
+13:41:26	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.104|documentsize=50309|outcome=success|failover=false|localport=60024|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=50650|byteswritten=490|cachedecision=n/a|method=POST	-
+13:41:26	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|fetchtype=vxml|mimetype=text/html	-
+13:41:26	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.059|documentsize=9402|outcome=success|failover=false|localport=60026|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=9703|byteswritten=426|cachedecision=nc(pragma no-cache)|method=GET	-
+13:41:26	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+13:41:26	fetch	uri=http://comcastvxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=108953|outcome=success|failover=false|hostname=comcastvxmlapps|urilength=52|cachedecision=in(Last Modified)	-
+13:41:26	document dump	URL=http://comcastvxmlapps/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+13:41:26	log	label=omniVoice Engine|content= 'prompt_REFChooseID: Coming from setupPromptREFChooseID'	-
+13:41:26	log	label=omniVoice Engine|content= 'prompt_REFChooseID: Entering state.'	-
+13:41:26	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:26	log	label=omniVoice Engine|content= 'prompt_REFChooseID: Starting logic of type prompt.'	-
+13:41:26	log	label=omniVoice engine|content= 'Set global: lastVoiceNode='prompt_REFChooseID''	-
+13:41:26	log	label=omniVoice engine|content= 'Get global: grammarStream='062618''	-
+13:41:26	log	label=omniVoice Engine|content= 'Short form grammar has been found '.comcast_callerid_en-us_ChooseIDNewCust''	-
+13:41:26	log	label=omniVoice\omniTransformGrammarArray|content= 'The grammar to use is = 'file:///grammar/comcast/062618/callerid/en-us/comcast_callerid_en-us.gram#TOP_ChooseIDNewCust''	-
+13:41:26	log	label=omniVoice engine|content= 'Get global: grammarStream='062618''	-
+13:41:26	log	label=omniVoice Engine|content= 'Short form grammar has been found '.comcast_callerid_dtmf_ChooseIDNewCust''	-
+13:41:26	log	label=omniVoice\omniTransformGrammarArray|content= 'The grammar to use is = 'file:///grammar/comcast/062618/callerid/dtmf/comcast_callerid_dtmf.gram#TOP_ChooseIDNewCust''	-
+13:41:26	log	label=omniVoice\omniPrompt|content= 'Setting Confidence Level for prompt_REFChooseID to confidence level of 0.4'	-
+13:41:26	log	label=omniVoice Engine|content= 'newCustomerPromptFlag:true == true ? (true)'	-
+13:41:26	log	label=omniVoice Engine|content= 'newCustomerPromptFlag:true == true ? (true)'	-
+13:41:26	log	label=omniVoice Engine|content= 'newCustomerPromptFlag:true == true ? (true)'	-
+13:41:26	log	label=omniVoice Engine|content= 'newCustomerPromptFlag:true == true ? (true)'	-
+13:41:26	log	label=omniVoice Engine|content= 'newCustomerPromptFlag:true == true ? (true)'	-
+13:41:26	log	label=omniVoice Engine|content= 'newCustomerPromptFlag:true == true ? (true)'	-
+13:41:26	log	label=omniVoice Engine|content= 'newCustomerPromptFlag:true == true ? (true)'	-
+13:41:26	log	expr=WicStdPromptAndCollect version 1.11.0.1 (20160624)	-
+13:41:26	fetch	uri=http://comcastvxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.048|documentsize=736|outcome=success|failover=false|localport=60028|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=60|bytesread=1009|byteswritten=514|cachedecision=n/a|method=POST	-
+13:41:26	document dump	URL=http://comcastvxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+13:41:26	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/voice/en-us/REFChooseID_1.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=39258|outcome=success|failover=false|localport=60030|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=78|bytesread=39495|byteswritten=463|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+13:41:26	prompt	type=external|URI=http://comcastvxmlapps/clients/comcast/qa_062618/voice/en-us/REFChooseID_1.wav|outcome=success	-
+13:41:26	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/voice/en-us/REFChooseID_2.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=39304|outcome=success|failover=false|localport=60032|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=78|bytesread=39541|byteswritten=463|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+13:41:26	prompt	type=external|URI=http://comcastvxmlapps/clients/comcast/qa_062618/voice/en-us/REFChooseID_2.wav|outcome=success	-
+13:41:26	recognition start	inputmodes=dtmf,voice|threshold=40|timeout=5.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=1.500|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+13:41:39	recognition end	result=disconnect|inputmode=unknown|reason=no reason supplied	-
+13:41:39	vxml_event	event=connection.disconnect.hangup|message=no reason supplied	-
+13:41:39	fetch	uri=http://comcastvxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.046|documentsize=1555|outcome=success|failover=false|localport=60042|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=60|bytesread=1829|byteswritten=843|cachedecision=n/a|method=POST	-
+13:41:39	document dump	URL=http://comcastvxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+13:41:39	log	expr=Summary : HANGUP,undefined,0,0,undefined,undefined,undefined	-
+13:41:39	log	expr=WicStdPromptAndCollect END	-
+13:41:39	vxml_event	event=wicstd.hangup.pnc|message=Hangup caught in PnC collect phase	-
+13:41:39	log	content=In root	-
+13:41:39	log	content=Event: wicstd.hangup.pnc	-
+13:41:39	log	content=Message: Hangup caught in PnC collect phase	-
+13:41:39	document transition	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/loop.php|cpu=0.060000|normalcpu=0.060000	-
+13:41:40	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/end.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.581|documentsize=82821|outcome=success|failover=false|localport=60044|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=66|bytesread=83139|byteswritten=420|cachedecision=nc(pragma no-cache)|method=GET	-
+13:41:40	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/end.php|fetchtype=vxml|mimetype=text/html	-
+13:41:40	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.061|documentsize=9402|outcome=success|failover=false|localport=60048|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=9703|byteswritten=426|cachedecision=nc(pragma no-cache)|method=GET	-
+13:41:40	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/vxml/eivr/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+13:41:40	log	content=RECORDING OFF (SUCC) : /usr/vc/48/4835/t.4835.158.2018134023.4009.680	-
+13:41:40	prompt	status=disconnected|reason=no reason supplied	-
+13:41:40	log	content=FULL_CALL_RECORDING: OFF	-
+13:41:40	log	content=FULL CALL RECORDING DISCARD (SUCC)	-
+13:41:40	log	content=end.php	-
+13:41:40	fetch	uri=http://comcastvxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.049|documentsize=1157|outcome=success|failover=false|localport=60050|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=60|bytesread=1431|byteswritten=644|cachedecision=n/a|method=POST	-
+13:41:40	document dump	URL=http://comcastvxmlapps/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+13:41:40	log	label=endOfCallProcessing|content= 'checking...'	-
+13:41:40	log	label=omniVoice engine|content= 'Get global: flag_isAdvancedServicesCall='''	-
+13:41:40	log	label=omniVoice engine|content= 'Get global: caller_accountType='RES''	-
+13:41:40	log	label=getSanitizedDASAccountType|content= 'Unsanitized DAS_accountType = RES'	-
+13:41:40	log	label=getSanitizedDASAccountType|content= 'Sanitized DAS_accountType = RES'	-
+13:41:40	log	label=omniVoice engine|content= 'Set global: caller_accountType='RES''	-
+13:41:40	log	label=omniVoice engine|content= 'Get global: eagleEyeStart='''	-
+13:41:40	log	label=omniVoice engine|content= 'Get global: caller_delinquent_PendingPay='''	-
+13:41:40	log	label=omniVoice Engine|content= 'Failover strategy Not Found (DB, BALANCE).'	-
+13:41:40	log	label=ERROR|content= 'AppGenError,Invalid argument (value): cannot be empty; thrown in getServiceArea():getServicearea.php:39'	-
+13:41:40	log	label=omniVoice Engine|content= 'Failover strategy Not Found (DB, BALANCE).'	-
+13:41:40	log	label=getServiceArea|content= 'get_serviceability_area input parameters = Array ( [0] => MARKET [1] => 47 ) '	-
+13:41:40	log	label=omniVoice Engine Strategy DB|content= 'serviceability request: array ( 0 => 'MARKET', 1 => '47', )'	-
+13:41:40	log	label=HandleRequest|content= 'REQUEST = '\'MARKET\',\'47\'''	-
+13:41:40	log	label=omniVoice Engine|content= 'serviceability Primary Server ibm91_spy on comcast'	-
+13:41:40	log	label=omniVoice Engine|content= 'serviceability Secondary Server ibm91_spy'	-
+13:41:40	log	label=omniVoice Engine|content= 'serviceability Tertiary Server ibm91_spy'	-
+13:41:40	log	label=omniVoice Engine|content= 'serviceability response took 0.050 sec'	-
+13:41:40	log	label=omniVoice Engine|content= 'request='\'MARKET\',\'47\'''	-
+13:41:40	log	label=omniVoice Engine|content= 'response=array ( 0 => array ( 0 => 'FOUND', 1 => '0', 2 => '0', 3 => '3', 4 => 'West', 5 => '19', 6 => 'Non-Serviceable West', 7 => '47', 8 => 'Unknown Nonserv West', 9 => '10800', 10 => array ( ), 11 => 'NONE', 12 => array ( ), ), )'	-
+13:41:40	log	label=transaction info|content= 'array ( 'nodeName' => 'serviceability', 'type' => 'DB', 'getRequestFunc' => 'getServiceArea', 'parseResponseFunc' => 'parseServiceArea', 'transactionFile' => 'getServicearea.php', 'DBStoredProc' => 'get_serviceability_area_3', 'alwaysReturnsRows' => 'true', 'DBParams' => 'app_db_read_only', )'	-
+13:41:40	log	label=omniVoice\COMCAST_TXLLOG_DATA_REQUEST|content= 'serviceability:DB:success:1528393223,4009,680,29'	-
+13:41:40	log	label=omniVoice\COMCAST_TXLLOG_DATA_REQUEST_RESPONSE|content= 'data sent: array ( 0 => 'param0=MARKET', 1 => 'param1=47', )'	-
+13:41:40	log	label=parseServiceArea|content= 'DBResp = Array ( [0] => Array ( [0] => FOUND [1] => 0 [2] => 0 [3] => 3 [4] => West [5] => 19 [6] => Non-Serviceable West [7] => 47 [8] => Unknown Nonserv West [9] => 10800 [10] => Array ( ) [11] => NONE [12] => Array ( ) ) ) '	-
+13:41:40	log	label=omniVoice engine|content= 'Set global: serviceabilityFound='true''	-
+13:41:40	log	label=omniVoice engine|content= 'Set global: caller_divisionName='West''	-
+13:41:40	log	label=omniVoice engine|content= 'Set global: caller_regionName='Non-Serviceable West''	-
+13:41:40	log	label=omniVoice engine|content= 'Set global: caller_marketName='Unknown Nonserv West''	-
+13:41:40	log	label=omniVoice engine|content= 'Get global: caller_accountType='RES''	-
+13:41:40	log	label=omniVoice engine|content= 'Get global: CDR_appCoE='OTHR''	-
+13:41:40	log	label=omniVoice engine|content= 'Get global: caller_selectedLOB='''	-
+13:41:40	log	label=omniVoice engine|content= 'Get global: caller_accountNumber='''	-
+13:41:40	log	label=endOfCall_MultiDimensionalLogging|content= 'Multidimensional Logging: Division=West^Region=Non-Serviceable West'	-
+13:41:40	log	label=endOfCall_MultiDimensionalLogging|content= 'Multidimensional Logging: Market=Unknown Nonserv West^ServiceType=RES^FinalNLTag='	-
+13:41:40	log	label=endOfCall_MultiDimensionalLogging|content= 'Multidimensional Logging Final: CoE=OTHR^Language=en-us^LOB=^CodeVersion=062618'	-
+13:41:40	log	label=endOfCallProcessing|content= 'Beginning delayed TXL logging'	-
+13:41:40	log	label=endOfCallDelayedTXLLogging|content= 'pulling app settings'	-
+13:41:40	log	label=endOfCallDelayedTXLLogging|content= 'app settings: AccessTrackingArray\AccessTrackingArray::__set_state(array( 'internalArray' => array ( 'ACTIVATION' => AccessTrackingArray\AccessTrackingArray::__set_state(array( 'internalArray' => array ( 'toggle' => AccessTrackingArray\AccessTrackingArray::__set_state(array( 'internalArray' => array ( 'activation_agent' => 'OFF', 'activation_check' => 'OFF', 'activations_refactor' => 'OFF', 'agent_activating_reminder' => 'OFF', 'facebook_activation' => 'OFF', 'x1_act_sms' => 'OFF', ), 'accessed' => array ( ), 'nodename' => 'toggle', )), ), 'accessed' => array ( 'toggle' => true, ), 'nodename' => 'ACTIVATION', )), 'APPOINTMENTS' => AccessTrackingArray\AccessTrackingArray::__set_state(array( 'internalArray' => array ( 'allocation' => AccessTrackingArray\AccessTrackingArray::__set_state(array( 'internalArray' => array ( 'appointment_last_X_hrs' => '0', 'appt_last_X_hrs_cancelled' => '0', ), 'accessed' => array ( ), 'nodename' => 'allocation', )), 'toggle' => AccessTrackingArray\AccessTrackingArray::__set_state(array( 'internalArray' => array ( 'aaw_market' => 'OFF', 'aaw_sameday_appt' => 'OFF', 'appointment_cancel_ani_block' => 'ON', 'appointment_confirmation_sms' => 'ON', 'appointment_questions' => 'OFF', 'appointment_reschedule' => 'OFF', 'appointment_reschedule_ani_block' => 'OFF', 'appointments_module' => 'OFF', 'appt_confirmation_sms_2way' => 'OFF', 'eta_callback' => 'OFF',	-
+13:41:40	log	label=endOfCallDelayedTXLLogging|content= 'app settings is an AccessTrackingArray '	-
+13:41:40	log	label=endOfCallDelayedTXLLogging|content= 'DataReceived would be the following: array ( 0 => 'CALLERID,allocation,full_call_recording=0', )'	-
+13:41:40	log	label=endOfCallDelayedTXLLogging|content= 'delayedLogEntries is: array ( 'appSettings' => DelayedLogging\DelayedLogging::__set_state(array( 'nodename' => 'appSettings', 'requestType' => 'DB', 'status' => 'success', 'hostkey' => '', 'dataSentArr' => array ( 0 => 'param0=EIVR', 1 => 'param1=RES', 2 => 'param2=1', 3 => 'param3=99', 4 => 'param4=999', 5 => 'param5=47', 6 => 'param6=', 7 => 'param7=', 8 => 'param8=', 9 => 'param9=', 10 => 'param10=', 11 => 'param11=13:37', 12 => 'param12=4', ), 'dataRecvArr' => array ( 0 => 'col0=FOUND', 1 => 'col1=0', 2 => 'col2=0', 3 => 'col3=ACTIVATION', 4 => 'col4=toggle', 5 => 'col5=activation_agent', 6 => 'col6=OFF', 7 => 'col0=FOUND', 8 => 'col1=0', 9 => 'col2=0', 10 => 'col3=ACTIVATION', 11 => 'col4=toggle', 12 => 'col5=activation_check', 13 => 'col6=OFF', 14 => 'col0=FOUND', 15 => 'col1=0', 16 => 'col2=0', 17 => 'col3=ACTIVATION', 18 => 'col4=toggle', 19 => 'col5=activations_refactor', 20 => 'col6=OFF', 21 => 'col0=FOUND', 22 => 'col1=0', 23 => 'col2=0', 24 => 'col3=ACTIVATION', 25 => 'col4=toggle', 26 => 'col5=agent_activating_reminder', 27 => 'col6=OFF', 28 => 'col0=FOUND', 29 => 'col1=0', 30 => 'col2=0', 31 => 'col3=ACTIVATION', 32 => 'col4=toggle', 33 => 'col5=facebook_activation', 34 => 'col6=OFF', 35 => 'col0=FOUND', 36 => 'col1=0', 37 => 'col2=0', 38 => 'col3=ACTIVATION', 39 => 'col4=toggle', 40 => 'col5=x1_act_sms', 41 => 'col6=OFF', 42 => 'col0=FOUND', 43 => 'col1=0', 44 => 'col2=0', 45 => 'col3=APPOINTMENTS', 46 => 'col4=allocation', 47 => 'col5=appointment_last_X_hrs', 48 => 'col6=0', 49 => 'col0=FO	-
+13:41:40	log	label=endOfCallDelayedTXLLogging|content= 'About to execute delayed logging'	-
+13:41:40	log	label=doLog|content= 'COMCAST_TXLLOG_DATA_REQUEST_RESPONSE('appSettings''DB''success'''array ( 0 => 'param0=EIVR', 1 => 'param1=RES', 2 => 'param2=1', 3 => 'param3=99', 4 => 'param4=999', 5 => 'param5=47', 6 => 'param6=', 7 => 'param7=', 8 => 'param8=', 9 => 'param9=', 10 => 'param10=', 11 => 'param11=13:37', 12 => 'param12=4', )array ( 0 => 'CALLERID,allocation,full_call_recording=0', )15283930251528393025);'	-
+13:41:40	log	label=omniVoice\COMCAST_TXLLOG_DATA_REQUEST|content= 'appSettings:DB:success:1528393223,4009,680,34'	-
+13:41:40	log	label=omniVoice\COMCAST_TXLLOG_DATA_REQUEST_RESPONSE|content= 'data sent: array ( 0 => 'param0=EIVR', 1 => 'param1=RES', 2 => 'param2=1', 3 => 'param3=99', 4 => 'param4=999', 5 => 'param5=47', 6 => 'param6=', 7 => 'param7=', 8 => 'param8=', 9 => 'param9=', 10 => 'param10=', 11 => 'param11=13:37', 12 => 'param12=4', )'	-
+13:41:40	log	label=omniVoice engine|content= 'Get global: languagePrefNeedUpdating='true''	-
+13:41:40	log	label=omniVoice engine|content= 'Get global: spanishLanguageCounter='0''	-
+13:41:40	log	label=omniVoice engine|content= 'Get global: englishLanguageCounter='0''	-
+13:41:40	log	label=omniVoice engine|content= 'Get global: language_pref_last_call='en-us''	-
+13:41:40	log	label=omniVoice engine|content= 'Get global: language_preference='''	-
+13:41:40	log	label=omniVoice Engine|content= 'Failover strategy Not Found (DB, BALANCE).'	-
+13:41:40	log	label=omniVoice Engine|content= 'Failover strategy Not Found (DB, BALANCE).'	-
+13:41:40	log	label=isPhoneNumber|content= 'Validate Class: isPhoneNumber'	-
+13:41:40	log	label=isPhoneNumber|content= 'aniMatchNANP = '	-
+13:41:40	log	label=omniVoice engine|content= 'Get global: lastCall_HSI_ResetSuccess='''	-
+13:41:40	log	label=omniVoice engine|content= 'Get global: lastCall_VID_ResetSuccess='''	-
+13:41:40	log	label=omniVoice engine|content= 'Get global: lastCall_CDV_ResetSuccess='''	-
+13:41:40	log	label=omniVoice engine|content= 'Get global: lastCall_XH_ResetSuccess='''	-
+13:41:40	log	label=omniVoice engine|content= 'Get global: lastCall_UDB_RefreshSuccess='''	-
+13:41:40	log	label=omniVoice engine|content= 'Get global: lookupDoneBy='''	-
+13:41:40	log	label=omniVoice engine|content= 'Get global: caller_accountNumber='''	-
+13:41:40	log	label=omniVoice engine|content= 'Get global: activeAccountFound='''	-
+13:41:40	log	label=nl_tags|content= 'array ( )'	-
+13:41:40	log	label=omniVoice engine|content= 'Get global: flag_npsSurvey='no''	-
+13:41:40	log	label=getToggleOnOff|content= 'endOfCallProcessing TRANSFER nps toggle = OFF'	-
+13:41:40	log	label=endOfCallProcessing|content= 'nps toggle =OFF'	-
+13:41:40	log	label=omniVoice engine|content= 'Get global: caller_accountNumber='''	-
+13:41:40	log	label=omniVoice engine|content= 'Get global: caller_selectedLOB='''	-
+13:41:40	log	label=omniVoice Engine|content= 'Failover strategy Not Found (DB, BALANCE).'	-
+13:41:40	log	label=omniVoice Engine Strategy DB|content= 'UUIIVRData request: array ( 0 => '', 1 => 'CallerID', 2 => '', 3 => '', 4 => '', )'	-
+13:41:40	log	label=HandleRequest|content= 'REQUEST = '\'\',\'CallerID\',\'\',\'\',\'\'''	-
+13:41:40	log	label=omniVoice Engine|content= 'UUIIVRData Primary Server ibm91_spy on comcast'	-
+13:41:40	log	label=omniVoice Engine|content= 'UUIIVRData Secondary Server ibm91_spy'	-
+13:41:40	log	label=omniVoice Engine|content= 'UUIIVRData Tertiary Server ibm91_spy'	-
+13:41:40	log	label=omniVoice Engine|content= 'UUIIVRData response took 0.052 sec'	-
+13:41:40	log	label=omniVoice Engine|content= 'request='\'\',\'CallerID\',\'\',\'\',\'\'''	-
+13:41:40	log	label=omniVoice Engine|content= 'response=array ( 0 => array ( 0 => 'FOUND', 1 => '0', 2 => '0', 3 => '002l', 4 => array ( ), 5 => array ( ), 6 => array ( ), ), )'	-
+13:41:40	log	label=transaction info|content= 'array ( 'nodeName' => 'UUIIVRData', 'type' => 'DB', 'getRequestFunc' => 'getUUIIVRData', 'parseResponseFunc' => 'parseUUIIVRData', 'transactionFile' => 'getUUIIVRData.php', 'DBStoredProc' => 'get_uui_ivrdata', 'DBParams' => 'app_db_read_only', 'alwaysReturnsRows' => 'true', 'DBMaxRows' => '1', )'	-
+13:41:40	log	label=omniVoice\COMCAST_TXLLOG_DATA_REQUEST|content= 'UUIIVRData:DB:success:1528393223,4009,680,36'	-
+13:41:40	log	label=omniVoice\COMCAST_TXLLOG_DATA_REQUEST_RESPONSE|content= 'data sent: array ( 0 => 'param0=CallerID', )'	-
+13:41:40	log	label=parseUUIIVRData|content= ' Array ( [0] => Array ( [0] => FOUND [1] => 0 [2] => 0 [3] => 002l [4] => Array ( ) [5] => Array ( ) [6] => Array ( ) ) ) '	-
+13:41:40	log	label=UUIIVRData|content= '002l'	-
+13:41:40	log	label=CDR_nlTagDesc|content= ''	-
+13:41:40	log	label=CDR_nlName|content= ''	-
+13:41:40	log	label=CDR_nlTagNum|content= ''	-
+13:41:40	log	label=isAccountNumber|content= 'Validate Class: isAccountNumber'	-
+13:41:40	log	label=isAccountNumber|content= 'AccountNumberGood = '	-
+13:41:40	log	label=omniVoice Engine|content= 'Failover strategy Not Found (DB, BALANCE).'	-
+13:41:40	log	label=omniVoice engine|content= 'Set global: aniIsCellPhone='false''	-
+13:41:40	log	label=getReqSendEinsteinCDR|content= 'Custom request = Array ( [vruparam1] => 1528393223,4009,680 [vruparam2] => 19 [vruparam3] => 20180607 [vruparam4] => [vruparam5] => Y [vruparam6] => OTHR [vruparam7] => CallerID [vruparam8] => [vruparam9] => [vruparam10] => [vruparam11] => RES [vruparam12] => N [vruparam13] => E [vruparam14] => [vruparam15] => [vruparam16] => [vruparam17] => [vruparam18] => 1528393223 [vruparam19] => 134023 [vruparam20] => -171 [vruparam21] => eivr [vruparam22] => 3 [vruparam23] => 47 [vruparam24] => Unknown Nonserv West [vruparam25] => MARKET [vruparam26] => [vruparam27] => [vruparam28] => [vruparam29] => N [vruparam30] => N [vruparam31] => [vruparam32] => [vruparam33] => [vruparam34] => N [vruparam35] => [vruparam36] => [vruparam37] => [vruparam38] => [vruparam39] => [vruparam40] => [vruparam41] => N [vruparam42] => [vruparam43] => [vruparam44] => [vruparam45] => [vruparam46] => [vruparam47] => [vruparam48] => [vruparam49] => [vruparam50] => [vruparam51] => [vruparam52] => N [vruparam53] => d020180607134031000011638fcef3a4 [vruparam54] => N [vruparam55] => [vruparam56] => [vruparam57] => [vruparam58] => [vruparam59] => N ) '	-
+13:41:40	log	label=omniVoice Engine|content= 'sendEinsteinCDR request'	-
+13:41:40	log	label=txllog_mtldata_request|content= 'json last error = - Unknown error'	-
+13:41:40	log	label=txllog_mtldata_request_arr|content= 'MTL TO TXL TRANSMISSION = nodename=>sendEinsteinCDR, status=>error, hostkey=>, dataSentArr=>array ( 0 => 'vruparam1=1528393223,4009,680', 1 => 'vruparam2=19', 2 => 'vruparam3=20180607', 3 => 'vruparam4=', 4 => 'vruparam5=Y', 5 => 'vruparam6=OTHR', 6 => 'vruparam7=CallerID', 7 => 'vruparam8=', 8 => 'vruparam9=', 9 => 'vruparam10=', 10 => 'vruparam11=RES', 11 => 'vruparam12=N', 12 => 'vruparam13=E', 13 => 'vruparam14=', 14 => 'vruparam15=', 15 => 'vruparam16=', 16 => 'vruparam17=', 17 => 'vruparam18=1528393223', 18 => 'vruparam19=134023', 19 => 'vruparam20=-171', 20 => 'vruparam21=eivr', 21 => 'vruparam22=3', 22 => 'vruparam23=47', 23 => 'vruparam24=Unknown Nonserv West', 24 => 'vruparam25=MARKET', 25 => 'vruparam26=', 26 => 'vruparam27=', 27 => 'vruparam28=', 28 => 'vruparam29=N', 29 => 'vruparam30=N', 30 => 'vruparam31=', 31 => 'vruparam32=', 32 => 'vruparam33=', 33 => 'vruparam34=N', 34 => 'vruparam35=', 35 => 'vruparam36=', 36 => 'vruparam37=', 37 => 'vruparam38=', 38 => 'vruparam39=', 39 => 'vruparam40=', 40 => 'vruparam41=N', 41 => 'vruparam42=', 42 => 'vruparam43=', 43 => 'vruparam44=', 44 => 'vruparam45=', 45 => 'vruparam46=', 46 => 'vruparam47=', 47 => 'vruparam48=', 48 => 'vruparam49=', 49 => 'vruparam50=', 50 => 'vruparam51=', 51 => 'vruparam52=N', 52 => 'vruparam53=d020180607134031000011638fcef3a4', 53 => 'vruparam54=N', 54 => 'vruparam55=', 55 => 'vruparam56=', 56 => 'vruparam57=', 57 => 'vruparam58=', 58 => 'vruparam59=N', ), dataRecvArr=>array ( 0 => 'MTLP1LEN=403', 1 => 'MTLSRC=led32178', 2 => 'MTLDEST=led32178_2444_36143_sock8', 3 => 'MTLTYPE=ERROR', 4 => 'MTLID=comcastcdr_api_prod:led32178:3011~comcast~4009,680,1528393223~74927~1', 5 => 'MTLTTL=19', 6 => 'MTLLENGTH=0', 7 => 'ERROR=No available route to comcastcdr_api_prod, Source = led32178_2444_36143_sock8, id = comcastcdr_ap	-
+13:41:40	log	label=omniVoice\COMCAST_TXLLOG_DATA_REQUEST|content= 'sendEinsteinCDR:Host:error:1528393223,4009,680,38'	-
+13:41:40	log	label=omniVoice\COMCAST_TXLLOG_DATA_REQUEST_RESPONSE|content= 'data sent: array ( 0 => 'vruparam1=1528393223,4009,680', 1 => 'vruparam2=19', 2 => 'vruparam3=20180607', 3 => 'vruparam4=', 4 => 'vruparam5=Y', 5 => 'vruparam6=OTHR', 6 => 'vruparam7=CallerID', 7 => 'vruparam8=', 8 => 'vruparam9=', 9 => 'vruparam10=', 10 => 'vruparam11=RES', 11 => 'vruparam12=N', 12 => 'vruparam13=E', 13 => 'vruparam14=', 14 => 'vruparam15=', 15 => 'vruparam16=', 16 => 'vruparam17=', 17 => 'vruparam18=1528393223', 18 => 'vruparam19=134023', 19 => 'vruparam20=-171', )'	-
+13:41:40	log	label=ERROR|content= 'API Error,sendEinsteinCDR,No available route to comcastcdr_api_prod, Source = led32178_2444_36143_sock8, id = comcastcdr_api_prod:led32178:3011~comcast~4009,680,1528393223~74927~1, length = 0; thrown in HandleRequest():omniStrategyCustom.php:122'	-
+13:41:40	log	label=omniVoice engine|content= 'Get global: caller_accountNumber='''	-
+13:41:40	log	label=omniVoice engine|content= 'Get global: caller_selectedLOB='''	-
+13:41:40	log	label=isAccountNumber|content= 'Validate Class: isAccountNumber'	-
+13:41:40	log	label=isAccountNumber|content= 'AccountNumberGood = '	-
+13:41:40	log	label=getReqSendAttRouteCDR|content= 'XML request = array ( 'XML' => '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cdr="http://CDRINFO/CDR/CDR"> <soapenv:Header/> <soapenv:Body> <cdr:UpdateCDRInfo> <cdr:zCallID>1528393223,4009,680</cdr:zCallID> <cdr:zRegionID>19</cdr:zRegionID> <cdr:zCallDate>20180607</cdr:zCallDate> <cdr:zCSGAcct></cdr:zCSGAcct> <cdr:zIVRResolved>Y</cdr:zIVRResolved> <cdr:zIVRSelection>OTHR</cdr:zIVRSelection> <cdr:zIVRBucket>CallerID</cdr:zIVRBucket> <cdr:zIVRLOB></cdr:zIVRLOB> <cdr:zTAG></cdr:zTAG> <cdr:zTagDetail></cdr:zTagDetail> <cdr:zServiceType>RES</cdr:zServiceType> <cdr:zCustomer>N</cdr:zCustomer> <cdr:zLanguage>E</cdr:zLanguage> <cdr:zAcctStat></cdr:zAcctStat> <cdr:zANI></cdr:zANI> <cdr:zEnteredPhone></cdr:zEnteredPhone> <cdr:zDialedNumber></cdr:zDialedNumber> <cdr:zUnixTime>1528393223</cdr:zUnixTime> <cdr:zCallTime>134023</cdr:zCallTime> <cdr:zDuration>-171</cdr:zDuration> <cdr:zAppName>eivr</cdr:zAppName> <cdr:zDivisionID>3</cdr:zDivisionID> <cdr:zMarketID>47</cdr:zMarketID> <cdr:zMarket>Unknown Nonserv West</cdr:zMarket> <cdr:zMarketMatch>MARKET</cdr:zMarketMatch> <cdr:zHeadEnd></cdr:zHeadEnd> <cdr:zNode></cdr:zNode> <cdr:zMAC></cdr:zMAC> <cdr:zRepeatOffender>N</cdr:zRepeatOffender> <cdr:zRepeatCaller>N</cdr:zRepeatCaller> <cdr:zBroadcast></cdr:zBroadcast> <cdr:zBroadCallBack></cdr:zBroadCallBack> <cdr:zOutage></cdr:zOutage> <cdr:zOutageCallBack>N</cdr:zOutageCallBack> <cdr:zVTN></cdr:zVTN> <cdr:zArcherOutage></cdr:zArcherOutage> <cdr:zPPV></cdr:zPPV> <cdr:zPayAmt></cdr:zPayAmt> <cdr:zPayStat></cdr:zPayStat> <cdr:zTechETA></cdr:zTechETA> <cdr:zApptResch>N</cdr:zApptR	-
+13:41:40	log	label=omniVoice Engine|content= 'sendAttRouteCDR request'	-
+13:41:40	log	label=header|content= array ( 0 => 'Content-Type: application/xml', 1 => 'charset=UTF-8', )	-
+13:41:40	log	content= array ( 'nodeName' => 'sendAttRouteCDR', 'type' => 'WSO2', 'getRequestFunc' => 'getReqSendAttRouteCDR', 'parseResponseFunc' => 'parseRespSendAttRouteCDR', 'transactionFile' => 'sendAttRouteCDR.php', 'WSO2EndpointURL' => 'comcastAttRouteCDRProxy', 'timeout' => '5', )	-
+13:41:40	log	label=sendAttRouteCDR|content= 'URL: https://linux5259:8243/services/comcastAttRouteCDRProxy'	-
+13:41:40	log	label=omniVoice\cleanNamespaces|content= 'Have found a transaction matching UpdateCDRInfoResponse or GetNEXInfoResponse or UpdateNEXInfoResponse in its string.'	-
+13:41:40	log	label=omniVoice Engine|content= 'sendAttRouteCDR response took 0.339 sec'	-
+13:41:40	log	label=cURL info|content= array ( 'url' => 'https://linux5259:8243/services/comcastAttRouteCDRProxy', 'content_type' => 'text/xml; charset=utf-8', 'http_code' => 200, 'header_size' => 185, 'request_size' => 161, 'filetime' => -1, 'ssl_verify_result' => 19, 'redirect_count' => 0, 'total_time' => 0.339347, 'namelookup_time' => 5.3E-5, 'connect_time' => 0.000787, 'pretransfer_time' => 0.015325, 'size_upload' => 2897, 'size_download' => 912, 'speed_download' => 2687, 'speed_upload' => 8536, 'download_content_length' => -1, 'upload_content_length' => 2897, 'starttransfer_time' => 0.019409, 'redirect_time' => 0, 'certinfo' => array ( ), 'request_header' => 'POST /services/comcastAttRouteCDRProxy HTTP/1.1 Host: linux5259:8243 Accept: */* Content-Type: application/xml Content-Length: 2897 Expect: 100-continue ', )	-
+13:41:40	log	label=omniVoice\cleanNamespaces|content= 'Have found a transaction matching UpdateCDRInfoResponse or GetNEXInfoResponse or UpdateNEXInfoResponse in its string.'	-
+13:41:40	log	label=transaction info|content= 'array ( 'nodeName' => 'sendAttRouteCDR', 'type' => 'WSO2', 'getRequestFunc' => 'getReqSendAttRouteCDR', 'parseResponseFunc' => 'parseRespSendAttRouteCDR', 'transactionFile' => 'sendAttRouteCDR.php', 'WSO2EndpointURL' => 'comcastAttRouteCDRProxy', 'timeout' => '5', )'	-
+13:41:40	log	label=omniVoice\COMCAST_TXLLOG_DATA_REQUEST|content= 'sendAttRouteCDR:Host:success:1528393223,4009,680,40'	-
+13:41:40	log	label=omniVoice\COMCAST_TXLLOG_DATA_REQUEST_RESPONSE|content= 'data sent: array ( 0 => 'Header=', 1 => 'zCallID=1528393223,4009,680', 2 => 'zRegionID=19', 3 => 'zCallDate=20180607', 4 => 'zCSGAcct=', 5 => 'zIVRResolved=Y', 6 => 'zIVRSelection=OTHR', 7 => 'zIVRBucket=CallerID', 8 => 'zIVRLOB=', 9 => 'zTAG=', 10 => 'zTagDetail=', 11 => 'zServiceType=RES', 12 => 'zCustomer=N', 13 => 'zLanguage=E', 14 => 'zAcctStat=', 15 => 'zANI=', 16 => 'zEnteredPhone=', 17 => 'zDialedNumber=', 18 => 'zUnixTime=1528393223', 19 => 'zCallTime=134023', )'	-
+13:41:40	log	label=parseRespSendAttRouteCDR|content= 'API response = array ( 'Body' => array ( 'UpdateCDRInfoResponse' => array ( 'UpdateCDRInfoResult' => array ( 'SqlXml' => array ( 'SqlXml' => array ( 'row' => array ( 'ZOUTPUT' => 'SUCCESS 1528393259', ), ), ), 'SqlResultCode' => '0', ), ), ), )'	-
+13:41:40	log	label=processThresholdCounts|content= 'No new Repeat Caller Event is added'	-
+13:41:40	log	label=omniVoice engine|content= 'Get global: caller_accountNumber='''	-
+13:41:40	log	label=isAccountNumber|content= 'Validate Class: isAccountNumber'	-
+13:41:40	log	label=isAccountNumber|content= 'AccountNumberGood = '	-
+13:41:40	log	label=endOfCall_clearCustomerCache|content= 'clearCustomerCache not executed because account number is not valid; account number = '	-
+13:41:40	fetch	uri=http://comcastvxmlapps/clients/comcast/qa_062618/webservices/destroysession.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.028|documentsize=23|outcome=success|failover=false|localport=60052|hostname=comcastvxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=83|bytesread=295|byteswritten=437|cachedecision=nc(vxml maxage)(pragma no-cache)|method=GET	-
+13:41:40	document dump	URL=http://comcastvxmlapps/clients/comcast/qa_062618/webservices/destroysession.xml.php|fetchtype=data|mimetype=text/xml	-
+13:41:40	exit	result=NULL	-
+13:41:40	call end	cpu=0.750|normalcpu=0.750|callduration=76.799|connectedduration=76.778|timetofirstprompt=0.269|reccount=9|ttscount=2|ttsduration=5.200|asrduration=76.700|callrecording=/var/data/holly/data/call/2018/0607/1340/e4009-20180607134023560-680/call.wav|logcount=1158|logbytes=166494	-
+ 
