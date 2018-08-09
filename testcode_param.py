@@ -320,9 +320,9 @@ if __name__ == "__main__":
 	elapsed = done-start
 	print(elapsed)
 	if elapsed <60 :
-	return 1
+		return 1
 	else:
-	elapsed_mins = elapsed/60
-	elapsed_mins= int(round( elapsed_mins,2) )
-	log_tool_usage(21,elapsed_mins,user_email)
+		elapsed_mins = elapsed/60
+		elapsed_mins= int(round( elapsed_mins,2) )
+		log_tool_usage(21,elapsed_mins,user_email)
 
