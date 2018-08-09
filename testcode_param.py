@@ -35,10 +35,10 @@ def main(foldername):
 def start(testpath,used_by):	
     for arg in sys.argv[1:]:
 	user_email=arg
-	print user_email
+	print "USED BY: " + user_email
 	return user_email
     try:
-	print testpath
+	print "TESTPATH: " + testpath
 	finaldatapath = testpath + "Data File.csv"
         file = os.stat(finaldatapath)
         if file.st_size == 0:
