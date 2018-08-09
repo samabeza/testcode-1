@@ -6,6 +6,8 @@ import csv
 from decimal import *
 from datetime import datetime
 import os.path
+import time
+
 
 ###############counter for callflow##############################
 failed_callflow = 0
@@ -23,6 +25,7 @@ overall_passed_transfer = 0
 
 ###############Get the value of the PARAMETER##############################
 def main(foldername):
+	start = time.time()
 	for arg in sys.argv[1:]:
 		data_path=arg
 		testpath = data_path + "/"
@@ -267,6 +270,8 @@ def jmtest(testpath):
 	  command = "-l HTTPRequest.jtl"
 	  final = initial_path + " " + z + " " + command
 	  os.system(final)
+	done = time.time()
+	  	
 #########################  END CODE FOR JMETER ###################################
 		
 if __name__ == "__main__":
@@ -303,4 +308,12 @@ if __name__ == "__main__":
         	raise SystemError('One of the Test Cases Failed')
 	##################################### END OF CODE of Counter for Transfer Term ######################################
 	jmtest(testpath) ############## RUN JMeter Test ########################
-	
+	elapsed = done-start
+	print(elapsed)
+	if elapsed <60 :
+	return 1
+	else:
+	elapsed_mins = elapsed/60
+	elapsed_mins= int(round( elapsed_mins,2) )
+
+	log_tool_usage(21,elapsed_mins,user.email)
