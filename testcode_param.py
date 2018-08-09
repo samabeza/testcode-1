@@ -33,7 +33,7 @@ def main(foldername):
 
 #########################CHECK if DATA file CSV Exist in the folder##############################
 def start(testpath,used_by):	
-    for arg in sys.argv[1:]:
+    for arg in sys.argv[2:]:
 	user_email=arg
 	print "USED BY: " + user_email
 	return user_email
