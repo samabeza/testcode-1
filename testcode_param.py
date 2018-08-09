@@ -25,21 +25,15 @@ overall_passed_transfer = 0
 
 ###############Get the value of the PARAMETER##############################
 def main(foldername):
-	start = time.time()
 	for arg in sys.argv[1:]:
 		data_path=arg
 		testpath = data_path + "/"
-		return testpath,time
+		return testpath
 #########################END##############################
 
 #########################CHECK if DATA file CSV Exist in the folder##############################
-def start(testpath,used_by):	
-    for arg in sys.argv[2:]:
-	user_email=arg
-	print "USED BY: " + user_email
-	return user_email
+def start(testpath):	
     try:
-	print "TESTPATH: " + testpath
 	finaldatapath = testpath + "Data File.csv"
         file = os.stat(finaldatapath)
         if file.st_size == 0:
@@ -274,8 +268,7 @@ def jmtest(testpath):
 	  command = "-l HTTPRequest.jtl"
 	  final = initial_path + " " + z + " " + command
 	  os.system(final)
-	done = time.time()
-	return done
+	
 	  	
 #########################  END CODE FOR JMETER ###################################
 		
@@ -286,10 +279,7 @@ if __name__ == "__main__":
 	foldername=sys.argv[1]
 	main(foldername)
 	testpath = main(foldername)
-	time = main(foldername)
-	used_by=sys.argv[2]
-	start(testpath,used_by) ############## Check the DATA CVS FILE ########################
-	user_email = start(testpath,used_by)
+	start(testpath) ############## Check the DATA CVS FILE ########################
 	excel_callflow(testpath) ############## RUN Call Flow Test ########################
 	####################### COUNTER for Call Flow ##################################
 	if exec_counter_callflow == testcases_callflow:
