@@ -25,10 +25,11 @@ overall_passed_transfer = 0
 
 ###############Get the value of the PARAMETER##############################
 def main(foldername):
+	start = time.time()
 	for arg in sys.argv[1:]:
 		data_path=arg
 		testpath = data_path + "/"
-		return testpath
+		return testpath,time
 #########################END##############################
 
 #########################CHECK if DATA file CSV Exist in the folder##############################
@@ -273,7 +274,8 @@ def jmtest(testpath):
 	  command = "-l HTTPRequest.jtl"
 	  final = initial_path + " " + z + " " + command
 	  os.system(final)
-	
+	done = time.time()
+	return done
 	  	
 #########################  END CODE FOR JMETER ###################################
 		
@@ -284,6 +286,7 @@ if __name__ == "__main__":
 	foldername=sys.argv[1]
 	main(foldername)
 	testpath = main(foldername)
+	time = main(foldername)
 	used_by=sys.argv[2]
 	start(testpath,used_by) ############## Check the DATA CVS FILE ########################
 	user_email = start(testpath,used_by)
@@ -313,4 +316,13 @@ if __name__ == "__main__":
         	raise SystemError('One of the Test Cases Failed')
 	##################################### END OF CODE of Counter for Transfer Term ######################################
 	jmtest(testpath) ############## RUN JMeter Test ########################
+	done = jmtest(testpath)
+	elapsed = done-start
+	print(elapsed)
+	if elapsed <60 :
+	return 1
+	else:
+	elapsed_mins = elapsed/60
+	elapsed_mins= int(round( elapsed_mins,2) )
+	log_tool_usage(21,elapsed_mins,user_email)
 
