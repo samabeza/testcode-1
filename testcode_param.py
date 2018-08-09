@@ -23,11 +23,6 @@ exec_counter_transfer = 0
 overall_passed_transfer = 0
 #########################END##############################
 
-def ini(used_by):
-	start = time.time()
-	for arg in sys.argv[2:]:
-		used_by=arg
-		return used_by,start
 ###############Get the value of the PARAMETER##############################
 def main(foldername):
 	for arg in sys.argv[1:]:
@@ -282,9 +277,6 @@ if __name__ == "__main__":
 		print("Please pass foldername as argument")
 		exit()
 	foldername=sys.argv[1]
-	used_by=sys.argv[1]
-	ini(used_by)
-	user_email,start = ini(used_by)
 	main(foldername)
 	testpath = main(foldername)
 	start(testpath) ############## Check the DATA CVS FILE ########################
@@ -314,4 +306,4 @@ if __name__ == "__main__":
         	raise SystemError('One of the Test Cases Failed')
 	##################################### END OF CODE of Counter for Transfer Term ######################################
 	jmtest(testpath) ############## RUN JMeter Test ########################
-	done=jmtest(testpath)
+
