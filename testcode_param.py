@@ -32,7 +32,11 @@ def main(foldername):
 #########################END##############################
 
 #########################CHECK if DATA file CSV Exist in the folder##############################
-def start(testpath):
+def start(testpath,used_by):	
+    for arg in sys.argv[1:]:
+	user_email=arg
+	print user_email
+	return user_email
     try:
 	print testpath
 	finaldatapath = testpath + "Data File.csv"
@@ -280,7 +284,9 @@ if __name__ == "__main__":
 	foldername=sys.argv[1]
 	main(foldername)
 	testpath = main(foldername)
-	start(testpath) ############## Check the DATA CVS FILE ########################
+	used_by=sys.argv[1]
+	start(testpath,used_by) ############## Check the DATA CVS FILE ########################
+	user_email = start(testpath,used_by)
 	excel_callflow(testpath) ############## RUN Call Flow Test ########################
 	####################### COUNTER for Call Flow ##################################
 	if exec_counter_callflow == testcases_callflow:
