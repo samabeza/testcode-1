@@ -270,9 +270,21 @@ def jmtest(testpath):
 	  os.system(final)
 	done = time.time()
 	return done
-
 	  	
 #########################  END CODE FOR JMETER ###################################
+
+############################ START TOOLSUAGE #################################
+def toolusage(start_time,done_time):
+	elapsed = done_time-start_time
+	print "ELAPSED: ", elapsed
+		if elapsed < 60:
+		return 1
+	else:
+		elapsed_mins = elapsed/60
+		elapsed_mins = int(round(elapsed_mins,2))
+		log_tool_usage(21,elapsed_mins,used_by)
+
+############################ END OF TOOL USAGE ##############################
 		
 if __name__ == "__main__":
 	if len(sys.argv)==0:
@@ -315,11 +327,5 @@ if __name__ == "__main__":
 	jmtest(testpath) ############## RUN JMeter Test ########################
 	done_time = jmtest(testpath)
 	print "DONE: ", done_time 
-	elapsed = done_time-start_time
-	print "ELAPSED: ", elapsed
-	if elapsed < 60:
-		return 1
-	else:
-		elapsed_mins = elapsed/60
-		elapsed_mins = int(round(elapsed_mins,2))
-		log_tool_usage(21,elapsed_mins,used_by)
+	toolusage(start_time,done_time)
+
