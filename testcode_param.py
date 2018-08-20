@@ -315,3 +315,5 @@ if __name__ == "__main__":
 	jmtest(testpath) ############## RUN JMeter Test ########################
 	done_time = jmtest(testpath)
 	print "DONE: ", done_time 
+	elapsed = done_time-start_time
+	print elapsed
