@@ -274,7 +274,10 @@ def jmtest(testpath):
 #########################  END CODE FOR JMETER ###################################
 
 ############################ START TOOLSUAGE #################################
-def toolusage(start_time,done_time):
+def toolusage(start_time,done_time,used_by):
+	print "START: ", start_time
+	print "DONE: ", done_time
+	print "EMAIL :", used_by
 	elapsed = done_time-start_time
 	print "ELAPSED: ", elapsed
 	if elapsed < 60:
@@ -326,6 +329,5 @@ if __name__ == "__main__":
 	##################################### END OF CODE of Counter for Transfer Term ######################################
 	jmtest(testpath) ############## RUN JMeter Test ########################
 	done_time = jmtest(testpath)
-	print "DONE: ", done_time 
-	toolusage(start_time,done_time)
+	toolusage(start_time,done_time,used_by)
 
