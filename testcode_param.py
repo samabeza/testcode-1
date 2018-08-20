@@ -281,7 +281,8 @@ if __name__ == "__main__":
 		exit()
 	foldername=sys.argv[1]
 	main(foldername)
-	testpath,start = main(foldername)
+	testpath = main(foldername)
+	start = main(foldername)
 	print "START: ", start
 	print testpath
 	used_by=sys.argv[2]
