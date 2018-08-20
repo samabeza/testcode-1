@@ -281,7 +281,7 @@ if __name__ == "__main__":
 	foldername=sys.argv[1]
 	main(foldername)
 	testpath = main(foldername)
-	start=time.time()
+	start_time=time.time()
 	print "START: ", start
 	print testpath
 	used_by=sys.argv[2]
@@ -313,5 +313,5 @@ if __name__ == "__main__":
         	raise SystemError('One of the Test Cases Failed')
 	##################################### END OF CODE of Counter for Transfer Term ######################################
 	jmtest(testpath) ############## RUN JMeter Test ########################
-	done = jmtest(testpath)
+	done_time = jmtest(testpath)
 	print "DONE: ", done 
