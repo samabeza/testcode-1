@@ -1,5 +1,6 @@
 import os
 import os.path
+import sys
 
 def main(foldername):
   for arg in sys.argv[1:]:
