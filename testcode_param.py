@@ -25,10 +25,11 @@ overall_passed_transfer = 0
 
 ###############Get the value of the PARAMETER##############################
 def main(foldername):
+	start=time.time()
 	for arg in sys.argv[1:]:
 		data_path=arg
 		testpath = data_path + "/"
-		return testpath
+		return testpath,start
 #########################END##############################
 
 #########################CHECK if DATA file CSV Exist in the folder##############################
@@ -268,6 +269,8 @@ def jmtest(testpath):
 	  command = "-l HTTPRequest.jtl"
 	  final = initial_path + " " + z + " " + command
 	  os.system(final)
+	done = time.time()
+	return done
 
 	  	
 #########################  END CODE FOR JMETER ###################################
@@ -278,7 +281,8 @@ if __name__ == "__main__":
 		exit()
 	foldername=sys.argv[1]
 	main(foldername)
-	testpath = main(foldername)
+	testpath,start = main(foldername)
+	print "START: " start
 	print testpath
 	used_by=sys.argv[2]
 	print used_by
@@ -309,4 +313,5 @@ if __name__ == "__main__":
         	raise SystemError('One of the Test Cases Failed')
 	##################################### END OF CODE of Counter for Transfer Term ######################################
 	jmtest(testpath) ############## RUN JMeter Test ########################
-
+	done = jmtest(testpath)
+	print "DONE: ", done 
