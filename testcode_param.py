@@ -316,4 +316,4 @@ if __name__ == "__main__":
 	done_time = jmtest(testpath)
 	print "DONE: ", done_time 
 	elapsed = done_time-start_time
-	print elapsed
+	print "ELAPSED: ", elapsed
