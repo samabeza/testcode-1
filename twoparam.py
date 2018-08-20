@@ -13,6 +13,8 @@ if __name__ == "__main__":
     print("Please pass foldername as argument")
     exit()
 foldername=sys.argv[1]
+usedby=sys.argv[2]
 main (foldername)
 testpath = main(foldername)
 print testpath
+print usedby
