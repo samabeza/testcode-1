@@ -282,7 +282,7 @@ if __name__ == "__main__":
 	foldername=sys.argv[1]
 	main(foldername)
 	testpath,start = main(foldername)
-	print "START: " start
+	print "START: ", start
 	print testpath
 	used_by=sys.argv[2]
 	print used_by
