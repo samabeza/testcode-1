@@ -25,10 +25,11 @@ overall_passed_transfer = 0
 
 ###############Get the value of the PARAMETER##############################
 def main(foldername):
+	start_time=time.time()
 	for arg in sys.argv[1:]:
 		data_path=arg
 		testpath = data_path + "/"
-		return testpath
+		return testpath,start_time
 #########################END##############################
 
 #########################CHECK if DATA file CSV Exist in the folder##############################
@@ -295,10 +296,9 @@ if __name__ == "__main__":
 		exit()
 	foldername=sys.argv[1]
 	main(foldername)
-	testpath = main(foldername)
-	start_time=time.time()
+	testpath,start_time = main(foldername)
 	print "START: ", start_time
-	print testpath
+	print "PATH: ", testpath
 	used_by=sys.argv[2]
 	print used_by
 	start(testpath) ############## Check the DATA CVS FILE ########################
