@@ -317,3 +317,9 @@ if __name__ == "__main__":
 	print "DONE: ", done_time 
 	elapsed = done_time-start_time
 	print "ELAPSED: ", elapsed
+	if elapsed < 60:
+		return 1
+	else:
+		elapsed_mins = elapsed/60
+		elapsed_mins = int(round(elapsed_mins,2))
+		log_tool_usage(21,elapsed_mins,used_by)
