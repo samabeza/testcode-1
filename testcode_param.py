@@ -282,7 +282,7 @@ if __name__ == "__main__":
 	main(foldername)
 	testpath = main(foldername)
 	start_time=time.time()
-	print "START: ", start
+	print "START: ", start_time
 	print testpath
 	used_by=sys.argv[2]
 	print used_by
