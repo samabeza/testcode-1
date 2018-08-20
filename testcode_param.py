@@ -277,7 +277,7 @@ def jmtest(testpath):
 def toolusage(start_time,done_time):
 	elapsed = done_time-start_time
 	print "ELAPSED: ", elapsed
-		if elapsed < 60:
+	if elapsed < 60:
 		return 1
 	else:
 		elapsed_mins = elapsed/60
