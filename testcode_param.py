@@ -314,4 +314,4 @@ if __name__ == "__main__":
 	##################################### END OF CODE of Counter for Transfer Term ######################################
 	jmtest(testpath) ############## RUN JMeter Test ########################
 	done_time = jmtest(testpath)
-	print "DONE: ", done 
+	print "DONE: ", done_time 
