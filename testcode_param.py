@@ -266,7 +266,8 @@ def jmtest(testpath):
 	  y = os.path.abspath(finaldatapath)
 	  z = y.replace('\\','\\\\') 
 	  initial_path = "jmeter -Jjmeter.save.saveservice.output_format=xml -n -t"
-	  command = "-l HTTPRequest.jtl"
+	  #command = "-l HTTPRequest.jtl"
+	  command = "-l" + testpath + "HTTPRequest.jtl"
 	  final = initial_path + " " + z + " " + command
 	  os.system(final)
 	done = time.time()
