@@ -287,7 +287,7 @@ def toolusage(start_time,done_time,used_by):
 	else:
 		elapsed_mins = elapsed/60
 		elapsed_mins = int(round(elapsed_mins,2))
-		log_tool_usage(21,elapsed_mins,used_by)
+	log_tool_usage(21,elapsed_mins,used_by)
 
 ############################ END OF TOOL USAGE ##############################
 		
