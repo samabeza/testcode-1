@@ -283,7 +283,8 @@ def toolusage(start_time,done_time,used_by):
 	elapsed = done_time-start_time
 	print "ELAPSED: ", elapsed
 	if elapsed < 60:
-		return 1
+		#return 1 
+		elapsed_mins=1
 	else:
 		elapsed_mins = elapsed/60
 		elapsed_mins = int(round(elapsed_mins,2))
