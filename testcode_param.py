@@ -270,8 +270,8 @@ def jmtest(testpath):
 	  #command = "-l" + testpath + "HTTPRequest.jtl"
 	  final = initial_path + " " + z + " " + command
 	  os.system(final)
-	done = time.time()
-	return done
+	#done = time.time()
+	#return done
 	  	
 #########################  END CODE FOR JMETER ###################################
 
@@ -330,6 +330,7 @@ if __name__ == "__main__":
         	raise SystemError('One of the Test Cases Failed')
 	##################################### END OF CODE of Counter for Transfer Term ######################################
 	jmtest(testpath) ############## RUN JMeter Test ########################
-	done_time = jmtest(testpath)
+	#done_time = jmtest(testpath)
+	done_time = time.time()
 	toolusage(start_time,done_time,used_by)
 
