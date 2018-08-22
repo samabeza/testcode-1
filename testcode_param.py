@@ -7,7 +7,7 @@ from decimal import *
 from datetime import datetime
 import os.path
 import time
-import ToolUsage
+from ToolUsage import log_tool_usage
 
 
 ###############counter for callflow##############################
